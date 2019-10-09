@@ -1,0 +1,8 @@
+IF
+  GlobalLT("Chapter","GLOBAL",8)
+  Global("W#MakeRuad","MYAREA",0)
+THEN
+  RESPONSE #100
+    CreateCreature("m#ruad",[1850.670],0)
+    SetGlobal("W#MakeRuad","MYAREA",1)
+END
