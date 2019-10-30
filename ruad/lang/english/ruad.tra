@@ -1,0 +1,318 @@
+@3001 = ~Welcome to Ruad Ro'fhessa's Smithy of the Colors, young <SIRMAAM>. How can this battle-worn blacksmith assist you?~
+  @3002 = ~Tell me Ruad, what is it that you do here?~
+    @3005 = ~I am glad you asked, <SIRMAAM>. I am a blacksmith of some skill, and can create items of great power.~
+      @3006 = ~Do I have anything you could upgrade?~
+        @3007 = ~Just tell me what you have, and I'll tell you if it can be made better.~
+        @3008 = ~On second thought, I have to go now.~
+      @3009 = ~Oh, OK. Thanks for your time.~
+  @3003 = ~I would like you to upgrade an item for me.~
+  @3004 = ~Nothing for me, thank you.~
+
+// ToB
+@3010 = ~Ruad, what are you doing here?~
+  @3011 = ~I felt the magic of the earth change drastically, so I followed the disturbance.~
+  @3012 = ~This is where I ended up. I might as well make the best of it.~
+  @3013 = ~So, how can I help you?~
+
+
+@3101 = ~Shall I proceed with the upgrade?~
+  @3102 = ~No, thank you. Do I have anything else?~
+  @3103 = ~No, thank you. I have to leave now.~
+  @3104 = ~Yes, go ahead.~
+@3105 = ~So, which upgrade shall I make?~
+  @3106 = ~None, thank you. Do I have anything else?~
+  @3107 = ~None, thank you. I have to leave now.~
+  @3108 = ~Make me a Ring of Abjuration.~
+  @3109 = ~Make me a Ring of Alteration.~
+  @3110 = ~Make me a Ring of Conjuration.~
+  @3111 = ~Make me a Ring of Divination.~
+  @3112 = ~Make me a Ring of Enchantment.~
+  @3113 = ~Make me a Ring of Evocation.~
+  @3114 = ~Make me a Ring of Illusion.~
+  @3115 = ~Make me a Ring of Necromancy.~
+@3116 = ~Yes, and use the Gesen Bow string.~
+@3117 = ~Yes, and use the Bowstring of Gond.~
+
+
+@3201 = ~Can you do anything with this beautiful Blade of Roses?~
+@3202 = ~Can you do anything with this fidgety Ras?~
+@3203 = ~Can you do anything with this useless Vampire's Revenge?~
+@3204 = ~Can you make the Vampire's Revenge +2 even better?~
+@3205 = ~Can you do anything with Yoshimo's rather dull Katana +1?~
+@3206 = ~Can you do anything useful with Yoshimo's Heart?~
+@3207 = ~Can you do anything with these fiery Red Dragon Scales?~
+@3208 = ~Can you do anything with this near-useless Ring of Acuity?~
+@3209 = ~Can you do anything to make this Melodic Chain more practical?~
+@3210 = ~Can you do anything to make this Girdle of Hill Giant Strength more versatile?~
+@3211 = ~Can you do anything to improve Kaligun's Amulet?~
+@3212 = ~Can you further imbue this Ring of Protection +1?~
+@3213 = ~Can you do anything to make this Silver Ioun Stone more shiny?~
+@3214 = ~Can you further enchant the Harper Pin of my true love, Jaheira?~
+@3215 = ~Can you make Frostreaver an even deadlier weapon?~
+@3216 = ~Can you make this Wand of Magic Missiles more practical?~
+@3217 = ~Can you make Stonefire into a larger weapon?~
+@3218 = ~Can you upgrade Valygar's dreary Corthala Family Blade?~
+@3219 = ~Can you make the Corthala Family Blade +3 even better?~
+@3220 = ~Can you upgrade this boring Staff of Rynn?~
+@3221 = ~Can you make the Armor of the Hart more worthwhile?~
+@3222 = ~Can you improve this dazzling Cloak of the Stars?~
+@3223 = ~Can you add some more fire-power to the Crimson Dart?~
+@3224 = ~Can you do anything with this pathetic Lavender Ioun Stone?~
+@3225 = ~Can you perhaps improve this Chaos Stone?~
+@3226 = ~Can you improve Azuredge's undead-slaying capability?~
+@3227 = ~Can you improve Daystar's undead-slaying capability?~
+@3228 = ~Can you improve the Mace of Disruption's undead-slaying capability?~
+@3229 = ~Can you do anything with these bitter Shadow Dragon Scales?~
+@3230 = ~Can you do anything with this clumsy Shadow Armor?~
+@3231 = ~Can you do anything with this vile Neb's Nasty Cutter?~
+@3232 = ~Can you make this Short Sword of Backstabbing a more sneaky blade?~
+@3233 = ~Can you upgrade Mazzy's inadequit Bow of Arvoreen?~
+@3234 = ~Can you patch together these Dragon Scales?~
+@3235 = ~Can you upgrade this useless Dragon Helm?~
+@3236 = ~Can anything be done with this dull Dragon Scale Shield?~
+@3237 = ~Can you do anything with these Mage Robes?~
+@3238 = ~Can you improve this fiery Dragon Halberd?~
+@3239 = ~Can you do anything with this strange Red Cloth?~
+@3240 = ~Can you give Cernd's Cloak better defense?~
+@3241 = ~Can you make these Gauntlets of Crushing more powerful?~
+@3242 = ~Can you make Cernd's Staff more potent?~
+@3243 = ~Can you do anything with this unconvincing Staff of Command?~
+@3244 = ~Can you make anything out of this smelly Wyvern's Tail?~
+@3245 = ~Can you do make the Ice Star a better weapon?~
+@3246 = ~Can you turn Sekolah's Tooth into anything of use?~
+@3247 = ~Can you upgrade these Bracers of AC3 so that the have more power?~
+@3248 = ~Can you make the Mercykiller Ring a better thieving tool?~
+@3249 = ~Can you do anything with these clumsy Bracers of Dexterity?~
+@3250 = ~Can you turn Cutthroat into a more deadly weapon?~
+@3251 = ~Can you make the Shadow Armor less easily detectable?~
+@3252 = ~Is there anything you can do with this northern sword?~
+@3253 = ~Would you be able to increase the usefulness of these wooden stakes?~
+@3254 = ~Can you do anything with this Elven Court Bow I found?~
+@3255 = ~Can you do anything with this powerful Rod of Resurrection?~
+@3256 = ~Is there anything special you can do with a scroll that can stop time?~
+
+// Blade of the Red Rose +4
+@3301 = ~Ah yes, the sword of Sune. A very precious weapon indeed. Although the monetary value will be substantially low, the process will require a large number of other artifacts.~
+@3302 = ~I will require: the Sword of Balduran, a Nymph Cloak, the Ring of Human Influence and two Rings of Protection +1.~
+@3303 = ~I will also need magic scrolls: two of Domination, two of Charm Person and four of Friends.~
+@3304 = ~Magical reagents needed are: a Diamond, Agni Mani necklace, Pearl necklace, Star Sapphire, King's Tear, and two Potions of Magic Shielding.~
+@3305 = ~I can combine all these items for the low price of 9,999 gold pieces.~
+// Dancing Couple's Sword
+@3306 = ~Mm, the dancing sword. Although not quite so deadly, this weapon is full of surprises.~
+@3307 = ~I will require: four scrolls of Stinking Cloud and one bottle of Wine.~
+@3308 = ~I can combined these for the cost of 5,000 gold pieces, and one jug of extra strong De'Tranion's Baalor Ale.~
+// Vampire's Revenge +2
+@3309 = ~Oh yes, the sword that sucks - literally.~
+@3310 = ~To make this sword usable I will require five wooden stakes.~
+@3311 = ~I will also need 5,000 gold pieces for my efforts.~
+// Black Sword of Undeath
+@3312 = ~Back again with that sword, heh?~
+@3313 = ~You will need to obtain Adjatha the Drinker, Blackrazor, a Lich's Tooth, a vial of Holy Water, and the black heart of a Matriarch Vampire.~
+@3314 = ~It will also take 30,000 gold pieces for the task.~
+// Yoshimo's Poisoned Katana +3
+@3315 = ~Can it be? Yes, yes it is. The blade of Yoshimo, the most famous thief in all Athkatla!~
+@3316 = ~To make this stealthy blade more powerful I will require a Katana of +2 enchantment, 3 Poisoned Throwing Daggers, and a Rogue Stone.~
+@3317 = ~You will also have to part with 10,000 gold pieces.~
+// Spirit of Yoshimo
+@3318 = ~The heart of a fellow comrade. A very frequent occurrence as of late.~
+@3319 = ~The answer though, is yes. I can combine it with his personal weapon to create a link with the dead.~
+@3320 = ~Bear in mind though, that unless you are pure of heart I cannot make this item for you, lest I suffer the wrath of Ilmater.~
+@3321 = ~A monetary sacrifice of 25,000 gold pieces must also be given.~
+// Dragon Slippers
+@3322 = ~Mm, scales of the dread fire-beast. I am impressed with your talents, <SIRMAAM>.~
+@3323 = ~If you manage to acquire a pair of Boots of Speed and the blood of an Elder Brain, I could forge a pair of legendary slippers.~
+@3324 = ~This will be no easy task though, and I will require 15,000 gold pieces in advance.~
+// Mage school Rings
+@3325 = ~An entry-level mageling ring. I see your problem. I know a wide variety of changes to make this ring exceedingly powerful.~
+@3326 = ~If you give me the Ring of Protection +3 and two scrolls of Mantle, I can make a ring which will protect the wearer from all Abjuration spells.~
+@3327 = ~If you give me the Ring of Free Action and two scrolls of Ruby Ray of Reversal, I can make a ring which will protect the wearer from all Alteration spells.~
+@3328 = ~If you give me a Ring of Djinni Summoning and two scrolls of Summon Efreeti, I can make a ring which will protect the wearer from all Conjuration spells.~
+@3329 = ~If you give me the Ring of Infravision and three scrolls of True Sight, I can make a ring which will protect the wearer from all Divination spells.~
+@3330 = ~If you give me the Ring of Animal Friendship and four scrolls of Domination, I can make a ring which will protect the wearer from all Enchantment spells.~
+@3331 = ~If you give me the Rings of Air, Earth and Fire Control, and two scrolls of Delayed Blast Fireball, I can make a ring which will protect the wearer from all Evocation spells.~
+@3332 = ~If you give me a Ring of Invisibility and two scrolls of Project Image, I can make a ring which will protect the wearer from all Illusion spells.~
+@3333 = ~If you give me the Ring of Gaxx and two scrolls of Finger of Death, I can make a ring which will protect the wearer from all Necromancy spells.~
+@3334 = ~I will require two scrolls of Spell Immunity, and deposit of 5,000 gold pieces per ring.~
+@3335 = ~Please remember this though: each ring is only usable by a practitioner of that school which it protects from.~
+// Adamantine Chain
+@3336 = ~The armor of a true Bard. I am rather surprised to see this, as it is very rare.~
+@3337 = ~If you bring me the Crimson Chain, Gorgon Plate and four quantities of Adamantine Dust, I can make an armor that will be the envy of every jester.~
+@3338 = ~As reagents I will need one of each: scroll of Protection from Magic, scroll of Protection from Magic Energy, Beljuril, and Rogue Stone.~
+@3339 = ~I can charge no less than 20,000 gold pieces for the task.~
+// Warlord's Girdle
+@3340 = ~Ah ha, the belt of the giant. I know an upgrade that would suit you perfectly.~
+@3341 = ~I can combine the Girdle of Fortitude with the Gauntlets of Dexterity to make a well rounded belt.~
+@3342 = ~Reagents necessary are: two Potions of Fortitude, Hill Giant Strength and Agility, and two Diamonds, Emeralds and Rogue Stones.~
+@3343 = ~I will also take 15,000 gold pieces for my troubles.~
+// Kaligun's Amulet of Greater Resistance
+@3344 = ~Mm, the amulet of the fool Poonil. I sincerely hope that you will not fall as foolishly as he did, <SIRMAAM>.~
+@3345 = ~Anyway, I could combine four basic Amulets of Protection with two Rogue Stones.~
+@3346 = ~The task would set you back 10,000 gold pieces.~
+// Ring of Protection +2
+@3347 = ~Your basic protection rings, heh? Yes, I can put four together with two Rogue Stones, which will result in one twice as powerful.~
+@3348 = ~There is a lot of work involved though, and my price is 20,000 gold pieces.~
+// Incandescent Ioun Stone
+@3349 = ~Yes, a stone for the wise. I know of an upgrade which will increase more than just you wisdom.~
+@3350 = ~You will be required to sacrifice the Pearly White, Golden and Obsidian Ioun stones, as well as 5 Aquamarine Gems.~
+@3351 = ~My price will be no less than 20,000 gold pieces.~
+// Jaheira's Harper Pin
+@3352 = ~The fresh breeze of young lovers, heh <PRO_SIRMAAM>? Yes, I have the knowledge to craft it into a powerful item of protection.~
+@3353 = ~I will require a few special items. A Lock of Hair from the fine lady; an item worn by her, such as a Locket; and a Note written by her hand declaring her feelings towards <CHARNAME>.~
+@3354 = ~I will also need a Laeral's Tear Necklace to fix it to, as well as a payment of 1,000 gold pieces.~
+// Frostfury +4
+@3355 = ~Ah yes, the ice axe. I cannot remember when last I have laid eyes upon such exquisite work. The answer, of  course, is yes.~
+@3356 = ~I will require two ordinary Battle Axes +2, two Wands of Frost, two Diamonds, and the heart of a demon.~
+@3357 = ~All these I will combine for the low cost of 15,000 gold pieces.~
+// Wand of Hard Knocks
+@3358 = ~Mm, every mage's first defense - Magic Missiles. I could turn it into a thief's wand if you wish.~
+@3359 = ~The task requires five scrolls of Knock, and a labor fee of 5,000 gold pieces.~
+// Messerschmitt Stone Reaver Axe
+@3360 = ~The fire axe, heh?. Yes, I could turn this into a weapon of mass destruction.~
+@3361 = ~Though you would need to sacrifice: Frostreaver, the Wave Halberd Shaft, and three Potions of Fire Giant Strength.~
+@3362 = ~I will require 21,246 gold pieces to cover labor expenses.~
+// Corthala Family Blade +3
+@3363 = ~Yes, the traditional blade of the Corthala family. Though already a weapon of great power, I can make it even greater.~
+@3364 = ~I can combine it with Hindo's Doom +3, and three Poisoned Throwing Daggers.~
+@3365 = ~The task will set you back 15,000 gold pieces.~
+// Corthala Family Blade +4
+@3366 = ~A second upgrade, heh? Yes, I believe I can.~
+@3367 = ~I will require the Hand of a Kara-Tur warrior, five Poisoned Throwing Daggers, and three Antidotes.~
+@3368 = ~A deposit of 15,000 gold pieces is also necessary.~
+// The Ugly Stick
+@3369 = ~A powerful staff indeed, if rather plain. Yes, I know of an upgrade worthy of the most powerful warriors.~
+@3370 = ~Items needed are: a Staff Spear +2, two Bastard Swords +1, two scrolls of Agannazar's Scorcher, two scrolls of Burning Hands, two Potions of Firebreath, four Fire Agate Gems, and one Zircon Gem.~
+@3371 = ~Also, I will need 10,000 gold pieces.~
+// Adamantine Plate
+@3372 = ~Ah yes, the armor of Arngor the Legend. How did one such as yourself come to possess such an extraordinary artifact? I suppose it does not matter.~
+@3373 = ~The answer is yes, though the cost would be quite steep. You must give up the Gorgon Plate, and four quantities of Adamantine Dust.~
+@3374 = ~Furthermore, I will require a Rogue Stone and a Beljuril.~
+@3375 = ~My price will be no less than 15,000 gold pieces to complete the task.~
+// Cloak of the Elemental Star
+@3376 = ~Mm, the work of Thalanta the Fair I see. Very fine, and beautifully crafted. Yes, I can turn this item into a much better protector.~
+@3377 = ~Bear in mind that you will need to give me a Cloak of Protection +2, two scrolls of Flame Arrow, two scrolls of Lightning Bolt, two scrolls of Melf's Acid Arrow, two scrolls of Cone of Cold, and five quivers of Darts +1.~
+@3378 = ~My labor fee will be 15,000 gold pieces.~
+// Crimson Flame Dart
+@3379 = ~Indeed, a small but deadly weapon. I could imbue it with the power of flame, though it would be a difficult task.~
+@3380 = ~From you I will require two throwing daggers: the Boomerang Dagger +2, and Fire Tooth +3.~
+@3381 = ~Also, the task will set you back 15,000 gold pieces.~
+// Chaos Stone
+@3382 = ~A floating helm, eh? Yes, I believe I have just the thing for you.~
+@3383 = ~Give me a scroll of Chaos and a scroll of Sphere of Chaos, and I will make a protection item for a practitioner of Wild magic.~
+@3384 = ~A sum of 10,000 gold pieces is also required.~
+// Improved Chaos Stone
+@3385 = ~An excellent piece of craftsmanship, if I do say so myself. I can recognize my handiwork upon mere sight.~
+@3386 = ~The task will require three wardstones: two from dragon lairs, and one from a place of magical bondage. I will also require a Crystal Shard worshipped by Kobolds.~
+@3387 = ~This will be an expensive task, and I will take 20,000 gold pieces.~
+// Undead Bane
+@3388 = ~A weapon to be truly feared by those who walk the realm between life and death. I know of an upgrade that will suite you perfectly.~
+@3389 = ~I will require three powerful undead weapons: Azuredge, Daystar and Mace of Disruption. Also, I will require 200 pounds of pure Illithium, a Holy Symbol of Amaunator, and three vials of Elven Holy Water.~
+@3390 = ~As reagents I will require five gems of each: Sunstone, Zircon, and Garnet, as well as the Pommel Jewel of the sword of Balance.~
+@3391 = ~This weapon can only be forged and wielded by those of pure heart, and I will take 40,000 gold pieces as compensation.~
+// Cloak of the Shadow
+@3392 = ~Mm, scales of the dread acid-beast. I am impressed with your talents, <SIRMAAM>.~
+@3393 = ~If you bring me some Hide Armor, a Cloak of Non-Detection, and two Cloaks of Protection +1, I can make a stealthy cloak to protect a good thief.~
+@3394 = ~My fee will be no less than 20,000 gold pieces.~
+// Pikim's Armor
+@3395 = ~Why yes, I believe I can, though the cost will be high. Two Cloaks of Protection +1, one Cloak of Protection +2, and a Ring of Lock Picks, for a start.~
+@3396 = ~I will then proceed to adorn it with keys of the following: Beastmaster, Firkraag Prison, Gaal's, Haegan's, Jon's, Keep, Shadow Prison, and Shadow Thief Cellar.~
+@3397 = ~I will charge you a mere 35,000 gold pieces for such a hefty task.~
+// Neb's Nasty Cutter
+@3398 = ~The dagger of the child murderer, eh? Though I loathe to touch it, I will put aside my revulsion in hopes that you will use this weapon for a purer cause.~
+@3399 = ~I can combine the dagger with Neb's Head, and 200 pounds of pure Illithium Ore. Bear in mind that others will dislike you for forging a weapon of such evil origins~
+@3400 = ~I will charge you the special price of only 15,000 gold pieces.~
+// Shadow Thief's Blade
+@3401 = ~A silent blade if ever I have seen one. Why yes, I believe I know of something to suit your request.~
+@3402 = ~I could combine the blade with the Pommel Jewel and Blade of the Equalizer, and then enchant it with a scroll of Phantom Blade and two Potions of Master Thievery.~
+@3403 = ~Five Black Opal Stones, one Rogue Stone, and 25,000 gold pieces should cover my expenses.~
+// Enchanted Bow of Arvoreen
+@3404 = ~Yes, I believe I could make a bow that would make your halfling lass an archer beyond compare.~
+@3405 = ~I will need three Potions of Heroism, a scroll of Slow, and a bowstring of either Gesen of Gond origin.~
+@3406 = ~I must also have proof of your good intent, as well a sacrifice of 20,000 gold pieces.~
+// Plate of Many Dragons
+@3407 = ~Mm, the scales of the dread beast - the wyrm. I could use it to make an armor that combines the best of each beast.~
+@3408 = ~I will require the scales of four wyrms: Shadow Dragon, White Dragon, Red Dragon, and Blue Dragon.
+acid, cold, fire, and lightning.~
+@3409 = ~This I will sew together into a fine plate-mail, though I shall require no less than 100,000 gold pieces for the task.~
+// Helm of Many Dragons
+@3410 = ~Ah yes, the helm most favored when battling a fire-beast. With it, I could make a helm worthy of battling wyrms of every element.~
+@3411 = ~I will require three dragon scales: blue, red and shadow, each to increase the helm's protective ability.~
+@3412 = ~Bear in mind that I shall take 50,000 gold pieces for my troubles.~
+// Shield of Many Dragons
+@3413 = ~Ah yes, the shield most favored when battling a fire-beast. With it, I could make a shield worthy of battling wyrms of every element.~
+@3414 = ~I will require three dragon scales: blue, red and shadow, each to increase the shield's protective ability.~
+@3415 = ~Bear in mind that I shall take 50,000 gold pieces for my troubles.~
+// Robe of Resistance
+@3416 = ~A common mage robe of elemental resistance, eh? I could combine it with others of it's ilk to make one robe worthy of the greatest wizards.~
+@3417 = ~I can combine the Mage Robes of Cold, Electric and Fire Resistance with a Knave's and Traveller's Robe, and join them together with a pair of Bracers of Defense AC5.~
+@3418 = ~This task will cost you a mere 30,000 gold pieces.~
+// Dragon's Tooth
+@3419 = ~The halberds of the ancient red wyrms! It's been a long time since I last laid eyes on one of these.~
+@3420 = ~I can combine the Dragon's Bane and Dragon's Breath halberds with a Ring of Fire Resistance, the scales of a Red Dragon, and the tooth of the shark peoples god.~
+@3421 = ~The task will cost you one Rogue Stone, and a monetary sum of 30,000 gold pieces.~
+// Cloak of Thay
+@3422 = ~Hm, I feel a strange power emitting from this cloth. It has great magical potential.~
+@3423 = ~I will require one scroll of Protection from Normal Weapons, and will charge you a mere 35,000 gold pieces.~
+// Nature's Cloak
+@3424 = ~The cloak of nature's true enforcer, the great Cernd. I could add a high elemental protection, given the right reagents.~
+@3425 = ~You must bring me one scroll of Protection from each element: Acid, Cold, Electricity, Fire and Poison.~
+@3426 = ~My fee will be 40,000 gold pieces, including labor.~
+// Mits of Shaiman
+@3427 = ~The greatest gloves for a bare-knuckled brawl, eh? Yes, yes, I know of the perfect thing.~
+@3428 = ~Bring me Tzu-Zan's Bracers, and ten Black Opals.~
+@3429 = ~Add 20,000 gold pieces and we have a deal.~
+// Nature's Staff
+@3430 = ~The staff of nature's true enforcer, the great Cernd. I could increase its natural healing rate, given the right reagents.~
+@3431 = ~Bring me a Martial Staff, and five Potions of Regeneration.~
+@3432 = ~Also, I will need 20,000 gold pieces as compensation.~
+// Staff of Many Magicks
+@3433 = ~The all-respected dominating staff, my <LADYLORD>. A truly hypnotic device, which can be made even more enchanting.~
+@3434 = ~I shall require the Staff of Curing, a Quarterstaff +2, and three Diamonds.~
+@3435 = ~The price shall be no less than 20,000 gold pieces.~
+// The Drowsy Wyvern
+@3436 = ~A truly venomous weapon indeed. With a little bit of hard work and the sacrifice of some other valuables, I can make a truly feared weapon of venom.~
+@3437 = ~I will require of you the following: The Sleeper, two scrolls of Protection from Poison, and two scrolls of Sleep.~
+@3438 = ~I will be paid a sum of 30,000 gold pieces for my efforts.~
+// Cold Shoulder
+@3439 = ~Old Gromnir Il Khan's famed weapon of ice, heh? Just between us, I'm glad he's been taken care of. He really started to get to me!~
+@3440 = ~I'll tell you what. If you give me three Potions of Ice Dust, two scrolls of Ice Storm, two Wands of Frost, and one potion of Frost Giant Strength, I'll turn this frosty thing into a something worth your while.~
+@3441 = ~I'll even charge you the special price of only 45,000 gold pieces!~
+// Cloak of the Shark Father
+@3442 = ~The tooth of the famous shark-god! You surprise me every day, <SIRMAAM>. I could turn this into a cloak of the highest quality.~
+@3443 = ~All that I require is two Cloaks of Protection, some Scribe Notes of the Sahuagin, five scrolls of Minor Globe of Invulnerability, five scrolls of Monster Summoning III, and one-hundred-and-twenty-five of their famous Paralytic Bolts.~
+@3444 = ~Combine this with my labour cost of only 40,000 gold pieces, and it WILL be worth your while.~
+// Fluent Fingers
+@3445 = ~A good wizard's first defence, those bracers are. But I can see that a trained one such as yourself requires a more "offensive" approach.~
+@3446 = ~Bring me one scroll of every high-level wizard spell there is, and I will turn these into a pair of legendary gauntlets.~
+@3447 = ~(grinning widely) Do not forget my payment of 10,000 gold pieces, however.~
+// Ring of the Thief
+@3448 = ~Good ring for a Bounty Hunter that, but otherwise pretty useless. I believe I have a stealthy upgrade lying around somewhere.~
+@3449 = ~Ah yes, here it is. I will require of you: the Ring of Danger Sense, Ring of Lock Picks, and Ring of Invisibility.~
+@3450 = ~These I will combine for the mere sum of 50,000 gold pieces.~
+// Gauntlets of Assassination
+@3451 = ~Ah yes, the ideal bracers for one who prefers to wear a heavier armor. I could upgrade them, though they would then be used by a more...stealthy type.~
+@3452 = ~This will require the Gauntlets of Weapon Skill, 5 Potions of Master Thievery, and two Horn Coral Gems.~
+@3453 = ~Add these to my fee of 75,000 gold pieces, and you shall have a fine item indeed.~
+// Kiss of Death
+@3454 = ~You mean you killed that wench? I can hardly believe it! You are truly a person of great skill, my <LADYLORD>.~
+@3455 = ~Give me the Sword of Backstabbing, Neb's Nasty Cutter, three "Antidotes", and ten Poisoned Throwing Daggers.~
+@3456 = ~On this joyous occasion I will charge you a mere 60,000 gold pieces.~
+// Hide of Shades
+@3457 = ~A stealthy leather, though not very protective for someone of a rogue's nature.~
+@3458 = ~Bring me two more powerful leathers, The Night's Gift and Armor of Deep Night, as well as ten Potions of Invisibility, and you will have an armor perfect for an assassin.~
+@3459 = ~However, I must remind you there will be a fee of 50,000 gold pieces involved, though I am sure you can comply.~
+// Lava's Bane
+@3460 = ~Ah yes. The Flame of the North, as they call it. I recall a combination upgrade...~
+@3461 = ~I can combine this Flame of the North with two fiery swords -- the Flame Tongue and the Sword of Flame.~
+@3462 = ~I would also need a Wand of Fire, three fire opal rings, five scrolls of Fireball and two scrolls of Phantom Blade. My fee is 35,000 gold pieces.~
+// Wooden Stake
+@3463 = ~A vampire hunter, eh? I believe I can do something with these.~
+@3464 = ~With three wooden stakes, two vials of holy water, and two priest scrolls of Restoration, I can create a club worthy of anyone against vampires. I would also need two rogue stones and 50,000 gold pieces.~
+// Bow of Uden
+@3465 = ~Ah, yes. The bow of Yin Pon. I can combine it with two other bows to give it venomous strengths.~
+@3466 = ~I will need the Ripper and Tuigan bows, along with a potion of power and a rogue stone. I will also need 40 arrows of biting. I can do this for no less than 30,000 gold pieces.~
+// Staff of Resurrection
+@3467 = ~One of the most powerful wands I have ever set my eyes to is in your possession. I am certain I have a recipe to create a great staff out of such a beauty.~
+@3468 = ~I will need the Staff of Curing and three shiny rogue stones. Unfortunately, it is not an easy task and I will require 50,000 gold pieces to go upgrade.~
+// Ring of Time Control
+@3469 = ~You are a strong <PRO_MANWOMAN> , aren't you? This is one of my toughest talents, but I can create something that can be very helpful to any spellcaster.~
+@3470 = ~I would need three Time Stop scrolls, as well as four rings -- three ruby, and one with the magic of Free Action. Because of the skill required to create this, I will need 75,000 gold pieces.~

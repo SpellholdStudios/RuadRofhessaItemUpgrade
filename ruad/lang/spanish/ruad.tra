@@ -1,0 +1,318 @@
+@3001 = ~Bienvenido a la Herrería de los Colores de Ruad Ro'fhessa, joven <SIRMAAM>. ¿Cómo puede este veterano herrero ayudaros?~ ~Bienvenida a la Herrería de los Colores de Ruad Ro'fhessa, joven <SIRMAAM>. ¿Cómo puede este veterano herrero ayudaros?~
+ @3002 = ~Decidme, Ruad, ¿qué es lo que hacéis aquí?~
+    @3005 = ~Me alegra que lo preguntéis, <SIRMAAM>. Soy un herrero de cierta habilidad, y puedo crear objetos de gran poder.~
+      @3006 = ~¿Tengo algo que podáis mejorar?~
+        @3007 = ~Sólo decidme que tenéis, y os diré si se puede mejorar.~
+        @3008 = ~Pensándolo mejor, tengo que irme ahora.~
+      @3009 = ~Oh, de acuerdo. Gracias por vuestro tiempo.~
+  @3003 = ~Me gustaría que mejoraseis un objeto para mí.~
+  @3004 = ~Nada para mí, gracias.~
+
+// ToB
+@3010 = ~Ruad, ¿qué hacéis aquí?~
+  @3011 = ~He sentido la magia de la tierra cambiar drásticamente, así que seguí la perturbación.~
+  @3012 = ~Aquí es donde acabé. Podría sacarle, también, el máximo rendimiento.~
+  @3013 = ~Así... ¿Cómo puedo ayudaros?~
+
+
+@3101 = ~¿Debo iniciar el proceso de mejora?~
+  @3102 = ~No, gracias. ¿Tengo algo más?~
+  @3103 = ~No, gracias. Tengo que irme ahora.~
+  @3104 = ~Si, adelante.~
+@3105 = ~Así pues, ¿qué mejora debo realizar?~
+  @3106 = ~Ninguna, gracias. ¿Tengo algo más?~
+  @3107 = ~Ninguna, gracias. Tengo que irme ahora.~
+  @3108 = ~Hacedme un Anillo de Abjuración.~
+  @3109 = ~Hacedme un Anillo de Alteración.~
+  @3110 = ~Hacedme un Anillo de Conjuración.~
+  @3111 = ~Hacedme un Anillo de Adivinación.~
+  @3112 = ~Hacedme un Anillo de Encantamiento.~
+  @3113 = ~Hacedme un Anillo de Evocación.~
+  @3114 = ~Hacedme un Anillo de Ilusión.~
+  @3115 = ~Hacedme un Anillo de Nigromancia.~
+@3116 = ~Sí, y usad la cuerda del Arco de Gessen.~
+@3117 = ~Sí, y usad la cuerda de arco de Gond.~
+
+
+@3201 = ~¿Podéis hacer algo con esta hermosa Espada de Rosas?~
+@3202 = ~¿Podéis hacer algo con esta inquieta Espada Danzante?~
+@3203 = ~¿Podéis hacer algo con esta inútil Venganza del Vampiro?~
+@3204 = ~¿Podéis hacer a la Venganza del Vampiro +2 mejor?~
+@3205 = ~¿Podéis hacer algo con la anodina katana +1 de Yoshimo?~
+@3206 = ~¿Podéis hacer algo útil con el corazón de Yoshimo?~
+@3207 = ~¿Podéis hacer algo con estas escamas ardientes de un dragón rojo?~
+@3208 = ~¿Podéis hacer algo con este Anillo de Agudeza prácticamente inútil?~
+@3209 = ~¿Podéis hacer algo para convertir estas Mallas melódicas en algo más práctico?~
+@3210 = ~¿Podéis hacer algo para hacer este Cinturón de Fuerza de Gigante de las Colinas más versátil?~
+@3211 = ~¿Podéis hacer algo para mejorar el Amuleto de Kaligun?~
+@3212 = ~¿Podéis aumentar este Anillo de Protección +1?~
+@3213 = ~¿Podéis hacer algo para volver más brillante esta piedra Ioun de Plata?~
+@3214 = ~¿Podéis encantar más la Insignia de Arpista de mi verdadero amor Jaheira?~
+@3215 = ~¿Podéis convertir a Lacerahielos en un arma aún más mortífera?~
+@3216 = ~¿Podéis hacer esta Varita de proyectiles Mágicos más práctica?~
+@3217 = ~¿Podéis transformar a Diente de fuego en un arma larga?~
+@3218 = ~¿Podéis mejorar la Espada de la familia Corthala de Valygar?~
+@3219 = ~¿Podéis hacer que la Espada de la Familia Corthala +3 sea aún mejor?~
+@3220 = ~¿Podéis mejorar el aburrido bastón de Rynn?~
+@3221 = ~¿Podéis conseguir que la Armadura del Ciervo valga aún más la pena?~
+@3222 = ~¿Podéis mejorar esta deslumbrante Capa de las Estrellas?~
+@3223 = ~¿Podéis añadirle habilidades ígneas al Dardo Carmesí?~
+@3224 = ~¿Podéis hacer algo con esta patética Piedra Ioun de Lavanda?~
+@3225 = ~¿Podríais, quizás, mejorar esta piedra del caos?~
+@3226 = ~¿Podéis mejorar las habilidades exterminadoras de no muertos de Filoazur?~
+@3227 = ~¿Podéis mejorar las habilidades exterminadoras de no muertos de Diastro?~
+@3228 = ~¿Podéis mejorar las habilidades exterminadoras de no muertos de la Maza de Disrupción?~
+@3229 = ~¿Podéis hacer algo con estas escamas de un cruel Dragón de la Sombra?~
+@3230 = ~¿Podéis hacer algo con esta pesada Armadura de la Sombra?~
+@3231 = ~¿Podéis hacer algo con esta vil daga llamada Peligrosa Cortadora de Neb?~
+@3232 = ~¿Podéis convertir esta Espada de Apuñalar en un arma aún más furtiva?~
+@3233 = ~¿Podéis mejorar el inadecuado Arco de Arvorin de Mazzy?~
+@3234 = ~¿Podéis unir estas escamas de dragón?~
+@3235 = ~¿Podéis mejorar este inútil Yelmo de Dragón?~
+@3236 = ~¿Se puede hacer algo con este insulso escudo de escamas de dragón?~
+@3237 = ~¿Podéis hacer algo con estas túnicas de mago?~
+@3238 = ~¿Podéis mejorar esta Alabarda ardiente de Dragón?~
+@3239 = ~¿Podéis hacer algo con esta extraña ropa roja?~
+@3240 = ~¿Podéis otorgar al Manto de Cernd mejores defensas?~
+@3241 = ~¿Podéis volver estos Guanteletes de Aplastar más poderosos?~
+@3242 = ~¿Podéis hacer que el Bastón de Cernd sea más potente?~
+@3243 = ~¿Podéis hacer algo con este Bastón de Mando poco convincente?~
+@3244 = ~¿Podéis sacar algo de esta maloliente Cola de Draco?~
+@3245 = ~¿Podéis hacer que la Estrella de Hielo sea un arma aún mejor?~
+@3246 = ~¿Podéis convertir el Diente de Sekolah en algo útil?~
+@3247 = ~¿Podéis mejorar estos brazales de armadura AC 3?~
+@3248 = ~¿Podéis convertir el Anillo de los Asesinos Clementes en una herramienta de robo mejor?~
+@3249 = ~¿Podéis hacer algo con estos torpes Brazales de Destreza?~
+@3250 = ~¿Podéis volver a Feroz un arma más mortífera?~
+@3251 = ~¿Podéis hacer que la Armadura de la sombra sea menos sencilla de detectar?~
+@3252 = ~¿Hay algo que puedas hacer con esta espada del norte?~
+@3253 = ~¿Seríais capaz de aumentar la utilidad de estas estacas de madera?~
+@3254 = ~¿Podéis hacer algo con este Arco de Tribunal Élfico que encontré?~
+@3255 = ~¿Podéis hacer algo con esta poderosa Vara de Resurrección?~
+@3256 = ~¿Hay algo especial que podáis hacer con un pergamino que puede detener el tiempo?~
+
+
+// Blade of the Red Rose +4
+@3301 = ~Ah sí, la Espada de Sune. Un arma realmente preciosa. Aunque el valor monetario será sensiblemente ínfimo, el proceso requerirá de un gran número de otros artefactos.~
+@3302 = ~Necesitaré: La Espada de Balduran, un Manto de Ninfa, el anillo de Influencia en Humanos y dos Anillos de Protección +1.~
+@3303 = ~También necesitaré pergaminos mágicos: dos de dominación, dos de encantar persona y cuatro de Amistad.~
+@3304 = ~Los conductores mágicos requeridos son: un diamante, un Collar de Agni Mari, un Collar de perlas, un zafiro estrellado, una lágrima de Rey, y dos pociones de Escudo Mágico.~
+@3305 = ~Puedo combinar todos estos objetos por el irrisorio precio de 9,999 piezas de oro.~
+// Dancing Couple's Sword
+@3306 = ~Mm, la espada danzante. Aunque no tan mortífera, este arma está repleta de sorpresas.~
+@3307 = ~Necesitaré: cuatro pergaminos de Nube apestosa y una botella de vino.~
+@3308 = ~Puedo combinarlos por el precio de 5,000 piezas de oro, y una jarra de cerveza extra fuerte de Baalor De'Tranion's.~
+// Vampire's Revenge +2
+@3309 = ~Oh si, la espada que absorbe - literalmente.~
+@3310 = ~Para hacer esta espada utilizable necesitaré cinco estacas de madera.~
+@3311 = ~También harán falta 5,000 piezas de oro por mi esfuerzo.~
+// Black Sword of Undeath
+@3312 = ~De vuelta con esa espada, ¿eh?~
+@3313 = ~Necesitáis conseguir las espadas Adjatha la Bebedora y Negrarma, un diente de Liche, un vial de Agua bendita, y el negro corazón de una matriarca vampiro.~
+@3314 = ~Os costará también 30,000 piezas de oro por la faena.~
+// Yoshimo's Poisoned Katana +3
+@3315 = ~¿Puede ser? sí, sí que lo es. ¡La espada de Yoshimo, el ladrón más famoso de toda Athkatla!~
+@3316 = ~Para hacer esta sigilosa espada más poderosa necesitaré una katana +2, 3 dagas arrojadizas envenenadas, y una Piedra del bribón.~
+@3317 = ~También necesitaréis 10,000 piezas de oro.~
+// Spirit of Yoshimo
+@3318 = ~El corazón de un compañero. Algo muy común últimamente.~
+@3319 = ~La respuesta, no obstante es sí. Puedo combinarlo con su arma personal para crear un vínculo con el muerto.~
+@3320 = ~Tened en cuenta, no obstante, que salvo que tengáis un corazón puro no puedo hacerle este objeto, sino, sufriré la ira de Ilmater.~
+@3321 = ~Un sacrificio monetario de 25,000 piezas de oro también es necesario.~
+// Dragon Slippers
+@3322 = ~Mm, escamas de una terrible bestia de fuego. Estoy impresionado por vuestras habilidades, <SIRMAAM>.~
+@3323 = ~Si tenéis éxito y obtenéis un par de Botas de Velocidad y la sangre de un Cerebro Anciano, podría forjar un par de zapatillas legendarias.~
+@3324 = ~Aunque no será una tarea fácil, y le costará 15,000 piezas de oro de adelanto.~
+// Mage school Rings
+@3325 = ~Un anillo para principiantes en la magia. Entiendo su problema. Conozco una gran variedad de cambios para hacer este anillo extremadamente poderoso.~
+@3326 = ~Si conseguís un Anillo de Protección +3 y dos pergaminos de Manto, puedo hacer un anillo que proteja al portador de todos los conjuros de Abjuración.~
+@3327 = ~Si conseguís el Anillo de Acción Libre y dos pergaminos de Rayo Rubí de Inversión, puedo hacer un anillo que proteja a su portador de todos los hechizos de Alteración.~
+@3328 = ~Si conseguís un Anillo de Convocar Djinni y dos pergaminos de Convocar Effreti, puedo hacer un anillo que proteja a su portador de todos los hechizos de Conjuración.~
+@3329 = ~Si me dais el Anillo de Infravisión y tres pergaminos de Visión Verdadera, puedo hacer un anillo que proteja a su portador de todos los hechizos de Adivinación~
+@3330 = ~Si me dais el anillo de Amistad con las Bestias y cuatro pergaminos de Dominación, puedo hacer un anillo que proteja a su portador de todos los hechizos de Encantamiento.~
+@3331 = ~Si me dais los Anillos de aire, Fuego y Tierra, y dos pergaminos de Bola de Fuego Retardada, puedo hacer un anillo que proteja a su portador de todos los hechizos de Evocación .~
+@3332 = ~Si conseguís el Anillo de Invisibilidad y dos pergaminos de Proyectar Imagen, puedo hacer un anillo que proteja a su portador de todos los hechizos de Ilusión~
+@3333 = ~Si conseguís el Anillo de Gaxx y dos pergaminos de Dedo de la Muerte, puedo hacer un anillo que proteja a su portador de todos los hechizos de Nigromancia.~
+@3334 = ~Necesitaré dos pergaminos de Inmunidad a Conjuros y un depósito de 5,000 piezas de oro por anillo.~
+@3335 = ~Por favor, tened en cuenta que: cada anillo sólo lo puede usar un practicante de la escuela de la que protege.~
+// Adamantine Chain
+@3336 = ~La armadura del auténtico bardo. Estoy bastante sorprendido de verla, ya que ella misma es bastante rara.~
+@3337 = ~Si conseguís la Mallas Carmesíes, la armadura del gorgon y cuatro piezas de polvo de adamantita, puedo hacer una armadura que será la envidia de cualquier bardo.~
+@3338 = ~Como conductores necesitaré: un pergamino de Protección de la Magia, otro de Protección de la Energía Mágica, un Beljuril, y una piedra del bribón.~
+@3339 = ~No puedo cobraros menos de 20,000 piezas de oro por el trabajo.~
+// Warlord's Girdle
+@3340 = ~Ajá, el cinturón del gigante. Conozco una mejora que le irá perfectamente.~
+@3341 = ~Puedo combinar el Fajín de Fortaleza con los Guanteletes de Destreza para hacer un buen cinturón.~
+@3342 = ~Los reactivos necesarios son: dos Pócimas de Fortaleza, Fuerza de Gigante de las Colinas y Agilidad, y dos diamantes, esmeraldas y piedras del bribón.~
+@3343 = ~Costará también 15,000 piezas de oro por mi esfuerzo.~
+// Kaligun's Amulet of Greater Resistance
+@3344 = ~Mm, el amuleto del bobo Poonil. Espero sinceramente que no caigáis tan estúpidamente como él, <SIRMAAM>.~
+@3345 = ~De cualquier forma, puedo combinar cuatro Amuletos de Protección básicos con dos Piedras del Bribón.~
+@3346 = ~El trabajo le costará 10,000 piezas de oro.~
+// Ring of Protection +2
+@3347 = ~Sus Anillos básicos de Protección , ¿eh?. Si, puedo combinar cuatro con dos Piedras del Bribón, lo que dará como resultado uno dos veces más poderoso.~
+@3348 = ~Hay mucho trabajo involucrado, y mi precio es de 20,000 piezas de oro.~
+// Incandescent Ioun Stone
+@3349 = ~Si, una piedra para el sabio. Conozco una mejora que mejorará más que su sabiduría.~
+@3350 = ~Se requiere que sacrifiquéis la perla blanca, las piedras Ioun de oro y obsidiana, así como 5 gemas de aguamarina.~
+@3351 = ~Mi precio no será menos de 20,000 piezas de oro.~
+// Jaheira's Harper Pin
+@3352 = ~La fresca brisa de los jóvenes amantes, ¿eh <PRO_SIRMAAM>? Sí, tengo el conocimiento para convertirlo en un poderoso objeto de protección.~
+@3353 = ~Necesitaré unos pocos y especiales objetos. Un mechón de pelo de la hermosa dama; un objeto usado por ella, como un medallón; y una nota escrita por su mano declarando sus sentimientos hacia vos, <CHARNAME>.~
+@3354 = ~Necesitaré también un Collar de Lagrimas de Laeral para añadirlo, así como un pago de 1,000 piezas de oro.~
+// Frostfury +4
+@3355 = ~Ah sí, el hacha de hielo. No puedo recordar la última vez que posé mis ojos en un trabajo tan exquisito como éste. La respuesta, es por supuesto, sí.~
+@3356 = ~Necesitaré dos hachas +2 ordinarias, dos varitas de hielo, dos diamantes, y el corazón de un demonio.~
+@3357 = ~Todo eso lo combinaré por el precio de 15,000 piezas de oro.~
+// Wand of Hard Knocks
+@3358 = ~Mm, la primera defensa de todo mago - Misiles mágicos. Puedo convertirlo en una varita de ladrón si vos queréis.~
+@3359 = ~El trabajo requiere cinco pergaminos de Apertura, y una factura de 5,000 piezas de oro.~
+// Messerschmitt Stone Reaver Axe
+@3360 = ~El hacha de fuego, ¿eh?. Si, puedo convertirla en un arma de destrucción masiva.~
+@3361 = ~Piensa que tendréis que sacrificar: Lacerahielos, el astil de la alabarda Oleaje, y tres pociones de Fuerza de Gigante de Fuego.~
+@3362 = ~Necesitaré 21,246 piezas de oro para cubrir los gastos del trabajo.~
+// Corthala Family Blade +3
+@3363 = ~Si, la espada tradicional de la familia Corthala. Aunque realmente es un arma de gran poder, puedo hacerla incluso más grande.~
+@3364 = ~Puedo combinarla con la Condenación de Hindo +3, y tres dagas arrojadizas envenenadas.~
+@3365 = ~Os costará 15,000 piezas de oro.~
+// Corthala Family Blade +4
+@3366 = ~Una segunda mejora, ¿eh? Sí, creo que podré.~
+@3367 = ~Necesitaré la mano de un guerrero de Kara Tur, cinco dagas arrojadizas envenenadas, y tres antídotos.~
+@3368 = ~Un depósito de 15,000 piezas de oro también es necesario.~
+// The Ugly Stick
+@3369 = ~Un poderoso bastón aunque se ve normal. Si, conozco una mejora merecedora del más poderoso de los guerreros.~
+@3370 = ~Los objetos necesarios son: un bastón-lanza +2, dos espadas bastardas +1, dos pergaminos de Llamarada de Agannazar, dos pergaminos de Manos Ardientes, dos pociones de aliento de fuego, cuatro gemas de ágata de fuego y una gema de Zirconio.~
+@3371 = ~También, necesitaré 10,000 piezas de oro.~
+// Adamantine Plate
+@3372 = ~Ah sí, la armadura de Arngor la Leyenda. ¿Cómo alguien como vos llegó a poseer tan extraordinario artefacto?. Supongo que no importa.~
+@3373 = ~La respuesta es sí, aunque el precio será bastante elevado. Debéis entregar la Armadura del Gorgon, y cuatro montones de polvo de adamantita.~
+@3374 = ~Además, necesitaré una Piedra del Bribón y un Beljuril.~
+@3375 = ~Mi precio no será inferior a 15,000 piezas de oro para completar el trabajo.~
+// Cloak of the Elemental Star
+@3376 = ~Mm, el trabajo de Thalanta la Justa ya veo. Muy bueno, y hermosamente trabajado. Si, puedo convertir este objeto en un protector mucho más poderoso.~
+@3377 = ~Tened en cuenta que necesitareis conseguirme un Manto de Protección +2, dos Pergaminos de Flecha de Fuego, dos Pergaminos de Rayo Relampagueante, dos Pergaminos de Flecha Ácida de Melf, dos Pergaminos de Cono de Frio, y cinco paquetes de Dardos +1.~
+@3378 = ~Mi factura será de 15,000 piezas de oro.~
+// Crimson Flame Dart
+@3379 = ~Ciertamente, una pequeña pero mortífera arma. Puedo imbuirle el poder del fuego, aunque será una tarea difícil.~
+@3380 = ~De vos necesitaré dos dagas arrojadizas: la Daga Boomerang +2, y Diente de Fuego +3.~
+@3381 = ~El trabajo le costará 15,000 piezas de oro también.~
+// Chaos Stone
+@3382 = ~Un yelmo flotante, ¿eh? Sí, creo que tengo justo lo que necesitáis.~
+@3383 = ~Dadme un Pergamino de Caos y uno de Esfera del caos, y haré un objeto de protección para un practicante de la magia salvaje.~
+@3384 = ~Una suma de 10,000 piezas de oro también es necesaria.~
+// Improved Chaos Stone
+@3385 = ~Una excelente pieza de artesanía, como si lo hubiera dicho yo. Puedo reconocer mi trabajo en cualquier parte.~
+@3386 = ~El trabajo requiere tres piedras de guardia: dos procedentes de cubiles de dragón, y una de una prisión de la magia. Necesitaré también una Piedra de Cristal trabajada por kobolds.~
+@3387 = ~Será un trabajo caro, y os costará 20,000 piezas de oro.~
+// Undead Bane
+@3388 = ~Un arma para ser temida para aquellos que caminan por los Reinos entre la vida y la muerte. Conozco una mejora que os servirá perfectamente.~
+@3389 = ~Necesitaré tres poderosas armas contra no muertos: Filoazur, Diastro y una Maza de Disrupción. También, necesitaré 200 libras de Ilitio puro, Un Símbolo Sagrado de Aumantor, y tres Viales de Agua bendita Élfica.~
+@3390 = ~Como reactivos necesitaré cinco gemas del: Sol, Zirconio, y Granate, también el pomo de la Igualadora.~
+@3391 = ~Este arma sólo puede ser forjada y usada por aquellos de corazón puro, y pediré 40,000 piezas de oro como compensación.~
+// Cloak of the Shadow
+@3392 = ~Mm, escamas de una horrorosa bestia de ácido. Estoy impresionado por vuestros talentos, <SIRMAAM>.~
+@3393 = ~Si conseguís una armadura de pieles, un Manto de No Detección, y dos Mantos de Protección +1, puedo hacer un sigiloso manto para proteger a un buen ladrón.~
+@3394 = ~Mi factura no será inferior a 20,000 piezas de oro.~
+// Pikim's Armor
+@3395 = ~Porque sí, creo que puedo, aunque el coste será alto. Dos Mantos de protección +1, un Manto de Protección +2, y un anillo de abrir cerraduras, para empezar.~
+@3396 = ~Después procederé a adornarla con las siguientes llaves: Señor de las Bestias, la prisión de Firkraag, de Gaal, de Haegan, la Guarida de Jon, Prisión de las Sombras, y Celdas de los Ladrones de las sombras.~
+@3397 = ~Le cobraré unas insignificantes 35,000 piezas de oro por un trabajo tan enorme.~
+// Neb's Nasty Cutter
+@3398 = ~La daga del asesino de niños, ¿eh? Aunque aborrezco tocarla, superaré mi repulsión con la esperanza de que uséis este arma para una causa más justa.~
+@3399 = ~Puedo combinar la daga con la cabeza de Neb, y 200 libras de Ilitio puro. Tened en cuenta que la gente os rehuirá por forjar un arma con un pasado tan malvado.~
+@3400 = ~Os cobraré un precio especial de solo 15,000 piezas de oro.~
+// Shadow Thief's Blade
+@3401 = ~Una espada sigilosa si alguna vez he visto alguna. ¡Vaya que sí!, creo que conozco algo que satisfará sus intereses.~
+@3402 = ~Puedo combinar la espada con la gema del Pomo y la Hoja de la Igualadora, y luego encantarla con un pergamino de Filo Fantasmal y dos pociones de Maestría en el robo.~
+@3403 = ~Cinco ópalos negros, una Piedra del Bribón y 25,000 piezas de oro deberían cubrir mis gastos.~
+// Enchanted Bow of Arvoreen
+@3404 = ~Si, creo que puedo hacer un arco que convertiría a vuestro halfling en un arquero sin comparación.~
+@3405 = ~Necesitaré tres pociones de Heroísmo, un pergamino de Lentificar, y una cuerda de arco original de Gond o Gessen.~
+@3406 = ~También es necesaria una prueba de sus buenas intenciones, así como un sacrificio de 20,000 piezas de oro.~
+// Plate of Many Dragons
+@3407 = ~Mm, las escamas de la más terrible de las bestias - el dragón. Puedo usarlas para crear una armadura que combine lo mejor de cada una.~
+@3408 = ~Necesitaré las escamas de cuatro dragones: dragón de las sombras, dragón blanco, dragón rojo y dragón azul.~
+@3409 = ~Eso es lo que coseré en una magnifica armadura de placas, aunque pediré no menos de 100,000 piezas de oro por el trabajo.~
+// Helm of Many Dragons
+@3410 = ~Ah sí, el mejor yelmo cuando peleáis contra una bestia de fuego. Con él, puedo hacer un casco útil para luchar contra dragones de cualquier elemento.~
+@3411 = ~Necesitaré tres escamas de dragón: azul, rojo y de las sombras, cada una para incrementar la capacidad protectora del casco.~
+@3412 = ~Os cobraré 50,000 piezas de oro por mi esfuerzo.~
+// Shield of Many Dragons
+@3413 = ~Ah sí, el mejor escudo cuando peleáis con una bestia de fuego. Con él, puedo crear un escudo útil para luchar contra dragones de cualquier elemento.~
+@3414 = ~Necesitaré tres escamas de dragón: azul, roja y de las sombras, cada una para aumentar la capacidad protectora del escudo.~
+@3415 = ~Tened en cuenta que costará 50,000 piezas de oro por mi esfuerzo.~
+// Robe of Resistance
+@3416 = ~Una Túnica de Mago de resistencia elemental común, ¿eh?, puedo combinarla con otras de su tipo para hacer una Túnica digna de los más grandes magos.~
+@3417 = ~Puedo combinar las Túnicas de Mago de resistencia al frio, fuego y electricidad con la del Bellaco y del Viajero, y unirlas a un par de Brazales de Defensa AC5.~
+@3418 = ~Este trabajo os costará unas insignificantes 30,000 piezas de oro.~
+// Dragon's Tooth
+@3419 = ~¡Las alabardas de los ancianos Dragones Rojos! Ha pasado mucho tiempo desde la última vez que vi una de estas.~
+@3420 = ~Puedo combinar la alabarda Aliento de Dragón con Daño de Dragones con un Anillo de Resistencia al Fuego, las escamas de un Dragón Rojo y el diente del dios del pueblo tiburón.~
+@3421 = ~El trabajo os costará una Piedra del Bribón y una suma monetaria de 30,000 piezas de oro.~
+// Cloak of Thay
+@3422 = ~Hm, siento un extraño poder que emanar de esta prenda. Tiene un gran potencial mágico.~
+@3423 = ~Necesitaré un Pergamino de Protección contra las Armas Normales, y os cobraré sólo 35,000 piezas de oro.~
+// Nature's Cloak
+@3424 = ~La capa del verdadero defensor de la naturaleza, el gran Cernd. Puedo añadirle una gran protección frente a los elementos, dados los reactivos adecuados.~
+@3425 = ~Debéis conseguir un pergamino de protección para cada elemento: Ácido, Frio, Electricidad, Fuego y Veneno.~
+@3426 = ~Mi factura será de 40,000 piezas de oro, incluyendo mi comisión.~
+// Mits of Shaiman
+@3427 = ~Los mejores guanteletes para una lucha con los puños desnudos, ¿eh?. Si, si, conozco algo perfecto para ellos.~
+@3428 = ~Conseguidme los Brazales de Tzu-Zan, y diez ópalos negros.~
+@3429 = ~Añadidle 20,000 piezas de oro y tenemos un trato.~
+// Nature's Staff
+@3430 = ~El Bastón del verdadero defensor de la Naturaleza, el gran Cernd. Puedo incrementar su tasa de curación natural, dados los reactivos adecuados.~
+@3431 = ~Conseguidme el Bastón Marcial, y cinco pociones de regeneración.~
+@3432 = ~También, necesitaré 20,000 piezas de oro como compensación.~
+// Staff of Many Magicks
+@3433 = ~El Bastón de Dominación respetado por todos, mi <LADYLORD>. Un artefacto realmente hipnótico, que puede ser convertido en más atrayente aún.~
+@3434 = ~Os pediré el bastón de Curar, un bastón +2, y tres diamantes.~
+@3435 = ~El precio no será inferior a 20,000 piezas de oro.~
+// The Drowsy Wyvern
+@3436 = ~Un arma realmente venenosa, es cierto. Con un poco de trabajo duro y el sacrificio de otros objetos de valor, puedo hacer un arma de veneno realmente temible.~
+@3437 = ~Necesitaré de vos lo siguiente: El Durmiente, dos pergaminos de protección contra el ácido, y dos pergaminos de dormir.~
+@3438 = ~Se me pagará una suma de 30,000 piezas de oro por mi esfuerzo.~
+// Cold Shoulder
+@3439 = ~La famosa arma de hielo del viejo Gromnir Il Khan, ¿eh? Entre nosotros, me alegro de que se hayan ocupado de él. ¡Había empezado a tomarla conmigo!~
+@3440 = ~Os diré. Si me conseguís tres pociones de Polvo de Hielo, dos pergaminos de Tormenta de Hielo, dos varitas de congelación, y una poción de fuerza de Gigante de la Escarcha, convertiré esta cosa helada en algo útil para vos.~
+@3441 = ~¡Incluso os cobraré un precio especial de sólo 45,000 piezas de oro!~
+// Cloak of the Shark Father
+@3442 = ~¡El diente del famoso Dios-Tiburón! Me sorprendéis cada día, <SIRMAAM>. Puedo convertir esto en un manto de la más alta calidad.~
+@3443 = ~Todo lo que necesito son dos Mantos de Protección, algunas notas del escriba sajuaguín, cinco pergaminos de Globo Menor de Invulnerabilidad, cinco de Convocar Monstruo III, y ciento treinta y cinco de sus famosos virotes paralizantes.~
+@3444 = ~Unidle mi factura por el trabajo de sólo 40,000 piezas de oro, y SERÁ tremendamente útil.~
+// Fluent Fingers
+@3445 = ~La primera defensa de un buen mago, eso son esos brazales. Pero puedo ver que un mago veterano como vos necesita una orientación más "ofensiva".~ ~La primera defensa de un buen mago, eso son esos brazales. Pero puedo ver que una maga veterana como vos necesita una orientación más "ofensiva".~
+@3446 = ~Dadme un pergamino de cada hechizo de alto nivel para magos que hay, y los convertiré en un par de guanteletes legendarios.~
+@3447 = ~(Sonriendo ampliamente) No os olvidéis de mi pago de 10,000 piezas de oro.~
+// Ring of the Thief
+@3448 = ~Un buen anillo para un cazador de recompensas éste, pero bastante inútil de cualquier otra forma. Creo que tengo una mejora por aquí, en algún sitio.~
+@3449 = ~Ah sí, aquí está. Necesitaré: el Anillo del Sentido del Peligro, el Anillo de Barir Cerraduras y el anillo de Invisibilidad.~
+@3450 = ~Los combinaré por la insignificante suma de 50,000 piezas de oro.~
+// Gauntlets of Assassination
+@3451 = ~Ah sí, los brazales ideales para aquel que prefiere llevar una armadura pesada. Puedo mejorarlos, aunque luego serán para un uso... de tipo más sigiloso.~
+@3452 = ~Requerirá los brazales de especialización, 5 pociones de robo maestro, y dos gemas de coral.~
+@3453 = ~Añadidle mi factura de 75,000 piezas de oro y tendréis un objeto realmente magnífico.~
+// Kiss of Death
+@3454 = ~¿Queréis decir que os cargasteis a esa ramera? ¡Difícilmente puedo creerlo! Sois una persona de gran habilidad, mi <LADYLORD>.~
+@3455 = ~Dadme la Espada de Apuñalar por la Espalda, la Peligrosa Cortadora de Neb, tres "antídotos", y diez dagas arrojadizas envenenadas.~
+@3456 = ~En esta gozosa ocasión os cobraré solo 60,000 piezas de oro.~
+// Hide of Shades
+@3457 = ~Una armadura furtiva, aunque no una gran protección para alguien de la naturaleza del ladrón.~
+@3458 = ~Conseguidme dos armaduras poderosas más, Don de la Noche y Armadura de la Noche Profunda, así como diez pociones de invisibilidad, y tendréis una armadura perfecta para un asesino.~
+@3459 = ~De cualquier forma, tengo que recordaros que un pago de 50,000 piezas de oro está involucrado, aunque estoy seguro de que podéis afrontarlo.~
+// Lava's Bane
+@3460 = ~Ah sí, Filo del Norte, como la llaman. Recuerdo una combinación para mejorarla...~
+@3461 = ~Puedo combinar este Filo del Norte con dos espadas de fuego -- Lengua de Fuego y Espada de Llamas.~
+@3462 = ~También necesitaré una Varita de Fuego, tres anillos de ópalo de fuego, cinco pergaminos de Bola de Fuego y dos pergaminos de Filo Fantasmal. Mi tarifa es de 35,000 piezas de oro.~
+// Wooden Stake
+@3463 = ~Una cazadora de vampiros, ¿eh? Creo que puedo hacer algo con estos.~
+@3464 = ~Con tres estadas de madera, 2 viales de agua sagrada, y dos pergaminos de clérigo de Restauración, puedo crear un garrote contra vampiros digno de cualquier persona. Además, necesitaría dos Piedras de Bribón y 50,000 piezas de oro.~
+// Bow of Uden
+@3465 = ~Ah sí, el Arco de Yin Pon. Puedo combinarlo con otros 2 arcos para darle venenos potentes.~
+@3466 = ~Necesitaré el arco Desgarrador y el Arco de Tuigan, junto con una poción de poder y una Piedra de Bribón. También necesitaré 40 flechas para herir. Puedo hacer esto por no menos de 30,000 piezas de oro.~
+// Staff of Resurrection
+@3467 = ~Una de las varitas más poderosas que yo jamás he tenido delante de mis ojos está en vuestra posesión. Estoy seguro de que tengo una receta para crear un gran bastón de gran belleza.~
+@3468 = ~Necesitaré el Bastón de Curar y tres Piedras de Bribón brillantes. Desafortunadamente, esto no es una tarea fácil y os pediré 50,000 piezas de oro para hacer la mejora.~
+// Ring of Time Control
+@3469 = ~¿Sois un hombre fuerte?, ¿no lo sois? Esta es una de mis habilidades más complejas, pero puedo crear algo que pueda ser muy útil para cualquier lanzador de hechizos.~ ~¿Sois una mujer fuerte?, ¿no lo sois? Esta es una de mis habilidades más complejas, pero puedo crear algo que pueda ser muy útil para cualquier lanzador de hechizos.~
+@3470 = ~Necesitaría tres pergaminos de Parar el Tiempo, así como también cuatro anillos -- tres de rubí, y uno con la magia de Acción Libre. Debido a la habilidad necesaria para crear esto, os pediré 75,000 piezas de oro.~

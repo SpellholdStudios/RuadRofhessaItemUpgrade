@@ -1,0 +1,318 @@
+@3001 = ~Willkommen in Ruad Ro'fhessas Schmiede, <SIRMAAM>. Wie kann dieser kampferfahrene Schmied Euch helfen?~
+  @3002 = ~Ruad, erzählt mir, was macht Ihr denn hier?~
+    @3005 = ~Ich bin froh, dass Ihr fragt, <SIRMAAM>. Ich bin ein recht fähiger Schmied und ich kann Gegenstände von großer Macht erschaffen.~
+      @3006 = ~Besitze ich irgendetwas, das Ihr verbessern könnt?~
+        @3007 = ~Sagt mir einfach, was Ihr habt und ich sage Euch, ob ich es aufwerten kann.~
+        @3008 = ~Wenn ich noch einmal darüber nachdenke, dann muss ich eigentlich jetzt gehen.~
+      @3009 = ~Oh, alles klar. Danke für Eure Zeit.~
+  @3003 = ~Ich möchte, dass Ihr für mich einen Gegenstand verbessert.~
+  @3004 = ~Nichts, danke.~
+
+// ToB
+@3010 = ~Ruad, was macht Ihr hier?~
+  @3011 = ~Ich habe gefühlt, dass sich die Magie der Erde drastisch verändert hat, also bin ich den Störungen gefolgt.~
+  @3012 = ~Hier bin ich schließlich herausgekommen. Nun kann ich auch genauso gut das Beste daraus machen.~
+  @3013 = ~Also, wie kann ich Euch helfen?~
+
+
+@3101 = ~Soll ich mit der Verbesserung fortfahren?~
+  @3102 = ~Nein, danke. Habt Ihr irgendetwas anderes?~
+  @3103 = ~Nein, danke. Ich muss jetzt gehen.~
+  @3104 = ~Ja, fahrt fort.~
+@3105 = ~Also, welche Verbesserung soll ich durchführen?~
+  @3106 = ~Keine, danke. Habt Ihr irgendetwas anderes?~
+  @3107 = ~Keine, danke. Ich muss jetzt gehen.~
+  @3108 = ~Fertigt mir einen Ring der Bannzauber.~
+  @3109 = ~Fertigt mir einen Ring der Veränderung.~
+  @3110 = ~Fertigt mir einen Ring der Herbeirufung/Beschwörung.~
+  @3111 = ~Fertigt mir einen Ring der Erkenntniszauber.~
+  @3112 = ~Fertigt mir einen Ring der Verzauberung/Bezauberung.~
+  @3113 = ~Fertigt mir einen Ring der Anrufung/Hervorrufung.~
+  @3114 = ~Fertigt mir einen Ring der Illusion.~
+  @3115 = ~Fertigt mir einen Ring der Nekromantie.~
+@3116 = ~Ja und benutzt Gesens Bogensehne.~
+@3117 = ~Ja und benutzt die Bogensehne Gonds.~
+
+
+@3201 = ~Könnt Ihr irgendetwas mit dieser wunderschönen Rosenklinge anfangen?~
+@3202 = ~Könnt Ihr irgendetwas mit diesem zappeligen Ras anfangen?~
+@3203 = ~Könnt Ihr irgendetwas mit dieser nutzlosen Rache des Vampires anfangen?~
+@3204 = ~Könnt Ihr die Rache des Vampirs noch weiter verbessern?~
+@3205 = ~Könnt Ihr irgendetwas aus Yoshimos ziemlich ödem Katana +1 machen?~
+@3206 = ~Könnt Ihr irgendetwas Nutzvolles mit Yoshimos Herz anfangen?~
+@3207 = ~Könnt Ihr irgendetwas mit diesen feurigen Roten Drachenschuppen anfangen?~
+@3208 = ~Könnt Ihr irgendetwas aus diesem beinahe nutzlosen Ring der Klugheit machen?~
+@3209 = ~Könnt Ihr irgendetwas machen, damit dieses Melodische Kettenhemd brauchbarer wird?~
+@3210 = ~Könnt Ihr irgendetwas machen, damit dieser Gürtel der Hügelriesenstärke vielseitiger wird?~
+@3211 = ~Könnt Ihr irgendetwas machen, um Kaliguns Amulett zu verbessern?~
+@3212 = ~Könnt Ihr diesen Schutzring +1 weiter verzaubern?~
+@3213 = ~Könnt Ihr irgendetwas machen, um diesem Silbernen Ionenstein mehr Glanz zu verleihen?~
+@3214 = ~Könnt Ihr die Harfnernadel meiner wahren Liebe, Jaheira, weiter verzaubern?~
+@3215 = ~Könnt Ihr aus Frostschnitter eine noch tötlichere Waffe machen?~
+@3216 = ~Könnt Ihr diesen Stab der Magischen Geschosse brauchbarer machen?~
+@3217 = ~Könnt Ihr aus Steinfeuer eine größere Waffe fertigen?~
+@3218 = ~Könnt Ihr Valygars trostlose Familienklinge der Corthalas aufwerten?~
+@3219 = ~Könnt Ihr die Familienklinge der Corthalas noch weiter verbessern?~
+@3220 = ~Könnt Ihr diesen langweiligen Stab von Rynn verbessern?~
+@3221 = ~Könnt Ihr die Rüstung des Hirsches wertvoller machen?~
+@3222 = ~Könnt Ihr diesen schillernden Sternenmantel verbessern?~
+@3223 = ~Könnt Ihr dem Blutroten Wurfpfeil mehr Feuer verleihen?~
+@3224 = ~Könnt Ihr irgendetwas mit diesem Lavendelfarbenen Ionenstein anfangen?~
+@3225 = ~Könnt Ihr vielleicht diesen Choasstein weiter aufwerten?~
+@3226 = ~Könnt Ihr die Möglichkeiten von Azurklinge gegen Untote vergrößern?~
+@3227 = ~Könnt Ihr die Möglichkeiten von Tagesstern gegen Untote vergrößern?~
+@3228 = ~Könnt Ihr die Möglichkeiten des Streibkolbens der Zerschlagung gegen Untöte vergrößern?~
+@3229 = ~Könnt Ihr irgendetwas mit diesen rauen Schuppen eines Schattendrachen anfangen?~
+@3230 = ~Könnt Ihr irgendetwas mit dieser plumpen Schattenrüstung anfangen?~
+@3231 = ~Könnt Ihr irgendetwas mit Nebs widerlichem Schnitter anfangen?~
+@3232 = ~Könnt Ihr aus dem Kurzschwert der Heimtücke eine verschlagenere Klinge machen?~
+@3233 = ~Könnt Ihr Mazzys unangemessenen Bogen von Avoreen verbessern?~
+@3234 = ~Könnt Ihr diese Drachenschuppen verbinden?~
+@3235 = ~Könnt Ihr diesen nutzlosen Drachenhelm verbessern?~
+@3236 = ~Könnt Ihr irgendetwas mit diesem öden Drachenschuppenschild anfangen?~
+@3237 = ~Könnt Ihr irgendetwas mit diesem Magierroben anfangen?~
+@3238 = ~Könnt Ihr diese feurige Drachen-Hellebarde aufwerten?~
+@3239 = ~Könnt Ihr irgendetwas mit diesem seltsamen roten Stoff anfangen?~
+@3240 = ~Könnt Ihr defensiven Fähigkeiten von Cernds Umhang verbessern?~
+@3241 = ~Könnt Ihr die Schmetterhandschuhe mächtiger machen?~
+@3242 = ~Könnt Ihr Cernds Stab mehr Macht verleihen?~
+@3243 = ~Könnt Ihr irgendetwas mit diesem Stecken der Beherrschung anfangen?~
+@3244 = ~Könnt Ihr irgendetwas mit diesem stinkenden Lindwurmschwanz anfangen?~
+@3245 = ~Könnt Ihr aus Eistern eine bessere Waffe machen?~
+@3246 = ~Könnt Ihr irgendetwas nützliches aus Sekolahs Zahn machen?~
+@3247 = ~Könnt Ihr aus diesen Abwehrarmschützern RK 3 etwas mächtigeres erschaffen?~
+@3248 = ~Könnt Ihr aus dem Ring der Gnadentöter ein besseres Diebeswerkzeug machen?~
+@3249 = ~Könnt Ihr irgendetwas mit diesen klobigen Geschicklichkeitshandschuhen anfangen?~
+@3250 = ~Könnt Ihr aus Gurgelschlitzer eine noch tödlichere Waffe machen?~
+@3251 = ~Könnt Ihr die Schattenrüstung schwerer auffindbar machen?~
+@3252 = ~Könnt Ihr irgendetwas mit der Flamme des Nordens anfangen?~
+@3253 = ~Könnt Ihr den Nutzen dieser Holzpflöcke erhöhen?~
+@3254 = ~Könnt Ihr irgendetwas mit diesem Bogen des Elfenhofs anfangen?~
+@3255 = ~Könnt Ihr irgendetwas mit diesem mächtigen Zepter der Auferstehung anfangen?~
+@3256 = ~Könnt Ihr irgendetwas besonderes mit einer Schriftrolle anfangen, die die Zeit anhalten kann?~
+
+
+// Blade of the Red Rose +4
+@3301 = ~Ah ja, das Schwert von Sune, das ist in der Tat eine wertvolle Waffe. Obwohl die Goldkosten recht gering bleiben werden, wird beim Herstellungsporzess eine große Zahl anderer Artefakte benötigt.~
+@3302 = ~Ich brauche folgendes: Baldurans Schwert, einen Nymphenumhang, den Beeinflussungsring und zwei Schutzringe +1.~
+@3303 = ~Außerdem benötige ich magische Schriftrollen: zwei mit Beherrschung, zwei mit Person bezaubern und vier mit Freundschaft.~
+@3304 = ~Die weiteren notwendigen Zutaten sind: ein Diamant, eine Königsträne, ein Sternsaphir, eine Agni-Mani-Halskette, eine Perlenkette und zwei Tränke des Magieschildes.~
+@3305 = ~All diese Gegenstände kann ich für einen Preis von nur 9.999 Goldstücken zusammenführen.~
+// Dancing Couple's Sword
+@3306 = ~Mm, die Tanzende Klinge. Obwohl sie nicht so besonders tödlich ist, steckt sie voller Überraschungen.~
+@3307 = ~Ich benötige folgendes: vier Schriftrollen der Stinkenden Wolke und eine Flasche Wein.~
+@3308 = ~All dies kann dann ich für 5.000 Goldstücke und einen Krug extra starken De'Tranions Baalor-Bier miteinander kombinieren.~
+// Vampire's Revenge +2
+@3309 = ~Oh ja, dieses Schwert saugt Euch wahrlich aus - und zwar wörtlich.~
+@3310 = ~Um es verwendbar zu machen, benötige ich fünf Holzpflöcke.~
+@3311 = ~Darüber hinaus berechne ich Euch für meine Anstrengungen 5.000 Goldstücke.~
+// Black Sword of Undeath
+@3312 = ~Ihr seid wieder mit diesem Schwert zurück, hm?~
+@3313 = ~Ihr müsst mir Adjatha den Trinker, Schwarzschnitter, den Zahn eines Leichnams, ein Fläschchen Heiliges Wasser und das schwarze Herz einer Vampirfürstin beschaffen.~
+@3314 = ~Außerdem verlange ich für diese Aufgabe 30.000 Goldstücke von Euch.~
+// Yoshimo's Poisoned Katana +3
+@3315 = ~Kann das möglich sein? Ja, ja sie ist es. Die Klinge von Yoshimo, dem berühmtesten Dieb von ganz Athkatla!~
+@3316 = ~Um diese verschlagene Klinge noch mächtiger zu machen, benötige ich ein Katana mit einer +2 Verzauberung, drei vergiftete Wurfdolche und einen Spitzbubenstein.~
+@3317 = ~Außerdem müsst Ihr Euch von 10.000 Goldstücken trennen.~
+// Spirit of Yoshimo
+@3318 = ~Das Herz eines Gefährten. Leider ein sehr häufiger Anblick in letzter Zeit.~
+@3319 = ~Dennoch lautet die Antwort ja. Ich kann es mit einer persönlichen Waffe kombinieren, um eine Verbindung zu den Toten zu erschaffen.~
+@3320 = ~Behaltet aber im Kopf, dass ich solch einen Gegenstand nur für Euch anfertigen kann, wenn Ihr von reinem Herzen seid; anderenfalls würde mich Ilmaters Zorn treffen.~
+@3321 = ~Ein finanzielles Opfer von 25.000 Goldstücken muss ebenfalls aufgebracht werden.~
+// Dragon Slippers
+@3322 = ~Mm, die Schuppen einer fürchterlichen Feuer-Bestie. Ich bin von Euren Fähigkeiten beeindruckt, <SIRMAAM>.~
+@3323 = ~Wenn Ihr es schafft ein Paar Siebenmeilenstiefel und das Blut eines Ältestenhirns aufzutreiben, könnte ich ein Paar legendäre Pantoffeln anfertigen.~
+@3324 = ~Dennoch wird das keine einfach Aufgabe werden und ich verlange 15.000 Goldstücke von Euch.~
+// Mage school Rings
+@3325 = ~Der Ring eines niederstufigen Magiers. Ich verstehe Euer Problem und kenne eine Vielzahl von Möglichkeiten, um einen solchen Ring außerordentlich mächtig zu machen.~
+@3326 = ~Wenn Ihr mir den Schutzring +3 und zwei Schriftrollen des Schutzmantels bringt, kann ich Euch einen Ring fertigen, der den Träger vor allen Sprüchen aus der Schule der Bannzauber schützt.~
+@3327 = ~Wenn Ihr mir den Ring der Handlungsfreiheit und zwei Schriftrollen des Rubinroten Strahls der Auflösung bringt, kann ich Euch einen Ring fertigen, der den Träger vor allen Sprüchen aus der Schule der Veränderung schützt.~
+@3328 = ~Wenn Ihr mir den Dschinnring und zwei Schriftrollen der Efreet Beschwörung bringt, kann ich Euch einen Ring fertigen, der den Träger vor allen Sprüchen aus der Schule der Herbeirufung/Beschwörung schützt.~
+@3329 = ~Wenn Ihr mir den Infravisionsring und drei Schriftrollen des Wahren Blicks bringt, kann ich Euch einen Ring fertigen, der den Träger vor allen Sprüchen aus der Schule der Erkenntniszauber schützt.~
+@3330 = ~Wenn Ihr mir den Ring der Tierfreundschaft und vier Schriftrollen der Beherrschung bringt, kann ich Euch einen Ring fertigen, der den Träger vor allen Sprüchen aus der Schule der Verzauberung/Bezauberung schützt.~
+@3331 = ~Wenn Ihr mir die Ringe der Erd-, Feuer- und Luftbeherrschung und zwei Schriftrollen des Verzögerten Feuerballs bringt, kann ich Euch einen Ring fertigen, der den Träger vor allen Sprüchen aus der Schule der Anrufung/Hervorrufung schützt.~
+@3332 = ~Wenn Ihr mir einen Unsichtbarkeitsring und zwei Schriftrollen des Projezierten Ebenbildes bringt, kann ich Euch einen Ring fertigen, der den Träger vor allen Sprüchen aus der Schule der Illusion schützt.~
+@3333 = ~Wenn Ihr mir den Ring von Gaxx und zwei Schriftrollen des Fingers des Todes bringt, kann ich Euch einen Ring fertigen, der den Träger vor allen Sprüchen aus der Schule der Nekromantie schützt.~
+@3334 = ~Pro Ring benötige ich außerdem noch zwei Schriftrollen der Zauberimmunität und 5.000 Goldstücke.~
+@3335 = ~Bitte beachtet aber dies: Ein solcher Ring kann nur benutzt werden, wenn der Träger ein Magier genau der Schule ist, vor der der Ring schützt.~
+// Adamantine Chain
+@3336 = ~Die Rüstung eines wahren Barden. Ich bin ziemlich überrascht eine zu sehen, denn sie sind sehr selten.~
+@3337 = ~Wenn Ihr mir das Kettenhemd des Blutes, den Gorgonenpanzer und vier Häufchen Adamantitstaub bringt, kann ich Euch eine Rüstung fertigen, um die Euch jeder Barde beneiden wird.~
+@3338 = ~Zusätzlich benötige ich als weitere Zutaten eine Schriftrolle des Schutzes vor magischen Waffen, eine Schriftrolle des Schutzes vor magischer Energie, eine Beljuril und einen Spitzbubenstein.~
+@3339 = ~Für diese Aufgabe kann ich aber nicht weniger als 20.000 Goldstücke verlangen.~
+// Warlord's Girdle
+@3340 = ~Ah, der Gürtel des Riesen. Ich kenne eine Verbesserung, die Euch ausgezeichnet stehen würde.~
+@3341 = ~Ich kann ihn mit dem Gürtel der Zähigkeit und den Geschicklichkeitshandschuhen kombinieren, um einen wohl abgerundeten Gürtel zu erschaffen.~
+@3342 = ~Weitere notwendige Zutaten sind je zwei Tränke der Lebenskraft, Tränke der Hügelriesenstärke, Wendigkeitstränke, Diamanten, Smaragde und Spitzbubensteine.~
+@3343 = ~Außerdem beanspruche ich für meine Mühen 15.000 Goldstücke.~
+// Kaligun's Amulet of Greater Resistance
+@3344 = ~Mm, Das Amulett des Narren Poonil. Ich hoffe aufrechtig, dass Ihr nicht so närrisch zugrunde gehen werdet wie er, <SIRMAAM>.~
+@3345 = ~Nichtsdestoweniger könnte ich vier einfache Schutzamulette und zwei Spitzbubensteine damit kombinieren.~
+@3346 = ~Diese Aufgabe würde außerdem 15.000 Goldstücke von Euch erfordern.~
+// Ring of Protection +2
+@3347 = ~Ein einfacher Schutzring, hm? Ja, ich könnte vier von ihnen mit zwei Spitzbubensteinen zusammenbringen und herauskommen würde ein doppelt so mächtiger Ring.~
+@3348 = ~Dabei ist viel Arbeit im Spiel und mein Preis dafür beträgt 20.000 Goldstücke.~
+// Incandescent Ioun Stone
+@3349 = ~Ja, ein Stein für die Weisen. Ich weiß von einer Verbesserung, die mehr als nur Eure Weisheit erhöhen wird.~
+@3350 = ~Dafür werdet Ihr den Perlmutt-, den Obsidian- und den Goldenen Ionenestein sowie fünf Aquamarine opfern müssen.~
+@3351 = ~Mein Preis beträgt nicht weniger als 20.000 Goldstücke.~
+// Jaheira's Harper Pin
+@3352 = ~Der frische Hauch junger Liebe, hm <PRO_SIRMAAM>? Ja, ich besitze das Wissen, wie man daraus einen mächtigen Schutzgegenstand fertigen kann.~
+@3353 = ~Dafür benötige ich einige spezielle Dinge: eine Haarlocke dieser Dame, etwas, das sie getragen hat, wie zum Beispiel ein Medallion, und einen durch ihre Hand geschriebenen Brief, der ihre Gefühle für Euch offenbart.~
+@3354 = ~Außerdem benötige ich eine Halskette der Träne Laerals, ebenso wie eine Bezahlung von 1.000 Goldstücken.~
+// Frostfury +4
+@3355 = ~Ah ja, die Eisaxt. Ich kann mich nicht daran erinnern, wann meine Augen das letzte Mal ein solch ausgezeichnetes Stück erblickt haben. Die Antwort ist, natürlich, ja.~
+@3356 = ~Ich benötige zwei gewöhnliche Streitäxte, zwei Stäbe des Frosts, zwei Diamanten und das Herz eines Dämon.~
+@3357 = ~All dies werde ich für einen Preis von nur 15.000 Goldstücken zusammenführen.~
+// Wand of Hard Knocks
+@3358 = ~Mm, die erste Verteidigung eines jeden Magiers - Magische Geschosse. Ich könnt den Stab in den eines Diebes verwandeln, wenn Ihr das wünscht.~
+@3359 = ~Für die Aufgabe würde ich fünf Schriftrollen des Klopfens und eine Gebühr von 5.000 Goldstücken von Euch verlangen.~
+// Messerschmitt Stone Reaver Axe
+@3360 = ~Die Feueraxt, hm? Ja, ich könnte sie in eine Massenvernichtungswaffe verwandeln.~
+@3361 = ~Dennoch würde es ein Opfer von Euch verlangen: Frostschnitter, den Wellenschaft und drei Tränke der Feuerriesenstärke.~
+@3362 = ~Außerdem benötige ich von Euch 21.246 Goldstücke, um meine Ausgaben zu decken.~
+// Corthala Family Blade +3
+@3363 = ~Ja, die traditionelle Familienklinge der Corthalas. Obwohl sie bereits eine mächtige Waffe ist, kann ich sie noch weiter verbessern.~
+@3364 = ~Ich kann sie mit Hindos Verdammnis und drei Vergifteten Wurfdolchen kombinieren.~
+@3365 = ~Dafür verlange ich dann 15.000 Goldstücke von Euch.~
+// Corthala Family Blade +4
+@3366 = ~Eine zweite Verbesserung, hm? Ja, ich glaube dazu wäre ich in der Lage.~
+@3367 = ~Dazu benötige ich die Hand eines Kriegers aus Kara-Tur, fünf Vergiftete Wurfdolche und drei Gegengifte.~
+@3368 = ~Eine Bezahlung von 15.000 Goldstücken ist ebenfalls von Nöten.~
+// The Ugly Stick
+@3369 = ~Das ist in der Tat ein mächtiger Stab, wenn auch sehr schlicht. Ja, ich kenne eine Verbesserung, die jedem Krieger gerecht werden würde.~
+@3370 = ~Folgendes benötige ich: einen Stabspeer +2, zwei Bastardschwerter +1, zwei Schriftrollen mit Agannazars Flamme, zwei Schriftrollen der Brennenden Hände, zwei Tränke des Feuerodems, vier Feuerachate und einen Zirkon.~
+@3371 = ~Außerdem verlange ich dafür 10.000 Goldstücke.~
+// Adamantine Plate
+@3372 = ~Ah ja, die Rüstung des legendären Arngor. Wie ist jemand wie Ihr in den Besitz eines solch außergewöhnlichen Artefakts gelangt? Aber ich nehme an, das ist egal.~
+@3373 = ~Die Antwort lautet ja, obwohl der Preis ziemlich gepfeffert ist. Ihr müsst mir den Gorgonenpanzer und vier Häufchen Adamantitstaub übergeben.~
+@3374 = ~Darüber hinaus brauche ich einen Spitzbubenstein und einen Beljuril.~
+@3375 = ~Und für die Beendigung dieser Aufgabe verlange ich nicht weniger als 15.000 Goldstücke.~
+// Cloak of the Elemental Star
+@3376 = ~Mm, ich sehe die Arbeit von Thalanta der Schönen. Sehr fein und wunderschön gearbeitet. Ja, ich kann diesen Gegenstand in einen viel besseren Schutz verwandeln.~
+@3377 = ~Behaltet aber im Kopf, dass Ihr mir einen Schutzumhang +2, je zwei Schriftrollen des Flammenpfeils, des Blitzstrahls, des Kältekegels und mit Melfs Säurepfeil sowie fünf Köcher mit Wurfpfeilen +1 geben müsst.~
+@3378 = ~Meine Arbeitsgebühr beträgt dabei 15.000 Goldstücke.~
+// Crimson Flame Dart
+@3379 = ~Das ist in der Tat eine kleine aber tödliche Waffe. Ich könnte sie mit der Kraft des Feuers verzaubern, obwohl das eine schwierige Aufgabe wäre.~
+@3380 = ~Dafür benötige ich von Euch zwei Wurfdolche: den Bumerangdolch +2 und den Feuerzahn +3.~
+@3381 = ~Außerdem erfordert diese Aufgabe 15.000 Goldstücke von Euch.~
+// Chaos Stone
+@3382 = ~Ein schwebender Helm, hm? Ja, ich glaube ich habe genau das Richtige für Euch.~
+@3383 = ~Gebt mir eine Schriftrolle des Chaos sowie eine des Chaossphäre und ich fertige Euch einen Schutzgegenstand für einen Anwender wilder Magie.~
+@3384 = ~Außerdem wird eine Summe von 10.000 Golfstücken benötigt.~
+// Improved Chaos Stone
+@3385 = ~Das ist ein ausgezeichnetes Stück Handwerkskunst, wenn ich das so sagen darf. Ich erkenne mein Handwerk beim bloßen Anblick.~
+@3386 = ~Für diese Aufgabe benötige ich drei Schlüsselsteine: zwei aus Drachenhöhlen und einen von einem Ort magischer Gefangenschaft. Außerdem benötige ich einen Kristallsplitter, der von Kobolden angebetet wird.~
+@3387 = ~Das wird eine teure Aufgabe, die Euch 20.000 Goldmünzen kosten wird.~
+// Undead Bane
+@3388 = ~Das ist eine Waffe, die von denen, die im Reich zwischen Leben und Tod wandeln, wahrlich gefürchtet werden muss. Ich kenne eine Verbesserung, die zu Euch perfekt passen würde.~
+@3389 = ~Ich benötige dafür drei mächtige Waffen gegen Untote: Azurklinge, Tagesstern und den Streitkolben der Zerschlagung. Außerdem brauche ich 200 Pfund reines Illithium, ein Heiliges Symbol von Amaunator und drei Fläschchen Heiliges Elfenwasser.~
+@3390 = ~Als weitere Zutaten benötige ich: je fünf Sonnensteine, Zirkone und Granate sowie den Edelstein vom Griff des Ausgleichers.~
+@3391 = ~Die Waffe kann aber nur von denen geschmiedet und geführt werden, die reinen Herzens sind und ich werder als Vergütung 40.000 Goldstücke verlangen.~
+// Cloak of the Shadow
+@3392 = ~Mm, die Schuppen einer fürchterlichen Säure-Bestie. Ich bin von Euren Fähigkeiten beeindruckt, <SIRMAAM>.~
+@3393 = ~Wenn Ihr mir einen Lederharnisch, einen Umhang der Unauffindbarkeit und zwei Schutzumhänge +1 bringt, kann ich Euch einen Umhang fertigen, der einen Dieb schützen kann.~
+@3394 = ~Meine Gebühr hierfür beträgt nicht weniger als 20.000 Goldstücke.~
+// Pikim's Armor
+@3395 = ~Ja, ich glaube das könnte ich, obwohl die Kosten dafür hoch sein werden. Für den Anfang brauche ich zwei Schutzumhänge +1, ein Schutzumhang +2 und einen Ring der Dietriche.~
+@3396 = ~Dann werde ich damit fortfahren, das Ganze mit den folgenden Schlüsseln zu verzieren: Tiermeister, Firkraags Gefängnis, Gaal, Haegan, Irenicus, Burg, Gefängnis der Schattendiebe und Keller der Schattendiebe.~
+@3397 = ~Für eine solche heftige Aufgabe werde ich Euch gerade einmal 35.000 Goldstücke berechnen.~
+// Neb's Nasty Cutter
+@3398 = ~Der Dolch des Kindermörders, hm? Obwohl ich es verabscheue, ihn zu berühren, werde ich meinen Ekel in der Hoffnung beiseite legen, dass Ihr diese Waffe zu einem besseren Zweck einsetzen werdet.~
+@3399 = ~Ich kann den Dolch mit Nebs Kopf und 200 Pfund reinem Illithiumerz kombinieren. Denkt aber daran, dass Euch andere für die Fertigung einer Waffe aus solch bösen Ursprüngen nicht gerade mögen werden.~
+@3400 = ~Dafür berechne ich Euch einen Sonderpreis von nur 15.000 Goldstücken.~
+// Shadow Thief's Blade
+@3401 = ~Wenn jemals jemand ein leise Klinge gesehen hat, dann diese. Ja, ich glaube ich kenne etwas, dass zu Eurer Anfrage passen könnte.~
+@3402 = ~Ich könnt die Klinge mit der Klinge sowie dem Edelstein vom Griff des Ausgleicher vereinigen und das Ganze dann mit einer Schriftrolle der Phantomklinge und zwei Tränken der Meisterdiebeskunst verzaubern.~
+@3403 = ~Fünf schwarze Opale, ein Spitzbubenstein und 25.000 Goldstücke sollten meine Ausgaben decken.~
+// Enchanted Bow of Arvoreen
+@3404 = ~Ja, ich glaube, ich kann einen Bogen fertigen, der Euer Halblings-Mädel in eine unvergleichliche Bogenschützin verwandelt.~
+@3405 = ~Ich brauche drei Heldentränke, eine Schriftrolle der Verlangsamung und eine Bogensehne, die entweder von Gesen oder Gond stammt.~
+@3406 = ~Außerdem benötige ich einen Beweis Eurer guten Absichten, ebenso wie ein Opfer von 20.000 Goldstücken.~
+// Plate of Many Dragons
+@3407 = ~Mm, die Schuppen fürchtbarer Bestien - Drachen. Ich könnte sie dazu verwenden, um eine Rüstung zu schmieden, die die besten Eigenschaften jeder Bestie kombiniert.~
+@3408 = ~Ich benötige die Schuppen von vier Wyrmen: Schattendrache, Weißer Drache, Roter Drachen und Blauer Drache.~
+@3409 = ~Diese werde ich dann zu einer wunderbaren Plattenrüstung zusammenbauen, obgleich ich für diese Aufgabe von Euch nicht weniger als 100.000 Goldstücke verlangen kann.~
+// Helm of Many Dragons
+@3410 = ~Ah ja, der beliebteste Helm im Kampf gegen Rote Drachen. Ich könnte aus ihm einen Helm machen, der für den Kampf gegen Drachen aller Elemente wertvoll wäre.~
+@3411 = ~Ich benötige drei verschiedene Schuppenarten, um die Schutzeigenschaften des Helms zu verbessern: die von Blauen, Roten und Schattendrachen.~
+@3412 = ~Behaltet aber im Kopf, dass ich für meine Mühen 50.000 Goldstücke von Euch fordern werde.~
+// Shield of Many Dragons
+@3413 = ~Ah ja, der beliebteste Schild im Kampf gegen Rote Drachen. Ich könnte aus ihm einen Schild machen, der für den Kampf gegen Drachen aller Elemente wertvoll wäre.~
+@3414 = ~Ich benötige drei verschiedene Schuppenarten, um die Schutzeigenschaften des Schilds zu verbessern: die von Blauen, Roten und Schattendrachen.~
+@3415 = ~Behaltet aber im Kopf, dass ich für meine Mühen 50.000 Goldstücke von Euch fordern werde.~
+// Robe of Resistance
+@3416 = ~Eine gewöhnliche Robe des Elementarschutzes, hm? Ich könnte sie mit anderen ihrer Art kombinieren, um eine Robe zu erschaffen, die den größten Magiern angemessen wäre.~
+@3417 = ~Ich könnte je eine Kälte-, Blitz- und Feuerschutzrobe mit einer Schurkenrobe und einer Robe des Reisenden verbinden um sie schließlich mit Abwehrarmschützern RK 5 zu vereinen.~
+@3418 = ~Diese Aufgabe wird Euch lediglich 30.000 Goldstücke kosten.~
+// Dragon's Tooth
+@3419 = ~Die Hellebarden des alten roten Wyrms! Es ist eine Weile her, seit ich das letzte Mal eine davon zu Gesicht bekommen habe.~
+@3420 = ~Ich könnte Drachenbann und Drachenodem mit einem Feuerschutzring, den Schuppen eines Roten Drachen und einem Zahn vom Gott des Haivolkes verbinden.~
+@3421 = ~Die Aufgabe wird Euch einen Spitzbubenstein und 30.000 Goldstücke kosten.~
+// Cloak of Thay
+@3422 = ~Hm, ich fühle eine seltsame Macht, die von diesem Stoff ausgeht. Er hat großes magisches Potential.~
+@3423 = ~Ich benötige eine Schriftrolle des Schutzes vor normalen Waffen und werde Euch nur dafür 35.000 Goldstücke berechnen.~
+// Nature's Cloak
+@3424 = ~Der Umhang des großen Cernds, eines wahren Beschützers der Natur. Wenn Ihr mir die richtigen Zutaten gebt, könnte ich ihm einen starken Schutz gegen die Elemente hinzufügen.~
+@3425 = ~Dazu müsst Ihr mir eine Schutzformel gegen jedes Element bringen: Säure, Kälte, Elektrizität, Feuer und Gift.~
+@3426 = ~Mein Preis beträgt 40.000 Goldstücke, Arbeit inklusive .~
+// Mits of Shaiman
+@3427 = ~Die besten Handschuhe für eine Keilerei mit bloßen Fäusten, hm? Ja, ja, ich kenne da das Perfekte.~
+@3428 = ~Bringt mir Tzu-Zans Armschützer und zehn Schwarze Opale.~
+@3429 = ~Fügt 20.000 Goldstücke dazu und wir sind im Geschäft.~
+// Nature's Staff
+@3430 = ~Der Umhang des großen Cernds, eines wahren Beschützers der Natur. Wenn Ihr mir die richtigen Zutaten gebt, könnte ich seine natürliche Regenerationsrate erhöhen.~
+@3431 = ~Bringt mir einen Kampfstab +3 aus dem Handelstreff und fünf Regenerationstränke.~
+@3432 = ~Außerdem verlange ich als Vergütung 20.000 Goldstücke.~
+// Staff of Many Magicks
+@3433 = ~Der allseits geschätzte Stecken der Beherrschung, <LADYLORD>. Er ist ein wahrlich hypnotischer Gegenstand, der sogar noch bezaubernder gemacht werden kann.~
+@3434 = ~Dafür benötige ich den Heilstecken, einen Kampfstab +2 und drei Diamanten.~
+@3435 = ~Der Preis beläuft sich auf nicht weniger als 20.000 Goldstücke.~
+// The Drowsy Wyvern
+@3436 = ~Das ist eine wirklich giftige Waffe, in der Tat. Mit einem kleinen Bisschen harter Arbeit und der Opferung einiger Wertgegenstände kann ich aus ihr eine wahrlich gefürchtete Giftwaffe machen.~
+@3437 = ~Dafür benötige ich von Euch den Schläfer, zwei Schutzformeln gegen Gifte und zwei Schriftrollen des Schlafs.~
+@3438 = ~Für meine Anstrengungen fordere ich von Euch eine Summe von 30.000 Goldstücken.~
+// Cold Shoulder
+@3439 = ~Die berühmte Eiswaffe des alten Gromnir Il Khan, hm? Nur so unter uns, ich bin froh, dass man sich um ihn gekümmert hat. Er hat wirklich begonnen, mir auf die Nerven zu gehen!~
+@3440 = ~Ich sag Euch etwas. Wenn Ihr mir drei Eisstaubtränke, zwei Schriftrollen des Eissturms, zwei Stäbe des Frosts und einen Trank der Frostriesenstärke bringt, dann verwandle ich dieses frostige Ding in etwas, das die Mühe wert ist.~
+@3441 = ~Dafür berechne ich Euch einen Sonderpreis von nur 45.000 Goldstücken!~
+// Cloak of the Shark Father
+@3442 = ~Der Zahn des berühmten Haigottes! Ihr überrascht mich jeden Tag wieder, <SIRMAAM>. Ich könnte daraus einen Umhang von höchster Qualität erschaffen.~
+@3443 = ~Alles, was ich dafür benötige, sind zwei Schutzumhänge, einige Schriftstücke der Sahuagin, je fünf Schriftrollen der Kleineren Kugel der Unverwundbarkeit und der Monster Herbeirufung III sowie 125 der berühmten Betäubungsbolzen.~
+@3444 = ~Kombiniert Ihr dies mit meinen Arbeitskosten von nur 40.000 Goldstücken, dann WIRD das Eurer Mühe wert sein.~
+// Fluent Fingers
+@3445 = ~Diese Armschützer sind die Hauptverteidigung eines guten Magier. Aber ich erkenne, dass jemand Trainiertes, so wie Ihr, eine "offensivere" Herangehensweise benötigt.~
+@3446 = ~Bringt mir je eine Schriftrolle eines jeden hochstufigen Magierspruchs, den es gibt, und ich werde sie in ein Paar legendärer Handschuhe verwandeln.~
+@3447 = ~(breit grinsend) Vergesst mir jedoch nicht meine Bezahlung von 10.000 Goldstücken.~
+// Ring of the Thief
+@3448 = ~Das ist eine guter Ring für einen Kopfgeldjäger, anderenfalls ist er jedoch ziemlich nutzlos. Ich glaube, ich habe hier irgendwo eine passende Verbesserungsmöglichkeit herumliegen.~
+@3449 = ~Ah ja, hier ist sie. Dafür benötige ich von Euch den Ring des Sechsten Sinns, den Ring der Dietriche und einen Unsichtbarkeitsring.~
+@3450 = ~Dies alles werde ich dann für die läppische Summe von 50.000 Goldstücken miteinander verbinden.~
+// Gauntlets of Assassination
+@3451 = ~Ah ja, die idealen Armschützer für jemanden, der es vorzieht schwerere Rüstungen zu tragen. Ich könnt sie aufwerten, obwohl sie dann in einer mehr ... diskreten Art und Weise Verwendung finden würden.~
+@3452 = ~Dafür benötige ich die Handschuhe der Waffenfertigkeit, fünf Tränke der Meisterdiebeskunst und zwei Hornkorallen.~
+@3453 = ~Fügt dem meine Bezahlung von 75.000 Goldstücken hinzu und Ihr erhaltet einen wahrlich wunderbaren Gegenstand.~
+// Kiss of Death
+@3454 = ~Ihr meint, Ihr habt diese Hure getötet? Das kann ich kaum glauben! Ihr seid eine wahrlich fähige Person, <LADYLORD>.~
+@3455 = ~Gebt mir das Kurzschwert der Heimtücke, Nebs widerlichen Schnitter, drei verfluchte Gegengifte und zehn Vergiftete Wurfdolche.~
+@3456 = ~Aus diesem freudigen Anlass heraus berechne ich Euch nur 60.000 Goldstücke.~
+// Hide of Shades
+@3457 = ~Das ist eine gute Lederrüstung, jedoch bietet sie für jemanden von der Statur eines Diebes zu wenig Schutz.~
+@3458 = ~Bringt mir zwei mächtigere Lederrüstungen, Tiefste Nacht und das Geschenk der Nacht, ebenso wie zehn Unsichtbarkeitstränke und Ihr werdet eine Rüstung erhalten, die für einen Meuchelmörder perfekt geeignet ist.~
+@3459 = ~Jedoch muss ich Euch an die Gebühr von 50.000 Goldstücken erinnern, die dabei eine Rolle spielt, obwohl ich sicher bin, dass Ihr dem nachkommen werdet.~
+// Lava's Bane
+@3460 = ~Ah ja. Die Flamme des Nordens, wie dieses Schwert genannt wird. Ich entsinne mich ein Kombinations-Verbesserung...~
+@3461 = ~Ich kann diese Flamme des Nordens mit zwei weiteren feurigen Schwertern verbinden - mit Flammenzunge und Flammenschwert.~
+@3462 = ~Außerdem brauche ich einen Stab des Feuers, drei Feueropalringe, fünf Schriftrollen des Feuerballs und zwei Schriftrollen der Phantomklinge. Meine Gebühr beträgt 35.000 Goldstücke.~
+// Wooden Stake
+@3463 = ~Ein Vampirjäger, hm? Ich glaube, ich könnte daraus etwas machen.~
+@3464 = ~Mit drei Holzpflöcken, zwei Fläschchen Heiligen Wassers und zwei Kleriker-Schriftrollen der Genesung kann ich eine Keule erschaffen, die für jeden im Kampf gegen Vampire von Nutzem wäre. Dafür würde ich ebenfalls zwei Spitzbubensteine und 50.000 Goldstücke benötigen.~
+// Bow of Uden
+@3465 = ~Ah, ja. Der Bogen von Yin Pon. Ich kann ihn mit zwei anderen Bögen verbinden und ihm so giftige Fähigkeiten verleihen.~
+@3466 = ~Ich brauche Schlitzer und den Bogen der Tuigan, sowie einen Trank der Macht und einen Spitzbubenstein. Außerdem benötige ich 40 Beißende Pfeile. Das alles werde ich dann für nicht weniger als 30.000 Goldstücke verarbeiten.~
+// Staff of Resurrection
+@3467 = ~Ihr habt eines der mächtigsten Zepter, das mir je zu Gesicht gekommen ist, in Eurem Besitz. Ich bin mir sicher, dass ich ein Rezept habe, um aus solch einer Schönheit einen wundervollen Stab zu machen.~
+@3468 = ~Ich benötige den Heilstecken und drei funkelnde Spitzbubensteine. Unglücklicherweise ist das keine leichte Aufgabe und ich muss von Euch 50.000 Goldstücke dafür fordern.~
+// Ring of Time Control
+@3469 = ~Ihr seid stark, <CHARNAME>, oder? Das ist auch eine meiner besten Fähigkeiten, aber ich kann dennoch etwas erschaffen, das für jeden Magieanwender sehr hilfreich wäre.~
+@3470 = ~Dafür würde ich drei Schriftrollen des Zeitstopps und vier Ringe benötigen - drei aus Rubin und einen der Handlungsfreiheit. Aufgrund der für die Herstellung notwendigen Fertigkeiten muss ich von Euch darüber hinaus 75.000 Goldstücke fordern.~
