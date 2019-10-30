@@ -49,7 +49,7 @@ This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If 
 
 #### Notes
 
-<em>If you've previously installed the mod, remove it before extracting the new version. To do this, run **setup-ruad.exe**, uninstall the previously installed main component and delete the ruad folder.</em>
+<em>If you've previously installed the mod, remove it before extracting the new version. To do this, run **setup-ruad.exe**, uninstall the previously installed main component and delete the :file_folder: ruad folder.</em>
 
 <em>When installing or uninstalling, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.</em>
 
@@ -65,7 +65,7 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 #### Windows
 
-Extract the contents of the mod archive into the folder of the game you wish to modify (<em>the folder which contains the "CHITIN.KEY" file</em>), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a ruad folder and a setup-ruad.exe file in your game folder. To install, simply double-click **setup-ruad.exe** and follow the instructions on screen.
+Extract the contents of the mod archive into the folder of the game you wish to modify (<em>the folder which contains the "CHITIN.KEY" file</em>), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: ruad folder and a setup-ruad.exe file in your game folder. To install, simply double-click **setup-ruad.exe** and follow the instructions on screen.
 
 Run **setup-ruad.exe** in your game folder to reinstall, uninstall or otherwise change the component settings.
 
@@ -132,7 +132,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 
 #### Copyrights Information
 
-###### Rolles is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Serdrick, based on material from the game Baldur's Gate II and its expansion.
+###### Ruad is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Moonfruit, based on material from the game Baldur's Gate II and its expansion.
 ###### Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp. All other trademarks and copyrights are property of their respective owners.
 ###### All other trademarks and copyrights are the property of their respective owners.</br>
 <div align="right"><a href="#top">Back to top</a></div>
@@ -145,18 +145,18 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 
 ##### Version 29.0.0 by Gwendolyne (, 2019)
 
-Major updates:
+- Major updates:
 	- Renamed Setup-Ruad.tp2 -> ruad.tp2 to support AL|EN's "Project Infinity".
 	- Added ruad.ini metadata file to support AL|EN's "Project Infinity".
-
+	- 
 	- Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the override folder.
 	- Inventory items icons: fixed wrong transparency index (pure green replaces old turquoise - BAMWorkshop leftover :astonished:).
-
+	- 
 	- Updated tra files for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games.
 	- Added missing ruad.tra files in reload array HANDLE_CHARSETS function.
 	- Renamed titles and setup .tra files to more accurate setup and items .tra files.
 	- Renamed american and italian tra folders to english and italiano.
-
+	- 
 	- Reorganized components (DESIGNATED number).
 	- Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games.
 	- Replaced AUTHOR keyword with SUPPORT.
@@ -171,6 +171,9 @@ Major updates:
 	- Blade of the Red Rose +4: 
 
 - ruad.d: rewrote old-school code and fixed typos that were taking and deleting wrong items (Cloak of Perfection, Swords of Freedom and Mace of Disruption +3).
+
+<a href="http://www.shsforums.net/topic/42220-fixes-for-the-big-fixpack/?p=543984">Lollorian's assorted ITM fixes</&>
+BWP Fixpack Luca Piol's typo fix ruad.d
 
 ## 
 
