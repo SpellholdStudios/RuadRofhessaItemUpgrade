@@ -172,10 +172,11 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 - Items updates:
 	- Hard-coded items inventory and headers icons in .itm files to avoid writing them in installation process.
 	- Fixed unusability flags and appended tooltip.2da whenever relevant.
-	- Added 1pp compatibility to harmonize colour item with EE games and classical games modded with 1pp.
+	- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+	- Added Break Sanctuary flag whenever relevant for EE games.
 	- Blade of the Red Rose +4 (u#sw1h01.itm): 
 		- Fixed item description: Lore bonus (+10 - was +10%).
-		- Replaced Charm Person effects with more accurate BG2 Fixpack ones (classical games) and patch them to fit EE games (op#324).
+		- Charm Person ability: replaced Charm Person effects with more accurate BG2 Fixpack ones (classical games) and patch them to fit EE games (op#324). Added Break Sanctuary flag for EE games.
 		- Appended tooltip.2da: Charm Person.
 	- 
 	- Yoshimo's Poisoned Katana +3 (u#sw1h05.itm):
@@ -210,6 +211,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- EE compatibility: added op#319 (Usability: Item Usability) to restrict item usability (Valygar) and immunity for opponents immune to poison (op#324).
 	- The Ugly Stick (u#staf01.itm):
 		- Fixed wrong damage: 1d6 + bonuses as per description (was 2d6 + bonuses, a little too much for a staff!).
+		- Burning Hands and Agannazar's Scorcher abilities: added Break Sanctuary flag for EE games.
 		- Appended tooltip.2da: Melee, Thrown, Burning Hands, Agannazar's Scorcher.
 	- Adamantine Plate (u#plat01.itm):
 		- Fixed name and item description: it is actually a +4 Full Plate (not +5), many kits restrictions were missing.
@@ -220,15 +222,17 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Chaos Stone (u#helm02.itm):
 		- Fixed item description: added weight (2).
 		- Added DS value (83 CHAOS_SHIELD) for EE games (op#328).
+		- Added EE and ToBEx item flag: EE/Ex: Toggle critical hits flag (BIT25).
 	- Improved Chaos Stone (u#helm03.itm):
 		- Fixed item description: added weight (2).
 		- Added DS value (84 IMPROVED_CHAOS_SHIELD) for EE games (op#328).
-- 
+		- Added EE and ToBEx item flag: EE/Ex: Toggle critical hits flag (BIT25).
+	- 
 	- Cloak of the Shadow (u#clck02.itm):
 		- Fixed item description: added weight (3).
 	- Pikim's Armor (u#leat01.itm):
 		- Fixed wrong inventory and description icons: Shadow Armor (LEAT08) seems more accurate than Armor of Missile Attraction (LEAT06). :wink:
-		- Added 1pp compatibility to harmonize colour item with EE games and classical games modded with 1pp.
+		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
 	- Neb's Nasty Cutter (u#dagg01.itm):
 		- Fixed opcode #142 (Display portrait icon): replaced wrong 137 icon (Bleeding) with 6 (Poisoned).
 		- Added a brand new bam file for the summoning ability (no longer uses the dagger inventory icon).
@@ -245,43 +249,83 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Fixed item description: added missing kit restrictions and "Protects against critical hits".
 	- Shield of Many Dragons (u#shld01.itm):
 		- Fixed item description: added missing kit restrictions.
-- 
-- 
+	- Dragon's Tooth (u#halb01.itm):
+		- Fixed item description: added missing kit restrictions.
+		- Replaced wrong damage vs dragons effect (DRAGDAM3 in equipped effects) with a more accurate BG2 Fixpack-like one (u#halb01 in melee header).
+		- Replaced item colors 33 CHROME MAGENTA with 46 RED, more accurate with the new inventory icon, and with 195 CHROME RED for EE games and classical games modded with 1PP.
+	- Cloak of Thay (u#clck03.itm):
+		- Immunity to Normal Weapons equipped effect: added DS values (op#282 181 DETECTILLUSIONSMTPBONUS = 181 PROTECTION_FROM_NORMAL_WEAPONS) for classical games and Set State PROTECTION_FROM_NORMAL_WEAPONS (111) and BUFF_PRO_WEAPONS (64) for EE games.
+	- Nature's Cloak (u#clck04.itm):
+		- Added missing opcodes for a full Immunity to Poison: op#173 (Poison Resistance Modifier = 100) and op#267 (Protection from Display Specific String: 14017 Poison - 14662 Poisoned).
+		- EE compatibility: added op#319 (Usability: Item Usability) to restrict item usability (Cernd).
+	- Nature's Staff (u#staf02.itm):
+		- EE compatibility: added op#319 (Usability: Item Usability) to restrict item usability (Cernd).
+	- Staff of Many Magics (u#staf03.itm):
+		- Domination ability: replaced Charm Person effects with more accurate BG2 Fixpack ones (classical games) and patch them to fit EE games (op#324).
+		- Domination ability: added Break Sanctuary flag (BIT9) for EE games.
+		- Added missing opcodes for a full Cure ability: op#240 (Remove portrait icon: 5 Intoxicated - 6 Poisoned - 7 Diseased).
+		- Cure ability: added op#321 (Remove effects by resource) for EE games: (spwi409, spin784, ohrgrog, ohdmask, ohbcdis, zomsea, spidwr1, sharswd, sahzom01, pudden01, paraghas, p1-2p, otyugh, ohrslng1, ohhgmum1, mummyw, mumgrew, misc8j, magispwr, lacedo2, lacedo, iotyugh, ghoullor, ghast1, demogorg, dartmel, acidooz3).
+		- Fixed wrong abilities charges numbers: once per day (was 25 for Domination and 10 for Cure).
+		- Domination and Cure abilities: added missing Recharge after resting (BIT11) ability flag.
+		- Appended tooltip.2da: Staff of Many Magics, Domination, Cure.	
+	- The Drowsy Wyvern (u#blun01.itm):
+		- Fixed item description: added missing kit restrictions.
+		- Sleep effect: replaced wrong Sleep effect (u#blun01) with more accurate BG2 Fixpack one (SLEEPY.eff).
+		- Fixed item description: added missing kit restrictions.
+		- EE compatibility: added immunity for opponents immune to poison (op#324).
+		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+	- Cold Shoulder (u#blun02.itm):
+		- Fixed item description: added missing kit restrictions.
+		- Frost Giant Strength ability: added DS value (68 BUFF_ENHANCEMENT) for EE games (op#328) and op#282 (Script: Scripting State Modifier : parameter1 = 2 - parameter2 = 2 [161 SCRIPTINGSTATE6 aka STRENGTH_MODIFIER]) for classical game.
+		- Appended tooltip.2da: Cold Shoulder, Frost Giant Strength (new strref) Ice Storm.
+	- Cloak of the Shark Father (u#clck05.itm):
+		- Fixed item description: added missing kit restrictions.
+		- Added missing op#206 Protection from spell (Minor Globe of Invulnerability): SPPR302 (Call Lightning) and SPPR304 (Glyph of Warding).
+		- Added DS value (66 BUFF_PRO_SPELLS) for EE games (op#328).
+		- Rewrote Summoning ability: replaced op#67 with a new effect (u#clck05) and added op#174 effect (Play sound).
+		- Appended tooltip.2da with a new strref ('Summon Anguiliian').
+		- Anguiliian (u#clck05.cre): fixed allegiance (controlled, was ally) and race (Sahuagin, was no race), added scripting name (u#clck05) and default script (WTARSGHT).
+- Fluent Fingers (u#brac02.itm):
+		- Fixed item description: added missing kit restrictions.
+
+
+
+- Hard-coded item inventory and header icons to avoid writing them in installation process.
+
+
+
 
 <details><summary>wip</summary>
 <p></br>
 - ruad.d: rewrote old-school code and fixed typos that were taking and deleting wrong items (Cloak of Perfection, Swords of Freedom and Mace of Disruption +3).
 
-<a href="http://www.shsforums.net/topic/42220-fixes-for-the-big-fixpack/?p=543984">Lollorian's assorted ITM fixes</a>
+<a href="http://www.shsforums.net/topic/42220-fixes-for-the-big-fixpack/page-35#entry543984">Lollorian's assorted ITM fixes</a> 
+Maximum HP bonus  curring current HPs.
+Increment (0) ==> Increment, don't update current HP (3)
+
+
 BWP Fixpack Luca Piol's typo fix ruad.d
 - Added CHAPTERS compatibility with EE (variable %bg2_chapter_n%)
 
 u#sw1h05.itm (Yoshimo's Poisoned Katana +3)
-- Hard-coded item inventory and header icons to avoid writing them in installation process.
 - Fixed opcode #142 (Display portrait icon): replaced wrong 137 icon (Bleeding) with 6 (Poisoned
 - EE compatibility: added op#319 (Usability: Item Usability) to restrict item usability (Yoshimo).
 
 - Hard-coded item inventory icon to avoid writing it in installation process.
 
-- Chaos Stone (u#helm02.itm)
-- Improved Chaos Stone (u#helm03.itm)
-- Plate of Many Dragons (u#plat02.itm)
-- Helm of Many Dragons (u#helm04.itm)
-- Shield of Many Dragons (u#shld01.itm)
-- Robe of Resistance (u#robe01.itm)
-
+- Mits of Shaiman (u#brac01.itm)
+- Fluent Fingers (u#brac02.itm)
 
 - Hard-coded item inventory and header icons to avoid writing them in installation process.
 
-- Crimson Flame Dart (u#dart01.itm)
-- Shadow Thief's Blade (u#sw1h08.itm)
-- Enchanted Bow of Arvoreen (u#bow01.itm)
+- Nature's Staff (u#staf02.itm)
+- Cold Shoulder (u#blun02.itm)
 
 - Hard-coded item inventory and header icons to avoid writing them in installation process and fixed unusability flags.
 
 
 - Fixed unusability flags
-- Added 1pp compatibility to harmonize colour items with EE games and classical games modded with 1pp.
+- Added 1PP compatibility to harmonize color items with EE games and classical games modded with 1pp.
 - Replaced Charm Person effects with more accurate BG2 Fixpack ones (classical games) and patch them to fit EE games (op#324).
 
 
