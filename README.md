@@ -162,7 +162,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Renamed titles and setup .tra files to more accurate setup and items .tra files.
 	- Renamed american and italian tra folders to english and italiano.
 	- 
-	- 2d Component (#10): removed AT_INTERACTIVE_EXIT command and added a require main component process, otherwise mod will crash the game.
+	- 2d Component (#10): removed AT_INTERACTIVE_EXIT command and added a require main component process, otherwise mod will crash the game if first component is not installed.
 	- Reorganized components (DESIGNATED number).
 	- Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games.
 	- Replaced AUTHOR keyword with SUPPORT.
@@ -178,11 +178,37 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Fixed item description: Lore bonus (+10 - was +10%).
 		- Charm Person ability: replaced Charm Person effects with more accurate BG2 Fixpack ones (classical games) and patch them to fit EE games (op#324). Added Break Sanctuary flag for EE games.
 		- Appended tooltip.2da: Charm Person.
-	- 
+	- Dancing Couple's Sword (u#sw1h02.itm):
+		- Hard-coded item inventory and header icons, and op#67 creature file to avoid writing them in installation process.
+		- Fixed item description: added missing kit restrictions.
+		- EE compatibility: added immunity for opponents immune to poison (op#324).
+		- Appended tooltip.2da: Dancing Couple's Sword - The Mirror Dancing Sword once per day - Stinking Cloud once per day
+		- The Mirror Dancing Sword (u#sw1h02.cre): fixed wrong Sex (OTHER - was MALE), General (WEAPON - was HUMANOID) and Race (SWORD - was GNOLL) index.
+		- The Mirror Dancing Sword's weapon (u#s1h02a.itm): hard-coded item inventory and header icons, fixed wrong THAC0 (2 - was 1) and added immunity for opponents immune to poison (op#324) for EE games.
+	- Black Sword of Undeath (u#sw1h04.itm):
+		- Removed inaccurate opcodes providing Stun immunity.
+		- Added missing opcodes for a full Immunity to Fear effects: op#296 (Protection from Specific Animation = CDHORROR), op#240	(Remove Special Effect Icon = 36 Panic), op#106 (Morale break = 1), op#161 (Remove fear), op#23 (Reset moral), op#169 (Immunity Special Effect Icon = 36 Panic), op#267 (protection from string = 17427 14007 Panic), op#101 (Protection: from Opcode = 23 Reset morale - 106 Moral break). Added op#321 (Remove effects by resource) for EE games (a7!in13b, spwi205, spin105).
+		- Added DS value (67 BUFF_PRO_EFFECTS and 106 RESIST_FEAR) for EE games (op#328).
+		- Added missing opcodes for a full Immunity to Charm effects: op#296 Protection from Specific Animation (SPNWCHRM), op#267 (protection from string = 14780 Dire charmed - 1476 14672 Charmed).
+		- Added missing opcodes for a full Immunity to Hold effects: op#101 (Protection: from Opcode = 185 Hold Creature III),  op#267 (protection from string = 14102 17404 8823 1473 915 384 340 Held).
+		- Rewrote Summoning ability: replaced op#67 with a new effect (u#sw1h04). Fixed wrong target (Range - was caster) and added op#174 effect (Play sound). 
+		- Added a brand new bam file for the summoning ability (no longer uses the sword inventory icon).
+		- Appended tooltip.2da with a new strref ('Summon Kraka'Tur').
+		- Kraka'Tur (u#s1h04a.cre): fixed allegiance (controlled, was ally), added scripting name (u#s1h04a) and replaced default script WTARSGHT with WTASIGHT (no ranged weapon).
 	- Yoshimo's Poisoned Katana +3 (u#sw1h05.itm):
 		- Fixed opcode #142 (Display portrait icon): replaced wrong 137 icon (Bleeding) with 6 (Poisoned).
 		- EE compatibility: added op#319 (Usability: Item Usability) to restrict item usability (Yoshimo) and op#324 for opponents immune to poison.
-	- 
+1PP ???
+	- Spirit of Yoshimo (u#misc01.itm):
+		- Fixed item description: added missing weight (0) and Wizard Slayer restriction flag.
+		- Added Wizard Slayer restriction flag.
+		- Rewrote Summoning ability: replaced op#67 with a new effect (u#misc01). Fixed wrong target (Range - was caster) and added op#174 effect (Play sound). 
+		- Yoshimo's Spirit weapon (u#s1h05a.itm): hard-coded item inventory and header icons. Fixed opcode #142 (Display portrait icon), replaced wrong 137 icon (Bleeding) with 6 (Poisoned). EE compatibility: added immunity for opponents immune to poison (op#324).
+	- Dragon Slippers (u#boot01.itm):
+		- Fixed wrong item inventory icon: u#boot01 (was m#boot01).
+		- Fixed equipped effects' wrong Dispel/Resistance flag.
+		- Added missing opcodes for a full Immunity to Fear effects: op#296 (Protection from Specific Animation = CDHORROR), op#240	(Remove Special Effect Icon = 36 Panic), op#106 (Morale break = 1), op#161 (Remove fear), op#23 (Reset moral), op#169 (Immunity Special Effect Icon = 36 Panic), op#267 (protection from string 17427 14007 Panic), op#101 (Protection: from Opcode = 23 Reset morale - 106 Moral break). Added op#321 (Remove effects by resource) for EE games (a7!in13b, spwi205, spin105).
+		- Added DS value (67 BUFF_PRO_EFFECTS and 106 RESIST_FEAR) for EE games (op#328).
 	- Rings of Mage schools (u#ring01.itm to u#ring08.itm):
 		- Added missing weight (0) in item description.
 		- Fixed wrong DS parameter2 values for op#282 (Script: Scripting State Modifier): 6 [162 SCRIPTINGSTATE7 aka WIZARD_SPELL_IMMUNITY] (was 30 [186 NO_PERMANENT_DEATH]).
@@ -191,14 +217,21 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Replaced opcode #142 (Display portrait icon) parameter2 value (107 Spell Immunity) for EE games: Immunity: Abjuration (196), Conjuration (197), Divination (198), Enchantment (199), Evocation (201), Illusion (200), Immunity: Necromancy (202) and Alteration (203)
 	- Adamantine Chain (u#chan01.itm):
 		- Fixed wrong name : this chain mail is a +5 armour, not a +4 one!
-		- Fixed equipped effects wrong Dispel/Resistance values : 0 Dispel/Resistance: Natural/Nonmagical (was 2 Not dispel/Bypass resistance).
+		- Fixed wrong Dispel/Resistance equipped effects values : 0 Dispel/Resistance: Natural/Nonmagical (was 2 Not dispel/Bypass resistance).
 	- Warlord's Girdle (u#belt01.itm), Kaligun's Amulet of Greater Resistance (u#amul01.itm):
 		- Fixed item description: added weight and unusability flag.
 	- Incandescent Ioun Stone (u#helm01.itm):
 		- Fixed item description: added weight and regeneration rate (1 HP every 3 seconds - was 1 HP every second).
 		- Fixed opcode #142 (Display portrait icon): replaced wrong 56 icon (Régénération) with 87 (Regenerating (87).
 		- Added EE and ToBEx item flag: EE/Ex: Toggle critical hits flag (BIT25).
-	- 
+	- Upgraded Harper Pin (u#amul02.itm):
+		- Fixed item description: added weight (1).
+		- Added missing opcodes for a full Immunity to Fear effects: op#296 (Protection from Specific Animation = CDHORROR), op#240	(Remove Special Effect Icon = 36 Panic), op#106 (Morale break = 1), op#161 (Remove fear), op#23 (Reset moral), op#169 (Immunity Special Effect Icon = 36 Panic), op#267 (protection from string = 17427 14007 Panic), op#101 (Protection: from Opcode = 23 Reset morale - 106 Moral break). Added op#321 (Remove effects by resource) for EE games (a7!in13b, spwi205, spin105).
+		- Added DS value (67 BUFF_PRO_EFFECTS and 106 RESIST_FEAR) for EE games (op#328).
+		- Added missing opcodes for a full Immunity to Charm effects: op#296 Protection from Specific Animation (SPNWCHRM).
+		- Added missing opcodes for a full Immunity to Confusion effects: op#267 (protection from string = 14791 Rigid Thinking), op#169 (Immunity Special Effect Icon = 2 Rigid Thinking, 47 Chaos), and removed useless op#296 (Protection from Specific Animation = SPFLAYER).
+		- Added missing op#206 (Protection from spell = SPWI112) for a full Immunity to Magic Missile.
+		- EE compatibility: added op#319 (Usability: Item Usability) to restrict item usability (Jaheira).
 	- Frostfury +4 (u#ax1h01.itm):
 		- EE games: added Shaman usuability flag (replaced BIT30 flag with an op#319 equipped effect).
 		- Combat effect: fixed wrong op#139 parameter1 value: replaced 14000 (Slow) with 14668 (Slowed).
@@ -207,6 +240,12 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Fixed wrong ability header icon: replaced u#wand01 with SPWI207B (Knock).
 		- Added SR compatibility (SR modifies vanilla Knock spell).
 		- Appended tooltip.2da: Knock.
+	- Messerschmitt Stone Reaver Axe (u#ax2h01.itm):
+		- Fixed item description: added kit and class restriction flags.
+		- Replaced Halberd name and description strrefs with IWDEE Two-Handed Axe name and description strrefs for consistency.
+		- Slays fire elementals combat ability: replaced op#55 (Kill) with op#177 and vanilla DEATH effect (same as halb09.itm).
+		- Stunning combat ability: added missing duration values (6) and op#139 (Display string = 1280 Stunned).
+		- EE games: added Shaman usuability flag (replaced BIT30 flag with an op#319 equipped effect).
 	- Corthala Family Blades +3 (u#sw1h06.itm) and +4 (u#sw1h07.itm):
 		- EE compatibility: added op#319 (Usability: Item Usability) to restrict item usability (Valygar) and immunity for opponents immune to poison (op#324).
 	- The Ugly Stick (u#staf01.itm):
@@ -216,6 +255,10 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Adamantine Plate (u#plat01.itm):
 		- Fixed name and item description: it is actually a +4 Full Plate (not +5), many kits restrictions were missing.
 		- Fixed wrong AC bonus vs slashing weapons: 4 (was 3).
+	- Cloak of the Elemental Star (u#clck01.itm):
+		- Fixed item description: added weight (3) and Wizard Slayer restriction.
+		- Hard-coded item inventory and header icons and op255 resource file to avoid writing them in installation process.
+		- Elemental Star Dart (u#clk01a.itm): hard-coded item inventory and header icons. Fixed wrong Speed Factor: 0 (was 2). Fixed item description: added kit restrictions.
 	- Crimson Flame Dart (u#dart01.itm):
 		- Fixed item description: added missing kit restrictions.
 		- Replaced DART projectile with idart08 for EE game or if 1PP is installed.
@@ -227,7 +270,12 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Fixed item description: added weight (2).
 		- Added DS value (84 IMPROVED_CHAOS_SHIELD) for EE games (op#328).
 		- Added EE and ToBEx item flag: EE/Ex: Toggle critical hits flag (BIT25).
-	- 
+		- Undead Bane (u#sw2h01.itm):
+		- Double damage vs undead: replaced wrong damage vs undead effects in equipped effects (DAYSTAR1) with more accurate BG2 Fixpack-like one in melee header (u#sw2h01.eff) and removed wrong DBLDEAD effect.
+		- Casting Sunray on target combat ability: fixed wrong probability (5 - was 10) and don't cast instantly flag.
+		- Blindness combat ability: fixed wrong Dispel/Resistance headers effects values (1 Dispel/Not bypass resistance - was 0 Natural/Nonmagical).
+		- False Dawn ability: added Break Sanctuary flag (BIT9) for EE games.
+		- Appended tooltip.2da: Undead Bane, False Dawn, Negative Plane Protection.
 	- Cloak of the Shadow (u#clck02.itm):
 		- Fixed item description: added weight (3).
 	- Pikim's Armor (u#leat01.itm):
@@ -251,10 +299,10 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Fixed item description: added missing kit restrictions.
 	- Dragon's Tooth (u#halb01.itm):
 		- Fixed item description: added missing kit restrictions.
-		- Replaced wrong damage vs dragons effect (DRAGDAM3 in equipped effects) with a more accurate BG2 Fixpack-like one (u#halb01 in melee header).
+		- Replaced wrong damage vs dragons effect (DRAGDAM3 in equipped effects) with a more accurate BG2 Fixpack-like one (u#halb01) in melee header).
 		- Replaced item colors 33 CHROME MAGENTA with 46 RED, more accurate with the new inventory icon, and with 195 CHROME RED for EE games and classical games modded with 1PP.
 	- Cloak of Thay (u#clck03.itm):
-		- Immunity to Normal Weapons equipped effect: added DS values (op#282 181 DETECTILLUSIONSMTPBONUS = 181 PROTECTION_FROM_NORMAL_WEAPONS) for classical games and Set State PROTECTION_FROM_NORMAL_WEAPONS (111) and BUFF_PRO_WEAPONS (64) for EE games.
+		- Immunity to Normal Weapons equipped effect: added DS values (op#282 181 DETECTILLUSIONSMTPBONUS aka PROTECTION_FROM_NORMAL_WEAPONS) for classical games and Set State PROTECTION_FROM_NORMAL_WEAPONS (111) and BUFF_PRO_WEAPONS (64) for EE games.
 	- Nature's Cloak (u#clck04.itm):
 		- Added missing opcodes for a full Immunity to Poison: op#173 (Poison Resistance Modifier = 100) and op#267 (Protection from Display Specific String: 14017 Poison - 14662 Poisoned).
 		- EE compatibility: added op#319 (Usability: Item Usability) to restrict item usability (Cernd).
@@ -264,7 +312,8 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Domination ability: replaced Charm Person effects with more accurate BG2 Fixpack ones (classical games) and patch them to fit EE games (op#324).
 		- Domination ability: added Break Sanctuary flag (BIT9) for EE games.
 		- Added missing opcodes for a full Cure ability: op#240 (Remove portrait icon: 5 Intoxicated - 6 Poisoned - 7 Diseased).
-		- Cure ability: added op#321 (Remove effects by resource) for EE games: (spwi409, spin784, ohrgrog, ohdmask, ohbcdis, zomsea, spidwr1, sharswd, sahzom01, pudden01, paraghas, p1-2p, otyugh, ohrslng1, ohhgmum1, mummyw, mumgrew, misc8j, magispwr, lacedo2, lacedo, iotyugh, ghoullor, ghast1, demogorg, dartmel, acidooz3).
+		- Cure ability: fixed wrong Dispel/Resistance headers effects values (3 Dispel/Bypass resistance - was 2 Dispel/Not bypass resistance).
+		- Cure ability: added op#321 (Remove effects by resource) for EE games (spwi409, spin784, ohrgrog, ohdmask, ohbcdis, zomsea, spidwr1, sharswd, sahzom01, pudden01, paraghas, p1-2p, otyugh, ohrslng1, ohhgmum1, mummyw, mumgrew, misc8j, magispwr, lacedo2, lacedo, iotyugh, ghoullor, ghast1, demogorg, dartmel, acidooz3).
 		- Fixed wrong abilities charges numbers: once per day (was 25 for Domination and 10 for Cure).
 		- Domination and Cure abilities: added missing Recharge after resting (BIT11) ability flag.
 		- Appended tooltip.2da: Staff of Many Magics, Domination, Cure.	
@@ -285,24 +334,83 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Rewrote Summoning ability: replaced op#67 with a new effect (u#clck05) and added op#174 effect (Play sound).
 		- Appended tooltip.2da with a new strref ('Summon Anguiliian').
 		- Anguiliian (u#clck05.cre): fixed allegiance (controlled, was ally) and race (Sahuagin, was no race), added scripting name (u#clck05) and default script (WTARSGHT).
-- Fluent Fingers (u#brac02.itm):
+	- Fluent Fingers (u#brac02.itm):
 		- Fixed item description: added missing kit restrictions.
-
-
-
-- Hard-coded item inventory and header icons to avoid writing them in installation process.
-
-
+	- Ring of the Thief (u#ring09.itm):
+		- Invisibility ability: replaced wrong header icon (IRING05) with SPWI206B.
+		- Fixed item description: added weight (0).
+		- Appended tooltip.2da: Invisibility.
+	- Kiss of Death (u#sw1h09.itm):
+		- Fixed item description: added missing kit restrictions.
+		- EE compatibility: added immunity for opponents immune to poison (op#324).
+		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+	- Hide of Shades (u#leat02.itm):
+		- Fixed item description: added missing kit restrictions.
+		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+	- Lava's Bane (u#sw2h02.itm):
+		- Fixed item description: added missing kit restrictions and fixed Speed Factor value (8 - was 5).
+		- Fixed THAC0 (3 - was 5) and equipped appearance (S2 Two-handed sword - was S1 Long sword).
+		- Replaced wrong damage vs creatures effects in equipped effects with more accurate BG2 Fixpack-like ones in melee header: removed u#sw2h23.eff (vs. Trolls) replaced with existing flamenor.eff, removed u#sw2h24.eff replaced with new u#sw2h21.eff (both vs. Fire Elementals and Chaotic Evil), new u#sw2h22.eff (vs/ undead).
+		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+	- Wooden Stake (u#blun03.itm):
+		- Added missing Immune to level drain effects: op#267 Protection from Display Specific String (41495 One Level Drained - 40968 Two Levels Drained - 40969 Three Levels Drained - 40979 Four Levels Drained - 41616 Five Levels Drained) and op#169 Immunity Special Effect Icon (59 Energy Drain).
+		- Added missing DS value: opcode #282 (Script: Scripting State Modifier): parameter1 = 1 - parameter2 = 2 [158 SCRIPTINGSTATE3 aka LEVEL_DRAIN_IMMUNITY].
+		- Replaced wrong damage vs creatures effects in equipped effects with more accurate BG2 Fixpack-like ones in melee header: removed u#blun31.eff (vs. Undeads) replaced with existing flamenor.eff, new u#blun32.eff (vs. Vampires).
+ruad.d: included BWP fix replace wrong misc6s (Chunk of Illithium Alloy) item with misc6w (Wooden Stake)
+	- Bow of Uden (/u#bow02.itm):
+		- Fixed item general name and description: it is a composite bow, not a long bow!.
+		- Fixed item description: added missing kit restrictions.
+		- Fixed wrong required Strength: 18 (was 15).
+		- Fixed wrong header icon: IBOW12 (was IBOW04).
+		- Fixed wrong op#1 Modify attacks per round value: 3 attacks per round (was 2).
+		- EE compatibility: added immunity for opponents immune to poison (op#324).
+		- Replaced ARROW projectile with iarow05 for EE game or if 1PP is installed.
+		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+	- Staff of Resurrection (u#staf04.itm):
+		- Fixed item description: added missing Fighter restriction.
+		- Fixed wrong Dispel/Resistance headers effects values : 3 Dispel/Bypass resistance (was 3 Dispel/Not bypass resistance).
+		- Added missing opcodes for a full Cure ability: op#240 (Remove portrait icon: 5 Intoxicated - 6 Poisoned - 7 Diseased).
+		- Cure ability: added op#321 (Remove effects by resource) for EE games: (spwi409, spin784, ohrgrog, ohdmask, ohbcdis, zomsea, spidwr1, sharswd, sahzom01, pudden01, paraghas, p1-2p, otyugh, ohrslng1, ohhgmum1, mummyw, mumgrew, misc8j, magispwr, lacedo2, lacedo, iotyugh, ghoullor, ghast1, demogorg, dartmel, acidooz3).
+		- Resurrection ability: added op#309 (Modify Local Variable ohdress = 1) for EE games.
+		- Appended tooltip.2da: Staff of Resurrection, Cure Critical Wounds, Resurrection.	
+		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+	- Ring of Time Control (u#ring10.itm):
+		- Fixed Weight value: 0 (was 5) and updated item description.
+		- Removed Druid and added thief restriction flags.
 
 
 <details><summary>wip</summary>
 <p></br>
+
+- Hard-coded item inventory and header icons to avoid writing them in installation process.
+
+
 - ruad.d: rewrote old-school code and fixed typos that were taking and deleting wrong items (Cloak of Perfection, Swords of Freedom and Mace of Disruption +3).
 
 <a href="http://www.shsforums.net/topic/42220-fixes-for-the-big-fixpack/page-35#entry543984">Lollorian's assorted ITM fixes</a> 
 Maximum HP bonus  curring current HPs.
 Increment (0) ==> Increment, don't update current HP (3)
 
+FEAR
+	PATCH_IF (GW_detectable = 1) AND ("%GW_spl_total%" STR_EQ "Y") AND (timing = 0) BEGIN
+		DEFINE_ASSOCIATIVE_ARRAY gw_immunity_op_detectable BEGIN
+		282,	1,		22,		"same",			0,	"-1",	"same"	=> 1	// Script: Scripting State Modifier [282] : ???
+		END
+	END
+CHARM
+	PATCH_IF (GW_detectable = 1) AND ("%GW_spl_total%" STR_EQ "Y") AND (timing = 0) BEGIN
+		DEFINE_ASSOCIATIVE_ARRAY gw_immunity_op_detectable BEGIN
+		233,	2,		119,	"same",			0,	"-1",	"same"	=> 1	// Stat: Proficiency Modifier [233] : 119 CLERIC_CHAOTIC_COMMANDS
+		END
+	END
+
+HOLD
+	PATCH_IF (GW_detectable = 1) AND ("%GW_spl_total%" STR_EQ "Y") AND (timing = 0) BEGIN
+		DEFINE_ASSOCIATIVE_ARRAY gw_immunity_op_detectable BEGIN
+		233,	2,		119,	"same",			0,	"-1",	"same"	=> 1	// Stat: Proficiency Modifier [233] : 119 CLERIC_CHAOTIC_COMMANDS	TODO // AF 328 67 BUFF_PRO_EFFECTS
+		END
+	END
+END
 
 BWP Fixpack Luca Piol's typo fix ruad.d
 - Added CHAPTERS compatibility with EE (variable %bg2_chapter_n%)
@@ -313,13 +421,11 @@ u#sw1h05.itm (Yoshimo's Poisoned Katana +3)
 
 - Hard-coded item inventory icon to avoid writing it in installation process.
 
-- Mits of Shaiman (u#brac01.itm)
-- Fluent Fingers (u#brac02.itm)
 
 - Hard-coded item inventory and header icons to avoid writing them in installation process.
 
-- Nature's Staff (u#staf02.itm)
-- Cold Shoulder (u#blun02.itm)
+- Kiss of Death (u#sw1h09.itm)
+
 
 - Hard-coded item inventory and header icons to avoid writing them in installation process and fixed unusability flags.
 
