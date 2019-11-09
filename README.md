@@ -154,19 +154,19 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the *bam* folder that meet these requirements are patched and saved back to the *override* folder.
 	- Inventory items icons: fixed wrong transparency index (pure green [0.255.0] replaces old turquoise - a pretty annoying BAMWorkshop leftover :astonished:).
 	- 
-	- dialog and script files: added CHAPTERS compatibility with EE (variable %bg2_chapter_n% used and evaluated to set continuity chapter numbers).
+	- dialog and script files: added CHAPTERS compatibility with EET (variable %bg2_chapter_n% used and evaluated to set continuity chapter numbers).
 
 	- Included BWP Fixpack Luca Piol's typo fix for ruad.d: replaced wrong misc6s (Chunk of Illithium Alloy) item with misc6w (Wooden Stake) to create Wooden Stake (u#blun03.itm).
 	- Provided a Ruad portrait for EE game.
 	- Updated items.tra files for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
 	- Added missing ruad.tra files in reload array HANDLE_CHARSETS function (v28 regression).
 	- Added German and Spanish WeiDU prompts.
-	- Renamed *titles* and *setup* .tra files to more accurate *setup* and *items* .tra files.
+	- Renamed *titles* and *setup*.tra files to more accurate *setup* and *items*.tra files.
 	- Renamed *american* and *italian* tra folders to *english* and *italiano*.
 	- 
-	- Second Component (#10): removed AT_INTERACTIVE_EXIT command and added a require main component process, otherwise mod will crash the game if first component is not installed.
+	- Second Component (#10): removed `AT_INTERACTIVE_EXIT` command and added a require main component process, otherwise mod will crash the game if first component is not installed.
 	- Reorganized components (DESIGNATED number).
-	- Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games (replaced old ACTION_IF NOT FILE_EXISTS ~Data/25Dialog.bif~ process).
+	- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games (replaced old `ACTION_IF NOT FILE_EXISTS "Data/25Dialog.bif"` process).
 	- Replaced AUTHOR keyword with SUPPORT.
 	- Updated and renamed readme file to <em>ruad-readme-english.txt</em>.
 	- Updated French and English translations (Gwendolyne).
