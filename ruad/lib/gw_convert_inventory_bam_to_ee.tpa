@@ -1,0 +1,79 @@
+/* ================================================================================================================================================================= *
+ *  Concept borrowed from Sam's BAM Batcher mod v2.4.2 to convert inventory BAMs to EE games. From Gwendolyne's original code, modified by Sam.                      *
+ *  Code emprunté au mod BAM Batcher v2.4.2 de Sam pour convertir les fichiers BAM d'inventaire au format EE. D'après un code original de Gwendolyne.                *
+ *                                                                                                                                                                   *
+ *  Source: https://www.gibberlings3.net/forums/topic/28823-merchant-mods/?do=findComment&comment=254149                                                             *
+ *                                                                                                                                                                   *
+ * ================================================================================================================================================================= *
+ *  This function attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM files must    *
+ *  have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed.            *
+ *  Inventory icon BAMs in the /bam folder that meet these requirements are patched and saved back to the override folder.                                           *
+ * ----------------------------------------------------------------------------------------------------------------------------------------------------------------- *
+ *  Cette fonction permet de modifier les fichiers BAM d'icônes d'inventaire afin que les jeux améliorés (EE) affichent à la fois leurs grandes et leurs petites     *
+ *  icônes. Ces fichiers comportent deux séquences, la première représentant la grande icône et la seconde la petite. Les fichiers BAM du répertoire /bam répondant  *
+ *  à ces caractéristiques sont modifiés et sauvegardés dans le répertoire override.                                                                                 *
+ * ================================================================================================================================================================= */
+
+DEFINE_PATCH_FUNCTION ~gw_convert_inventory_bam_to_ee~ BEGIN
+
+// Read BAM
+// ---------
+    READ_ASCII 0x0 sg (4)    // Signature
+    READ_ASCII 0x0 sn (3)    // Short signature
+
+// Decompress if needed.
+// ---------------------
+    PATCH_IF (~%sg%~ STRING_EQUAL_CASE ~BAMC~ = 1) BEGIN
+        READ_LONG 0x8 dl                // Uncompressed data length
+        DECOMPRESS_INTO_VAR 0xc (SOURCE_SIZE - 0xc) dl contents
+    END ELSE BEGIN
+        dl = SOURCE_SIZE                // Uncompressed data length
+		READ_ASCII 0 contents (dl)
+    END
+	SET proceed = 0
+	INNER_PATCH_SAVE contents "%contents%" BEGIN
+
+// Add "small" frame as second frame in the first sequence.
+// --------------------------------------------------------
+		PATCH_IF (~%sn%~ STRING_EQUAL_CASE ~BAM~ = 1) BEGIN
+			READ_BYTE    0x0a cc                               // Count of cycles
+			READ_SHORT   0x08 fc                               // Frame count
+			READ_LONG    0x0c fn                               // Frame entry offset
+			READ_LONG    0x14 lu                               // Offset (from start of file) to frame lookup table
+			READ_SHORT   (fn + (fc * 0xc)) c_fcc0              // Count of frame indices in 0th cycle
+			PATCH_IF (cc = 2) AND (c_fcc0 = 1) BEGIN           // only 2 cycles = inventory bam (ground and description have 1 or 4 frames).  only 1 frame in 0th cycle = not already processed
+				READ_SHORT   (fn + (fc * 0xc) + 0x2) c_fic0    // Index into frame lookup table of first frame index in 0th cycle
+				READ_SHORT   (fn + (fc * 0xc) + 0x4) c_fcc1    // Count of frame indices in 1st cycle
+				READ_SHORT   (fn + (fc * 0xc) + 0x6) c_fic1    // Index into frame lookup table of first frame index in 1st cycle
+				PATCH_IF (c_fcc1>=1) BEGIN                     // 1st cycle mush have at least 1 frame in order to add a frame to 0th cycle
+					READ_BYTE    (lu + c_fic0) FLT_0           // Get frame used by cycle 0
+					READ_BYTE    (lu + c_fic1) FLT_1           // Get frame used by cycle 1
+					SET proceed = 1
+					WRITE_SHORT  (fn + (fc * 0xc)) 2           // Sets 0th cycle to have 2 frames
+					WRITE_SHORT  (fn + (fc * 0xc) + 0x2) 0     // Sets 0th cycle to start at FLT index 0
+					WRITE_BYTE   (lu) FLT_0                    // Sets 0th FLT entry to the frame used by cycle 0
+					WRITE_BYTE   (lu + 1) FLT_1                // Sets 1st FLT entry to the frame used by cycle 1
+				END
+			END
+		END
+
+// Recompress if needed.
+// ---------------------
+		PATCH_IF (~%sg%~ STRING_EQUAL_CASE ~BAMC~ = 1) AND (proceed = 1) BEGIN
+			COMPRESS_REPLACE_FILE 0 dl 9
+			INSERT_BYTES 0x0 0xc
+			WRITE_ASCII 0x0 ~BAMCV1  ~
+			WRITE_LONG 0x8 dl
+			dl += 0xc				// Compressed data length
+		END
+    END
+	PATCH_IF (proceed = 1) BEGIN
+		PATCH_IF (SOURCE_SIZE > dl) BEGIN
+			DELETE_BYTES 0 (SOURCE_SIZE - dl)
+		END ELSE PATCH_IF (SOURCE_SIZE < dl) BEGIN
+			INSERT_BYTES 0 (dl - SOURCE_SIZE)
+		END
+		WRITE_ASCIIE 0 "%contents%"
+	END
+
+END    // of DEFINE_PATCH_FUNCTION
