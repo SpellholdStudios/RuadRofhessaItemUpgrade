@@ -1,0 +1,139 @@
+/* ======================================================================================================================= *
+ *  Code borrowed from Erephine's 1PP v5.0.0 (revised by Gwendolyne) to provide full compatibility with 1PP and EE games.  *
+ *  Those functions restore items coloration for EE games or if 1PP relevant components are installed.                     *
+ * ----------------------------------------------------------------------------------------------------------------------- *
+ *  Reprise du code de 1PP v5.0.0 (Erephine) pour assurer une compatibilité totale avec 1PP et les jeux EE.                *
+ *  Ces fonctions restaurent les couleurs des objets utilisées par les jeux EE et certains composants de 1PP.              *
+ * ======================================================================================================================= */
+
+// Blade of the Red Rose +4 (from Blade of Roses +3)
+DEFINE_PATCH_FUNCTION ~1pp_sw1h40~ BEGIN
+	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
+		LPM ~clear~
+		SET gradient = 234				// 234 HOBGOBLIN_MINOR-INDIAN_RED replaces colour index 46 RED
+		SET location = wgrey			// location (Head/Blade/Staff major)
+		LPM ~colour~
+		SET gradient = 27				// sets colour index 27 GRAY
+		SET location = wblue			// location (Head/Blade minor)
+		LPM ~colour~
+		SET gradient = 127				// 127 DARK_BRICK_RED replaces colour index 47 PURE_DARK_RED
+		SET location = wred				// location (Grip/Staff minor - vanilla = whole staff)
+		LPM ~colour~
+		END
+END
+
+// Pikim's Armor - Hide of Shades
+DEFINE_PATCH_FUNCTION ~1pp_leat08~ BEGIN
+	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
+		LPM ~clear~
+		SET gradient = 164				// 164 RAW_UMBER replaces colour index 27 GRAY
+		SET location = agrey			// location (Belt/Amulet)
+		LPM ~colour~
+		SET gradient = 254				// 254 EBONY replaces colour index 21 DARK_IRON_GRAY
+		SET location = ared				// location (Strap/Leather)
+		LPM ~colour~
+		SET gradient = 209				// 209 ATH_PEASANT_MINOR-ASH_GRAY replaces colour index 21 DARK_IRON_GRAY
+		SET location = ablue			// location (Armor/Trimming)
+		LPM ~colour~
+		END
+END
+
+// Dragon's Tooth
+DEFINE_PATCH_FUNCTION ~u_halb01~ BEGIN
+	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
+	LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 7 parameter1 = 195 END	// 195 CHROME RED replaces colour index 33 CHROME_MAGENTA
+	END
+END
+
+// The Drowsy Wyvern
+DEFINE_PATCH_FUNCTION ~1pp_blun17~ BEGIN
+	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
+		LPM ~clear~
+		SET gradient = 213				// 213 TRADE_PEASANT_MINOR-VIRIDIAN replaces colour index 7 LIGHT_METALLIC_GREEN
+		SET location = wgrey			// location (Head/Blade/Staff major)
+		LPM ~colour~
+		SET gradient = 236				// 236 CLERIC_GOOD_MINOR-DARK_PINE replaces colour index 7 LIGHT_METALLIC_GREEN
+		SET location = wred				// location (Grip/Staff minor - vanilla = whole staff)
+		LPM ~colour~
+		SET gradient = 246				// 246 MAGE_MINOR-CHROME_PINE replaces colour index 7 LIGHT_METALLIC_GREEN
+		SET location = wblue			// location (Head/Blade minor)
+		LPM ~colour~
+		END
+END
+
+// Kiss of Death
+DEFINE_PATCH_FUNCTION ~1pp_sw1h28~ BEGIN
+	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
+		LPM ~clear~
+		SET gradient = 99				// sets colour index 99 GOLDEN_BROWN
+		SET location = wgrey			// location (Head/Blade/Staff major)
+		LPM ~colour~
+		SET gradient = 212				// 212 TRADE_PEASANT_MAJOR-CHROME_SLATE replaces colour index 97 LIGHT_MINTY_BLUE
+		SET location = wblue			// location (Head/Blade minor)
+		LPM ~colour~
+		SET gradient = 29				// sets colour index 29 RED-TINTED_BLACK
+		SET location = wred				// location (Grip/Staff minor - vanilla = whole staff)
+		LPM ~colour~
+		END
+END
+
+// Lava's Bane
+DEFINE_PATCH_FUNCTION ~1pp_sw2h12~ BEGIN
+	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
+		LPM ~clear~
+		SET setr = 179
+		SET setg = 156
+		SET setb = 212
+		SET speed = 0x64
+		SET location = wblue			// location (Head/Blade minor)
+		LPM ~pulse~
+		SET gradient = 244				// 244 FIGHTER_MINOR-DARK_CADET_GRAY replaces colour index 60 DARK_PURPLE
+		SET location = wgrey			// location (Head/Blade/Staff major)
+		LPM ~colour~
+		SET gradient = 176				// 176 STEEL_BLUE replaces colour index 104 DARK_CHROME_PURPLE
+		SET location = wblue			// location (Head/Blade minor)
+		LPM ~colour~
+		SET gradient = 202				// 202 HAIR2-LIBERTY_BLUE replaces colour index 60 DARK_PURPLE
+		SET location = wred				// location (Grip/Staff minor - vanilla = whole staff)
+		LPM ~colour~
+		END
+END
+
+// Bow of Uden
+DEFINE_PATCH_FUNCTION ~1pp_bow12~ BEGIN
+	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
+		LPM ~clear~
+		SET gradient = 235				// 235 CLERIC_GOOD_MAJOR-GLAUCOUS_GRAY replaces colour index 65 REALLY_DARK_GRAY
+		SET location = wgrey			// location (Head/Blade/Staff major)
+		LPM ~colour~
+		SET gradient = 246				// 246 MAGE_MINOR-CHROME_PINE replaces colour index 103 PINE_GREEN
+		SET location = wred				// location (Grip/Staff minor - vanilla = whole staff)
+		LPM ~colour~
+		SET gradient = 246				// sets colour index 246 MAGE_MINOR-CHROME_PINE
+		SET location = wblue			// location (Head/Blade minor)
+		LPM ~colour~
+		END
+END
+
+// Staff of Resurrection
+DEFINE_PATCH_FUNCTION ~1pp_staf10~ BEGIN
+	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
+			WRITE_ASCII 0x22 ~Q4~			// Quarterstaff (alternate 3)
+		LPM ~clear~
+		SET gradient = 195				// sets colour index 195 CHROME_RED
+		SET location = wpink			// location (Bolt-Mace-Staff)
+		LPM ~colour~
+		SET gradient = 100				// sets colour index 100 DARK_ASH_GRAY
+		SET location = wteal			// location (Staff minor)
+		LPM ~colour~
+		SET gradient = 202				// 202 HAIR2-LIBERTY_BLUE replaces colour index 96 CHROME_BLUE
+		SET location = wgrey			// location (Head/Blade/Staff major)
+		LPM ~colour~
+		SET gradient = 96				// sets colour index 96 CHROME_BLUE
+		SET location = wblue			// location (Head/Blade minor)
+		LPM ~colour~
+		SET gradient = 96				// 96 CHROME_BLUE replaces colour index 96 CHROME_BLUE
+		SET location = wred				// location (Grip/Staff minor - vanilla = whole staff)
+		LPM ~colour~
+		END
+END
