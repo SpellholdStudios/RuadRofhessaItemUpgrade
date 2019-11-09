@@ -1,5 +1,5 @@
 
-![Latest Release](https://img.shields.io/static/v1?label=release&message=v29.0&color=darkred)<a name="top" id="top">
+![Latest Release](https://img.shields.io/static/v1?label=release&message=v29.0.0&color=darkred)<a name="top" id="top">
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
@@ -15,7 +15,7 @@
 
 
 <div align="center">
-<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Version History</a></center></br>
+<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></center></br>
 </div>
 
 <hr>
@@ -49,9 +49,9 @@ This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If 
 
 #### Notes
 
-<em>If you've previously installed the mod, remove it before extracting the new version. To do this, run **setup-ruad.exe**, uninstall the previously installed main component and delete the :file_folder: ruad folder.</em>
+*If you've previously installed the mod, remove it before extracting the new version. To do this, run **setup-ruad.exe**, uninstall the previously installed main component and delete the :file_folder: ruad folder.*
 
-<em>When installing or uninstalling, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.</em>
+*When installing or uninstalling, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.*
 
 **Disable any antivirus** or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.
 
@@ -112,7 +112,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 - Westley Weimer, for all his help to me throughout BGII.
 - Gwendolyne: Fixed translations and released version 29.0.0.
 - Deratiseur: Provided the EE compatible version (28).
-- Thot; French translation. And La Voix 2 la Sagesse (of the d'Oghmatiques) for updating it.
+- Thot: French translation. And La Voix 2 la Sagesse (of the d'Oghmatiques) for updating it.
 - Bhasbuto, Immortality and Mhoram of <a href="http://www.clandlan.cjb.net">Clan DLAN</a>: Spanish translation. And Lisandro for updating it.
 - Beyshaliban: German translation.
 - Ilot: Italian translation
@@ -124,8 +124,8 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 
 #### Programs/tools used in creation
 
-- <a href="http://www.weidu.org/%7Ethebigg/"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a> by Wes Weimer, the bigg and Wisp
-- <a href="http://forums.pocketplane.net/index.php/topic,25153.msg314249.html#msg314249">Near Infinity</a> by Jon Olav Hauglid, FredSRichardson and Argent77
+- <a href="http://www.weidu.org/%7Ethebigg/">WeiDU</a> ("Weimer Dialogue Utility") by Wes Weimer, the bigg and Wisp.
+- <a href="http://forums.pocketplane.net/index.php/topic,25153.msg314249.html#msg314249">Near Infinity</a> by Jon Olav Hauglid, FredSRichardson and Argent77.
 - <a href="https://sorcerers.net/Games/dl.php?s=BG2&f=BG2/ShadowKeeper.zip"> ShadowKeeper</a> by Aaron O'Neil.
 - <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a>, by Dmitry Jemerov / bigmoshi.
 
@@ -146,7 +146,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 ##### Version 29.0.0 by Gwendolyne (, 2019)
 
 - Major updates:
-	- Renamed Setup-Ruad.tp2 -> ruad.tp2 to support AL|EN's "Project Infinity".
+	- Renamed *Setup-Ruad.tp2* -> *ruad.tp2* to support AL|EN's "Project Infinity".
 	- Added ruad.ini metadata file to support AL|EN's "Project Infinity".
 	- 
 	- Provided compatibility with 1PP and TobEx.
@@ -154,12 +154,12 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the *bam* folder that meet these requirements are patched and saved back to the *override* folder.
 	- Inventory items icons: fixed wrong transparency index (pure green [0.255.0] replaces old turquoise - a pretty annoying BAMWorkshop leftover :astonished:).
 	- 
-	- dialog and script files: added CHAPTERS compatibility with EET (variable %bg2_chapter_n% used and evaluated to set continuity chapter numbers).
+	- dialog and script files: added Chapters compatibility with EET (variable %bg2_chapter_n% used and evaluated to set continuity chapter numbers).
 
-	- Included BWP Fixpack Luca Piol's typo fix for ruad.d: replaced wrong misc6s (Chunk of Illithium Alloy) item with misc6w (Wooden Stake) to create Wooden Stake (u#blun03.itm).
+	- Included BWP Fixpack Luca Piol's typo fix for ruad.d: replaced wrong misc6s item (Chunk of Illithium Alloy) with misc6w (Wooden Stake) to create Wooden Stake (u#blun03.itm).
 	- Provided a Ruad portrait for EE game.
-	- Updated items.tra files for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
-	- Added missing ruad.tra files in reload array HANDLE_CHARSETS function (v28 regression).
+	- Updated *items*.tra files for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
+	- Added missing *ruad*.tra file in reload array HANDLE_CHARSETS function (v28 regression).
 	- Added German and Spanish WeiDU prompts.
 	- Renamed *titles* and *setup*.tra files to more accurate *setup* and *items*.tra files.
 	- Renamed *american* and *italian* tra folders to *english* and *italiano*.
@@ -168,13 +168,13 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Reorganized components (DESIGNATED number).
 	- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games (replaced old `ACTION_IF NOT FILE_EXISTS "Data/25Dialog.bif"` process).
 	- Replaced AUTHOR keyword with SUPPORT.
-	- Updated and renamed readme file to <em>ruad-readme-english.txt</em>.
+	- Updated and renamed readme file to *ruad-readme-english.txt*.
 	- Updated French and English translations (Gwendolyne).
 
 - Items updates:
 	- Hard-coded items inventory and headers icons in .itm files to avoid writing them in installation process.
 	- Fixed unusability flags and appended tooltip.2da whenever relevant.
-	- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+	- Added 1PP compatibility to harmonize colors item with EE games and classical 1PP modded games.
 	- Added Break Sanctuary flag whenever relevant for EE games.
 	- Added Detectable Spells variables whenever relevant.
 	- Blade of the Red Rose +4 (u#sw1h01.itm): 
@@ -197,13 +197,13 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Rewrote Summoning ability: replaced op#67 with a new effect (u#sw1h04). Fixed wrong target (Range - was caster) and added op#174 effect (Play sound). 
 		- Added a brand new bam file for the summoning ability (no longer uses the sword inventory icon).
 		- Appended tooltip.2da with a new strref (*Summon Kraka'Tur*).
-		- Kraka'Tur (u#s1h04a.cre): fixed allegiance (controlled, was ally), added scripting name (u#s1h04a) and replaced default script WTARSGHT with WTASIGHT (no ranged weapon).
+		- Kraka'Tur (u#s1h04a.cre, u#s1h04b.cre): fixed allegiance (controlled, was ally), added scripting name (u#sw1h04) and replaced default script WTARSGHT with WTASIGHT (no ranged weapon).
 
 		- Added missing DS value: opcode #282 (Script: Scripting State Modifier): parameter1 = 1 - parameter2 = 2 [158 SCRIPTINGSTATE3 aka LEVEL_DRAIN_IMMUNITY].
 
 	- Yoshimo's Poisoned Katana +3 (u#sw1h05.itm):
 		- Fixed opcode #142 (Display portrait icon): replaced wrong 137 icon (Bleeding) with 6 (Poisoned).
-		- EE compatibility: added op#319 (Usability: Item Usability) to restrict item usability (Yoshimo) and op#324 for opponents immune to poison.
+		- EE compatibility: added op#319 (Item Usability) to restrict item usability (Yoshimo) and op#324 for opponents immune to poison.
 1PP ???
 	- Spirit of Yoshimo (u#misc01.itm):
 		- Fixed item description: added missing weight (0) and Wizard Slayer restriction flag.
@@ -237,7 +237,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Added missing opcodes for a full Immunity to Charm effects: op#296 Protection from Specific Animation (SPNWCHRM).
 		- Added missing opcodes for a full Immunity to Confusion effects: op#267 (protection from string = 14791 *Rigid Thinking*), op#169 (Immunity Special Effect Icon = 2 Rigid Thinking, 47 Chaos), and removed useless op#296 (Protection from Specific Animation = SPFLAYER).
 		- Added missing op#206 (Protection from spell = SPWI112) for a full Immunity to Magic Missile.
-		- EE compatibility: added op#319 (Usability: Item Usability) to restrict item usability (Jaheira).
+		- EE compatibility: added op#319 (Item Usability) to restrict item usability (Jaheira).
 	- Frostfury +4 (u#ax1h01.itm):
 		- EE games: added Shaman usability flag (replaced BIT30 flag with an op#319 equipped effect).
 		- Combat effect: fixed wrong op#139 parameter1 value: replaced 14000 (*Slow*) with 14668 (*Slowed*).
@@ -253,7 +253,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Stunning combat ability: added missing duration values (6) and op#139 (Display string = 1280 *Stunned*).
 		- EE games: added Shaman usability flag (replaced BIT30 flag with an op#319 equipped effect).
 	- Corthala Family Blades +3 (u#sw1h06.itm) and +4 (u#sw1h07.itm):
-		- EE compatibility: added op#319 (Usability: Item Usability) to restrict item usability (Valygar) and immunity for opponents immune to poison (op#324).
+		- EE compatibility: added op#319 (Item Usability) to restrict item usability (Valygar) and immunity for opponents immune to poison (op#324).
 	- The Ugly Stick (u#staf01.itm):
 		- Fixed wrong damage: 1d6 + bonuses as per description (was 2d6 + bonuses, a little too much for a staff!).
 		- Burning Hands and Agannazar's Scorcher abilities: added Break Sanctuary flag for EE games.
@@ -286,7 +286,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Fixed item description: added weight (3).
 	- Pikim's Armor (u#leat01.itm):
 		- Fixed wrong inventory and description icons: Shadow Armor (LEAT08) seems more accurate than Armor of Missile Attraction (LEAT06). :wink:
-		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+		- Added 1PP compatibility to harmonize colors item with EE games and classical 1PP modded games.
 	- Neb's Nasty Cutter (u#dagg01.itm):
 		- Fixed opcode #142 (Display portrait icon): replaced wrong 137 icon (Bleeding) with 6 (Poisoned).
 		- Added a brand new bam file for the summoning ability (no longer uses the dagger inventory icon).
@@ -306,14 +306,14 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Dragon's Tooth (u#halb01.itm):
 		- Fixed item description: added missing kit restrictions.
 		- Replaced wrong damage vs dragons effect (DRAGDAM3 in equipped effects) with a more accurate BG2 Fixpack-like one (u#halb01) in melee header.
-		- Replaced item colors 33 CHROME MAGENTA with 46 RED, more accurate with the new inventory icon, and with 195 CHROME RED for EE games and classical games modded with 1PP.
+		- Replaced item colors 33 CHROME MAGENTA with 46 RED, more accurate with the new inventory icon, and with 195 CHROME RED for EE games and classical 1PP modded games.
 	- Cloak of Thay (u#clck03.itm):
 		- Immunity to Normal Weapons equipped effect: added DS values (op#282 181 DETECTILLUSIONSMTPBONUS aka PROTECTION_FROM_NORMAL_WEAPONS) for classical games and Set State PROTECTION_FROM_NORMAL_WEAPONS (111) and BUFF_PRO_WEAPONS (64) for EE games.
 	- Nature's Cloak (u#clck04.itm):
 		- Added missing opcodes for a full Immunity to Poison: op#173 (Poison Resistance Modifier = 100) and op#267 (Protection from Display Specific String: 14017 *Poison* - 14662 *Poisoned*).
-		- EE compatibility: added op#319 (Usability: Item Usability) to restrict item usability (Cernd).
+		- EE compatibility: added op#319 (Item Usability) to restrict item usability (Cernd).
 	- Nature's Staff (u#staf02.itm):
-		- EE compatibility: added op#319 (Usability: Item Usability) to restrict item usability (Cernd).
+		- EE compatibility: added op#319 (Item Usability) to restrict item usability (Cernd).
 	- Staff of Many Magics (u#staf03.itm):
 		- Domination ability: replaced Charm Person effects with more accurate BG2 Fixpack ones (classical games) and patch them to fit EE games (op#324).
 		- Domination ability: added Break Sanctuary flag (BIT9) for EE games.
@@ -327,7 +327,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Fixed item description: added missing kit restrictions.
 		- Sleep effect: replaced wrong Sleep effect (u#blun01) with more accurate BG2 Fixpack one (SLEEPY.eff).
 		- EE compatibility: added immunity for opponents immune to poison (op#324).
-		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+		- Added 1PP compatibility to harmonize colors item with EE games and classical 1PP modded games.
 	- Cold Shoulder (u#blun02.itm):
 		- Fixed item description: added missing kit restrictions.
 		- Frost Giant Strength ability: added DS value (68 BUFF_ENHANCEMENT) for EE games (op#328) and op#282 (Script: Scripting State Modifier : parameter1 = 2 - parameter2 = 2 [161 SCRIPTINGSTATE6 aka STRENGTH_MODIFIER]) for classical game.
@@ -348,15 +348,15 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Kiss of Death (u#sw1h09.itm):
 		- Fixed item description: added missing kit restrictions.
 		- EE compatibility: added immunity for opponents immune to poison (op#324).
-		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+		- Added 1PP compatibility to harmonize colors item with EE games and classical 1PP modded games.
 	- Hide of Shades (u#leat02.itm):
 		- Fixed item description: added missing kit restrictions.
-		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+		- Added 1PP compatibility to harmonize colors item with EE games and classical 1PP modded games.
 	- Lava's Bane (u#sw2h02.itm):
 		- Fixed item description: added missing kit restrictions and fixed Speed Factor value (8 - was 5).
 		- Fixed THAC0 (3 - was 5) and equipped appearance (S2 Two-handed sword - was S1 Long sword).
 		- Replaced wrong damage vs creatures effects in equipped effects with more accurate BG2 Fixpack-like ones in melee header: removed u#sw2h23.eff (vs. Trolls) replaced with existing flamenor.eff, removed u#sw2h24.eff replaced with new u#sw2h21.eff (both vs. Fire Elementals and Chaotic Evil), new u#sw2h22.eff (vs. undead).
-		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+		- Added 1PP compatibility to harmonize colors item with EE games and classical 1PP modded games.
 	- Wooden Stake (u#blun03.itm):
 		- Added missing Immune to level drain effects: op#267 Protection from Display Specific String (41495 *One Level Drained* - 40968 *Two Levels Drained* - 40969 *Three Levels Drained* - 40979 *Four Levels Drained* - 41616 *Five Levels Drained*) and op#169 Immunity Special Effect Icon (59 Energy Drain).
 		- Added missing DS value: opcode #282 (Script: Scripting State Modifier): parameter1 = 1 - parameter2 = 2 [158 SCRIPTINGSTATE3 aka LEVEL_DRAIN_IMMUNITY].
@@ -369,7 +369,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Fixed wrong op#1 Modify attacks per round value: 3 attacks per round (was 2).
 		- EE compatibility: added immunity for opponents immune to poison (op#324).
 		- Replaced ARROW projectile with iarow05 for EE game or if 1PP is installed.
-		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+		- Added 1PP compatibility to harmonize colors item with EE games and classical g1PP modded games.
 	- Staff of Resurrection (u#staf04.itm):
 		- Fixed item description: added missing Fighter restriction.
 		- Fixed wrong Dispel/Resistance headers effects values : 3 Dispel/Bypass resistance (was 3 Dispel/Not bypass resistance).
@@ -377,7 +377,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Cure ability: added op#321 (Remove effects by resource) for EE games: (spwi409, spin784, ohrgrog, ohdmask, ohbcdis, zomsea, spidwr1, sharswd, sahzom01, pudden01, paraghas, p1-2p, otyugh, ohrslng1, ohhgmum1, mummyw, mumgrew, misc8j, magispwr, lacedo2, lacedo, iotyugh, ghoullor, ghast1, demogorg, dartmel, acidooz3).
 		- Resurrection ability: added op#309 (Modify Local Variable ohdress = 1) for EE games.
 		- Appended tooltip.2da: *Staff of Resurrection, Cure Critical Wounds, Resurrection*.	
-		- Added 1PP compatibility to harmonize colors item with EE games and classical games modded with 1PP.
+		- Added 1PP compatibility to harmonize colors item with EE games and classical 1PP modded games.
 	- Ring of Time Control (u#ring10.itm):
 		- Fixed Weight value (0 - was 5) and updated item description.
 		- Removed Druid and added thief restriction flags.
@@ -385,10 +385,6 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 
 <details><summary>wip</summary>
 <p></br>
-
-<a href="http://www.shsforums.net/topic/42220-fixes-for-the-big-fixpack/page-35#entry543984">Lollorian's assorted ITM fixes</a> 
-Maximum HP bonus  curring current HPs.
-Increment (0) ==> Increment, don't update current HP (3)
 
 Regenerate
 Black Sword of Undeath
@@ -398,8 +394,6 @@ Nature's Staff
 SPPR711.SPL    233     1     124   142    n     A          //  REGENERATION
 - Option 2: Use original, overpowered items.
 	- Robe of the Magi (wzrdclck)
-		- Added DS value #133 Stat: Proficiency (CLERIC_REGENERATION - 124).
-		- Added DS value for EE games: Set State BUFF_PRO_DAMAGE (65).
 	- Gauntlets of the Magi (wzrdbrac)
 		- Added DS value #133 Stat: Proficiency (CLERIC_REGENERATION - 124).
 		- Added DS value for EE games: Set State BUFF_PRO_DAMAGE (65).
@@ -411,6 +405,7 @@ SPPR711.SPL    233     1     124   142    n     A          //  REGENERATION
 ##### Version 28 by Deratiseur (November 22, 2018)
 
 - Added BG2EE compatibility.
+- Mits of Shaiman (u#brac01.itm): included <a href="http://www.shsforums.net/topic/42220-fixes-for-the-big-fixpack/page-35#entry543984">Lollorian's assorted ITM fixes</a> preventing a wrong op#18 (Maximum HP Modifier) setting that allowed the exploit of curing current HPs when equipping the item (fixed parametre2 to 3 - Cumulative Modifier, don't update current HP, instead of 0 - Cumulative Modifier).
 - Updated WeiDU installer to v246.
 
 ## 
