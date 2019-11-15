@@ -149,7 +149,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 - Major updates:
 	- Renamed *Setup-Ruad.tp2* -> *ruad.tp2* to support AL|EN's "Project Infinity".
 	- Added ruad.ini metadata file to support AL|EN's "Project Infinity".
-	- TODO
+	- TODO <span style="text-decoration:underline">text span</span> <ins>text ins</ins> <u>some text</u>
 	- Provided compatibility with 1PP and TobEx.
 	- TODO
 	- Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the *bam* folder that meet these requirements are patched and saved back to the *override* folder.
