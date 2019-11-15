@@ -1,0 +1,710 @@
+                 /--------------------------------------------\
+                | Spoilers for Ruad Ro'fhessa (all versions)  |
+                 \--------------------------------------------/
+
+Q: I can't find Ruad. Where is he?
+
+A: SoA version: ± x=1850, y=670.
+   ToB version: PLEASE tell me you're joking???
+
+
+Q: What items does Ruad make?
+
+A: Below is a complete list:
+
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Blade of Roses +3                                         |
+|           Sword of Balduran                                         |
+|           Nymph Cloak                                               |
+|           Ring of Human Influence                                   |
+|           2x Ring of Protection +1                                  |
+|           2x Potion of Magic Shielding                              |
+|           2x Scroll of Charm Person                                 |
+|           2x Scroll of Domination                                   |
+|           4x Scroll of Friends                                      |
+|           1x Agni Mani Necklace                                     |
+|           1x Pearl Necklace                                         |
+|           1x Diamond                                                |
+|           1x King's Tear                                            |
+|           1x Star Sapphire                                          |
+|           9,999 gold pieces                                         |
+|                                                                     |
+| Makes: Blade of the Red Rose                                        |
+|    THAC0: +3 bonus                                                  |
+|    Damage: 2D4 +4, +2 Electrical                                    |
+|    Type: Long Sword                                                 |
+|    +1 AC, +1 Saves, +3 CHR, +10% Lore, +10% Magic Res.              |
+|    Cast Charm Person 3x/day                                         |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Ras +2                                                    |
+|           4x Scroll of Stinking Cloud                               |
+|           1x Bottle Wine                                            |
+|           1x De'Tranion's Baalor Ale                                |
+|           5,000 gold pieces                                         |
+|                                                                     |
+| Makes: The Dancing Couple's Sword                                   |
+|    THAC0: +2 bonus                                                  |
+|    Damage: 1D8 +3, +1 Bleeding                                      |
+|    Type: Long Sword                                                 |
+|    Dancing Sword can attack independently for 6 rounds              |
+|    Cast Stinking Cloud 1x/day                                       |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: The Vampire's Revenge                                     |
+|           5x Wooden Stakes                                          |
+|           5,000 gold pieces                                         |
+|                                                                     |
+| Makes: Vampire's Revenge +2                                         |
+|    THAC0: +2 bonus                                                  |
+|    Damage: 1D8 +2                                                   |
+|    Type: Long Sword                                                 |
+|    20% Chance of healing 10 HP on user                              |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Vampire's Revenge +2                                      |
+|           Adjatha the Drinker +2                                    |
+|           Blackrazor                                                |
+|           1x Lich Tooth                                             |
+|           1x Elven Holy Water                                       |
+|           Bodhi's Black Heart                                       |
+|           30,000 gold pieces                                        |
+|                                                                     |
+| Makes: Black Sword of Undeath                                       |
+|    THAC0: +5 bonus                                                  |
+|    Damage: 1D8 +5                                                   |
+|    Type: Long Sword                                                 |
+|    Regenerate 1HP/5 sec, +2 STR                                     |
+|    Immune to Charm, Fear, Hold & Level Drain                        |
+|    30% Chance drain 4 levels, Heal 20HP or Haste                    |
+|    Summon Kraka'Tur 1/day                                           |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Yoshimo's Katana +1                                       |
+|           Katana +2                                                 |
+|           3x Poisoned Throwing Dagger                               |
+|           1x Rogue Stone                                            |
+|           10,000 gold pieces                                        |
+|                                                                     |
+| Makes: Yoshimo's Poisoned Katana                                    |
+|    THAC0: +3 bonus                                                  |
+|    Damage: 1D10 +3, +2 Poison/sec. (10 seconds)                     |
+|    Type: Katana                                                     |
+|    Usable By: Yoshimo                                               |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Yoshimo's Heart                                           |
+|           Yoshimo's Katana +1 or Yoshimo's Poisoned Katana          |
+|           Reputation of 20                                          |
+|           25,000 gold pieces                                        |
+|                                                                     |
+| Makes: Spirit of Yoshimo                                            |
+|    (Quick Item)                                                     |
+|    Summons Yoshimo for 2400 seconds 1/day                           |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Red Dragon Scales                                         |
+|           Boots of Speed                                            |
+|           Elder Brain Blood                                         |
+|           15,000 gold pieces                                        |
+|                                                                     |
+| Makes: Dragon Slippers                                              |
+|    +25% Fire Res, Haste, Immunity to Fear                           |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Ring of Acuity                                            |
+|           Ring of Protection +3                                     |
+|           2x Scroll of Mantle                                       |
+|           2x Scroll of Spell Immunity                               |
+|           5,000 gold pieces                                         |
+|           Abjurer in the party                                      |
+|                                                                     |
+| Makes: Ring of Abjuration                                           |
+|    Permanent Spell Immunity: Abjuration                             |
+|    Usable By: Abjurer                                               |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Ring of Acuity                                            |
+|           Ring of Free Action                                       |
+|           2x Scroll of Ruby Ray                                     |
+|           2x Scroll of Spell Immunity                               |
+|           5,000 gold pieces                                         |
+|           Transmuter in the party                                   |
+|                                                                     |
+| Makes: Ring of Alteration                                           |
+|    Permanent Spell Immunity: Alteration                             |
+|    Usable By: Transmuter                                            |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Ring of Acuity                                            |
+|           Ring of Djinni Summoning                                  |
+|           2x Scroll of Summon Efreeti                               |
+|           2x Scroll of Spell Immunity                               |
+|           5,000 gold pieces                                         |
+|           Conjurer in the party                                     |
+|                                                                     |
+| Makes: Ring of Conjuration                                          |
+|    Permanent Spell Immunity: Conjuration                            |
+|    Usable By: Conjurer                                              |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Ring of Acuity                                            |
+|           Ring of Infravision                                       |
+|           3x Scroll of True Sight                                   |
+|           2x Scroll of Spell Immunity                               |
+|           5,000 gold pieces                                         |
+|           Diviner in the party                                      |
+|                                                                     |
+| Makes: Ring of Divination                                           |
+|    Permanent Spell Immunity: Divination                             |
+|    Usable By: Diviner                                               |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Ring of Acuity                                            |
+|           Ring of Animal Friendship                                 |
+|           4x Scroll of Domination                                   |
+|           2x Scroll of Spell Immunity                               |
+|           5,000 gold pieces                                         |
+|           Enchanter in the party                                    |
+|                                                                     |
+| Makes: Ring of Enchantment                                          |
+|    Permanent Spell Immunity: Enchantment                            |
+|    Usable By: Enchanter                                             |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Ring of Acuity                                            |
+|           Ring of Air Control                                       |
+|           Ring of Earth Control                                     |
+|           Ring of Fire Control                                      |
+|           2x Scroll of Delayed Fireball                             |
+|           2x Scroll of Spell Immunity                               |
+|           5,000 gold pieces                                         |
+|           Invoker in the party                                      |
+|                                                                     |
+| Makes: Ring of Evocation                                            |
+|    Permanent Spell Immunity: Evocation                              |
+|    Usable By: Invoker                                               |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Ring of Acuity                                            |
+|           Ring of Invisibility                                      |
+|           2x Scroll of Project Image                                |
+|           2x Scroll of Spell Immunity                               |
+|           5,000 gold pieces                                         |
+|           Illusionist in the party                                  |
+|                                                                     |
+| Makes: Ring of Illusion                                             |
+|    Permanent Spell Immunity: Illusion                               |
+|    Usable By: Illusionist                                           |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Ring of Acuity                                            |
+|           Ring of Gaxx                                              |
+|           2x Scroll of Finger of Death                              |
+|           2x Scroll of Spell Immunity                               |
+|           5,000 gold pieces                                         |
+|           Necromancer in the party                                  |
+|                                                                     |
+| Makes: Ring of Necromancy                                           |
+|    Permanent Spell Immunity: Necromancy                             |
+|    Usable By: Necromancer                                           |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Melodic Chain                                             |
+|           Crimson Chain +5                                          |
+|           Gorgon Plate +4                                           |
+|           4x Adamantine Dust                                        |
+|           1x Scroll of Protection from Magic                        |
+|           1x Scroll of Protection from Magic Energy                 |
+|           1x Beljuril                                               |
+|           1x Rogue Stone                                            |
+|           20,000 gold pieces                                        |
+|                                                                     |
+| Makes: Adamantine Chain                                             |
+|    AC: 1                                                            |
+|    +10 Magic Res, +15 Fire & Acid Res                               |
+|    -1 Casting Speed, -2 CHR                                         |
+|    Usable By: Bard, C/M, F/M, M/T, F/M/T, F/M/C                     |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Girdle of Hill Giant Strength                             |
+|           Girdle of Fortitude                                       |
+|           Gauntlets of Dexterity                                    |
+|           2x Potion of Agility                                      |
+|           2x Potion of Fortitude                                    |
+|           2x Potion of Hill Giant Strength                          |
+|           2x Diamond                                                |
+|           2x Emerald                                                |
+|           2x Rogue Stone                                            |
+|           15,000 gold pieces                                        |
+|                                                                     |
+| Makes: Warlord's Girdle                                             |
+|    +2 STR, DEX & CON                                                |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Kaligun's Amulet of Resistance                            |
+|           4x Amulet of Protection +1                                |
+|           2x Rogue Stone                                            |
+|           10,000 gold pieces                                        |
+|                                                                     |
+| Makes: Kaligun's Amulet of Greater Resistance                       |
+|    +2 AC & Saves, +10 Magic Res                                     |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: 4x Ring of Protection +1                                  |
+|           2x Rogue Stone                                            |
+|           20,000 gold pieces                                        |
+|                                                                     |
+| Makes: Ring of Protection +2                                        |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Silver Ioun Stone                                         |
+|           Pearly White Ioun Stone                                   |
+|           Golden Ioun Stone                                         |
+|           Obsidian Ioun Stone                                       |
+|           5x Aquamarine Gem                                         |
+|           20,000 gold pieces                                        |
+|                                                                     |
+| Makes: Incandescent Ioun Stone                                      |
+|    +1 CON, INT & WIS                                                |
+|    Regenerate 1HP/sec                                               |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Frostreaver +3                                            |
+|           2x Battle Axe +2 (Grey)                                   |
+|           2x Wand of Frost                                          |
+|           2x Diamond                                                |
+|           Demon Heart                                               |
+|           15,000 gold pieces                                        |
+|                                                                     |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+|    THAC0: +4 bonus                                                  |
+|    Damage: 1D8 +4, 1D4 +1 Cold                                      |
+|    Type: Axe                                                        |
+|    40% Cold Res.                                                    |
+|    40% Chance to Slow target                                        |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Wand of Missiles                                          |
+|           5x Scroll of Knock                                        |
+|           5,000 gold pieces                                         |
+|                                                                     |
+| Makes: Wand of Hard Knocks                                          |
+|    100 Charges of Knock                                             |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Stonefire                                                 |
+|           Frostreaver                                               |
+|           Wave Halberd Shaft                                        |
+|           3x Potion of Fire Giant Strength                          |
+|           21,246 gold pieces                                        |
+|                                                                     |
+| Makes: Messerschmitt Stone Reaver Axe                               |
+|    THAC0: +3 bonus                                                  |
+|    Damage: 2D6 +3                                                   |
+|    Type: Axe (2-handed)                                             |
+|    +1 AC                                                            |
+|    Slays Fire Elementals                                            |
+|    50% Chance of +2 Fire damage or +1 Acid and Cold damage          |
+|    5% Chance of stunning enemy and wielder                          |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Corthala Family Blade                                     |
+|           Hindo's Doom +3                                           |
+|           3x Poisoned Throwing Dagger                               |
+|           15,000 gold pieces                                        |
+|                                                                     |
+| Makes: Corthala Family Blade +3                                     |
+|    THAC0: +3 bonus                                                  |
+|    Damage: 1D10 +3, +3 Bleeding per sec. for 2 rounds               |
+|    Type: Katana                                                     |
+|    +3 AC vs. Slashing weapons                                       |
+|    Usable By: Valygar                                               |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Corthala Family Blade +3                                  |
+|           Hindo's Hand                                              |
+|           5x Poisoned Throwing Dagger                               |
+|           3x Antidote                                               |
+|           15,000 gold pieces                                        |
+|                                                                     |
+| Makes: Corthala Family Blade +4                                     |
+|    THAC0: +4 bonus                                                  |
+|    Damage: 1D10 +4, +4 Bleeding per sec. for 2 rounds               |
+|    Type: Katana                                                     |
+|    +4 AC vs. Slashing weapons                                       |
+|    Usable By: Valygar                                               |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Staff of Rynn +4                                          |
+|           Staff Spear +2                                            |
+|           2x Bastard Sword +1                                       |
+|           2x Scroll of Agannazar's Scorcher                         |
+|           2x Scroll of Burning Hands                                |
+|           2x Potion of Firebreath                                   |
+|           4x Fire Agate Gem                                         |
+|           1x Zircon Gem                                             |
+|           10,000 gold pieces                                        |
+|                                                                     |
+| Makes: The Ugly Stick                                               |
+|    THAC0: +4 bonus                                                  |
+|    Damage: 2D6 +4 crushing or 2D6 +2 piecing or 2D6 +2 slashing     |
+|    Type: Quarterstaff                                               |
+|    -1 AC, -2 DEX, -4 CHR                                            |
+|    5% Chance of making enemy unconscious                            |
+|    Cast Agannazar's Scorcher and Burning Hands 2x/per               |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Armor of the Hart +3                                      |
+|           Gorgon Plate +4                                           |
+|           4x Adamantine Dust                                        |
+|           1x Beljuril                                               |
+|           1x Rogue Stone                                            |
+|           15,000 gold pieces                                        |
+|                                                                     |
+| Makes: Adamantine Plate                                             |
+|    AC: -3                                                           |
+|    +15 Fire & Acid Res, -2 CHR                                      |
+|    -2 Movement rate                                                 |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Cloak of the Stars                                        |
+|           Cloak of Protection +2                                    |
+|           2x Scroll of Cone of Cold                                 |
+|           2x Scroll of Flame Arrow                                  |
+|           2x Scroll of Lightning Bolt                               |
+|           2x Scroll of Melf's Acid Arrow                            |
+|           200x Dart +1                                              |
+|           15,000 gold pieces                                        |
+|                                                                     |
+| Makes: Cloak of the Elemental Star                                  |
+|    +2 AC and Saves                                                  |
+|    Creates 8 Elemental Star Darts per day                           |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Crimson Dart +3                                           |
+|           Boomerang Dagger +2                                       |
+|           Fire Tooth +3                                             |
+|           15,000 gold pieces                                        |
+|                                                                     |
+| Makes: Crimson Flame Dart                                           |
+|    THAC0: +5 bonus                                                  |
+|    Damage: 1D5 +5                                                   |
+|    Type: Dart                                                       |
+|    +1D3 Fire, Cold, Acid and Elec damage                            |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Lavender Ioun Stone                                       |
+|           1x Scroll of Chaos                                        |
+|           1x Scroll of Chaos Shield                                 |
+|           10,000 gold pieces                                        |
+|                                                                     |
+| Makes: Chaos Stone                                                  |
+|    +1 AC, +2 Save vs. Death                                         |
+|    Permanent Chaos Shield                                           |
+|    Usable By: Wild Mage                                             |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Chaos Stone                                               |
+|           Abazigal's Wardstone                                      |
+|           Shadow Dragon Wardstone                                   |
+|           Asylum Wardstone                                          |
+|           Kurtulmak's Crystal Shard                                 |
+|           20,000 gold pieces                                        |
+|                                                                     |
+| Makes: Improved Chaos Stone                                         |
+|    +1 AC, +3 Save vs. Death                                         |
+|    +25% Fire Res.                                                   |
+|    Permanent Imp. Chaos Shield                                      |
+|    Usable By: Wild Mage                                             |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Azuredge                                                  |
+|           Daystar                                                   |
+|           Mace of Disruption                                        |
+|           Pommel Jewel of the Equalizer                             |
+|           Pure Illithium                                            |
+|           Holy Symbol of Amaunator                                  |
+|           3x Vial of Elven Holy Water                               |
+|           5x Garnet Gem                                             |
+|           5x Sunstone Gem                                           |
+|           5x Zircon Gem                                             |
+|           20 Reputation                                             |
+|           40,000 gold pieces                                        |
+|                                                                     |
+| Makes: Undead Bane                                                  |
+|    THAC0: +5 bonus                                                  |
+|    Damage: 1D10 +5, double vs. Undead                               |
+|    Type: Two Handed Sword                                           |
+|    Undead must Save vs. Death or die                                |
+|    5% Chance of Sunray or Blind on target                           |
+|    False Dawn & Prot. from Neg. Plane 1x/day                        |
+|    Usable By: Paladin                                               |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Shadow Dragon Scales                                      |
+|           Hide Armor                                                |
+|           Cloak of Non-Detection                                    |
+|           2x Cloak of Protection +1                                 |
+|           20,000 gold pieces                                        |
+|                                                                     |
+| Makes: Cloak of the Shadow                                          |
+|    +3 AC, +50% Acid Res., +20% Hide                                 |
+|    Permanent Non-Detection                                          |
+|    Usable By: Thief & Stalker                                       |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Shadow Armor                                              |
+|           Ring of Lock Picks                                        |
+|           Cloak of Protection +2                                    |
+|           2x Cloak of Protection +1                                 |
+|           Beatmaster Key                                            |
+|           Firkraag Prison Key                                       |
+|           Gaal's Key                                                |
+|           Haegan's Key                                              |
+|           Jon's Key                                                 |
+|           Keep Key                                                  |
+|           Shadow Prison Key                                         |
+|           Shadow Thief Cellar Key                                   |
+|           35,000 gold pieces                                        |
+|                                                                     |
+| Makes: Pikim's Armor                                                |
+|    AC: 2                                                            |
+|    +15% Hide, +60% Lock pick                                        |
+|    Usable By: Thief                                                 |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Neb's Nasty Cutter                                        |
+|           Neb's Head                                                |
+|           Pure Illithium                                            |
+|           -2 Reputation Loss                                        |
+|           15,000 gold pieces                                        |
+|                                                                     |
+| Makes: Neb's Nasty Cutter +4                                        |
+|    THAC0: +4                                                        |
+|    Damage: 1D4 +4                                                   |
+|    Type: Dagger                                                     |
+|    2 Bleeding damage/sec for 10 secs (save vs. death)               |
+|    Summon Restless Child Spirit 1x/day                              |
+|    Not Usable By: Cleric, Non-Evil                                  |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Short Sword of Backstabbing                               |
+|           Blade of the Equalizer                                    |
+|           Pommel Jewel of the Equalizer                             |
+|           1x Scroll of Phantom Blade                                |
+|           2x Potion of Master Thievery                              |
+|           5x Black Opal Stone                                       |
+|           1x Rogue Stone                                            |
+|           25,000 gold pieces                                        |
+|                                                                     |
+| Makes: Shadow Thief's Blade                                         |
+|    THAC0: +5                                                        |
+|    Damage: 1D6 +5                                                   |
+|    Type: Short Sword                                                |
+|    +1 Backstab multiplier                                           |
+|    Usable By: Good/Neutral Thief                                    |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Bow of Arvoreen                                           |
+|           Bowstring of Gesen or Gond                                |
+|           1x Scroll of Slow                                         |
+|           3x Potion of Heroism                                      |
+|           20 Reputation                                             |
+|           20,000 gold pieces                                        |
+|                                                                     |
+| Makes: Enchanted Bow of Arvoreen                                    |
+|    THAC0: +4                                                        |
+|    Damage: 1D6 +2                                                   |
+|    Type: Short Bow                                                  |
+|    No Ammo, 10% Slow target                                         |
+|    Usable By: Halfling Warrior                                      |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Blue Dragon Scales                                        |
+|           Red Dragon Scales                                         |
+|           Shadow Dragon Scales                                      |
+|           White Dragon Scales                                       |
+|           100,000 gold pieces                                       |
+|                                                                     |
+| Makes: Plate of Many Dragons                                        |
+|    AC: -2                                                           |
+|    50% Acid, Cold & Fire Res.                                       |
+|    90% Elec Res.                                                    |
+|    Cast Cone of Cold 3x/day                                         |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Dragon Helm                                               |
+|           Blue Dragon Scales                                        |
+|           Red Dragon Scales                                         |
+|           Shadow Dragon Scales                                      |
+|           50,000 gold pieces                                        |
+|                                                                     |
+| Makes: Helm of Many Dragons                                         |
+|    50% Acid Res.                                                    |
+|    25% Cold Res.                                                    |
+|    70% Elec & Fire Res.                                             |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Dragon Scale Shield +2                                    |
+|           Blue Dragon Scales                                        |
+|           Red Dragon Scales                                         |
+|           Shadow Dragon Scales                                      |
+|           50,000 gold pieces                                        |
+|                                                                     |
+| Makes: Shield of Many Dragons                                       |
+|    +3 AC                                                            |
+|    50% Acid Res.                                                    |
+|    25% Cold Res.                                                    |
+|    70% Elec & Fire Res.                                             |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Mage Robe of Cold Resistance                              |
+|           Mage Robe of Electric Resistance                          |
+|           Mage Robe of Fire Resistance                              |
+|           Knave's Robe                                              |
+|           Traveller's Robe                                          |
+|           Bracers of Defense AC5                                    |
+|           30,000 gold pieces                                        |
+|                                                                     |
+| Makes: Robe of Resistance                                           |
+|    AC: 5                                                            |
+|    +1 AC vs. Missile & Crushing                                     |
+|    +1 Save vs. Petrify & Breath                                     |
+|    20% Cold, Elec & Fire Res.                                       |
+|    Usable By: Mage                                                  |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Dragon's Bane +3                                          |
+|           Dragon's Breath +4                                        |
+|           Ring of Fire Resistance                                   |
+|           Red Dragon Scales                                         |
+|           Sekolah's Tooth                                           |
+|           1x Rogue Stone                                            |
+|           30,000 gold pieces                                        |
+|                                                                     |
+| Makes: Dragon's Tooth                                               |
+|    THAC0: +5                                                        |
+|    Damage: 1D10 +5, +6 vs. Dragons                                  |
+|    Type: Halberd                                                    |
+|    +5 Fire Damage, +90% Fire Res.                                   |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Piece of Red Cloth                                        |
+|           1x Scroll of Protection from Normal Weapons               |
+|           35,000 gold pieces                                        |
+|                                                                     |
+| Makes: Cloak of Thay                                                |
+|    +2 AC and Saves                                                  |
+|    Prot. from Normal Weapons                                        |
+|    Usable By: Evil Mages and Sorcerers                              |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Cloak of the High Forest                                  |
+|           1x Scroll of Protection from Acid (green)                 |
+|           1x Scroll of Protection from Cold (green)                 |
+|           1x Scroll of Protection from Electricity (green)          |
+|           1x Scroll of Protection from Fire (green)                 |
+|           1x Scroll of Protection from Poison (green)               |
+|           40,000 gold pieces                                        |
+|                                                                     |
+| Makes: Nature's Cloak                                               |
+|    +1 AC & Saves                                                    |
+|    +25% Acid, Cold, Elec & Fire Res.                                |
+|    Immune to Poison                                                 |
+|    Usable By: Cernd                                                 |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Gauntlets of Crushing                                     |
+|           Tzu-Zan's Bracers                                         |
+|           10x Black Opal                                            |
+|           20,000 gold pieces                                        |
+|                                                                     |
+| Makes: Mits of Shaiman                                              |
+|    +1 AC, +15 HP                                                    |
+|    +4 THAC0 and Damage (Unarmed)                                    |
+|    Usable By: Monk                                                  |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Staff of the High Forest                                  |
+|           Martial Staff                                             |
+|           5x Potion of Regeneration                                 |
+|           20,000 gold pieces                                        |
+|                                                                     |
+| Makes: Nature's Staff                                               |
+|    THAC0: +4                                                        |
+|    Damage: 1D6 +4                                                   |
+|    Type: Staff                                                      |
+|    Regen. 1HP/6 sec                                                 |
+|    Usable By: Cernd                                                 |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Staff of Command                                          |
+|           Staff of Curing                                           |
+|           Quarterstaff +2                                           |
+|           3x Diamond                                                |
+|                                                                     |
+|                                                                     |
+| Makes: Staff of Many Magicks                                        |
+|    THAC0: +4                                                        |
+|    Damage: 1D6 +4                                                   |
+|    Type: Staff                                                      |
+|    +2 AC                                                            |
+|    Cast Domination & Cure 1x/day                                    |
+|    Usable By: Cleric, Druid, Paladin & Ranger                       |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Wyvern's Tail                                             |
+|           The Sleeper                                               |
+|           2x Scroll of Protection from Poison                       |
+|           2x Scroll of Sleep                                        |
+|           30,000 gold pieces                                        |
+|                                                                     |
+| Makes: The Drowsy Wyvern                                            |
+|    THAC0: +4                                                        |
+|    Damage: 2D6 +4                                                   |
+|    Type: Flail                                                      |
+|    Save vs. Poison or +5 Poison damage                              |
+|    Humanoids Save vs. Poison (+4) or Sleep (18 sec)                 |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Ice Star                                                  |
+|           2x Wand of Frost                                          |
+|           3x Potion of Icedust                                      |
+|           1x Potion of Fire Giant STR                               |
+|           2x Scroll of Icestorm                                     |
+|           45,000 gold pieces                                        |
+|                                                                     |
+| Makes: Cold Shoulder                                                |
+|    THAC0: +5                                                        |
+|    Damage: 2D5 +5, +1D4 Cold                                        |
+|    Type: Flail                                                      |
+|    +50% Fire Res, 5% Chance Freeze Target                           |
+|    Cast Ice Storm & Fire Giant STR 1/day                            |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: 2x Cloak of Protection +1                                 |
+|           Sekolah's Tooth                                           |
+|           Sahuagin Scribe Notes                                     |
+|           125x Paralytic Bolt                                       |
+|           5x Scroll of Minor Globe of Inv.                          |
+|           5x Scroll of Monster Summoning III                        |
+|           40,000 gold pieces                                        |
+|                                                                     |
+| Makes: Cloak of the Shark Father                                    |
+|    +1 AC & Saves                                                    |
+|    1/day Summon Anguiliian                                          |
+|    Permanent Minor Globe of Inv.                                    |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Bracers of Defense AC3                                    |
+|           1x Scroll of BB of Disaster                               |
+|           1x Scroll of Chain Cont.                                  |
+|           1x Scroll of Freedom                                      |
+|           1x Scroll of Shapechange                                  |
+|           1x Scroll of Spell Trap                                   |
+|           1x Scroll of Spellstrike                                  |
+|           1x Scroll of Imprisonment                                 |
+|           1x Scroll of Time Stop                                    |
+|           10,000 gold pieces                                        |
+|                                                                     |
+| Makes: Fluent Fingers                                               |
+|    AC: base 4                                                       |
+|    +1 Casting Speed                                                 |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Mercykiller Ring                                          |
+|           Ring of Danger Sense                                      |
+|           Ring of Lock Picks                                        |
+|           Ring of Invisibility                                      |
+|           50,000 gold pieces                                        |
+|                                                                     |
+| Makes: Ring of the Thief                                            |
+|    +20% Hide, Move Silent & Set Traps                               |
+|    +25% Lock Pick & Find Trap                                       |
+|    Invisibility 1/day                                               |
+|    Usable By: Thief                                                 |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Bracers of Dexterity                                      |
+|           Gauntlets of Weapon Skill                                 |
+|           5x Potion of Master Thievery                              |
+|           2x Horn Coral Gem                                         |
+|           75,000 gold pieces                                        |
+|                                                                     |
+| Makes: Gauntlets of Assassination                                   |
+|    +3 DEX, +1 Backstab                                              |
+|    Usable By: Thief                                                 |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Cutthroat                                                 |
+|           Short Sword of Backstabbing                               |
+|           Neb's Nasty Cutter                                        |
+|           3x "Strange" Antidote                                     |
+|           10x Poisoned Throwing Dagger                              |
+|           60,000 gold pieces                                        |
+|                                                                     |
+| Makes: Kiss of Death                                                |
+|    THAC0: +4                                                        |
+|    Damage: 1D6 +4                                                   |
+|    Type: Short Sword                                                |
+|    Random poison effects                                            |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
+| Requires: Shadow Armor                                              |
+|           The Night's Gift                                          |
+|           Armor of Deep Night                                       |
+|           10x Potion of Invisibility                                |
+|           50,000 gold pieces                                        |
+|                                                                     |
+| Makes: Hide of Shades                                               |
+|    AC: 3                                                            |
+|    +30% Hide                                                        |
+|    Usable By: Thief                                                 |
+|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
