@@ -1,5 +1,6 @@
 
 ![Latest Release](https://img.shields.io/static/v1?label=release&message=v29.0.0&color=darkred)<a name="top" id="top">
+![Latest Release](https://img.shields.io/github/v/release/GwendolyneFreddy/RuadRofhessaItemUpgrade?include_prereleases&color=darkred)<a name="top" id="top">
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
@@ -15,7 +16,7 @@
 
 
 <div align="center">
-<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></center></br>
+<a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></br>
 </div>
 
 <hr>
@@ -49,7 +50,7 @@ This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If 
 
 #### Notes
 
-*If you've previously installed the mod, remove it before extracting the new version. To do this, run **setup-ruad.exe**, uninstall the previously installed main component and delete the :file_folder: ruad folder.*
+*If you've previously installed the mod, remove it before extracting the new version. To do this, run **`setup-ruad.exe`**, uninstall the previously installed main component and delete the :file_folder: ruad folder.*
 
 *When installing or uninstalling, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.*
 
@@ -65,9 +66,9 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 #### Windows
 
-Extract the contents of the mod archive into the folder of the game you wish to modify (<em>the folder which contains the "CHITIN.KEY" file</em>), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: ruad folder and a setup-ruad.exe file in your game folder. To install, simply double-click **setup-ruad.exe** and follow the instructions on screen.
+Extract the contents of the mod archive into the folder of the game you wish to modify (*the folder which contains the "CHITIN.KEY" file*), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: ruad folder and a setup-ruad.exe file in your game folder. To install, simply double-click **`setup-ruad.exe`** and follow the instructions on screen.
 
-Run **setup-ruad.exe** in your game folder to reinstall, uninstall or otherwise change the component settings.
+Run **`setup-ruad.exe`** in your game folder to reinstall, uninstall or otherwise change the component settings.
 
 ## 
 
@@ -82,14 +83,14 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="components" id="components"></a>Components
 
-The installer includes the following components. The number of each is the component DESIGNATED number which gives it a fixed install position and allows automated installers to specify component choices.<br /><br />
+The installer includes the following components. The number of each is the component *DESIGNATED* number which gives it a fixed install position and allows automated installers to specify component choices.<br /><br />
 
 
 **0. Ruad Ro'fhessa (SoA)**<br />
 
 Ruad is a brand new blacksmith who forges item upgrades, as well as a few brand new ones. I won't spoil his location for you, but I will tell that he is near the Adventurer Mart.
 
-Please read <a href="https://raw.githubusercontent.com/GwendolyneFreddy/RuadRofhessaItemUpgrade/tree/master/ruad/readme/ruad-spoilers.txt">ruad-spoilers.txt</a> for details (his exact location, and a complete list of items and descriptions.
+Please see <a href="https://raw.githubusercontent.com/GwendolyneFreddy/RuadRofhessaItemUpgrade/tree/master/ruad/readme/ruad-spoilers.txt">ruad-spoilers.txt</a> for details (his exact location, and a complete list of items and descriptions.
 
 ## 
 
@@ -124,9 +125,9 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 
 #### Programs/tools used in creation
 
-- <a href="http://www.weidu.org/%7Ethebigg/">WeiDU</a> ("Weimer Dialogue Utility") by Wes Weimer, the bigg and Wisp.
-- <a href="http://forums.pocketplane.net/index.php/topic,25153.msg314249.html#msg314249">Near Infinity</a> by Jon Olav Hauglid, FredSRichardson and Argent77.
-- <a href="https://sorcerers.net/Games/dl.php?s=BG2&f=BG2/ShadowKeeper.zip"> ShadowKeeper</a> by Aaron O'Neil.
+- <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU</a> ("Weimer Dialogue Utility") by Wes Weimer, the bigg and Wisp.
+- <a href="https://github.com/Argent77/NearInfinity/releases">Near Infinity</a> by Jon Olav Hauglid, FredSRichardson and Argent77.
+- <a href="https://sorcerers.net/Games/dl.php?s=BG2&f=BG2/ShadowKeeper.zip">ShadowKeeper</a> by Aaron O'Neil.
 - <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a>, by Dmitry Jemerov / bigmoshi.
 
 
@@ -148,28 +149,27 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 - Major updates:
 	- Renamed *Setup-Ruad.tp2* -> *ruad.tp2* to support AL|EN's "Project Infinity".
 	- Added ruad.ini metadata file to support AL|EN's "Project Infinity".
-	- 
+	- TODO
 	- Provided compatibility with 1PP and TobEx.
-	- 
+	- TODO
 	- Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the *bam* folder that meet these requirements are patched and saved back to the *override* folder.
 	- Inventory items icons: fixed wrong transparency index (pure green [0.255.0] replaces old turquoise - a pretty annoying BAMWorkshop leftover :astonished:).
-	- 
 	- dialog and script files: added Chapters compatibility with EET (variable %bg2_chapter_n% used and evaluated to set continuity chapter numbers).
-
+	- ruad.d: remove DestroyAllEquipment() action whenever possible.
 	- Included BWP Fixpack Luca Piol's typo fix for ruad.d: replaced wrong misc6s item (Chunk of Illithium Alloy) with misc6w (Wooden Stake) to create Wooden Stake (u#blun03.itm).
 	- Provided a Ruad portrait for EE game.
-	- Updated *items*.tra files for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
-	- Added missing *ruad*.tra file in reload array HANDLE_CHARSETS function (v28 regression).
+	- Updated *items.tra* files for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
+	- Added missing *ruad.tra* file in reload array HANDLE_CHARSETS function (v28 regression).
 	- Added German and Spanish WeiDU prompts.
-	- Renamed *titles* and *setup*.tra files to more accurate *setup* and *items*.tra files.
-	- Renamed *american* and *italian* tra folders to *english* and *italiano*.
-	- 
-	- Second Component (#10): removed `AT_INTERACTIVE_EXIT` command and added a require main component process, otherwise mod will crash the game if first component is not installed.
+	- Renamed *titles* and *setup* .tra files to more accurate *setup* and *items* .tra files.
+	- Renamed *american* language folder to *english*.
+	- Second component (#10): removed `AT_INTERACTIVE_EXIT` command and added a require main component process, otherwise mod will crash the game if first component is not installed.
 	- Reorganized components (DESIGNATED number).
 	- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games (replaced old `ACTION_IF NOT FILE_EXISTS "Data/25Dialog.bif"` process).
 	- Replaced AUTHOR keyword with SUPPORT.
 	- Updated and renamed readme file to *ruad-readme-english.txt*.
-	- Updated French and English translations (Gwendolyne).
+	- Updated French and English translations.
+	- Removed unused files.
 
 - Items updates:
 	- Hard-coded items inventory and headers icons in .itm files to avoid writing them in installation process.
@@ -178,7 +178,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Added Break Sanctuary flag whenever relevant for EE games.
 	- Added Detectable Spells variables whenever relevant.
 	- Blade of the Red Rose +4 (u#sw1h01.itm): 
-		- Fixed item description: Lore bonus (+10 - was +10%).
+		- Fixed item description: Lore bonus +10 (was +10%).
 		- Charm Person ability: replaced Charm Person effects with more accurate BG2 Fixpack ones (classical games) and patch them to fit EE games (op#324). Added Break Sanctuary flag for EE games.
 		- Appended tooltip.2da: *Blade of the Red Rose, Charm Person*.
 	- Dancing Couple's Sword (u#sw1h02.itm):
@@ -222,12 +222,12 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Added op#328 State BUFF_PRO_SPELLS (66) and SI_ABJURATION (56), SI_CONJURATION (57) SI_DIVINATION (58), SI_ENCHANTMENT (59), SI_EVOCATION (61), SI_ILLUSION (60), SI_NECROMANCY (62) and SI_TRANSMUTATION (63) for EE games.
 		- Replaced opcode #142 (Display portrait icon) parameter2 value (107 Spell Immunity) for EE games: Immunity: Abjuration (196), Conjuration (197), Divination (198), Enchantment (199), Evocation (201), Illusion (200), Necromancy (202) and Alteration (203)
 	- Adamantine Chain (u#chan01.itm):
-		- Fixed wrong name : this chain mail is a +5 armor, not a +4 one!
+		- Fixed wrong name: this chain mail is a +5 armor, not a +4 one!
 		- Fixed wrong Dispel/Resistance equipped effects values : 0 Natural/Nonmagical (was 2 Not dispel/Bypass resistance).
 	- Warlord's Girdle (u#belt01.itm), Kaligun's Amulet of Greater Resistance (u#amul01.itm):
 		- Fixed item description: added weight and restriction flag.
 	- Incandescent Ioun Stone (u#helm01.itm):
-		- Fixed item description: added weight and regeneration rate (1 HP every 3 seconds - was 1 HP every second).
+		- Fixed item description: added missing weight and fixed regeneration rate (1 HP every 3 seconds - was 1 HP every second).
 		- Fixed opcode #142 (Display portrait icon): replaced wrong 56 icon (Regeneration) with 87 (Regenerating (87).
 		- Added EE and ToBEx item flag: EE/Ex: Toggle critical hits flag (BIT25).
 	- Upgraded Harper Pin (u#amul02.itm):
@@ -242,7 +242,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- EE games: added Shaman usability flag (replaced BIT30 flag with an op#319 equipped effect).
 		- Combat effect: fixed wrong op#139 parameter1 value: replaced 14000 (*Slow*) with 14668 (*Slowed*).
 	- Wand of Hard Knocks (u#wand01.itm):
-		- Fixed item description: added weight (1) and Wizard Slayer restriction.
+		- Fixed item description: added missing weight (1) and Wizard Slayer restriction.
 		- Fixed wrong ability header icon: replaced u#wand01 with SPWI207B (Knock).
 		- Added SR compatibility (SR modifies vanilla Knock spell).
 		- Appended tooltip.2da: *Knock*.
@@ -269,7 +269,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Fixed item description: added missing kit restrictions.
 		- Replaced DART projectile with idart08 for EE game or if 1PP is installed.
 	- Chaos Stone (u#helm02.itm):
-		- Fixed item description: added weight (2).
+		- Fixed item description: added missing weight (2).
 		- Added DS value (83 CHAOS_SHIELD) for EE games (op#328).
 		- Added EE and ToBEx item flag: EE/Ex: Toggle critical hits flag (BIT25).
 	- Improved Chaos Stone (u#helm03.itm):
@@ -283,7 +283,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- False Dawn ability: added Break Sanctuary flag (BIT9) for EE games.
 		- Appended tooltip.2da: *Undead Bane, False Dawn, Negative Plane Protection*.
 	- Cloak of the Shadow (u#clck02.itm):
-		- Fixed item description: added weight (3).
+		- Fixed item description: added missing weight (3).
 	- Pikim's Armor (u#leat01.itm):
 		- Fixed wrong inventory and description icons: Shadow Armor (LEAT08) seems more accurate than Armor of Missile Attraction (LEAT06). :wink:
 		- Added 1PP compatibility to harmonize colors item with EE games and classical 1PP modded games.
@@ -342,8 +342,8 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Fluent Fingers (u#brac02.itm):
 		- Fixed item description: added missing kit restrictions.
 	- Ring of the Thief (u#ring09.itm):
+		- Fixed item description: added missing weight (0).
 		- Invisibility ability: replaced wrong header icon (IRING05) with SPWI206B.
-		- Fixed item description: added weight (0).
 		- Appended tooltip.2da: *Invisibility*.
 	- Kiss of Death (u#sw1h09.itm):
 		- Fixed item description: added missing kit restrictions.
@@ -360,7 +360,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Wooden Stake (u#blun03.itm):
 		- Added missing Immune to level drain effects: op#267 Protection from Display Specific String (41495 *One Level Drained* - 40968 *Two Levels Drained* - 40969 *Three Levels Drained* - 40979 *Four Levels Drained* - 41616 *Five Levels Drained*) and op#169 Immunity Special Effect Icon (59 Energy Drain).
 		- Added missing DS value: opcode #282 (Script: Scripting State Modifier): parameter1 = 1 - parameter2 = 2 [158 SCRIPTINGSTATE3 aka LEVEL_DRAIN_IMMUNITY].
-		- Replaced wrong damage vs creatures effects in equipped effects with more accurate BG2 Fixpack-like ones in melee header: removed u#blun31.eff (vs. Undeads) replaced with existing flamenor.eff, new u#blun32.eff (vs. Vampires).
+		- Replaced wrong damage vs creatures effects in equipped effects with more accurate BG2 Fixpack-like ones in melee header: removed u#blun31.eff (vs. undeads) replaced with existing flamenor.eff, new u#blun32.eff (vs. vampires).
 	- Bow of Uden (u#bow02.itm):
 		- Fixed item general name and description: it is a composite bow, not a long bow!
 		- Fixed item description: added missing kit restrictions.
