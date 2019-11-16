@@ -90,7 +90,7 @@ The installer includes the following components. The number of each is the compo
 
 Ruad is a brand new blacksmith who forges item upgrades, as well as a few brand new ones. I won't spoil his location for you, but I will tell that he is near the Adventurer Mart.
 
-Please see <a href="https://raw.githubusercontent.com/GwendolyneFreddy/RuadRofhessaItemUpgrade/tree/master/ruad/readme/ruad-spoilers.txt">ruad-spoilers.txt</a> for details (his exact location, and a complete list of items and descriptions.
+Please see <a href="https://raw.githubusercontent.com/GwendolyneFreddy/RuadRofhessaItemUpgrade/master/ruad/readme/ruad-spoilers.txt">ruad-spoilers.txt</a> for details (his exact location, and a complete list of items and descriptions.
 
 ## 
 
@@ -149,26 +149,26 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 - Major updates:
 	- Renamed *Setup-Ruad.tp2* -> *ruad.tp2* to support AL|EN's "Project Infinity".
 	- Added ruad.ini metadata file to support AL|EN's "Project Infinity".
-	- TODO
 	- Provided compatibility with 1PP and TobEx.
-	- TODO
 	- Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the *bam* folder that meet these requirements are patched and saved back to the *override* folder.
 	- Inventory items icons: fixed wrong transparency index (pure green [0.255.0] replaces old turquoise - a pretty annoying BAMWorkshop leftover :astonished:).
 	- dialog and script files: added Chapters compatibility with EET (variable %bg2_chapter_n% used and evaluated to set continuity chapter numbers).
 	- ruad.d: remove DestroyAllEquipment() action whenever possible.
 	- Included BWP Fixpack Luca Piol's typo fix for ruad.d: replaced wrong misc6s item (Chunk of Illithium Alloy) with misc6w (Wooden Stake) to create Wooden Stake (u#blun03.itm).
 	- Provided a Ruad portrait for EE game.
-	- Updated *items.tra* files for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
 	- Added missing *ruad.tra* file in reload array HANDLE_CHARSETS function (v28 regression).
-	- Added German and Spanish WeiDU prompts.
-	- Renamed *titles* and *setup* .tra files to more accurate *setup* and *items* .tra files.
-	- Renamed *american* language folder to *english*.
 	- Second component (#10): removed `AT_INTERACTIVE_EXIT` command and added a require main component process, otherwise mod will crash the game if first component is not installed.
 	- Reorganized components (*DESIGNATED* number).
 	- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games (replaced old `ACTION_IF NOT FILE_EXISTS "Data/25Dialog.bif"` process).
+	- Added always.tpa library.
 	- Replaced AUTHOR keyword with SUPPORT.
+	- Commented code as much as possible.
 	- Updated and renamed readme file to *ruad-readme-english.txt*.
+	- Updated *items.tra* files for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
+	- Added German and Spanish WeiDU prompts.
 	- Updated French and English translations.
+	- Renamed *titles* and *setup* .tra files to more accurate *setup* and *items* .tra files.
+	- Renamed *american* language folder to *english*.
 	- Removed unused files.
 
 - Items updates:
@@ -177,34 +177,31 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Added 1PP compatibility to harmonize colors item with EE games and classical 1PP modded games.
 	- Added Break Sanctuary flag whenever relevant for EE games.
 	- Added Detectable Spells variables whenever relevant.
-	- <ins>Blade of the Red Rose +4 (u#sw1h01.itm): 
+	- <ins>Blade of the Red Rose +4</ins> (u#sw1h01.itm): 
 		- Fixed item description: Lore bonus +10 (was +10%).
 		- Charm Person ability: replaced Charm Person effects with more accurate BG2 Fixpack ones (classical games) and patch them to fit EE games (op#324). Added Break Sanctuary flag for EE games.
 		- Appended tooltip.2da: *Blade of the Red Rose, Charm Person*.
-	- <ins>Dancing Couple's Sword (u#sw1h02.itm):
+	- <ins>Dancing Couple's Sword</ins> (u#sw1h02.itm):
 		- Hard-coded item inventory and header icons, and op#67 creature file to avoid writing them in installation process.
 		- Fixed item description: added missing kit restrictions.
 		- EE compatibility: added immunity for opponents immune to poison (op#324).
 		- Appended tooltip.2da: *Dancing Couple's Sword, The Mirror Dancing Sword, Stinking Cloud*.
 		- The Mirror Dancing Sword (u#sw1h02.cre): fixed wrong Sex (OTHER - was MALE), General (WEAPON - was HUMANOID) and Race (SWORD - was GNOLL) index.
 		- The Mirror Dancing Sword's weapon (u#s1h02a.itm): hard-coded item inventory and header icons, fixed wrong THAC0 (2 - was 1) and added immunity for opponents immune to poison (op#324) for EE games.
-	- <ins>Black Sword of Undeath (u#sw1h04.itm):
+	- <ins>Black Sword of Undeath</ins> (u#sw1h04.itm):
 		- Removed inaccurate opcodes providing Stun immunity.
 		- Added missing opcodes for a full Immunity to Fear effects: op#296 (Protection from Specific Animation = CDHORROR), op#240	(Remove Special Effect Icon = 36 Panic), op#106 (Morale break = 1), op#161 (Remove fear), op#23 (Reset moral), op#169 (Immunity Special Effect Icon = 36 Panic), op#267 (protection from string = 17427 14007 *Panic*), op#101 (Protection: from Opcode = 23 Reset morale - 106 Moral break). Added op#321 (Remove effects by resource) for EE games (a7!in13b, spwi205, spin105).
 		- Added DS value (67 BUFF_PRO_EFFECTS and 106 RESIST_FEAR) for EE games (op#328).
 		- Added missing opcodes for a full Immunity to Charm effects: op#296 Protection from Specific Animation (SPNWCHRM), op#267 (protection from string = 14780 *Dire charmed* - 1476 14672 *Charmed*).
 		- Added missing opcodes for a full Immunity to Hold effects: op#101 (Protection: from Opcode = 185 Hold Creature III),  op#267 (protection from string = 14102 17404 8823 1473 915 384 340 *Held*).
+		- Added missing DS value: opcode #282 (Script: Scripting State Modifier): parameter1 = 1 - parameter2 = 2 [158 SCRIPTINGSTATE3 aka LEVEL_DRAIN_IMMUNITY].
 		- Rewrote Summoning ability: replaced op#67 with a new effect (u#sw1h04). Fixed wrong target (Range - was caster) and added op#174 effect (Play sound). 
 		- Added a brand new bam file for the summoning ability (no longer uses the sword inventory icon).
 		- Appended tooltip.2da with a new strref (*Summon Kraka'Tur*).
 		- Kraka'Tur (u#s1h04a.cre, u#s1h04b.cre): fixed allegiance (controlled, was ally), added scripting name (u#sw1h04) and replaced default script WTARSGHT with WTASIGHT (no ranged weapon).
-
-		- Added missing DS value: opcode #282 (Script: Scripting State Modifier): parameter1 = 1 - parameter2 = 2 [158 SCRIPTINGSTATE3 aka LEVEL_DRAIN_IMMUNITY].
-
-	- <ins>Yoshimo's Poisoned Katana +3 (u#sw1h05.itm):
+	- <ins>Yoshimo's Poisoned Katana +3</ins> (u#sw1h05.itm):
 		- Fixed opcode #142 (Display portrait icon): replaced wrong 137 icon (Bleeding) with 6 (Poisoned).
 		- EE compatibility: added op#319 (Item Usability) to restrict item usability (Yoshimo) and op#324 for opponents immune to poison.
-1PP ???
 	- <ins>Spirit of Yoshimo</ins> (u#misc01.itm):
 		- Fixed item description: added missing weight (0) and Wizard Slayer restriction flag.
 		- Added Wizard Slayer restriction flag.
@@ -309,12 +306,12 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Replaced item colors 33 CHROME MAGENTA with 46 RED, more accurate with the new inventory icon, and with 195 CHROME RED for EE games and classical 1PP modded games.
 	- <ins>Cloak of Thay</ins> (u#clck03.itm):
 		- Immunity to Normal Weapons equipped effect: added DS values (op#282 181 DETECTILLUSIONSMTPBONUS aka PROTECTION_FROM_NORMAL_WEAPONS) for classical games and Set State PROTECTION_FROM_NORMAL_WEAPONS (111) and BUFF_PRO_WEAPONS (64) for EE games.
-	- <ins>Nature's Cloak (u#clck04.itm):
+	- <ins>Nature's Cloak</ins> (u#clck04.itm):
 		- Added missing opcodes for a full Immunity to Poison: op#173 (Poison Resistance Modifier = 100) and op#267 (Protection from Display Specific String: 14017 *Poison* - 14662 *Poisoned*).
 		- EE compatibility: added op#319 (Item Usability) to restrict item usability (Cernd).
 	- <ins>Nature's Staff</ins> (u#staf02.itm):
 		- EE compatibility: added op#319 (Item Usability) to restrict item usability (Cernd).
-	- Staff of Many Magics</ins> (u#staf03.itm):
+	- <ins>Staff of Many Magics</ins> (u#staf03.itm):
 		- Domination ability: replaced Charm Person effects with more accurate BG2 Fixpack ones (classical games) and patch them to fit EE games (op#324).
 		- Domination ability: added Break Sanctuary flag (BIT9) for EE games.
 		- Added missing opcodes for a full Cure ability: op#240 (Remove portrait icon: 5 Intoxicated - 6 Poisoned - 7 Diseased).
@@ -382,29 +379,11 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 		- Fixed Weight value (0 - was 5) and updated item description.
 		- Removed Druid and added thief restriction flags.
 
-
-<details><summary>wip</summary>
-<p></br>
-
-Regenerate
-Black Sword of Undeath
-Incandescent Ioun Stone
-Nature's Staff
-
-SPPR711.SPL    233     1     124   142    n     A          //  REGENERATION
-- Option 2: Use original, overpowered items.
-	- Robe of the Magi (wzrdclck)
-	- Gauntlets of the Magi (wzrdbrac)
-		- Added DS value #133 Stat: Proficiency (CLERIC_REGENERATION - 124).
-		- Added DS value for EE games: Set State BUFF_PRO_DAMAGE (65).
-</p>
-</details>
-
 ## 
 
 ##### Version 28 by Deratiseur (November 22, 2018)
 
-- Added BG2EE compatibility.
+- Added native BG2EE compatibility.
 - Mits of Shaiman (u#brac01.itm): included <a href="http://www.shsforums.net/topic/42220-fixes-for-the-big-fixpack/page-35#entry543984">Lollorian's assorted ITM fixes</a> preventing a wrong op#18 (Maximum HP Modifier) setting that allowed the exploit of curing current HPs when equipping the item (fixed parametre2 to 3 - Cumulative Modifier, don't update current HP, instead of 0 - Cumulative Modifier).
 - Updated WeiDU installer to v246.
 
