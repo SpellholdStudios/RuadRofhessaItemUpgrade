@@ -144,7 +144,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 
 ## <a name="versions" id="versions"></a>Versions History
 
-##### Version 29.0.0 by Gwendolyne (, 2019)
+##### Version beta 29.0.0 by Gwendolyne (November, 2019)
 
 - Major updates:
 	- Renamed *Setup-Ruad.tp2* -> *ruad.tp2* to support AL|EN's "Project Infinity".
@@ -158,7 +158,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Provided a Ruad portrait for EE game.
 	- Added missing *ruad.tra* file in reload array HANDLE_CHARSETS function (v28 regression).
 	- Second component (#10): removed `AT_INTERACTIVE_EXIT` command and added a require main component process, otherwise mod will crash the game if first component is not installed.
-	- Reorganized components (*DESIGNATED* number).
+	- Reorganized components (*DESIGNATED* number) and added LABELS "*ruad_soa*" and "*ruad_tob*".
 	- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games (replaced old `ACTION_IF NOT FILE_EXISTS "Data/25Dialog.bif"` process).
 	- Added always.tpa library.
 	- Replaced AUTHOR keyword with SUPPORT.
