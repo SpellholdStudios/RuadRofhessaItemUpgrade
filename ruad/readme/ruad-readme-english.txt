@@ -95,7 +95,7 @@ Special thanks to:
 - Thot: French translation. And La Voix 2 la Sagesse (of the d'Oghmatiques) for updating it.
 - Bhasbuto, Immortality and Mhoram of <a href="http://www.clandlan.cjb.net">Clan DLAN</a>: Spanish translation. And Lisandro for updating it.
 - Beyshaliban: German translation.
-- Ilot: Italian translation
+- Ilot: Italian translation. And Salk for providing WeiDU prompts.
 - aerie.ru Team: Russian translation.
 - Deratiseur: Provided the EE compatible version (28).
 - Gwendolyne: Fixed translations and released version 29.0.0.
@@ -133,7 +133,7 @@ Version beta 29.0.0 by Gwendolyne (, 2019)
 - Commented code as much as possible.
 - Updated and renamed readme file to ruad-readme-english.txt.
 - Updated items.tra files for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
-- Added German and Spanish WeiDU prompts.
+- Added German, Italian (thanks Salk!) and Spanish WeiDU prompts.
 - Updated French and English translations.
 - Renamed titles and setup .tra files to more accurate setup and items .tra files.
 - Renamed american language folder to english.

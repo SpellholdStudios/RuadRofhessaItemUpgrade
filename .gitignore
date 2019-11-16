@@ -43,6 +43,7 @@ $RECYCLE.BIN/
 *.7z
 *.rar
 *.zip
+*.exe
 dev_notes.txt
 z*.*
 todo*.*
