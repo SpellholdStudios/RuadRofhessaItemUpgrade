@@ -1,0 +1,106 @@
+/* ============================================ *
+ *                                              *
+ *                 ALWAYS BLOCK                 *
+ *                                              *
+ * ============================================ */
+
+// Concept borrowed from DavidW's Immutability and encapsulation in mod design (https://github.com/Gibberlings3/immutable)
+
+/* ================================================================= *
+ * This code only runs once, even if you install lots of components. *
+ * ================================================================= */
+
+ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
+
+	OUTER_SET always_once_section = 1
+
+	CLEAR_EVERYTHING
+	SILENT
+
+	/* -------------------------------------------------------------------------------- *
+	 *    Determines which game is installed and if the game is an Enhanced Edition.    *
+	 * -------------------------------------------------------------------------------- */
+
+	OUTER_SET is_ee = (GAME_IS ~bg2ee eet~) ? 1 : 0					// EE game
+	OUTER_SET is_tob = (GAME_IS ~bgt tob tutu tutu_totsc~) ? 1 : 0	// based on vanilla ToB engine
+	OUTER_SET is_tutu = (GAME_IS ~tutu tutu_totsc~) ? 1 : 0			// tutu
+	OUTER_SET is_bg2ee = (GAME_IS "bg2ee") ? 1 : 0					// b2gee
+	OUTER_SET is_eet = (GAME_IS "eet") ? 1 : 0						// eet
+
+
+	/* ----------------------- *
+	 *    Detect other mods    *
+	 * ----------------------- */
+
+	// Detects 1PP
+	OUTER_SET is_1pp_helmet =  (MOD_IS_INSTALLED ~1pp.tp2~ ~208~) ? 1 : 0											// 1ppv4: Additional Helmet Animations (core)
+	OUTER_SET is_1pp_staff  = ((MOD_IS_INSTALLED ~1pp.tp2~ ~207~) AND (MOD_IS_INSTALLED ~1pp.tp2~ ~400~)) ? 1 : 0	// 1ppv4: Wizards' Staves (core)
+	OUTER_SET is_1pp_swblbw = ((MOD_IS_INSTALLED ~1pp.tp2~ ~210~) AND (MOD_IS_INSTALLED ~1pp.tp2~ ~400~)) ? 1 : 0	// 1ppv4: Increased paperdoll object variety (core)
+	OUTER_SET is_1pp_400    =  (MOD_IS_INSTALLED ~1pp.tp2~ ~400~) ? 1 : 0											// 1ppv4: Core updates and item patches
+	OUTER_SET is_1pp_401    =  (MOD_IS_INSTALLED ~1pp.tp2~ ~401~) ? 1 : 0											// 1ppv4: Improved projectile effects
+	/* Detects other mods : Detects ToBEx */
+	OUTER_SET is_tobex = (FILE_EXISTS ~tobex_ini/tobexcore.ini~) ? 1 : 0
+
+
+	/* --------------------------------------------- *
+	 *    General variables, macros and functions    *
+	 * --------------------------------------------- */
+
+	ACTION_IF (is_ee) BEGIN
+		OUTER_SPRINT ee_file "_ee"
+	END ELSE BEGIN
+		OUTER_SPRINT ee_file ""
+	END
+
+	ACTION_IF (is_eet) BEGIN
+		OUTER_SET bg2_chapter = 12
+	END ELSE BEGIN
+		OUTER_SET bg2_chapter = 0
+	END
+	OUTER_FOR (i = 1 ; i <= 10; ++i) BEGIN
+		OUTER_SET bg2_chapter = bg2_chapter + 1
+		OUTER_SPRINT name_source ~bg2_chapter_%i%~
+		OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+	END
+
+	INCLUDE ~%MOD_FOLDER%/lib/gw_functions.tpa~						// Loads macros and functions library dealing with tooltip appending and specific EE items descriptions.
+	INCLUDE ~%MOD_FOLDER%/lib/gw_convert_inventory_bam_to_ee.tpa~	// Loads function converting inventory BAMs to EE.
+	ACTION_IF (is_ee OR is_1pp_staff OR is_1pp_helmet OR is_1pp_400 OR is_1pp_swblbw) BEGIN
+		INCLUDE ~%MOD_FOLDER%/lib/1pp_macros.tpa~					// Loads 1PP macros dealing with items coloring.
+		LAM ~Locations~												// DEFINES location field values needed to alter items' colors.
+		INCLUDE ~%MOD_FOLDER%/lib/1pp_compatibility.tph~			// Loads functions restoring items coloration for EE games or if 1PP relevant components are installed.
+	END
+
+
+	/* -------------------------- *
+	 *    Creates a blank file    *
+	 * -------------------------- */
+SILENT
+<<<<<<<< .../ruad-inline/blank
+
+>>>>>>>>
+
+
+	/* ----------------------------------------------- *
+	 *    Handling of correctly formatted tra-files    *
+	 *           Converts tra files to UTF-8           *
+	 * ----------------------------------------------- */
+
+	ACTION_IF (!FILE_EXISTS "%MOD_FOLDER%/ruad_languages_installed.mrk") BEGIN
+		COPY ~.../ruad-inline/blank~ ~%MOD_FOLDER%/ruad_languages_installed.mrk~	// Converts .tra files once
+		ACTION_DEFINE_ARRAY mf_reload BEGIN setup items ruad END
+		ACTION_DEFINE_ARRAY mf_noconvert BEGIN END
+		LAF HANDLE_CHARSETS
+			INT_VAR
+				infer_charset = 1
+			STR_VAR
+				tra_path = EVAL ~%MOD_FOLDER%/lang~
+				noconvert_array = mf_noconvert
+				reload_array = mf_reload
+//				default_language = english
+//				iconv_path = EVAL ~%MOD_FOLDER%/lang/iconv~
+		END
+	END
+
+
+END	// of ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
