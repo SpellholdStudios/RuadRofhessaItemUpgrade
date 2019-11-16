@@ -1,0 +1,1419 @@
+@9001 = ~[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+@9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+
+/* ================= *
+ *  Character names  *
+ * ================= */
+@2001 = ~Ruad~
+@2002 = ~The Mirror Dancing Sword~
+@2003 = ~Kraka'Tur~
+@2004 = ~Spirit of Yoshimo~
+@2005 = ~Restless Child Spirit~ // from #@5777 = ~Child Spirit~
+
+
+/* ======= *
+ *  Items  *
+ * ======= */
+@6001 = ~Blade of the Red Rose~
+@6002 = ~Long Sword +4: Blade of the Red Rose
+This blade possesses an unearthly splendor, and it is likely that Sune, the goddess of beauty and passion, had a hand in its creation. The effect it has on the wielder is immediate, and more than once in its history has this sword has been the secret behind a lackluster soldier's sudden elevation at court.
+This blade has been enhanced by Ruad to be a more effective weapon yes, but it's most unique feature is its stunning beauty. Long after it leaves the hands of its current user, it will be a cherished item for Court and Ceremony. Many have said it's appearance is unnaturally beautiful and possible only through magical means. Truly splendid regardless of how it was made, one almost wonders how such great beauty can bring such great death as well.
+
+STATISTICS:
+
+Charge abilities:
+- Charm Person three times per day
+
+Equipped abilities:
+- Charisma: +3
+- Lore : +10
+- Magic Resistance : +10%
+- Armor Class: +1
+- Saving Throws: +1
+
+THACO: +3
+Damage: 2d4+4, +2 electrical damage
+Damage type: slashing
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires: 8 Strength
+
+Weight: 4
+
+Not usable by:
+ Cleric
+ Druid
+ Mage
+ Beast Master~
+
+@6003 = ~Dancing Couple's Sword~
+@6004 = ~Long Sword +2: Ras, The Dancing Couple's Sword
+Beroalf was a barbarian who traveled from the cold north in search of adventure. He sought treasures and glory, but soon all he wanted were companions to share in the excitement of battle, much like those he had left behind in his faraway village. Unfortunately, his coarse remarks and rudimentary hygiene repelled most travelers he met, until he expressed his thoughts to a sympathetic mage. The mage, for a price, constructed Ras, the dancing blade. Though not quite what Beroalf had in mind, he was thrilled nonetheless and wielded the sword for many years. How they were ultimately separated is not known.
+This blade was found some years later by another group of adventurers and, while novel, it was not particularly useful. Not wanting to sell this item and let others benefit from its fresh scent, the party decided to keep it and show it to a smith. With the proper reagents, instead of the blade leaving the wielder's hand, a mirror image of it was cast and the weapon would remain. Splitting the sword decreased the accuracy of the original and the facsimile until the spell ran out, however.
+In the process of enhancing the sword, the smith also discovered the secret of the sword's fresh scent; some form of enchanted baking powder only produced by a wandering half-elf known as Armand Ha'mer for the (not so) rare occasions when he travelled with smelly companions. The powder had stored years and years of a barbarian's stink and that of others; as the craftsman found this out the hard way. With an eye towards using every characteristic do aid a client's adventuring, the craftsman knew instantly, after recovering his senses, such a powerful stink had it's uses. The united sword would now have the ability to cast 'stinking cloud' at an opponent once per day.
+
+STATISTICS:
+
+Charge abilities:
+- Once per day, the Dancing sword can attack on its own for 6 rounds, with a copy of the sword remaining in the wielder's hand.
+- Stinking cloud once per day.
+
+THACO: +2
+Damage: 1d8+3 (+1 bleeding)
+Damage type: slashing
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires: 10 Strength
+
+Weight: 5
+
+Not usable by:
+ Cleric
+ Druid
+ Mage
+ Beast Master~
+
+@6005 = ~Vampire's Revenge +2~
+@6006 = ~Long Sword +2: Vampire's Revenge
+It would seem that the very speculation of this weapon's existence has conspired to pull it from the realm of fantasy and into the everyday, though, as with all things that come from dreams, it is not as it truly seems. The blade is indeed vampiric, as the name would suggest; though not in the manner the finder might have hoped. It is rumored that the blade, instead of performing as one might think a vampiric blade would, was actually constructed by vampires as a trap for those that could eventually oppose them. These incredibly clever fiends have apparently fashioned numerous versions of these unfortunate blades over time, and they are the bane of all right-thinking adventurers. Each swing actually inflicts damage upon the wielder, as his life energies are drained in order to heal his intended victim. Were this not enough, the weapon is cursed so as to prevent it's removal, and the user is smitten with a wasting of the mind, that he might not even think of trying to rid himself of it. This may be among the few magical treasures that are simply not worth the trouble of seeking, and one might better spend ones time having a lovely beverage, rather than gallivanting about the wilderness with a pack full of rubbish chasing phantoms.
+
+It was recently commissioned by <CHARNAME> to be upgraded by the famous blacksmith Ruad Ro'fhessa. Although the sword is not very powerful combat-wise, it is at least useful in regard to healing the user (albeit minimally).
+
+STATISTICS:
+
+Combat abilities:
+- 20% chance each successful hit heals the wielder for 10 HP
+
+THAC0: +2
+Damage: 1d8+2
+Damage type: slashing
+Speed Factor: 3
+Proficiency Type: Long Sword
+Type: One-handed
+Requires: 8 Strength
+
+Weight: 4
+
+Not usable by:
+ Good or Neutral alignment
+ Cleric
+ Druid
+ Mage
+ Beast Master~
+
+@6007 = ~Black Sword of Undeath~
+@6008 = ~Long Sword +5: Black Sword of Undeath
+It would seem that the very speculation of this weapon's existence has conspired to pull it from the realm of fantasy and into the everyday, though, as with all things that come from dreams, it is not as it truly seems. The blade is indeed vampiric, as the name would suggest; though not in the manner the finder might have hoped. It is rumored that the blade, instead of performing as one might think a vampiric blade would, was actually constructed by vampires as a trap for those that could eventually oppose them. These incredibly clever fiends have apparently fashioned numerous versions of these unfortunate blades over time, and they are the bane of all right-thinking adventurers. Each swing actually inflicts damage upon the wielder, as his life energies are drained in order to heal his intended victim. Were this not enough, the weapon is cursed so as to prevent it's removal, and the user is smitten with a wasting of the mind, that he might not even think of trying to rid himself of it. This may be among the few magical treasures that are simply not worth the trouble of seeking, and one might better spend ones time having a lovely beverage, rather than gallivanting about the wilderness with a pack full of rubbish chasing phantoms.
+
+After its second upgrade by the Bhaalspawn <CHARNAME>, this sword can function as a deadly tool. Imbued with the black heart of the Matriarch vampire Bodhi, the sword now offers a wide variety of protections. It can also drain the life from its target, and transfer their life-force to the wielder.
+But by far this weapon's most distinguishing feature is its ability to call upon the spirit of Kraka'Tur, an ancient Vampire Lord.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +2
+– Regenerate 1 Hit Point every five seconds
+- Immunity to charm, fear, and hold
+- Immunity to level drain
+
+Charge abilities:
+- Summon Kraka'Tur under the user's control once per day
+
+Combat abilities:
+– With every hit, it has a 30% chance of draining 4 levels from the target and healing the wielder by 20 Hit Points as well as hasting <PRO_HIMHER> for 12 seconds.
+
+THAC0: +5
+Damage: 1d8+5
+Damage type: slashing
+Speed Factor: 2
+Proficiency Type: Long Sword
+Type: One-handed
+Requires: 15 Strength
+
+Weight: 10
+
+Not usable by:
+ Good or Neutral alignment
+ Cleric
+ Druid
+ Mage
+ Beast Master~
+@60081 = ~Summon Kraka'Tur~
+
+@6009 = ~Yoshimo's Poisoned Katana~
+@6010 = ~Katana +3: Yoshimo's Poisoned Blade
+This blade, although only lightly enchanted, has achieved a semblance of awareness, enough so that it allows only the thief known as Yoshimo to wield it. Any other than he cannot use this flawless katana in battle.
+
+It was recently upgraded by a Bhaalspawn named <CHARNAME>, and it now has the ability to poison its victim.
+
+STATISTIC:
+
+THAC0: +3
+Damage: 1d10+3, +2 points of poison damage per second for 10 seconds
+Damage type: slashing
+Speed Factor: 1
+Proficiency Type: Katana
+Type: One-handed
+Requires: 6 Strength
+
+Weight: 5
+
+Usable by:
+ Yoshimo~
+
+@6011 = ~Spirit of Yoshimo~
+@6012 = ~Magic Bottle: Spirit of Yoshimo
+When rubbing this bottle briskly between your hands, you cross over into the realm of the dead. From there you invoke the spirit of your fallen former-comrade and betrayer Yoshimo, who must forever come forth to fight at your side - willingly or not - until he has payed repentance for his crimes.
+
+STATISTICS:
+
+Charge abilities:
+- Summons the spirit of Yoshimo (18th level Bounty Hunter) for 2400 seconds once per day.
+
+Weight: 0
+
+Not usable by:
+ Wizard Slayer~
+
+@6013 = ~Dragon Slippers~
+@6014 = ~Boots of Speed: Dragon Slippers
+These boots were given to Simeon Snowlock upon his passage into manhood, fulfilling the last wish of his great-great-grandfather Prestor John, the first king of the Hayholt. Two years before John had became king, he ventured deep into the underground catacombs beneath his future kingdom, where he came upon a lair so enormous that it could only belong to a creature of gigantic proportions. Drawn by the sight of a thousand riches lining the cave, John stepped forward, and was confronted by monster beyond compare. She was Shurukai, mother of all dragons; and she reached a staggering 25 feet from head to tail, and nearly 50 feet across. Armed with only his with, courage and trusted sword, Brightnail, John swiftly fought a savage battle.
+It was rumored that a cataclysmic crash echoed through the entire city, and every man, woman and child ran to see what had become of their most skilled commander. All were awe-struck when they found the red mass collapsed upon the floor, and even more so when John commissioned a throne to be constructed from the bones of the beast, placing the skull upon the highest point. The scales of the beast were removed, and were entwined into a pair of Cheetah's Paws, resulting in footwear that protected the user against fire and morale failure, as well as doubling their movement rate.
+
+Till this day, the throne sits in the centre of the Hayholt for all to admire, its ivory beauty cascading in the sunlight. But mention the name Prestor John, and you will immediately hear the story of Shurakai, and the Dragonbone Chair.
+
+STATISTICS:
+
+Equipped abilities:
+– Doubles movement rate
+- Immunity to all forms of fear and panic
+- Fire Resistance : +25%
+
+Weight: 4~
+
+@6015 = ~Ring of Abjuration~
+@6016 = ~An eon ago, when mad wizards and mages roamed the land, the rings of the schools and spheres were made to allow heroes to combat them on terms approaching equality. Now, more than a thousand years hence, the formula for creating these powerful and subtle rings has been rediscovered. However, the components necessary to make such powerful items require artifact level items to be sacrificed in return, and thus the rings of the schools and spheres once again show great power requires great sacrifice.
+
+This specific ring protects the user from all spells in the Abjuration school, and thus it can only be used by those who specialise in that field - Abjurers.
+
+STATISTICS:
+
+Equipped abilities:
+- Spell immunity: Abjuration
+
+Weight: 0
+
+Usable by:
+ Abjurer~
+
+@6017 = ~Ring of Alteration~
+@6018 = ~An eon ago, when mad wizards and mages roamed the land, the rings of the schools and spheres were made to allow heroes to combat them on terms approaching equality. Now, more than a thousand years hence, the formula for creating these powerful and subtle rings has been rediscovered. However, the components necessary to make such powerful items require artifact level items to be sacrificed in return, and thus the rings of the schools and spheres once again show great power requires great sacrifice.
+
+This specific ring protects the user from all spells in the Alteration school, and thus it can only be used by those who specialise in that field - Transmuters.
+
+STATISTICS:
+
+Equipped abilities:
+- Spell immunity: Alteration
+
+Weight: 0
+
+Usable by:
+ Transmuter~
+
+@6019 = ~Ring of Conjuration~
+@6020 = ~An eon ago, when mad wizards and mages roamed the land, the rings of the schools and spheres were made to allow heroes to combat them on terms approaching equality. Now, more than a thousand years hence, the formula for creating these powerful and subtle rings has been rediscovered. However, the components necessary to make such powerful items require artifact level items to be sacrificed in return, and thus the rings of the schools and spheres once again show great power requires great sacrifice.
+
+This specific ring protects the user from all spells in the Conjuration school, and thus it can only be used by those who specialise in that field - Conjurers.
+
+STATISTICS:
+
+Equipped abilities:
+- Spell immunity: Conjuration
+
+Weight: 0
+
+Usable by:
+ Conjurer~
+
+@6021 = ~Ring of Divination~
+@6022 = ~An eon ago, when mad wizards and mages roamed the land, the rings of the schools and spheres were made to allow heroes to combat them on terms approaching equality. Now, more than a thousand years hence, the formula for creating these powerful and subtle rings has been rediscovered. However, the components necessary to make such powerful items require artifact level items to be sacrificed in return, and thus the rings of the schools and spheres once again show great power requires great sacrifice.
+
+This specific ring protects the user from all spells in the Divination school, and thus it can only be used by those who specialise in that field - Diviners.
+
+STATISTICS:
+
+Equipped abilities:
+- Spell immunity: Divination
+
+Weight: 0
+
+Usable by:
+ Diviner~
+
+@6023 = ~Ring of Enchantment~
+@6024 = ~An eon ago, when mad wizards and mages roamed the land, the rings of the schools and spheres were made to allow heroes to combat them on terms approaching equality. Now, more than a thousand years hence, the formula for creating these powerful and subtle rings has been rediscovered. However, the components necessary to make such powerful items require artifact level items to be sacrificed in return, and thus the rings of the schools and spheres once again show great power requires great sacrifice.
+
+This specific ring protects the user from all spells in the Enchantment school, and thus it can only be used by those who specialise in that field - Enchanters.
+
+STATISTICS:
+
+Equipped abilities:
+- Spell immunity: Enchantment
+
+Weight: 0
+
+Usable by:
+ Enchanter~
+
+@6025 = ~Ring of Evocation~
+@6026 = ~An eon ago, when mad wizards and mages roamed the land, the rings of the schools and spheres were made to allow heroes to combat them on terms approaching equality. Now, more than a thousand years hence, the formula for creating these powerful and subtle rings has been rediscovered. However, the components necessary to make such powerful items require artifact level items to be sacrificed in return, and thus the rings of the schools and spheres once again show great power requires great sacrifice.
+
+This specific ring protects the user from all spells in the Evocation school, and thus it can only be used by those who specialise in that field - Invokers.
+
+STATISTICS:
+
+Equipped abilities:
+- Spell immunity: Evocation
+
+Weight: 0
+
+Usable by:
+ Invoker~
+
+@6027 = ~Ring of Illusion~
+@6028 = ~An eon ago, when mad wizards and mages roamed the land, the rings of the schools and spheres were made to allow heroes to combat them on terms approaching equality. Now, more than a thousand years hence, the formula for creating these powerful and subtle rings has been rediscovered. However, the components necessary to make such powerful items require artifact level items to be sacrificed in return, and thus the rings of the schools and spheres once again show great power requires great sacrifice.
+
+This specific ring protects the user from all spells in the Illusion school, and thus it can only be used by those who specialise in that field - Illusionists.
+
+STATISTICS:
+
+Equipped abilities:
+- Spell immunity: Illusion
+
+Weight: 0
+
+Usable by:
+ Illusionist~
+
+@6029 = ~Ring of Necromancy~
+@6030 = ~An eon ago, when mad wizards and mages roamed the land, the rings of the schools and spheres were made to allow heroes to combat them on terms approaching equality. Now, more than a thousand years hence, the formula for creating these powerful and subtle rings has been rediscovered. However, the components necessary to make such powerful items require artifact level items to be sacrificed in return, and thus the rings of the schools and spheres once again show great power requires great sacrifice.
+
+This specific ring protects the user from all spells in the Necromancy school, and thus it can only be used by those who specialise in that field - Necromancers.
+
+STATISTICS:
+
+Equipped abilities:
+- Spell immunity: Necromancy
+
+Weight: 0
+
+Usable by:
+ Necromancer~
+
+@6031 = ~Adamantine Chain~
+@6032 = ~Chain Mail +5: Adamantine Chain
+After many adventures in the Underdark, a Bhaalspawn named <CHARNAME> forged this chain mail using remnants of many magnificent items - adamantine dust. Due to the skill and nature of its forging, this armor does not disintegrate in sunlight.
+This magical chain does not hinder the casting of spells, and gives the wearer additional protection from magic, fire and acid. It also improves the casting speed factor of all spells cast by the wearer of the armor.
+Due to the similarity to its counterparts, it associates the wearer with the Drow, which is detrimental to <HISHER> popularity.
+
+STATISTICS:
+
+Equipped abilities:
+- Magic Resistance: +10%
+– Fire Resistance: +15%
+– Acid Resistance: +15%
+- Improves casting speed by 1
+- Charisma: -2
+– Spellcasting is not disabled
+
+Armor Class: 0 (-2 vs. slashing, 2 vs. crushing)
+Requires: 5 Strength
+
+Weight: 20
+
+Usable by:
+ Bard
+ Cleric/Mage
+ Fighter/Mage
+ Mage/Thief
+ Fighter/Mage/Cleric
+ Fighter/Mage/Thief~
+
+@6033 = ~Warlord's Girdle~
+@6034 = ~The adventurer <CHARNAME> had this belt made after realizing that a few of <PRO_HISHER> companions could not cope with the physical hardships of adventuring.
+This belt combines some of the best strength, dexterity and constitution enhancing items to create a truly awesome item.
+
+STATISTICS:
+
+Equipped abilities:
+- Strength: +2
+- Dexterity: +2
+- Constitution: +2
+
+Weight: 2
+
+Not usable by:
+ Wizard Slayer~
+
+@6035 = ~Kaligun's Amulet of Greater Resistance~
+@6036 = ~This particular amulet has the initials KP on its back surface. KP, or Kaligun Poonil was the general of a small force sent into the woodlands to clear out Red Wizards. Being particularly fearful of magic he wore this amulet into battle. Overconfident in the protection offered by this amulet, Kaligun finally died when he foolishly ambushed three high level Red Wizards who lowered his magic resistance before destroying him with their spells.
+
+Not only is this necklace stylish, but after improvements were made by an adventurer, <CHARNAME>, it now provides additional protection.
+
+STATISTICS:
+
+Equipped abilities:
+- Magic Resistance: +10%
+- Armor Class: +2
+- Saving Throws: +2
+
+Weight: 3
+
+Not usable by:
+ Wizard Slayer~
+
+@6037 = ~Incandescent Ioun Stone~
+@6038 = ~Crafted for <CHARNAME> from four powerful ioun stones, this orange beauty boosts the wearer's mental and physical hardiness.
+
+STATISTICS:
+
+Equipped abilities:
+- Constitution: +1
+- Intelligence: +1
+- Wisdom: +1
+– Regenerate 1 Hit Point every three seconds
+
+Weight: 2~
+
+@6039 = ~Jaheira's Harper Pin~
+@6040 = ~A Harper pin is a treasured item, signifying that the bearer is an honored and trusted member of the Harpers. It grants the wearer exceptional protection against many different kinds of attacks. Harper pins are not attuned to any particular person, but you would be hard pressed to find someone that would lend such an item or even let it out of their sight. It is quite literally a badge of honor.
+
+This specific pin was a gift to Jaheira by the fabled wizard Elminster, and was recently upgraded by her true love, <CHARNAME>. It now stands as a symbol of their trust and commitment.
+
+STATISTICS:
+
+Equipped abilities:
+- Electricity Resistance: +100%
+- Magic Resistance: +5%
+- Save vs. Spells: +5
+- Improves casting time by 1
+- Non-detection
+- Immunity to charm, confusion and fear
+- Immunity to Magic Missile
+
+Weight: 1~
+
+@6041 = ~Frostfury~
+@6042 = ~Battle Axe +4: Frostfury
+This was the axe of Illgarth, a frost giant that terrorized northern communities long ago. It is not known where he acquired the weapon, but he took a perverse pleasure in unleashing it upon small folk, particularly halflings. Ice and acid maimed those not killed, and the giant would laugh coldly if he recognized his handiwork from a previous visit. Ultimately a group did manage to kill him, and at the request of his victims Frostreaver was buried with him.
+
+More recently this axe has been reforged at the request of <CHARNAME>, drastically improving its power, although the weapon's ability to inflict acid damage has been lost during the forging.
+
+STATISTICS:
+
+Equipped abilities:
+- Cold Resistance: +40%
+
+Combat abilities:
+- 40% chance each hit that target will be slowed for 18 seconds (no saving throw)
+
+THAC0: +4
+Damage: 1d8+4, +1d4+1 cold damage
+Damage Type: slashing
+Speed Factor: 4
+Proficiency Type: Axe
+Type: One-handed
+Requires: 10 Strength
+
+Weight: 7
+
+Not usable by:
+ Cleric
+ Druid
+ Mage
+ Thief
+ Monk
+ Beast Master~
+
+@6043 = ~Wand of Hard Knocks~
+@6044 = ~By imbuing an ordinary Wand of Magic Missiles, a skilled craftsman turned this item into one of greater practical value. It now has the ability to unlock doors and chests.
+
+STATISTICS:
+
+Charge abilities:
+- Knock (100 charges)
+
+Requires: 9 Intelligence
+
+Weight: 1
+
+Not usable by:
+ Wizard Slayer~
+
+@6045 = ~Messerschmitt Stone Reaver Axe~
+@6046 = ~Two Handed Axe +3: Messerschmitt Stone Reaver
+The Messerschmitt Stone Reaver Axe combines two popular types of Dwarven axes with an unusual shaft found by an adventuring party. The axe is named after the human Messerschmitt, a rival smith of the craftsman that created this weapon that tried a similar design. The axe fell off his bench and cut off most of his hand. In anger he simply melted the experimental axe down, returned his commission and gave his customer the axes in a hot ladle full of slagged iron & mithril. Messerschmitt explained the Gods were punishing him for taking two fine, Dwarven axes and making such an abomination for a Halfling. The Halfling promptly kicked Messerschmitt in the shins and stormed out.
+
+The design is a double headed axe with Stone Fire on one side and Frost Reaver on the other. Both of these axes had to be reforged to make them large enough to make this fearsome two handed, double headed axe but they have lost none of their potency. The damage that is done to the target depends greatly on which side of the axe they are hit with. Upon completion of the axe, it's user was very clear that the axe may be be cursed and never let a Halfling wield it. The same is probably true for Gnomes as well. The weapon's creator hinted at some special protective magic to ensure just such a case. "Wouldn't want this weapon to fall into either the wrong, or small, hands", he said.
+
+This design has obvious merits for use against trolls and the unusual staff has given it the ability to kill fire elementals in a single strike. Properly used, it can block weapon strikes as well. The axe is so heavy at the ends, it is an excellent weapon against armored opponents as it cleaves through armor, piercing instead of slashing. So deeply can it bite that sometimes it is hard to pull out of an opponent.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+
+Combat abilities:
+- Slays fire elementals (no save)
+- 5% chance that the target and wielder may be stunned for 1 round on each strike
+- 50% chance of doing an extra 2 points fire damage
+- 50% chance of doing an extra 1 point cold and acid damage
+
+THAC0: +3
+Damage: 2d6+3
+Damage Type: piercing
+Speed Factor: 9
+Proficiency Type: Axe
+Type: Two-handed
+Requires: 17 Strength
+
+Weight: 21
+
+Not usable by:
+ Gnome
+ Halfling
+ Cleric
+ Druid
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@60451 = ~Two-Handed Axe~
+@60461 = ~This mighty weapon consists of a haft several feet long, topped with a heavy blade. The axe may be double-bitted, with blades on both sides of the haft, or it may only have a single blade. It is an unwieldy weapon, but a skilled warrior can strike blows of tremendous strength with it.
+
+STATISTICS:
+
+Damage: 1d10 (slashing)
+Speed Factor: 9
+Proficiency Type: Axe
+Type: Two-handed
+Requires:
+ 10 Strength
+
+Weight: 10
+
+Not usable by:
+ Cleric
+ Druid
+ Mage
+ Thief
+ Monk
+ Beast Master~
+
+@6047 = ~Corthala Family Blade +3~
+@6048 = ~Katana +3: Corthala Family Blade
+This fine katana radiates magical energy when wielded by Valygar. The blade was designed to respond only to those with the blood of the family Corthala flowing through their veins. This +3 blade causes additional bleeding damage when it strikes an opponent.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +3 vs. slashing attacks
+
+Combat abilities:
+– Hit target suffers 3 points of additional bleeding damage per seconde for 2 rounds
+
+THAC0: +3
+Damage: 1d10+3
+Damage Type: slashing
+Speed Factor: 2
+Proficiency Type: Katana
+Type: One-handed
+
+Weight: 4
+
+Usable by:
+ Valygar~
+
+@6049 = ~Corthala Family Blade +4~
+@6050 = ~Katana +4: Corthala Family Blade
+This fine katana radiates magical energy when wielded by Valygar. The blade was designed to respond only to those with the blood of the family Corthala flowing through their veins. This +4 blade causes additional bleeding damage when it strikes an opponent.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +4 vs. slashing attacks
+
+Combat abilities:
+– Hit target suffers 4 points of additional bleeding damage per seconde for 2 rounds
+
+THAC0: +4
+Damage: 1d10+4
+Damage Type: slashing
+Speed Factor: 2
+Proficiency Type: Katana
+Type: One-handed
+
+Weight: 4
+
+Usable by:
+ Valygar~
+
+@6051 = ~The Ugly Stick~
+@6052 = ~Staff +4: The Ugly Stick
+"The Ugly Stick" combines a Staff Spear +2 with the Staff of Rynn +4. At first appearance, it is not a particularly subtle re-crafting. It is properly known as The Staff Pike of Rynn, but no one really bothers. For all intents and appearances, a staff spear was sawed in half with the two sharp ends on the end of the Staff of Rynn and bolted together with an iron sleeve that double as grips for this weapon. Obviously this was the first time anyone ever requested an item like this, and probably the last. It's one redeeming value is that it's cheaper than a Rod of Lordly Might.
+
+What it lacks in craftsmanship, it makes up for in effectiveness. By taking two bastard swords +1, chopping them out of their hilt and reforging their blades, the weapon may be used for both spearing an enemy or slashing. Otherwise the wielder can just whack an enemy with the staff normally. Such an item is useful for those 'opportunities' to fight various opponents, when some are resistant to one type of damage but vulnerable to another.
+
+Whether by chance or design, the weapon's designer made it balanced enough to throw and enchanted it return to the user; it is known to tumble and do varying damage however. Some minor elemental magics were also worked in to retain the pretense of possibly being a Mage's or Cleric's staff. The staff may be used to cast 'Burning Hands' four times per day; best used to kill downed trolls and light camp fires on a wet night. In a pinch, it also makes an excellent cane fishing pole. The powerful enchantment apparently attracts trout and other game fish, oddly enough.
+
+Whomever crafted the weapon purposely left off any identification marks and lore masters would simply remember it as the 'Ugly Stick' from Amn. In the adventuring trade in southern Faerûn, it would become an adventuring in-joke to kid an ugly, dirty or poorly equipped adventurer by saying they had been beaten by 'The Ugly Stick'. Detractors aside, The Ugly Stick was an excellent fishing pole.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: -1
+- Charisma: -4
+- Dexterity: -2
+
+Charge abilities:
+- Burning Hands twice per day
+- Agannazar's Scorcher twice per day
+
+Combat abilities:
+- Always a 5% chance of rendering opponent unconscious when used in melee or thrown because they were bonked in the head.
+
+THACO: +4
+Damage: 50% chance of 1d6+4 crushing, 30% chance of 1d6+2 piercing, 20% chance of 1d6+2 slashing
+Damage Type: crushing, slashing, piercing
+Speed Factor: 8
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires: 13 Strength
+
+Weight: 24
+
+Not usable by:
+ Monk~
+
+@6053 = ~Adamantine Plate~
+@6054 = ~Full Plate +4: Adamantine Plate
+After many adventures in the Underdark, a Bhaalspawn named <CHARNAME> forged this plate mail using remnants of many magnificent items - adamantine dust. Due to the skill and nature of the forging this plate mail does not disintegrate in sunlight.
+This magical plate mail gives godly defense as well as many bonuses from the materials used in its forging.
+Due to the similarity to its counterparts, this plate mail associates the wearer with the Drow, which is detrimental to <HISHER> popularity.
+
+STATISTICS:
+
+Equipped abilities:
+- Acid Resistance: +15%
+- Fire Resistance: +15%
+- Charisma: -2
+- Movement rate slowed by 2
+
+Armor Class: -3 (-7 vs. slashing, -6 vs. piercing and missile)
+Requires: 19 Strength
+
+Weight: 120
+
+Not usable by:
+ Bard
+ Druid
+ Mage
+ Thief
+ Monk
+ Barbarian
+ Archer
+ Beast Monster
+ Stalker
+ Kensai~
+
+@6055 = ~Cloak of the Elemental Star~
+@6056 = ~Thalanta the Fair created many types of cloaks, all known as Cloaks of the Stars. This particular version is simple, with three stars down each sleeve. Once per day, each star can be removed and thrown as a dart.
+
+After an upgrade by a stranger known only as <CHARNAME>, the cloak now has four various colored stars running down each sleeve - red, green, blue, and white - which can be hurled as darts.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2
+- Saving Throws: +2
+
+Charge abilities:
+- Create eight Elemental Star Darts per day.
+
+Weight: 3
+
+Not usable by:
+ Wizard Slayer~
+
+@6057 = ~Crimson Flame Dart~
+@6058 = ~Dart +5: Crimson Flame
+The small size of this weapon belies its great power. Immediately after striking its target, this dart reappears in the hand of the wielder, ready to be hurled again.
+
+After an upgrade by a Bhaalspawn know as <CHARNAME>, this dart now has the ability to inflict additional fire damage.
+
+STATISTICS:
+
+Combat abilities:
+– Returns to the wielder's hand when thrown
+
+THAC0: +5
+Damage: 1d5+5, 1d4+1 fire damage
+Damage Type: missile (piercing)
+Speed Factor: 0
+Proficiency Type: Dart
+Type: One-handed
+Requires: 10 Dexterity
+
+Weight: 0
+
+Not usable by:
+ Cleric
+ Kensai
+ Cavalier~
+
+@6059 = ~Chaos Stone~
+@6060 = ~The bright lavender hue of this has turned a yellow color after it's upgrade by an adventurer known as <CHARNAME>, and the stone dances and sparkles, as if it were alive.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- Save vs. Death: +2
+- Permanent Chaos Shield on wearer
+
+Weight: 2
+
+Usable by:
+ Wild Mage~
+
+@6061 = ~Improved Chaos Stone~
+@6062 = ~This item was formed when <CHARNAME> commissioned a second upgrade for the Lavender Ioun Stone. It now provides the user with better protection against fire and death magic, as well as decreasing the chance of a wild surge.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- Save vs. Death: +3
+- Fire Resistance: +25%
+- Permanent Improved Chaos Shield on wearer
+
+Weight: 2
+
+Usable by:
+ Wild Mage~
+
+@6063 = ~Undead Bane~
+@6064 = ~Two Handed Sword +5: Undead Bane
+This holy sword radiates with a divine aura as if the Maimed God or Loyal Fury himself had blessed it. Uniting the powers of its ancestors, it is the ultimate means of justice against the undead creatures. When in battle with any other then undead, this sword acts much like any other of its kind. Once in the presence of the undead abominations, the sword beginns to glow, warning its wielder of an unholy presence. Undead, once struck with the sword, must focus all their energies or drown in the Abyss. Holy light, emerging from the weapon, can blind wielder`s enemies and is especially devastating against the undead. Because of the nature of this blade, it can only be used be warriors with the purest heart.
+
+STATISTICS:
+
+Charge abilities:
+– False Dawn once per day
+- Negative Plane Protection once per day
+
+Combat abilities:
+– Undead must save vs. Death at -4 or be utterly destroyed
+- 5% chance of casting Sunray on target
+- 5% chance of blinding the target
+
+THACO: +5
+Damage: 1d10+5, does double damage vs. undead
+Damage Type: slashing
+Speed Factor: 5
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires: 14 Strength
+
+Weight: 7
+
+Usable by:
+ Paladin~
+
+@6065 = ~Cloak of the Shadow~
+@6066 = ~Celio Czah, a great Stalker, was a very good blacksmith. He managed to kill many a beast in his life, including dragons. His knowledge was passed down from smith to smith, which explains how this piece of cloth was manufactured. Celio originally molded three cloaks together, along with pieces of animal hide and dragon scales. This particular cloak was manufactured at <CHARNAME>'s request. The knowledge of the adventuring blacksmith, Celio Czah, was definitely not unheard.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +3
+- Acid Resistance: +50%
+- Hide in Shadows: +20%
+- Non-Detection
+
+Weight: 3
+
+Usable by:
+ Stalker
+ Thief (single, dual, & multi-class)~
+
+@6067 = ~Pikim's Armor~
+@6068 = ~Studded Leather +5: Pikim's Armor
+The rebel Shadow Thief, Pikim, used to tinker with many things. Once, he melted keys into the famous Shadow Armor just to see what would happen. He sewed a few cloaks into it as well. Feeling great power within the newly forged armor, Pikim decided it was too great to share with anyone else. That decision cost him his life. The Shadow Thieves hunted him down to take the armor for themselves. Various blacksmiths throughout Faerûn learned how Pikim created this glorious armor. <CHARNAME> managed to have a smith reforge it... for a pretty penny.
+
+STATISTICS:
+
+Equipped abilities:
+- Hide in Shadows: +15%
+- Pick Locks: +60%
+
+Armor Class: 2 (0 vs. slashing, 1 vs. piercing and missile)
+Requires: 6 Strength
+
+Weight: 8
+
+Usable by:
+ Thief (single, dual, & multi-class)~
+
+@6069 = ~Neb's Nasty Cutter +4~
+@6070 = ~Dagger +4: Neb's Nast Cutter
+The despicable dwarf known as Neb has been rather famous for his evil doings. Neb is a child killer and somehow knows how to use their souls in battle. <CHARNAME> and comrades murdered the murderer, and with the help of a trusty blacksmith, Neb's dagger has gained more power than ever. It appears the pure illithium spread upon its blade has caused the poison supply to no longer be limited. Regardless, only the most vile of creatures would dare wield this weapon.
+
+STATISTICS:
+
+Charge abilities:
+- Summon a Restless Child Spirit for 10 minutes once per day
+
+Combat abilities:
+- Target must Save vs. Poison or suffer 2 points of damage per second (10 seconds)
+
+THAC0: +4
+Damage: 1d4+4
+Damage Type: piercing
+Speed Factor: 0
+Proficiency Type: Dagger
+Type: One-handed
+Requires: 3 Strength
+
+Weight: 1
+
+Not usable by:
+ Non-evil alignments
+ Cleric
+ Beast Master~
+@60701 = ~Summon a Restless Child Spirit~
+
+@6071 = ~Shadow Thief's Blade~
+@6072 = ~Short Sword +5: Shadow Thief's Blade
+Once created to be the perfect assassin's tool, the Short Sword of Backstabbing was greatly altered. With the blade of an infamous sword attached, the power of a sword spell, and a few stones and potions, the Shadow's Blade has turned into a much fancier weapon.
+
+STATISTICS:
+
+Equipped abilities:
+- Backstab multiplier: +1
+
+THAC0: +5
+Damage: 1d6+5
+Damage Type: piercing
+Speed Factor: 0
+Proficiency Type: Short Sword
+Type: One-handed
+Requires: 5 Strength
+
+Weight: 5
+
+Usable by:
+ Good or Neutral Alignment
+ Thief~
+
+@6073 = ~Enchanted Bow of Arvoreen~
+@6074 = ~This enchanted bow has been in Mazzy Fentan's possession for several years, given to her by her god, Avoreen. Recently, Avoreen's blessing helped a Bhaalspawn named <CHARNAME> have it improved so it doesn't need any ammunition.
+
+STATISTICS:
+
+Charge abilities:
+- No ammunition required
+- Each arrow has a 10% chance of slowing the target for 12 seconds (no saving throw) upon hit
+
+THAC0: +4
+Damage: 1d6+2
+Damage Type: missile (piercing)
+Speed Factor: 4
+Proficiency Type: Shortbow
+Type: Two-handed
+Requires: 6 Strength
+
+Weight: 2
+
+Usable by:
+ Halfling Warrior~
+
+@6075 = ~Plate of Many Dragons~
+@6076 = ~Four powerful dragons have died at <CHARNAME>'s hand, and the scales used have formed one powerful armor. Unlike other dragon armors, however, this is light and un-encumbering. It will protect from what the dragons use most often in battle.
+
+STATISTICS:
+
+Equipped abilities:
+- Acid Resistance: +50%
+- Cold Resistance: +50%
+- Electricity Resistance: +90%
+- Fire Resistance: +50%
+
+Charge abilities:
+– Cone of Cold three times per day
+
+Armor Class: -2 (-5 vs. slashing, -3 vs. piercing and missile)
+Requires: 6 Strength
+
+Weight: 4
+
+Not usable by:
+ Bard
+ Mage
+ Sorcerer
+ Thief
+ Monk
+ Barbarian
+ Shapeshifter
+ Avenger
+ Archer
+ Beast Master
+ Stalker
+ Kensai~
+
+@6077 = ~Helm of Many Dragons~
+@6078 = ~The skillful hand of the warlock Wormsor carefully worked several dragon scales into this powerful helmet. Red, white, and green scales overlap, protecting the wearer from normal blows as well as fire, cold, and electricity. More recently, however, a Bhaalspawn had four more scales attached. This appears to increase the protection from fire and electricity, and adds acidic protection.
+
+Equipped abilities:
+– Protects against critical hits
+- Acid Resistance: set to 50%
+- Cold Resistance: set to 25%
+- Electrical Resistance: set to 70%
+- Fire Resistance: set to 70%
+
+Armor Class Bonus: None
+
+Weight: 3
+
+Not usable by:
+ Bard
+ Mage
+ Sorcerer
+ Thief
+ Moine
+ Kensai~
+
+@6079 = ~Shield of Many Dragons~
+@6080 = ~Another powerful item created by the warlock, Wormsor, this shield consists of red dragon skin stretched over a steel frame. Green and white dragon scales adorn the red background in a pattern that, when looked in the right way, reveals the face of an ancient dragon. Recently a Bhaalchild had four more scales attached. This appears to increase the protection from fire and electricity, and adds acidic protection.
+
+Equipped abilities:
+- Acid Resistance: set to 50%
+- Cold Resistance: set to 25%
+- Electrical Resistance: set to 70%
+- Fire Resistance: set to 70%
+
+Armor Class : +3
+Requires: 12 Strength
+
+Weight: 6
+
+Not usable by:
+ Bard
+ Druid
+ Mage
+ Sorcerer
+ Thief
+ Monk
+ Kensai~
+
+@6081 = ~Robe of Resistance~
+@6082 = ~Many wizards throughout the land noticed that five un-powerful robes were supposed to be used to protect them, but rarely worked. Many duals were lost by these magic-users, until one by the name of Kerial decided to sew them together. As soon as he was successful combining them, he informed others of the recipe. It turns out the secret ingredient is a pair of bracers. Recently, <CHARNAME> had this powerful robe commissioned.
+
+Equipped abilities:
+- Armor Class: +1 vs. missile and crushing attacks
+- Save vs. Petrification/Polymorph and Breath: +1
+- Cold Resistance: +20%
+- Electricity Resistance: +20%
+- Fire Resistance: +20%
+
+Armor Class: 5
+
+Weight: 4
+
+Usable by:
+ Mage
+ Sorcerer~
+
+@6083 = ~Dragon's Tooth~
+@6084 = ~Halberd +5: Dragon's Tooth
+The weapons of Thorvin Dukal and Ullion the mage have been used for centuries to battle the fire-breathing beasties, but they were both slain. <CHARNAME> found both weapons in <PRO_HISHER> travels, and had them magically united, with the help of a fire dragon's scales. The power seems to be somewhat equal to the front tooth of a fire dragon. It appears that the cold, electric, acidic, and poison damage of Ullion's halberd seem to have vanished in the process, in favor of fire.
+
+STATISTICS:
+
+Equipped abilities:
+- Fire Resistance: +90%
+
+Combat abilities:
+- Additional 5 points of fire damage to any creature struck
+
+THAC0: +5
+Damage: 1d10+5, +6 vs. dragons
+Damage Type: piercing
+Speed Factor: 5
+Proficiency Type: Halberd
+Type: Two-handed
+Requires: 13 Strength
+
+Weight: 12
+
+Not usable by:
+ Cleric
+ Druid
+ Mage
+ Thief
+ Monk
+ Beast Master~
+
+@6085 = ~Cloak of Thay~
+@6086 = ~The Red Wizards of Thay know many things, and usually all wear red. <CHARNAME> had a cloak created from some cloth <PRO_HESHE> found in <PRO_HISHER> adventuring in Athkatla. The cloak created was especially manufactured for the evil magic-users.
+
+STATISTICS:
+
+Equipped abilities:
+- Immunity to Normal Weapons
+- Armor Class: +2
+- Saving Throws: +2
+
+Weight: 3
+
+Usable by:
+ Evil Alignment
+ Mage
+ Sorcerer~
+
+@6087 = ~Nature's Cloak~
+@6088 = ~When younger, Cernd spent a cycle of seasons meditating on his role within nature. He made no shelter, wanting to feel the land unhindered. Nature may have appreciated the intent, for she also knows that for all their dedication, at times her children can be foolish. Cernd found this cloak before the cold season set in, seemingly woven to fit him from the very undergrowth. The message was clear: he can appreciate the rain while still seeking shelter from it. Recently, <CHARNAME> had Cernd's cloak enchanted to protect from many elements. Cernd is still the only one who may use this cloak.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- Saving Throw: +1
+- Immunity to Poison
+- Resistance to Acid, Cold, Electricity and Fire : +25%
+
+Weight: 3
+
+Usable by:
+ Cernd~
+
+@6089 = ~Mits of Shaiman~
+@6090 = ~One of the most common visitors to the Friendly Arm Inn long ago was a great monk called Shaiman. Shaiman was incredibly powerful for a monk, and had many many journeys as well. His past is a mystery, but he seems to try to remain a nice guy. His powerful gloves, however, are another story. Shaiman originally found them in Rashemen, and wore them ever since. Two other bracers were used to copy Shaiman's signature "weapon", and with the help of one black opal on each finger, the Mits of Shaiman are now at the possession of <CHARNAME>.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+– Hit Points: +15
+- THAC0: +4 when attacking with fists
+- Damage: +4 when attacking with fists
+
+Weight: 2
+
+Usable by:
+ Monk~
+
+@6091 = ~Nature's Staff~
+@6092 = ~Staff +4: Nature's Staff
+This staff was the culmination of a cycle of seasons in which Cernd meditated on his role within nature. His perch for this personal journey was next to a sapling, a young oak that was a particular interest of study; it seemed odd, and yet somehow wonderfully ordered. At the coming of spring, Cernd examined it one last time, and it came loose in his hands, a living staff, granted as boon from nature herself. It has grown to fit his grip, thus he is the only one who can wield it. Recently, Cernd's companion, <CHARNAME>, had it upgraded to double its regeneration speed and overall power.
+
+STATISTICS:
+
+Equipped abilities:
+– Regenerate 1 Hit Point every round
+
+THACO: +4
+Damage: 1d6+4
+Damage Type: crushing
+Speed Factor: 1
+Proficiency Type: Quarterstaff
+Type: Two-handed
+
+Weight: 3
+
+Usable by:
+ Cernd~
+
+@6093 = ~Staff of Many Magics~
+@6094 = ~Staff +4: Staff of Many Magics
+<CHARNAME> recently had three lesser staves melted together with diamonds. Who knew it could be done? No one did, until one druid by the name of Xynt had it done with the staves of command, curing, and a mere +2 staff. Now, the new staff, dubbed Many Magics, is now in the Bhaalspawn's possession.
+
+STATISTICS:
+
+Charge abilities:
+- Domination once per day (no save)
+  Range: 40 ft.
+  Duration: 12 hours
+  Area of Effect: 1 creature
+
+– Cure once per day
+  Special: Heals 3d6+3 Hit Points and cures disease and poison
+  Range: Touch
+  Area of Effect: 1 creature
+
+Equipped abilities:
+- Armor Class: 2
+
+THACO: +3
+Damage: 1d6+3
+Damage Type: crushing
+Speed Factor: 1
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires: 5 Strength
+
+Weight: 2
+
+Usable by:
+ Cleric
+ Druid
+ Paladin
+ Ranger~
+
+@6095 = ~The Drowsy Wyvern~
+@6096 = ~Flail +4: The Drowsy Wyvern
+The large spike at the head of this morning star is actually the lethal stinger of a wyvern. The fighter/mage Sedej created the Wyvern's Tail, using his magical abilities to keep the stinger capable of producing poison. The magic he used has actually made the Wyvern's Tail a living weapon, that pulses with life in the hands of its wielder. The other morning star used to create this new weapon once belonged to Ssitalc, an uncharacteristically evil elf known as the Slaver of the Sword Coast. Until his sudden death several years ago, Ssitalc commanded a large force of human, dwarven, and gnomish brigands, using the Sleeper to keep them in line. It had a chance to incapacitate any human, dwarf, gnome, or halfling by inducing deep slumber, though elves are conveniently immune. Recently, however, a Bhaalspawn had the two morning stars combined. Whatever it is used for now, it is sure to be helpful.
+
+STATISTICS:
+
+Combat abilities:
+– Any human or demi-human, excluding elves, hit by the Drowsy Wyvern must save vs. Poison with a +4 bonus or fall asleep for 3 rounds
+– Hit target must save vs. Poison or take 5 Hit Points of poison damage
+
+THACO: +4
+Damage: 2d4+4
+Damage Type: crushing
+Speed Factor: 5
+Proficiency Type: Flail/Morning Star
+Type: One-handed
+Requires: 11 Strength
+
+Weight: 10
+
+Not usable by:
+ Druid
+ Mage
+ Sorcerer
+ Thief
+ Monk
+ Beast Master~
+
+@6097 = ~Cold Shoulder~
+@6098 = ~Morning Star +5: Cold Shoulder
+The head of this morning star appears to be forged from unbreakable ice-blue crystal. The handle is chill to the touch, and the wielder is surrounded by a soothing nimbus of cool air which protects against even magical fire. More recently, a Bhaalspawn had Ice Star reforged with many items cold at heart. That created a mysterious morning star known as the Cold Shoulder.
+
+STATISTICS:
+
+Equipped abilities:
+– Fire Resistance: +50%
+
+Charge abilities:
+- Frost Giant Strength once per day, for 12 hours
+- Ice Storm once per day
+
+Combat abilities:
+- 5% chance of freezing the target to death with each successful hit (no save)
+
+THAC0: +5
+Damage: 2d5+5, +1d4 cold damage
+Damage Type: crushing
+Speed Factor: 4
+Proficiency Type: Flail/Morning Star
+Type: One-handed
+Requires: 13 Strength
+
+Weight: 8
+
+Not usable by:
+ Druid
+ Mage
+ Thief
+ Monk
+ Beast Master~
+@60981 = ~Frost Giant Strength~
+
+@6099 = ~Cloak of the Shark Father~
+@6100 = ~Commissioned by the utter whim of <CHARNAME>, this piece of cloth was formed from the bases of one of <PRO_HISHER> more awkward journeys, in the underwater City-of-Caverns. <PRO_HESHE> helped the Sahuagin living there as part of the Prophesy of Sekolah. After assisting the monsters and returning to the surface, <CHARNAME> had this cloak commissioned. With the sahuagin ammunition, this item shows what no surface creature has seen before.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- Saving Throws: +1
+- Protected by Minor Globe of Invulnerability
+
+Charge abilities:
+- Once per day, the wearer can summon forth an Anguiliian to assist him or her in combat
+
+Weight: 3
+
+Non usable by:
+ Wizard Slayer~
+@61001 = ~Summon Anguiliian~
+
+@6101 = ~Fluent Fingers~
+@6102 = ~These magnificent gloves, adorned with countless arcane runes, were commissioned by a Bhaalspawn. Their origins were the bracers of Grinning Glen, combined with some of the best magical reagents made an item of truly awesome power. The gloves may have lost some of their defensive capabilities but decrease the time needed to cast a spell.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: 4
+– Spellcasting time decreased by 1
+
+Weight: 2
+
+Not usable by:
+ Wizard Slayer
+ Kensai~
+
+@6103 = ~Ring of the Thief~
+@6104 = ~Thieves everywhere cannot bother with simply working to learn for their abilities. This is where a blacksmith, Ruad Ro'fhessa, comes in. He combined four rings, each made for a thief. Together, the Ring of the Thief was formed, to make thievery much easier. Who can expect to be mugged by a thief of such great skill?
+
+STATISTICS:
+
+Charge abilities:
+– Invisibility once per day
+  Duration: 12 hours
+  Area of Effect: The wearer
+
+Equipped abilities:
+- Hide in Shadows: +20%
+- Move Silently: +20%
+- Set Traps: +20%
+- Pick Locks: +25%
+- Find Traps: +25%
+
+Weight: 0
+
+Usable by:
+ Thief (single, dual, & multi-class)~
+
+@6105 = ~Gauntlets of Assassination~
+@6106 = ~Assassinating any creature is very difficult for rogues. Even assassins have some problems, but that is no problem for <CHARNAME> after <PRO_HESHE> met Ruad Ro'fhessa, who forged these fashionable gauntlets. Not only do they assist with accuracy, but they actually increase the skill in backstabbing, which is very rare for anything but weapons. It is sure that they will help <CHARNAME> and companions thoroughly.
+
+STATISTICS:
+
+Equipped abilities:
+- Dexterity: +3
+- Backstab: +1
+
+Weight: 2
+
+Usable by:
+ Thief (single, dual, & multi-class)~
+
+@6107 = ~Kiss of Death~
+@6108 = ~Short Sword +4: Kiss of Death
+Through what must have been a very dark ritual, <CHARNAME> commissioned the smith Ruad forge two deadly thieves tools together. The Sword of Backstabbing and the Cutthroat where joined and, using the knowledge of poisons that could be found through studying the dagger of the children murderer Neb, the combination grained a strange form of poison which the wielder never could hope to control.
+
+STATISTICS:
+
+Combat abilities:
+- 45% chance per hit target suffers 2 points of poison damage per second for 5 seconds
+- 25% chance per hit target suffers 2 points of poison damage per second for 10 seconds
+- 10% chance per hit target suffers 4 points of poison damage per second for 12 seconds
+- 1% chance per hit target suffers 5 points of poison damage per second for 13 seconds
+
+THAC0: +4
+Damage: 1d6+4
+Damage Type: piercing
+Speed Factor: 1
+Proficiency Type: Short Sword
+Type: One-handed
+Requires: 5 Strength
+
+Weight: 2
+
+Not usable by:
+ Cleric
+ Druid
+ Mage
+ Beast Master~
+
+@6109 = ~Hide of Shades~
+@6110 = ~Studded Leather +4: Hide of Shades
+At low levels, a thief is a very difficult creature to protect. This is the reason <CHARNAME> asked Ruad Ro'fhessa to create something worthy of any rogue. Three mediocre pieces of leather were used to forge one of the most powerful attempts at the perfect Rogue Leather. What Ruad created for <CHARNAME> is probably the stealthiest piece of Hide Armor.
+
+STATISTICS:
+
+Equipped abilities:
+- Hide in Shadows: +30%
+
+Armor Class: 3 (1 vs. slashing, 2 vs. piercing and missile)
+Requires: 6 Strength
+
+Weight: 8
+
+Usable by:
+ Thief (single, dual, & multi-class)~
+
+@6111 = ~Lava's Bane~
+@6112 = ~Two Handed Sword +3: Lava's Bane
+The original wielder of the Flame of the North was known as Carerra, and she was a veritable firestorm that swept across arctic trolls and the northern orcish tribes. She was a hated enemy of many a shaman whose magic often floundered against her fury. After a lifetime of raucous battle, it was old age that eventually claimed her. The sword was passed to her granddaughter, an adventurer, who presumably brought it to Amn. At another time, before Neverwinter was warm and before the great Anauroch was dry... "The Burning Earth", as the Flame Tongue was called, was known. It seemed straightforward enough-it burned victims with magical fire, and a cryptic rune seemed to suggest that the power came from the ground itself-but whomever constructed it remains a mystery. It strained the forearm a touch, and did not fit the hand just right. It didn't seem to hurt a warrior's performance, aside from the nagging doubt that the blade was not made for him... or any other humanoid. The other blade of fire used to create Lava's Bane burnt with a magical fire, and a charring blast was released whenever a hit was scored. "Meta Infernum" was, as still is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
+
+Those stories were the birthright of Lava's Bane. Recently commissioned, it holds true power. The blade is made of pure fire, and seems to use the power of certain spells, like Fireball and Phantom Blade. The Flame of the North, Flame Tongue, and Sword of Flame seem to have been put to good use.
+
+STATISTICS:
+
+Equipped abilities:
+– Magic Resistance: +10%
+
+Combat abilities:
+- Fireball: 10% chance per hit that a 10d6 fireball explodes, centered on the target
+
+THAC0: +3
+Damage: 1d10+3, +4 vs. Trolls, +5 vs. Fire Elementals, +10 vs. undead, +5 vs. chaotic evil opponents
+Damage Type: slashing
+Speed Factor: 8
+Proficiency Type: Two-handed Sword
+Type: Two-handed
+Requires: 15 Strength
+
+Weight: 12
+
+Not usable by:
+ Cleric
+ Druid
+ Mage
+ Sorcerer
+ Thief
+ Monk
+ Beast Master~
+
+@6113 = ~Wooden Stake~
+@6114 = ~Club +3: Wooden Stake
+A long long time ago, a great undead hunter known as DeMor created trinkets to help him in battle. No trinket has ever helped him in battle except one. It is well known that DeMor rubbed the magic of a Rogue Stone upon a couple of vampire killing stakes to create a weapon. This weapon helped DeMor fight a gang of Vampires one night. The undead monsters were rather unkind to DeMor, but the paladin still prevailed. The club that DeMor created is now a well known weapon to all, and its creation was not forgotten.
+
+STATISTICS:
+
+Equipped abilities:
+- Immunity to level drain
+
+Combat abilities:
+- When hit, there is a 15% chance that a vampire will be instantly slain
+
+THAC0: +3
+Damage: 1d6+3, +4 vs. undead, +6 vs. vampires
+Damage Type: crushing
+Speed Factor: 1
+Proficiency Type: Club
+Type: One-handed
+Requires: 5 Strength
+
+Weight: 3
+
+Not usable by:
+ Mage
+ Sorcerer~
+
+@6115 = ~Bow of Uden~
+@6116 = ~Longbow +5: Bow of Uden
+Three semi-powerful long bows have been melted together by a magical Rogue Stone, in an attempt to achieve a single bow for the ages. One Ogrillon by the name of Uden had first planned the bow, but never managed. He was killed before the bow could be manufactured. Now, <CHARNAME> had it done for <PRO_HESHE>. Now, it seems to have the greatest attributes of all three bows, and then some.
+
+STATISTICS:
+
+Combat abilities:
+– 3 shots per round
+- When no arrows are equipped, the bow fires missiles that are treated as Arrows of Biting. The arrows deal a total of 1d6 missile damage and the target must save vs. Death or lose 30% of its maximum Hit Points within 20 seconds.
+
+Note: Avoid equipping normal arrows on your character, else the bow will fire these instead of the arrows of biting.
+
+THAC0: +5
+Damage: +5
+Damage Type: missile
+Speed Factor: 5
+Proficiency Type: Longbow
+Type: Two-handed
+Requires: 18 Strength
+
+Weight: 9
+
+Not usable by:
+ Bard
+ Cleric
+ Druid
+ Mage
+ Thief
+ Monk
+ Cavalier
+ Kensai~
+
+@6117 = ~Staff of Resurrection~
+@6118 = ~Quarterstaff +3: Staff of Resurrection
+The rod that was used to create this staff enabled anyone to resurrect the dead as if they were of high enough level to cast the resurrection spell and if they were a priest. No rest was required, as the rod bestowed the life-giving effects. But now, combined with the Staff of Curing, the Rod of Resurrection is much more.
+
+STATISTICS:
+
+Charge abilities:
+– Cure Critical Wounds once per day
+  Special: Heals 27 Hit Points and cures disease and poison
+  Range: Touch
+  Area of Effect: 1 creature
+
+– Resurrection once per day
+  Special: Raised target is fully healed
+  Range: Unlimited
+  Area of Effect: 1 creature
+
+THAC0: +3
+Damage: 1d6+3
+Damage Type: crushing
+Speed Factor: 1
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires: 5 Strength
+
+Weight: 2
+
+Not usable by:
+ Bard
+ Fighter
+ Mage
+ Sorcerer
+ Thief
+ Monk~
+
+@6119 = ~Ring of Time Control~
+@6120 = ~Spellcasters throughout Faerûn usually find their victims stopping the fabric of time to succeed, but one cleric/mage, known only as Shatt, had found a way to stop this. It cost him many coins to keep him from suffering the penalties of the 9th level wizard spell, Time Stop, but Shatt's invention managed to work. Simply by using three ruby rings and one free action ring and absorbing the power of scrolls of Time Stop, Shatt managed to create such a device that he could know longer be threatened by the unfortunate cause of Time Stop. When the mad wizard became known, however, a sleazy thief known as Kamoth managed to steal it. Kamoth couldn't use its extraordinary power, but instead sold it and its infamous recipe to Taerom "Thunderhammer" Fuiruim, in Beregost. The Thunderhammer alerted many other smiths on how it was created, and because of Taerom's wise move, it is now in <CHARNAME>'s possession.
+
+STATISTICS:
+
+Equipped abilities:
+- Immunity to the effects of the ninth level wizard spell Time Stop
+
+Requires: 16 Intelligence
+Weight: 0
+
+Usable by:
+ Bard
+ Cleric
+ Druid
+ Mage
+ Sorcerer~
+
+
+// Other stuff
+@7001 = ~Elemental Star Dart~
+@7002 = ~This magical dart was created using the Cloak of the Elemental Star. It will disappear after 2 days.
+
+STATISTICS:
+
+Combat abilities:
+- Additional 1d3 points of fire, cold, acid, and electrical damage
+
+THACO: +5
+Damage: 1d4+5
+Damage Type: missile (piercing)
+Speed Factor: 0
+Proficiency Type: Dart
+Type: One-handed
+
+Weight: 0
+
+Not usable by:
+ Cleric
+ Kensai
+ Cavalier~

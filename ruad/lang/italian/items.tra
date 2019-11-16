@@ -1,0 +1,1376 @@
+/* ================= *
+ *  Usability flags  *
+ * ================= */
+@9001 =~[Uu]tilizzabile[ %tab%]+\([Ss]olo[ %tab%]+\)?[Dd]a[ %tab%]*:~
+@9002 =~[Nn]on[ %tab%]+[Uu]tilizzabile[ %tab%]+[Dd]a[ %tab%]*:~
+
+/* ================= *
+ *  Character names  *
+ * ================= */
+@2001 = ~Ruad~
+@2002 = ~Lo Specchio della Spada Danzante~
+@2003 = ~Kraka'Tur~
+@2004 = ~Spirito di Yoshimo~
+@2005 = ~Spirito di un Bambino Senza Riposo~
+
+
+/* ======= *
+ *  Items  *
+ * ======= */
+@6001 = ~Lama della Rosa Rossa~
+@6002 = ~Spada Lunga +4: Lama della Rosa Rossa
+Quest'arma possiede uno splendore soprannaturale ed è probabile che Sune, la dea della bellezza e della passione, abbia preso parte alla sua creazione. Ha un effetto immediato su chi la impugna e più di una volta nella storia essa è stata il segreto di un'improvvisa promozione a corte di uno scialbo soldato. Questa lama è stata incantata da Ruad per essere un'arma più efficace, ma la sua caratteristica principale resta la sua bellezza mozzafiato. Molto tempo dopo che lascia le mani del suo proprietario attuale, rimarrà un oggetto caro per la Corte e le Cerimonie. Molti dicono che la sua apparenza ha una bellezza soprannaturale e ciò é stato possibile renderla così solo attraverso dei mezzi magici. Ma indipendentemente da come è stata creata è veramente splendida, ci si domanda come una simile bellezza possa portare con se anche tanta morte.
+
+STATISTICHE:
+
+Lancia: Charme tre volte al giorno
+
+Abilità di Equipaggiamento:
+Carisma: bonus +3
+10 di Conoscenza Bonus
+10% di Resistenza alla Magia
+Classe Armatura: bonus di +1
+Tiri Salvezza: bonus di +1
+
+THACO: +3
+Danno: 2D4 +4, +2 di Danni Elettrici
+Tipo di danno: tagliente
+Fattore-velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: A una mano
+Richiede: 8 alla Forza
+
+Peso: 4
+
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago
+ Addestratore di Animali~
+
+@6003 = ~La Spada Doppia Danzante~
+@6004 = ~Spada Lunga +2: Ras, La Spada Doppia Danzante
+Beroalf era un barbaro che veniva dal freddo nord in cerca di avventura. Cercava tesori e gloria, ma ben presto scoprì che quello che voleva erano dei compagni con cui dividere l'entusiasmo della battaglia, proprio come quelli che si era lasciato alle spalle nel suo lontano villaggio. Sfortunatamente, i suoi grezzi commenti e la sua igiene rudimentale respingevano gran parte dei viaggiatori che incontrava, fino a che non espresse i suoi pensieri ad un mago comprensivo. Il mago, su pagamento, costruì Ras, la spada danzante. Sebbene non era proprio quello che Beroalf volesse, il barbaro fu nondimeno eccitato ed usò la spada per molti anni. Come mai si siano separati alla fine non si sa.
+Questa lama fu trovata qualche anno più tardi da un altro gruppo di avventurieri e, sebbene fosse strano, non gli fu particolarmente utile. Lasciarono che anche altri sentissero il fresco profumo che emanava. Non vollero comunque vendere questo oggetto e se lo tennero. Il gruppo in seguito decise di mostrarla ad un fabbro. Con degli speciali reagenti, invece di trasformarsi, si creò un'immagine riflessa della spada. La lama tuttavia dividendosi divise anche la sua precisione tra l'originale e la sua copia.
+Durante il processo di incantamento della spada, il fabbro scoprì il segreto del fresco profumo che emanava; era della polvere incantata prodotta da un mezz'elfo vagabondo conosciuto come Armand Ha'mer per alcune (non si sa quali) rare occasioni in cui viaggiava insieme a compagni che maleodoravano. La polvere aveva immagazzinato vari odori di barbaro e di altri tipi per anni ed anni; appena l'artigiano se ne rese conto e gli odori uscirono fu una situazione molto difficile per lui. Con un occhio verso ciò che poteva essere utile al suo cliente avventuriero, l'artigiano riuscì subito, non appena ebbe ripreso i sensi dal maleodore, a convertire il danno della puzza in una caratteristica positiva per l'arma. La spada ora possiede l'abilità di lanciare 'Nube maleodorante' su un avversario una volta al giorno.
+
+STATISTICHE:
+
+Abilità Speciali:
+La spada danzante può attaccare da sola per 6 round, con una copia della spada che rimane nelle mani dell'utilizzatore.
+La Spada può lanciare Nube maleodorante una volta al giorno.
+
+THACO: +2
+Danno: 1D8 +3 (+1 al sanguinamento)
+Tipo di danno: tagliente
+Fattore-velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: A una mano
+Richiede: 10 alla Forza
+
+Peso: 5
+
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago
+ Addestratore di Animali~
+
+@6005 = ~La Vendetta del Vampiro +2~
+@6006 = ~Spada Lunga +2: La Vendetta del Vampiro
+Si potrebbe dire che siano state le speculazioni sulla natura e sull'esistenza di quest'arma a portarla dal regno del fantastico alla realtà, anche se, come nel caso di tutto ciò che nasce dalla fantasia, niente è come sembra. In effetti la lama ha delle capacità vampiriche, come il nome sembra suggerire; ma non funzionano nel modo in cui il suo possessore spererebbe. Si dice che la spada, invece di essere una normale arma vampirica, sia stata costruita dai vampiri stessi affinché fosse una trappola per eventuali nemici. Queste creature perverse ed intelligenti hanno creato molti esemplari di queste spade maledette con il passare del tempo, tutte destinate a diventare il flagello di innumerevoli avventurieri che credevano nella giustizia. Ogni colpo di quest'arma infligge in realtà danni su chi la impugna, visto che le sue energie vitali vengono risucchiate per curare il bersaglio dei suoi colpi. Come se non fosse sufficiente, l'arma è stata maledetta in modo che non possa essere abbandonata, e per questo motivo chi la usa è soggetto ad uno rapido decadimento delle facoltà intellettive, tale che non riesce più a neanche a pensare di liberarsene. Questo è uno dei pochi tesori magici che non vale la pena di cercare, ed uno di quei casi in cui un avventuriero farebbe meglio a trascorrere un po' di tempo a riposarsi e a bere qualcosa, invece di andare in giro per territori selvaggi con lo zaino pieno di cianfrusaglie maledette come questa.
+
+Recentemente <CHARNAME> ha chiesto al famoso fabbro Ruad Ro'fhessa di migliorarla. Anche se non é molto potente in combattimento, é molto utile nella guarigione del portatore (anche se minima).
+
+STATISTICHE:
+
+Abilità Speciale:
+20% di possibilità di guarire il possessore di 10 punti ferita a colpo
+
+THAC0: +2
+Danno: 1D8 +2
+Tipo di danno: tagliente
+Fattore-velocità: 3
+Tipo di competenza: Spada Lunga
+Tipo: A una mano
+Richiede: 8 alla Forza
+
+Peso: 4
+
+Non utilizzabile da:
+ Personaggi di Allineamento Buono o Neutrale
+ Chierico
+ Druido
+ Mago
+ Addestratore di Animali~
+
+@6007 = ~Spada Nera dei Non Morti~
+@6008 = ~Spada Lunga +5: Spada Nera dei Non Morti
+Si potrebbe dire che siano state le speculazioni sulla natura e sull'esistenza di quest'arma a portarla dal regno del fantastico alla realtà, anche se, come nel caso di tutto ciò che nasce dalla fantasia, niente è come sembra. In effetti la lama ha delle capacità vampiriche, come il nome sembra suggerire; ma non funzionano nel modo in cui il suo possessore spererebbe. Si dice che la spada, invece di essere una normale arma vampirica, sia stata costruita dai vampiri stessi affinché fosse una trappola per eventuali nemici. Queste creature perverse ed intelligenti hanno creato molti esemplari di queste spade maledette con il passare del tempo, tutte destinate a diventare il flagello di innumerevoli avventurieri che credevano nella giustizia. Ogni colpo di quest'arma infligge in realtà danni su chi la impugna, visto che le sue energie vitali vengono risucchiate per curare il bersaglio dei suoi colpi. Come se non fosse sufficiente, l'arma è stata maledetta in modo che non possa essere abbandonata, e per questo motivo chi la usa è soggetto ad uno rapido decadimento delle facoltà intellettive, tale che non riesce più a neanche a pensare di liberarsene. Questo è uno dei pochi tesori magici che non vale la pena di cercare, ed uno di quei casi in cui un avventuriero farebbe meglio a trascorrere un po' di tempo a riposarsi e a bere qualcosa, invece di andare in giro per territori selvaggi con lo zaino pieno di cianfrusaglie maledette come questa.
+
+Dopo il secondo miglioramento richiesto da <CHARNAME>, la progenie di Bhaal, questa spada possiede anche caratteristiche mortali. Imbevuta con il cuore nero della Matriarca vampira Bodhi, la spada ora offre un'ampia varietà di protezioni. Può anche risucchiare la vita dalla sua vittima, e trasferirne la forza vitale al suo proprietario.
+Ma la caratteristica principale che distingue questo tipo di armi é la loro capacità di evocare lo spirito di Kraka'Tur, un anziano Signore Vampiro.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+Forza: bonus di +2
+Rigenera 1 punto ferita ogni 5 secondi
+Immunità allo Charme, alla Paura e al Blocco
+Protezione dal Piano Negativo
+
+Abilità Speciali:
+Può evocare Kraka'Tur sotto il controllo dell'utilizzatore dell'arma una volta al giorno
+30% di possibilità di risucchiare alla vittima 4 livelli
+30% di possibilità di guarire chi brandisce la spada di 20 punti ferita
+30% di possibilità di velocizzare chi brandisce la spada
+
+THAC0: +5
+Danno: 1D8 +5
+Tipo di danno: tagliente
+Fattore-velocità: 2
+Tipo di competenza: Spada Lunga
+Tipo: A una mano
+Richiede: 15 alla Forza
+
+Peso: 10
+
+Non utilizzabile da:
+ Personaggi di allineamento Buono o Neutrale
+ Chierico
+ Druido
+ Mago
+ Addestratore di Animali~
+@60081 = ~Evocare Kraka'Tur~
+
+@6009 = ~Katana Avvelenata di Yoshimo~
+@6010 = ~Katana +3: Lama Avvelenata di Yoshimo
+Questa lama, sebbene solo leggermente incantata, ha raggiunto una tale consapevolezza che permette solamente al ladro conosciuto come Yoshimo di poterla brandire. Solamente lui può servirsi appieno di questa katana durante la battaglia.
+
+E' stata recentemente migliorata dalla progenie di Bhaal chiamata <CHARNAME>, ed ora ha la possibilità di avvelenare le sue vittime.
+
+STATISTICHE:
+
+THAC0: +3
+Danno: 1D10 +3, +2 di Danni da Veleno al secondo (per 10 secondi)
+Tipo di danno: tagliente
+Fattore-velocità: 1
+Tipo di competenza: Katana
+Tipo: A una mano
+
+Peso: 5
+
+Utilizzabile da:
+ Yoshimo~
+
+@6011 = ~Spirito di Yoshimo~
+@6012 = ~Bottiglia Magica: Spirito di Yoshimo
+Quando strofini questa bottiglia tra le mani in modo veloce, puoi accedere ai reami dei morti. Da là puoi invocare lo spirito del tuo vecchio e ormai caduto -compagno, nonché traditore Yoshimo, che é per sempre condannato ad uscire per combattere al tuo fianco - che lui lo voglia oppure no - finché non finirà di pagare e non si sia pentito dei suoi crimini.
+
+STATISTICHE:
+
+Abilità Speciale:
+Evoca lo spirito di Yoshimo (di livello 18th Cacciatore di Taglie) per 2400 secondi una volta al giorno.
+
+Peso: 0
+
+Non utilizzabile da:
+ Ammazzastregoni~
+
+@6013 = ~Calzature del Drago~
+@6014 = ~Stivali della Velocità: Calzature del Drago
+Questi stivali furono dati a Simeon Snowlock subito dopo il suo passaggio all'età virile, esaudendo l'ultimo desiderio del suo trisavolo Prestor John, il primo re di Hayholt. Due anni prima che John diventasse re, si avventurò nel sottosuolo delle catacombe situate sotto il suo futuro regno, dove si imbatté in un nascondiglio così grande che doveva appartenere sicuramente ad una creatura dalle proporzioni gigantesche. Attirato dalle migliaia di ricchezze che giacevano nella grotta, John andò avanti, e si trovò di fronte un mostro incomparabile. Era Shurukai, la madre di tutti i draghi; raggiungeva una lunghezza di circa otto metri dalla testa alla coda, e sedici metri circa di apertura alare. Armato di solo coraggio e della sua fedele spada, la Brightnail, John intraprese subito contro la bestia una battaglia selvaggia.
+Si dice che il fragore di un cataclisma risuonò attraverso tutta la città, ed ogni uomo, donna e bambino corse a vedere quello che era rimasto del loro futuro ed abile re. Tutti rimasero atterriti quando videro una massa rossa a terra, sul suolo, e ancor di più quando John ordinò la costruzione di un trono con le ossa della bestia, piazzando la testa sul punto più alto. Le scaglie della bestia furono rimosse, ed intrecciate in un paio di stivali di Zampe di Cheetah dette anche Zampe di Ghepardo, e come risultato si ebbero delle calzature che proteggevano chi le indossava dal fuoco e dal fallimento del morale, ed inoltre chi le calzava otteneva la doppia velocità di movimento.
+
+Al giorno d'oggi il trono si trova al centro di Hayholt affinché tutti possano ammirare questa bellezza in avorio alla luce del sole. Ma al nome di Prestor John, ti verrà raccontata subito la storia di Shurakai e delle Ossa Del Trono Del Drago.
+
+STATISTICHE:
+
+Il movimento di colui che li indossa viene aumentato, e diviene immune a tutte le forme di Paura e Panico
+Concede il 25% di Resistenza al Fuoco
+
+Peso: 4~
+
+@6015 = ~Anello della Scongiurazione~
+@6016 = ~Un miliardo di anni fa, quando stregoni e maghi folli vagavano per le terre, gli anelli delle varie scuole di magia e delle sfere furono creati per permettere agli eroi di combatterli ad armi pari. Ora, da un migliaio di anni circa a questa parte, la formula per creare questi potenti anelli é stata ritrovata. Tuttavia, i componenti necessari per ottenere simili e potenti oggetti richiedono il sacrificio di alcuni artefatti, e perciò ancora una volta ottenere questo tipo di anelli delle varie scuole di magia e delle sfere richiede grandi sacrifici.
+
+Questo anello in particolare protegge colui che lo indossa da tutti gli incantesimi della Scuola di Scongiurazione, e perciò può solo essere utilizzato da coloro che si sono specializzati in questa scuola di magia - gli Scongiuratori.
+
+STATISTICHE:
+
+Fornisce l'Immunità permanente agli Incantesimi di: Scongiurazione
+
+Peso: 0
+
+Utilizzabile da:
+ Scongiuratore~
+
+@6017 = ~Anello dell'Alterazione~
+@6018 = ~Un miliardo di anni fa, quando stregoni e maghi folli vagavano per le terre, gli anelli delle varie scuole di magia e delle sfere furono creati per permettere agli eroi di combatterli ad armi pari. Ora, da un migliaio di anni circa a questa parte, la formula per creare questi potenti anelli é stata ritrovata. Tuttavia, i componenti necessari per ottenere simili e potenti oggetti richiedono il sacrificio di alcuni artefatti, e perciò ancora una volta ottenere questo tipo di anelli delle varie scuole di magia e delle sfere richiede grandi sacrifici.
+
+Questo anello in particolare protegge colui che lo indossa da tutti gli incantesimi della Scuola di Alterazione, e perciò può solo essere utilizzato da coloro che si sono specializzati in questa scuola di magia - gli Alteratori.
+
+STATISTICHE:
+
+Fornisce l'Immunità permanente agli Incantesimi di: Alterazione
+
+Peso: 0
+
+Utilizzabile da:
+ Trasmutatore~
+
+@6019 = ~Anello dell'Evocazione~
+@6020 = ~Un miliardo di anni fa, quando stregoni e maghi folli vagavano per le terre, gli anelli delle varie scuole di magia e delle sfere furono creati per permettere agli eroi di combatterli ad armi pari. Ora, da un migliaio di anni circa a questa parte, la formula per creare questi potenti anelli é stata ritrovata. Tuttavia, i componenti necessari per ottenere simili e potenti oggetti richiedono il sacrificio di alcuni artefatti, e perciò ancora una volta ottenere questo tipo di anelli delle varie scuole di magia e delle sfere richiede grandi sacrifici.
+
+Questo anello in particolare protegge colui che lo indossa da tutti gli incantesimi della Scuola di Evocazione, e perciò può solo essere utilizzato da coloro che si sono specializzati in questa scuola di magia - gli Evocatori.
+
+STATISTICHE:
+
+Fornisce l'Immunità permanente agli Incantesimi di: Evocazione
+
+Peso: 0
+
+Utilizzabile da:
+ Evocatore~
+
+@6021 = ~Anello della Divinazione~
+@6022 = ~Un miliardo di anni fa, quando stregoni e maghi folli vagavano per le terre, gli anelli delle varie scuole di magia e delle sfere furono creati per permettere agli eroi di combatterli ad armi pari. Ora, da un migliaio di anni circa a questa parte, la formula per creare questi potenti anelli é stata ritrovata. Tuttavia, i componenti necessari per ottenere simili e potenti oggetti richiedono il sacrificio di alcuni artefatti, e perciò ancora una volta ottenere questo tipo di anelli delle varie scuole di magia e delle sfere richiede grandi sacrifici.
+
+Questo anello in particolare protegge colui che lo indossa da tutti gli incantesimi della Scuola di Divinazione, e perciò può solo essere utilizzato da coloro che si sono specializzati in questa scuola di magia - i Divinatori.
+
+STATISTICHE:
+
+Fornisce l'Immunità permanente agli Incantesimi di: Divinazione
+
+Peso: 0
+
+Utilizzabile solo da:
+ Divinatore~
+
+@6023 = ~Anello dell'Incantamento~
+@6024 = ~Un miliardo di anni fa, quando stregoni e maghi folli vagavano per le terre, gli anelli delle varie scuole di magia e delle sfere furono creati per permettere agli eroi di combatterli ad armi pari. Ora, da un migliaio di anni circa a questa parte, la formula per creare questi potenti anelli é stata ritrovata. Tuttavia, i componenti necessari per ottenere simili e potenti oggetti richiedono il sacrificio di alcuni artefatti, e perciò ancora una volta ottenere questo tipo di anelli delle varie scuole di magia e delle sfere richiede grandi sacrifici.
+
+Questo anello in particolare protegge colui che lo indossa da tutti gli incantesimi della Scuola di Incantamento, e perciò può solo essere utilizzato da coloro che si sono specializzati in questa scuola di magia - gli Incantatori.
+
+STATISTICHE:
+
+Fornisce l'Immunità permanente agli Incantesimi di: Incantamento
+
+Peso: 0
+
+Utilizzabile da:
+ Stregone~
+
+@6025 = ~Anello dell'Invocazione~
+@6026 = ~Un miliardo di anni fa, quando stregoni e maghi folli vagavano per le terre, gli anelli delle varie scuole di magia e delle sfere furono creati per permettere agli eroi di combatterli ad armi pari. Ora, da un migliaio di anni circa a questa parte, la formula per creare questi potenti anelli é stata ritrovata. Tuttavia, i componenti necessari per ottenere simili e potenti oggetti richiedono il sacrificio di alcuni artefatti, e perciò ancora una volta ottenere questo tipo di anelli delle varie scuole di magia e delle sfere richiede grandi sacrifici.
+
+Questo anello in particolare protegge colui che lo indossa da tutti gli incantesimi della Scuola dell'Invocazione, e perciò può solo essere utilizzato da coloro che si sono specializzati in questa scuola di magia - gli Invocatori.
+
+STATISTICHE:
+
+Fornisce l'Immunità permanente agli Incantesimi di: Invocazione
+
+Peso: 0
+
+Utilizzabile da:
+ Invocatore~
+
+@6027 = ~Anello dell'Illusione~
+@6028 = ~Un miliardo di anni fa, quando stregoni e maghi folli vagavano per le terre, gli anelli delle varie scuole di magia e delle sfere furono creati per permettere agli eroi di combatterli ad armi pari. Ora, da un migliaio di anni circa a questa parte, la formula per creare questi potenti anelli é stata ritrovata. Tuttavia, i componenti necessari per ottenere simili e potenti oggetti richiedono il sacrificio di alcuni artefatti, e perciò ancora una volta ottenere questo tipo di anelli delle varie scuole di magia e delle sfere richiede grandi sacrifici.
+
+Questo anello in particolare protegge colui che lo indossa da tutti gli incantesimi della Scuola dell'Illusionismo, e perciò può solo essere utilizzato da coloro che si sono specializzati in questa scuola di magia - gli Illusionisti.
+
+STATISTICHE:
+
+Fornisce l'Immunità permanente agli Incantesimi di: Illusione
+
+Peso: 0
+
+Utilizzabile da:
+ Illusionista~
+
+@6029 = ~Anello della Necromanzia~
+@6030 = ~Un miliardo di anni fa, quando stregoni e maghi folli vagavano per le terre, gli anelli delle varie scuole di magia e delle sfere furono creati per permettere agli eroi di combatterli ad armi pari. Ora, da un migliaio di anni circa a questa parte, la formula per creare questi potenti anelli é stata ritrovata. Tuttavia, i componenti necessari per ottenere simili e potenti oggetti richiedono il sacrificio di alcuni artefatti, e perciò ancora una volta ottenere questo tipo di anelli delle varie scuole di magia e delle sfere richiede grandi sacrifici.
+
+Questo anello in particolare protegge colui che lo indossa da tutti gli incantesimi della Scuola della Necromanzia, e perciò può solo essere utilizzato da coloro che si sono specializzati in questa scuola di magia - i Necromanti.
+
+STATISTICHE:
+
+Fornisce l'Immunità permanente agli Incantesimi di: Necromanzia
+
+Peso: 0
+
+Utilizzabile da:
+ Necromante~
+
+@6031 = ~Cotta di Maglia di Adamantite~
+@6032 = ~Cotta di maglia + 5: Cotta di Maglia di Adamantite
+Dopo molte avventure nel Sottosuolo, una progenie di bhaal chiamata <CHARNAME> ha forgiato questa cotta di maglia utilizzando quello che rimaneva di molti splendidi oggetti - ovvero dalla Polvere di Adamantite. Per merito delle capacità del forgiatore e della natura della fucina, quest'armatura non si disintegra alla luce del sole.
+Questa armatura magica non impedisce il lancio di incantesimi, e concede a colui che la indossa ulteriore protezione dalla magia, dal fuoco e dall'acido. Inoltre migliora la velocità del lancio di tutti gli incantesimi lanciato dal possessore dell'armatura.
+A causa della somiglianza con le armature equivalenti dei drow, colui o colei che indossa questa armatura viene collegato ai Drow, il che è dannoso per la popolarità di colui o colei che la indossa.
+
+STATISTICHE:
+
+Mentre Indossata:
+- Resistenza alla magia: +10% di bonus
+- Resistenza all'Acido: +15% di bonus
+- Resistenza al Fuoco: +15% di bonus
+- -1 al tempo di lancio di tutti gli incantesimi
+- Carisma: -2 di Penalità
+- Il lancio degli incantesimi non viene disabilitato
+
+Classe Armatura: 0 (-2 contro danno tagliente, 2 contro danno contundente)
+Richiede: 5 alla Forza
+
+Peso: 20
+
+Utilizzabile da:
+ Bardo
+ Chierico/Mago
+ Guerriero/Mago
+ Mago/Ladro
+ Guerriero/Mago/Chierico
+ Guerriero/Mago/Ladro~
+
+@6033 = ~Cintura del Signore della Guerra~
+@6034 = ~L'avventuriero <CHARNAME> ha fatto fare questa cintura dopo essersi reso conto che alcuni suoi compagni non avevano le condizioni fisiche necessarie per affrontare diverse battaglie.
+Questa cintura mette insieme alcune delle capacità migliori di taluni oggetti, come il miglioramento della forza, della destrezza e della costituzione, per creare un unico fantastico oggetto.
+
+STATISTICHE:
+
+Forza: bonus +2
+Destrezza: bonus +2
+Costituzione: bonus +2
+
+Peso: 2
+
+Non utilizzabile da:
+ Ammazzastregoni~
+
+@6035 = ~Amuleto della Resistenza Maggiore di Kaligun~
+@6036 = ~Questo particolare amuleto porta le iniziali KP incise sulla superficie interna. KP, o Kaligun Poonil, era il generale di una piccola forza mandata nelle foreste per eliminare gli Stregoni Rossi. Avendo particolarmente paura della magia, indossò questo amuleto in battaglia, ma sopravvalutò la protezione offerta e morì quando affrontò stupidamente tre Stregoni Rossi di alto livello che abbassarono la sua resistenza alla magia prima di distruggerlo con i loro incantesimi.
+
+Questo amuleto non solo é elegante, ma a seguito delle migliorie fatte apportare da un avventuriero di nome, <CHARNAME>, ora possiede delle protezioni migliori.
+
+STATISTICHE:
+
+Resistenza alla Magia: +10% di bonus
+Classe Armatura: +2 di bonus
+Tiri Salvezza: +2 di bonus
+
+Peso: 3
+
+Non utilizzabile da:
+ Ammazzastregoni~
+
+@6037 = ~Pietra Magica Incandescente~
+@6038 = ~Creata per <CHARNAME> da quattro potenti pietre magiche, questa meraviglia di color arancione migliora la resistenza mentale e fisica di colui che la indossa.
+
+STATISTICHE:
+
+Mentre Indossata:
+- Costituzione: bonus +1
+- Intelligenza: bonus +1
+- Saggezza: bonus +1
+- Rigenera 1 Punto Ferita ogni tre secondi
+
+Peso: 2~
+
+@6039 = ~Spilla degli Arpisti di Jaheira~
+@6040 = ~Una spilla degli Arpisti è un oggetto di grande valore, e possederla qualifica il suo portatore come un membro onorevole e fidato degli Arpisti. Garantisce a chi la indossa un incredibile livello di protezione contro molti tipi di attacchi. Non è legata ad una persona in particolare, ma trovare una persona disposta a prestare o perdere di vista un oggetto del genere sarebbe impossibile. E a tutti gli effetti una medaglia d'onore.
+
+Questa spilla in particolare é stato un regalo a Jaheira da parte del leggendario mago Elminster, ed è stato recentemente migliorato dal suo amore vero, <CHARNAME>. Ora rappresenta un simbolo della loro fiducia e del loro amore reciproco.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+Resistenza all'Elettricità: +100%
+Resistenza alla Magia: bonus +5%
+Tiri Salvezza contro gli Incantesimi: bonus +5
+Incrementa la velocità del lancio di incantesimi di 1
+Anti-individuazione
+Immunità allo Charme, alla Confusione ed alla Paura
+Immunità ai Proiettili Magici
+
+Peso: 1~
+
+@6041 = ~Spaccaghiaccio~
+@6042 = ~Ascia da Battaglia +4: Spaccaghiaccio
+Questa era l'ascia di Illgarth, un Gigante dei Ghiacci che molto tempo fa terrorizzava le comunità del nord. Non si sa dove si procurò l'arma, ma traeva un perverso piacere nello scatenarla sulla gente piccola, specialmente gli halfling. Il ghiaccio ed acido li mutilavano senza ucciderli, ed il gigante rideva freddamente quando riconosceva il lavoretto di una precedente visita. Alla fine un gruppo riuscì ad ucciderlo, e Spaccaghiaccio fu seppellita con lui su richiesta delle sue vittime.
+
+Quest'ascia é stata recentemente riforgiata su richiesta di <CHARNAME>, il suo potere é stato di molto migliorato, tuttavia l'abilità che possedeva l'arma di infliggere danni da acido è stata persa durante la nuova lavorazione.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+Resistenza al Freddo: bonus di 40%
+
+Abilità di Combattimento:
+40% di possibilità che ad ogni colpo il bersaglio sarà rallentato (senza tiro salvezza)
+
+THAC0: +4
+Danno: 1D8 +4, 1d4+1 di danno da freddo
+Tipo di danno: tagliente
+Fattore-velocità: 4
+Tipo di competenza: Ascia
+Tipo: A una mano
+Richiede: 10 alla Forza
+
+Peso: 7
+
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Addestratore di Animali~
+
+@6043 = ~Bacchetta dello Sbloccaggio~
+@6044 = ~Lavorando bene una comune Bacchetta dei Dardi Incantati, impregnandola con la dovuta magia, un abile artigiano è stato in grado di trasformare questo oggetto in un altro di grande valore pratico. Ora questa bacchetta ha il potere di sbloccare porte, casse, forzieri, ecc.
+
+STATISTICHE:
+
+Incantesimo che può lanciare: Scassinare (100 cariche)
+Richiede: 9 all'Intelligenza.
+
+Peso: 1
+
+Non utilizzabile da:
+ Ammazzastregoni~
+
+@6045 = ~L'Impetuosa Ascia di Pietra di Messerschmitt~
+@6046 = ~Ascia a due mani +3: L'Impetuosa Ascia di Pietra di Messerschmitt
+L'Impetuosa Ascia di Pietra di Messerschmitt combina due tipi di Asce naniche comuni con un'insolita impugnatura trovata da un gruppo di avventurieri. L'ascia prende il nome dall'umano, un fabbro rivale dell'artigiano che ha creato un'arma simile. Mentre Messerschmitt la lavorava, l'ascia gli cadde sul piano di lavoro e gli tagliò quasi tutta la mano. Preso dalla collera fece fondere l'ascia sopra una pala bollente piena di ferro e mithril. Messerschmitt pensò che gli Dei lo avevano punito per aver lavorato e fuso due eccellenti Asce Naniche facendo in modo di creare un'ascia per farla utilizzare anche a degli Halfling che gli aveva commissionato la lavorazione dell'arma. Il cliente Halfling appena seppe la storia prontamente colpì agli stinchi Messerschmitt e scappò via.
+
+Si tratta di un'ascia a doppia lama con la lama della Stonefire, la pietra di Fuoco, su un lato e della Spaccaghiaccio dall'altro. Entrambe queste asce sono state riforgiate per creare un'unica fantastica ascia a due mani, a doppia lama, senza perdere nessuno dei loro poteri. Il danno che si può causare al bersaglio dipende da quale lato dell'ascia lo si colpisce. Appena terminata la creazione di questa ascia, il proprietario capì subito chiaramente che poteva essere stata maledetta e che mai un Halfling l'avrebbe potuta utilizzare. Lo stesso valeva probabilmente anche per gli Gnomi. Per assicurarsi che queste piccole razze non maneggiassero quest'arma gli diede della particolare magia protettiva. "Non sia mai che quest'arma cada nelle mani sbagliate o in piccole mani", disse.
+
+Quest'arma possiede dei vantaggi contro i troll e l'insolita impugnatura possiede l'abilità di uccidere gli elementali del fuoco con un colpo solo. Se viene utilizzata correttamente, quest'arma é in grado di bloccare anche i colpi di altre armi. Quest'ascia è talmente pesante alle sue estremità che può essere utilizzata anche contro avversari ben corazzati poiché è in grado di trapassare le armature, perforando invece di tagliare. Va talmente a fondo che delle volte è difficile anche tirare fuori il nemico dalla sua stessa armatura.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento
+Classe Armatura: bonus +1
+
+Abilità di Combattimento:
+Uccide gli Elementali del Fuoco (senza tiro salvezza)
+5% di possibilità che il bersaglio e l'utilizzatore vengano storditi per 1 round ad ogni colpo
+50% di possibilità di causare 2 punti supplementari di danno da fuoco
+50% di possibilità di causare 1 punto supplementare di danno da freddo e da acido
+
+THAC0: +3
+Danno: 2D6 +3
+Tipo di danno: perforante
+Fattore-velocità: 9
+Tipo di competenza: Ascia
+Tipo: A due mani
+Richiede: 17 alla Forza
+
+Peso: 21
+
+Non utilizzabile da:
+ Gnomi
+ Halfling
+ Chierico
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Addestratore di Animali~
+@60451 = ~Ascia a Due Mani~
+@60461 = ~Questa possente arma consta di un manico lungo circa un metro e mezzo con una lama molto pesante. L'ascia può essere anche a doppio taglio, con lame su entrambi i lati dell'attaccatura, oppure ad una sola lama. È un'arma poco maneggevole, ma un guerriero esperto può vibrare colpi di enorme potenza con essa.
+
+STATISTICHE:
+
+Danno: 1d10 (tagliente)
+Fattore-velocità: 9
+Tipo di competenza: Ascia
+Tipo: A due mani
+
+Richiede:
+Forza 10
+
+Peso: 10
+
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Addestratore di Animali~
+
+@6047 = ~Spada di Famiglia dei Corthala +3~
+@6048 = ~Katana +3: Spada di Famiglia dei Corthala
+Questa stupenda Katana irradia energia magica quando viene impugnata da Valygar. La lama è stata creata perché possa essere utilizzata solo da coloro nelle cui vene scorre il sangue dei Corthala. Questa spada +3 causa danni aggiuntivi da sanguinamento quando colpisce un avversario.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+Classe Armatura: bonus di +3 contro le armi taglienti
+
+Abilità di combattimento:
+3 punti aggiuntivi di Danni da sanguinamento sul bersaglio ogni secondo per 12 secondi
+
+THAC0: +3
+Danno: 1D10 +3
+Tipo di danno: tagliente
+Fattore-velocità: 2
+Tipo di competenza: Katana
+Tipo: A una mano
+
+Peso: 4
+
+Utilizzabile da:
+ Valygar~
+
+@6049 = ~Spada di Famiglia dei Corthala +4~
+@6050 = ~Katana +4: Spada di Famiglia dei Corthala
+Questa stupenda Katana irradia energia magica quando viene impugnata da Valygar. La lama è stata creata perché possa essere utilizzata solo da coloro nelle cui vene scorre il sangue dei Corthala. Questa spada +4 causa danni aggiuntivi da sanguinamento quando colpisce un avversario.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+Classe Armatura: bonus di +4 contro le armi taglienti
+
+Abilità di combattimento:
+4 punti aggiuntivi di Danni da sanguinamento sul bersaglio ogni secondo per 12 secondi
+
+
+THAC0: +4
+Danno: 1D10 +4
+Tipo di danno: tagliente
+Fattore-velocità: 2
+Tipo di competenza: Katana
+Tipo: A una mano
+
+Peso: 4
+
+Utilizzabile da:
+ Valygar~
+
+@6051 = ~Il Bastone Spregevole~
+@6052 = ~Bastone +4: Il Bastone Spregevole
+"Il Bastone Spregevole" combina un Bastone-lancia +2 con il Bastone di Rynn +4. A prima vista, non si nota molta differenza dopo la sua lavorazione. Il suo vero nome sarebbe Il Bastone Lancia di Rynn, ma le persone non ci fanno davvero attenzione. Sembrerebbe che un bastone lancia sia stato diviso a metà con le due estremità taglienti del Bastone di Rynn e fusi insieme con del ferro che premette una migliore presa dell'arma. Naturalmente è la prima volta che è stata richiesta un'arma di questo tipo, e probabilmente anche l'ultima. Il suo valore è piuttosto modesto rispetto ad una Verga dai Grandi Poteri.
+
+Quello che manca in maestria estetica, é recuperato in efficacia. Se si prendono due spade bastarde +1, le si dividono dalle loro impugnature e si riforgiano le loro lame, l'arma potrebbe essere utilizzata sia per trafiggere che per tagliare un avversario. Altrimenti l'utilizzatore può semplicemente colpire il nemico con il bastone. Un oggetto simile è utile per varie 'situazioni' di combattimento, in quanto il nemico potrebbe essere invulnerabile ad un Tipo di danno e quindi lo si può colpire in un altro modo.
+
+Che sia stata una questione di fortuna o una cosa prevista durante la creazione, il creatore di quest'arma l'ha resa abbastanza bilanciata da poterla lanciare e l'ha incantata in modo tale che ritorni indietro da colui che la brandisce. Quest'arma è conosciuta per danni di varia natura. E' stata aggiunta un pò di magia in modo tale che questo bastone possa essere utilizzato dai Maghi e dai Chierici. Il bastone può lanciare 'Mani brucianti' quattro volte al giorno; è molto utile per sconfiggere i troll o per illuminare un accampamento durante le notti umide. Inoltre può essere utilizzato anche come canna da pesca. Sembra strano ma il potente incantamento sembra attrarre trote ed altri pesci di acqua dolce.
+
+Colui che ha creato questo bastone non ha lasciato nessun segno che possa permetterne la sua corretta identificazione ed i sapienti lo ricordano semplicemente con il nome di 'Bastone Spregevole' proveniente dall'Amn. Nei mercati a sud di Faerun, é diventato frequente dire che un avventuriero dall'aspetto orribile o scarsamente equipaggiato sia stato colpito dal 'Bastone Spregevole'. Comunque sia, Il Bastone Spregevole é un'eccellente canna da pesca.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+Classe Armatura: -1 di penalità
+Carisma: -4 di penalità
+Destrezza: -2 di penalità
+
+Abilità di Combattimento:
+Sempre il 5% di possibilità di rendere l'avversario inconsapevole quando viene usato in mischia o lanciato poiché il nemico viene colpito in testa.
+Lancia Vampa di Agannazar due volte al giorno
+Lancia Mani Brucianti due volte al giorno
+
+THACO: +4
+Danno: 50% di possibilità di ottenere 1D6 +4 di danno contundente, 30% di possibilità di ottenere 1d6 +2 di danno perforante, 20% di possibilità di ottenere 1d6 +2 di danno tagliente
+Tipo di danno: contundente, tagliente, perforante
+Fattore-velocità: 8
+Tipo di competenza: Bastone rinforzato
+Tipo: A due mani
+Richiede: 13 alla Forza
+
+Peso: 24
+
+Non utilizzabile da:
+ Monaco~
+
+@6053 = ~Corazza di Piastre di Adamantite~
+@6054 = ~Corazza di Piastre Completa +4: Corazza di Piastre di Adamantite
+Dopo molte avventure nel Sottosuolo, una progenie di Bhaal chiamata <CHARNAME> ha forgiato questa Corazza di piastre utilizzando quello che rimaneva di molti splendidi oggetti - ovvero dalla Polvere di Adamantite. Per merito delle capacità del forgiatore e della natura della fucina, quest'armatura non si disintegra alla luce del sole.
+Questa Corazza di piastre magica concede della protezione divina ed inoltre conferisce molti bonus a causa del materiale utilizzato per forgiarla.
+A causa della somiglianza con le armature equivalenti dei drow, colui o colei che indossa questa Corazza di piastre viene collegato ai Drow, il che è dannoso per la popolarità di colui o colei che la indossa.
+
+STATISTICHE:
+
+Mentre Equipaggiata:
+Resistenza all'Acido: +15% di bonus
+Resistenza al Fuoco: +15% di bonus
+Carisma: -2 di penalità
+Velocità di Movimento: -2 punti di penalità
+
+Classe Armatura: -3
+Richiede: 19 alla Forza
+
+Peso: 120
+
+Non utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Ladro
+ Barbaro
+ Arciere
+ Addestratore di Animali
+ Infiltrato
+ Kensai~
+
+@6055 = ~Mantello della Stella Elementale~
+@6056 = ~Thalanta il Giusto creò diversi tipi di mantelli, tutti noti come Mantelli delle Stelle. Questa particolare versione è semplice, con tre stelle sotto ogni manica. Una volta al giorno, ogni stella può essere rimossa e lanciata come un dardo.
+
+A seguito di un miglioramento fatto apportare da uno straniero conosciuto con il nome di <CHARNAME>, il mantello adesso ha quattro stelle di colore differente sotto ogni manica - rossa, verde, blu e bianca - che possono essere lanciate come dardi.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+Classe Armatura: bonus +2
+Tiri Salvezza: bonus +2
+
+Abilità Speciali:
+Crea otto Stelle Dardi Elementali ogni giorno.
+
+Peso: 3
+
+Non utilizzabile da:
+ Ammazzastregoni~
+
+@6057 = ~Dardo Cremisi Bruciante~
+@6058 = ~Dardo +5: Cremisi Bruciante
+La piccola taglia di quest'arma cela un grande potere. Subito dopo aver colpito il bersaglio, i dardi tornano nella mano di chi li usa, pronti ad essere scagliati di nuovo.
+
+A seguito di un miglioramento apportato da una progenie di Bhaal conosciuta come <CHARNAME>, ora questo dardo possiede l'abilità di infliggere ulteriori danni da fuoco.
+
+STATISTICHE:
+
+Il dardo ritorna subito nelle mani di colui che lo lancia.
+
+THAC0: +5
+Danno: 1D5 +5, 1D4 +1 di danno da Fuoco
+Tipo di danno: proiettile (perforante)
+Fattore-velocità: 0
+Tipo di competenza: Dardo
+Tipo: A una mano
+Richiede: 10 alla Destrezza
+
+Peso: 0
+
+Non utilizzabile da:
+ Chierico
+ Kensai
+ Cavaliere~
+
+@6059 = ~Pietra del Caos~
+@6060 = ~Il colore lavanda chiaro di questa pietra ha assunto un colore giallo dopo che è stata migliorata da un avventuriero conosciuto col nome di <CHARNAME>, e sembra muoversi e scintillare in continuazione, come se la pietra fosse viva.
+
+STATISTICHE:
+
+Mentre Equipaggiata:
+Classe Armatura: bonus +1
+Tiro Salvezza contro la Morte: bonus +2
+Colui che la indossa è sotto l'effetto dell'incantesimo Scudo del Caos
+
+Peso: 2
+
+Utilizzabile da:
+ Mago Selvaggio~
+
+@6061 = ~Pietra del Caos Migliorata~
+@6062 = ~Questo oggetto è stato creato quando <CHARNAME> ha commissionato un secondo miglioramento alla la Pietra Magica di Lavanda. Ora fornisce al suo possessore una migliore protezione dal fuoco e dalla morte magica, ed inoltre diminuisce la possibilità di un'ondata di magia selvaggia.
+
+STATISTICHE:
+
+Mentre Equipaggiata:
+Classe Armatura: bonus +1
+Tiro Salvezza contro la Morte: bonus +3
+Resistenza al Fuoco: bonus +25%
+Colui che la indossa è sotto l'effetto dell'incantesimo Scudo del Caos Potenziato
+
+Peso: 2
+
+Utilizzabile da:
+ Mago Selvaggio~
+
+@6063 = ~La Sventura dei Non Morti~
+@6064 = ~Spada a due mani +5: La Sventura dei Non Morti
+Questa sacra spada irradia un'aura divina come se fosse stata benedetta dallo stesso Dio Mutilato o Furia Fedele. Insieme ai poteri dei suoi antenati, è la suprema arma di giustizia contro le creature non morte. Quando si è in presenza di Non Morti questa spada agisce in modo molto più efficace di qualsiasi altra arma della sua specie. Una volta in presenza di Non Morti, la spada inizia ad illuminarsi, avvisando il suo proprietario di una presenza empia. Una volta colpita con questa spada la creatura Non Morta, deve concentrare tutte le sue energie o essere trascinata nell'Abisso. La sacra luce, apparendo dall'arma, può accecare i nemici di colui che brandisce la spada ed è devastante soprattutto per le creature Non Morte. A causa della natura di questa spada, può solamente essere utilizzata dai guerrieri puri di cuore.
+
+STATISTICHE:
+
+Abilità Speciali (una volta al giorno):
+Finta Alba
+Protezione dal piano Negativo
+
+Abilità di Combattimento:
+La creatura Non Morta deve eseguire un Tiro Salvezza contro la Morte o essere distrutta
+5% di possibilità di lanciare Raggio di Sole sul bersaglio
+5% di possibilità di accecare il bersaglio
+
+THACO: +5
+Danno: 1D10 +5, fa doppio danno contro i Non morti
+Tipo di danno: tagliente
+Fattore-velocità: 5
+Tipo di competenza: Spada a due mani
+Tipo: A due mani
+Richiede: 14 alla Forza
+
+Peso: 7
+
+Utilizzabile da:
+ Paladino~
+
+@6065 = ~Mantello dell'Ombra~
+@6066 = ~Celio Czah, un grande e famoso Infiltrato, era un ottimo fabbro. Riuscì ad uccidere molte bestie durante la sua vita, inclusi dei draghi. Le sue conoscenze sono state trasmesse di fabbro in fabbro, il che spiega come è stato prodotto il tessuto di questo mantello. Celio originalmente aveva modellato tre mantelli insieme, con pelli di animali e scaglie di drago. Questo mantello è stato creato su richiesta di <CHARNAME>. Il sapere del fabbro avventuriero, Celio Czah, è comunque rimasto sconosciuto.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+Classe Armatura: bonus +3
+Resistenza all'Acido: bonus +50%
+Nascondersi nelle Ombre: bonus +20%
+Anti-individuazione
+
+Peso: 3
+
+Utilizzabile da:
+ Infiltrato
+ Ladro (singolo, duale, e multiclasse)~
+
+@6067 = ~L'Armatura di Pikim~
+@6068 = ~Corazza di cuoio borchiata +5: l'Armatura di Pikim
+Il Ladro Tenebroso ribelle, Pikim, sapeva utilizzare molte cose. Una volta fuse delle chiavi con la famosa Corazza dell'Ombra solo per vedere cosa sarebbe successo. Ci cucì sopra anche qualche mantello. Sentendo grandi poteri all'interno della nuova armatura appena forgiata, Pikim decise che era troppo bella per condividerla con gli altri. Questa decisione gli costò la vita. I Ladri Tenebrosi gli diedero la caccia per prendersi l'armatura. Diversi fabbri di Faerun riuscirono a capire come fece Pikim a creare questa gloriosa armatura. <CHARNAME> è riuscito a trovare un fabbro in grado di riforgiarla... per una modica cifra.
+
+STATISTICHE:
+
+Mentre Equipaggiato:
+Nascondersi nell'Ombra: +15% di bonus
+Scassinare Serrature: +60% di bonus
+
+Classe Armatura: 2
+Richiede: 6 alla Forza
+
+Peso: 8
+
+Utilizzabile da:
+ Ladro (singolo, duale e multiclasse)~
+
+@6069 = ~Cesello Maligno di Neb +4~
+@6070 = ~Pugnale +4: Cesello Maligno di Neb
+Lo spregevole nano conosciuto con il nome di Neb era molto conosciuto per la sua malvagità. Neb era un uccisore di bambini e sapeva come utilizzare le loro anime in battaglia. <CHARNAME> ed i suoi compagni lo uccisero, e con l'aiuto di un fabbro fidato, il pugnale di Neb ora possiede più potere che mai. Sembra che la sua lama ricoperta di puro illithium fornisca del veleno illimitatamente. Ad ogni modo solo le creature più vili oserebbero maneggiare quest'arma.
+
+STATISTICHE:
+
+Abilità Speciali:
+Una volta al giorno evoca uno Spirito di un Bambino Senza Riposo per 10 minuti
+
+Abilità di Combattimento:
+Al bersaglio deve riuscire un Tiro Salvezza contro il Veleno o subire 2 punti di danno al secondo (per 10 secondi)
+
+THAC0: +4
+Danno: 1D4 +4
+Tipo di danno: perforante
+Fattore-velocità: 0
+Tipo di competenza: Pugnale
+Tipo: A una mano
+
+Peso: 1
+
+Non utilizzabile da:
+ Personaggio di allineamento Non malvagio
+ Chierico~
+@60701 = ~Evocare Spirito di un Bambino Senza Riposo~
+
+@6071 = ~Lama del Ladro Tenebroso~
+@6072 = ~Spada Corta +5: Lama del Ladro Tenebroso
+Creata per essere lo strumento perfetto di un assassino, la Spada corta per pugnalare alle spalle è stata notevolmente alterata. Insieme alla lama di una spada ignobile, al potere di un incantesimo sulla spada ed ad alcune pietre e pozioni, la Lama delle Ombre è ora divenuta un'arma molto più letale.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+Moltiplicatore per l'Attacco alle Spalle: bonus +1
+
+THAC0: +5
+Danno: 1D6 +5
+Tipo di danno: perforante
+Fattore-velocità: 0
+Tipo di competenza: Spada Corta
+Tipo: A una mano
+Richiede: 5 alla Forza
+
+Peso: 5
+
+Utilizzabile da:
+ Personaggi di Allineamento Buono o Neutrale
+ Ladro~
+
+@6073 = ~Arco Incantato di Arvoreen~
+@6074 = ~Questo arco incantato è stato per molti anni in possesso di Mazzy Fentan, datole dal suo dio, Avoreen. Recentemente la benedizione di Avoreen ha aiutato una progenie di Bhaal chiamata <CHARNAME> che lo ha migliorato in modo tale che non ha più bisogno di munizioni.
+
+STATISTICHE:
+
+Abilità Speciali:
+Non richiede munizioni
+Ogni freccia ha la possibilità del 10% di rallentare il bersaglio se viene colpito
+
+THAC0: +4
+Danno: 1D6 +2
+Tipo di danno: missile (perforante)
+Fattore-velocità: 4
+Tipo di competenza: Arco Corto
+Tipo: A due mani
+
+Peso: 2
+
+Utilizzabile da:
+ Guerriero Halfling~
+
+@6075 = ~Armatura dei Molti Draghi~
+@6076 = ~Quattro potenti draghi sono morti per mano di <CHARNAME>, e le loro scaglie sono state utilizzate per formare una potente armatura. A differenza delle altre armature di drago, tuttavia, questa é leggera e poco ingombrante. Protegge dagli elementi che i draghi usano molto spesso in battaglia.
+
+STATISTICHE:
+
+Abilità Speciali:
+Lancia Cono di freddo 3 volte al giorno
+
+Mentre Equipaggiato:
+Resistenza all'Acido: +50% di bonus
+Resistenza al Freddo: +50% di bonus
+Resistenza all'Elettricità: +90% di bonus
+Resistenza al Fuoco: +50% di bonus
+
+Classe Armatura: -2
+Richiede: 6 alla Forza
+
+Peso: 4
+
+Non utilizzabile da:
+ Bardo
+ Mago
+ Stregone
+ Ladro
+ Monaco
+ Barbaro
+ Mutaforma
+ Vendicatore
+ Arciere
+ Addestratore di Animali
+ Infiltrato
+ Kensai~
+
+@6077 = ~Elmo dei Molti Draghi~
+@6078 = ~Le abili mani dello stregone Wormsor hanno lavorato con attenzione diverse scaglie di drago in questo potente elmo. Vi sono sovrapposte scaglie rosse, bianche e verdi, proteggendo colui che lo indossa dai colpi normali come anche dal fuoco, dal freddo e dall'elettricità. Recentemente, comunque, una progenie di Bhaal vi ha aggiunto altre quattro tipi di scaglie che sembrano aver incrementato la protezione dal fuoco e dall'elettricità, con l'aggiunta della protezione dall'acido.
+
+Mentre Equipaggiato:
+- Protegge contro i colpi critici
+- Resistenza all'Acido: portata al 50%
+- Resistenza al Freddo: portata al 25%
+- Resistenza all'Elettricità: portata al 70%
+- Resistenza al Fuoco: portata al 70%
+
+Bonus alla Classe Armatura: Nessuno
+
+Peso: 3
+
+Non utilizzabile da:
+ Bardo
+ Mago
+ Stregone
+ Ladro
+ Monaco
+ Kensai~
+
+@6079 = ~Scudo dei Molti Draghi~
+@6080 = ~Tra gli altri potenti oggetti lo stregone Wormsor creò anche questo scudo che è stato modellato con la pelle di un drago rosso distesa su uno scudo d'acciaio. Scaglie di drago verde e bianco fanno da ornamento allo sfondo rosso e creano un motivo che, se visto nel modo corretto, rivela il volto di un anziano drago. Di recente, un figlio di Bhaal vi ha aggiunto altre quattro tipi di scaglie che sembrano aver incrementato la protezione dal fuoco e dall'elettricità, con l'aggiunta della protezione dall'acido.
+
+Mentre Equipaggiato:
+Resistenza all'Acido: portata al 50%
+Resistenza al Freddo: portata al 25%
+Resistenza all'Elettricità: portata al 70%
+Resistenza al Fuoco: portata al 70%
+
+Bonus alla Classe Armatura: 3
+Richiede: 12 alla Forza
+
+Peso: 6
+
+Non utilizzabile da:
+ Bardo
+ Druido
+ Mago
+ Stregone
+ Ladro
+ Monaco
+ Kensai~
+
+@6081 = ~Abito della Resistenza~
+@6082 = ~Molti maghi credevano che cinque abiti scarsamente potenti avessero potuto proteggerli, ma raramente tutto ciò funzionava. Molte battaglie furono perdute da questi utilizzatori di magia, finché uno di loro, che si chiamava Kerial decise di mettere insieme questi abiti. Non appena riuscì a trovare il modo di metterli insieme informò gli altri della ricetta. Si scoprì quindi che gli ingredienti segreti erano un paio di bracciali. E' stato <CHARNAME> che, recentemente, si è fatto creare questo potente abito.
+
+Mentre Equipaggiato:
+Classe Armatura: bonus di +1 contro i proiettili e le armi contundenti
+Tiri Salvezza: bonus di +1 contro la pietrificazione/metamorfosi e il Soffio
+Resistenza al Freddo: +20%
+Resistenza all'Elettricità: +20%
+Resistenza al Fuoco: +20%
+
+Classe Armatura: di base stabilita a 5
+
+Peso: 4
+
+Utilizzabile da:
+ Mago
+ Stregone~
+
+@6083 = ~Dente di Drago~
+@6084 = ~Alabarda +5: Dente di Drago
+Le armi di Thorvin Dukal e Ullion il mago sono state utilizzate per secoli durante le battaglie contro le bestie-sputa fuoco, ma alla fine furono uccisi tutti e due. <CHARNAME> ha trovato entrambe le armi durante i suoi viaggi, e le ha magicamente unite, con l'aiuto delle scaglie del drago rosso. Il potere sembra molto simile a quello del dente frontale di un drago rosso. Sembra che la capacità di fare danni da freddo, elettrici, acidi e da veleno che aveva l'Alabarda di Ullion siano svaniti durante il processo, a favore di quelli da fuoco.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+Resistenza al Fuoco: +90% di bonus
+
+Abilità di Combattimento:
+Aggiunge 5 punti di danno da fuoco ad ogni creature che viene colpita
+
+THAC0: +5
+Danno: 1D10 +5, +6 contro i draghi
+Tipo di danno: perforante
+Fattore-velocità: 5
+Tipo di competenza: Alabarda
+Tipo: A due mani
+Richiede: 13 alla Forza
+
+Peso: 12
+
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Addestratore di Animali~
+
+@6085 = ~Mantello di Thay~
+@6086 = ~Gli Stregoni Rossi di Thay conoscono molte cose, e di solito tutti indossano abiti rossi. <CHARNAME> possedeva del tessuto trovato durante le sue varie avventure ad Athkatla. Il mantello che ne è stato creato può essere utilizzato solamente da personaggi e maghi di allineamento malvagio.
+
+STATISTICHE:
+
+Mentre Equipaggiato:
+Immunità alle Armi Normali
+
+Classe Armatura: bonus di +2
+Tiri Salvezza: bonus di +2
+
+Peso: 3
+
+Utilizzabile da:
+ Personaggi di Allineamento Malvagio
+ Mago
+ Stregone~
+
+@6087 = ~Mantello della Natura~
+@6088 = ~Da giovane Cernd ha passato un ciclo di stagioni meditando sul suo ruolo all'interno della natura. Non si è costruito alcun riparo, volendo sentire il tocco della natura sulla sua pelle senza mediazioni. La natura potrebbe aver apprezzato le intenzioni, anche se a volte i suoi figli devono apparirle sciocchi nonostante la loro convinzione. Cernd trovò questo mantello prima dell'arrivo della brutta stagione, in apparenza intessuto per adeguarsi a lui dal sottobosco stesso. Il messaggio era ben chiaro: si può apprezzare la pioggia anche quando ci si ripara da essa. Recentemente, <CHARNAME> ha incantato il mantello di Cernd affinché ne aumenti la protezione da molti elementi. Cernd rimane ancora il solo che possa utilizzare questo mantello.
+
+STATISTICHE:
+
+Classe Armatura: +1 di bonus
+Tiro Salvezza: +1 di bonus
+Immunità al Veleno
++25% di bonus alla resistenza all'Acido, al Freddo, all'Elettricità ed al Fuoco
+
+Peso: 3
+
+Utilizzabile da:
+ Cernd~
+
+@6089 = ~Guanti di Shaiman~
+@6090 = ~Molto tempo fa uno dei visitatori più comuni nella Locanda del Braccio Amico era un famoso monaco chiamato Shaiman. Shaiman era incredibilmente potente per essere un monaco, ed era un grande viaggiatore. Il suo passato rimane un mistero, ma sembra essere stato un uomo per bene. I suoi potenti guanti, tuttavia, hanno un'altra storia. Shaiman li aveva originariamente trovati a Rashemen, e da allora li aveva sempre indossati. Altri due bracciali sono stati utilizzati per copiare l'"arma" di Shaiman, e con l'aiuto di un opale nero su ogni dito, i Guanti di Shaiman sono ora in possesso di <CHARNAME>.
+
+STATISTICHE:
+
+Classe Armatura: +1 di bonus
+Punti ferita: +15 di bonus
+THAC0: bonus di +4 quando si attacca con i pugni
+Danno: bonus di +4 quando si attacca con i pugni
+
+Peso: 2
+
+Utilizzabile da:
+ Monaco~
+
+@6091 = ~Bastone della Natura~
+@6092 = ~Bastone +4: Bastone della Natura
+Questo bastone è il frutto del culmine di un ciclo di stagioni in cui Cernd ha meditato sul suo ruolo nella natura. Aveva scelto il suo luogo di meditazione in questo viaggio di scoperta personale accanto a un virgulto, una giovane quercia che sembrava degna di particolare studio; sembrava strana, eppure in qualche modo stranamente ordinata. All'arrivo della primavera Cernd si mise ad esaminarla un'ultima volta e l'arbusto si sciolse dalla terra spontaneamente, diventando un bastone vivente offertogli dalla natura stessa. E' cresciuto fino ad adeguarsi al suo pugno e perciò lui è l'unico che può impugnarlo. Recentemente, il compagno di Cernd, <CHARNAME>, lo ha migliorato per raddoppiarne la velocità di rigenerazione e per migliorarne il suo potere.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+Rigenera 1 punto ferita ogni 6 secondi
+
+THACO: +4
+Danno: 1D6 +4
+Tipo di danno: schiacciamento
+Fattore-velocità: 1
+Tipo: A due mani
+
+Peso: 3
+
+Utilizzabile da:
+ Cernd~
+
+@6093 = ~Bastone delle Numerose Magie~
+@6094 = ~Bastone +4: Bastone delle Numerose Magie
+<CHARNAME> recentemente ha fatto fondere tre bastoni minori insieme con dei diamanti. Chi poteva sapere che questa fusione sarebbe stata possibile? Nessuno ci aveva mai provato, finché un druido di nome Xynt provò con il Bastone del Comando, il Bastone della Cura, ed un semplice Bastone +2. Ora, il nuovo bastone, chiamato il Bastone delle Numerose Magie, è in possesso della progenie di Bhaal.
+
+STATISTICHE:
+
+Abilità Speciali:
+- Dominio (una volta al giorno)
+  Raggio d'azione: 12 metri
+  Durata: 12 ore
+  Area d'effetto: 1 creatura
+- Cura (una volta al giorno)
+  Guarisce 3d6+3 Punti Ferita e cura Malattia e Veleno
+  Raggio d'azione: Tocco
+  Area d'effetto: 1 creatura
+
+Abilità di Equipaggiamento:
+- Classe Armatura: bonus +2
+
+THACO: +3
+Danno: 1D6 +3
+Tipo di danno: schiacciamento
+Fattore-velocità: 1
+Tipo di competenza: Bastone Rinforzato
+Tipo: A due mani
+Richiede: 5 alla Forza
+
+Peso: 2
+
+Utilizzabile da:
+ Chierico
+ Druido
+ Paladino
+ Ranger~
+
+@6095 = ~La Viverna Insonnolita~
+@6096 = ~Mazzafrusto +4: La Viverna Insonnolita
+Il grosso spunzone in cima a questa morning star è in realtà il letale pungiglione di una viverna. E' stato il mago-guerriero Sedej a creare quest'arma, usando le sue abilità magiche per permettere al pungiglione di continuare a secernere veleno. Tale magia ha reso la Coda di Viverna un'arma vivente, che pulsa nelle mani di chi la impugna. L'altra morning star utilizzata per creare questa nuova arma una volta apparteneva a Ssitalc, un elfo insolitamente malvagio conosciuto come lo Schiavista della Costa della Spada. Fino alla sua morte improvvisa, avvenuta molti anni fa, Ssitalc era a capo di una grossa banda di briganti umani, nanici e gnomici, e usava la dormiente per tenerli in riga. L'arma ha la capacità di tramortire ogni umano, nano o gnomo presente inducendo in loro un sonno pesante, mentre gli elfi ne sono convenientemente immuni. Recentemente, tuttavia, un figlio di Bhaal ha combinato le due morning star. Quale che sia ora il suo utilizzo, è sicuramente utile.
+
+STATISTICHE
+
+Abilità di Combattimento:
+Qualsiasi creatura umana, escluso gli elfi, che vengono colpiti devono effettuare un Tiro Salvezza contro il veleno (+4 di bonus) o cadrà addormentata per 18 secondi
+Le vittime devono effettuare un Tiro Salvezza contro il Veleno o subire 5 punti di danno supplementari da veleno
+
+THACO: +4
+Danno: 2D4 +4
+Tipo di danno: schiacciamento
+Fattore-velocità: 5
+Tipo di competenza: Mazzafrusto/Morning star
+Tipo: A una mano
+Richiede: 11 alla Forza
+
+Peso: 10
+
+Non utilizzabile da:
+ Druido
+ Mago
+ Stregone
+ Ladro
+ Monaco
+ Addestratore di Animali~
+
+@6097 = ~Spalla Ghiacciata~
+@6098 = ~Morning Star +5: Spalla Ghiacciata
+La testa di questa morning star sembra forgiata con un infrangibile cristallo blu ghiaccio. Il manico è freddo al tocco, e chi la impugna è circondato da un alone protettivo di aria fresca che lo protegge anche dal fuoco magico. Recentemente, un figlio di Bhaal ha riforgiato la Stella di Ghiaccio con numerosi oggetti dal cuore freddo. Tutto ciò ha creato una misteriosa morning star conosciuta come la Spalla Ghiacciata.
+
+STATISTICHE:
+
+Abilità di Equipaggiamento:
+Resistenza al Fuoco: +50% di bonus
+
+Abilità di Combattimento:
+5% di possibilità che un colpo andato a buon fine possa congelare il bersaglio
+
+Abilità Speciali:
+Può concedere a chi la brandisce la Forza del Gigante dei Ghiacci una volta al giorno, per 12 ore
+Lancia Tempesta di Ghiaccio una volta al giorno
+
+THAC0: +5
+Danno: 2D5 +5, +1D4 di danno da freddo
+Tipo di danno: schiacciamento
+Fattore-velocità: 4
+Tipo di competenza: Mazzafrusto/Morning Star
+Tipo: A una mano
+Richiede: 13 alla Forza
+
+Peso: 8
+
+Non utilizzabile da:
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Addestratore di Animali~
+@60981 = ~Forza del Gigante dei Ghiacci~
+
+@6099 = ~Mantello del Padre Squalo~
+@6100 = ~Commissionata per un fantasioso capriccio di <CHARNAME>, questo pezzo di stoffa è stato creato grazie ad uno dei suoi viaggi più pericolosi, nella Città subacquea delle Caverne. Ha aiutato gli Sahuagin che vivono là come narrava la Profezia di Sekolah. Dopo aver aiutato i mostri e ritornato in superficie, <CHARNAME> ha commissionato questo mantello. Con le munizioni Sahuagin, questo oggetto mostra ciò che mai aveva visto una creatura di superficie.
+
+STATISTICHE:
+
+Abilità Speciali:
+Il possessore è permanentemente protetto da Globo minore d'invulnerabilità
+Una volta al giorno, il possessore può evocare un Anguiliian per aiutarlo in combattimento
+
+Classe Armatura: bonus +1
+Tiri Salvezza: bonus +1
+
+Peso: 3
+
+Non utilizzabile da:
+ Ammazzastregoni~
+@61001 = ~Evocare un Anguiliian~
+
+@6101 = ~Dita Fluenti~
+@6102 = ~Questi magnifici guanti, ornati con innumerevoli rune arcane, sono stati creati da una progenie di Bhaal. Le origini di questi guanti provengono dai bracciali di Glen il Sorridente combinati con uno dei migliori reagenti magici che donano a questo oggetto un potere impressionante. I guanti potrebbero aver perduto un po' del loro potere protettivo ma comunque se indossati viene diminuito il tempo necessario per lanciare un incantesimo.
+
+STATISTICHE:
+
+Mentre Equipaggiato:
+Classe Armatura: base 4
+Diminuisce il tempo di lancio degli incantesimi di 1
+
+Peso: 2
+
+Non utilizzabile da:
+ Ammazzastregoni
+ Kensai~
+
+@6103 = ~Anello del Ladro~
+@6104 = ~Ovunque ci sono dei ladri che non vogliono o non possono esercitarsi per migliorare le loro abilità. E qui è dove interviene il fabbro, Ruad Ro'fhessa. Lui ha combinato quattro anelli, ognuno creato per il ladro. Questi anelli messi insieme hanno formato l'Anello del Ladro, per facilitare i furti. Chi può aspettarsi di essere rapinato da un ladro cosi abile?
+
+STATISTICHE:
+
+Abilità attivabili:
+- Lancia l'incantesimo Invisibilità una volta al giorno
+  Durata: 12 ore
+  Area di Effetto: L'indossatore
+
+Abilità di Equipaggiamento:
+- Nascondersi nelle Ombre: +20% di bonus
+- Muoversi Silenziosamente: +20% di bonus
+- Piazzare Trappole: +20% di bonus
+- Scassinare: +25% di bonus
+- Individuare trappole: +25% di bonus
+
+Utilizzabile solo da:
+ Ladro (singolo, duale, e multiclasse)~
+
+@6105 = ~Guanti dell'Assassinio~
+@6106 = ~Assassinare una persona è quasi sempre molto difficile per un furfante. Ogni assassino ha quasi sempre dei problemi, ma questo non è un problema per <CHARNAME> dopo che ha incontrato Ruad Ro'fhessa, che gli ha forgiato questi eleganti guanti. Questi guanti non solo sono più efficaci, ma incrementano l'abilità del colpo alle spalle, il che è molto raro in un oggetto che non sia un'arma. Sicuramente saranno di molto aiuto ad <CHARNAME> ed ai suoi compagni.
+
+STATISTICHE:
+
+Destrezza: +3
+Colo alle spalle: bonus +1
+
+Peso: 2
+
+Utilizzabile solo da:
+ Ladro (singolo, duale, e multiclasse)~
+
+@6107 = ~Bacio della Morte~
+@6108 = ~Spada Corta +4: Bacio della Morte
+Banché si può trattare di un oscuro rituale, <CHARNAME> ha commissionato al fabbro Ruad di forgiare insieme due oggetti mortali da ladro. La Spada della Pugnalata alle Spalle ed il Tagliagola sono stati fusi e, utilizzando la conoscenza dei veleni che può essere acquisita studiando il pugnale dell'uccisore di bambini Neb, la loro combinazione fornisce una strana forma di veleno che il possessore non potrebbe mai sperare di controllare.
+
+STATISTICHE:
+
+Abilità di Combattimento:
+45% di possibilità che il bersaglio subisca 2 danni da veleno al secondo per 5 secondi
+25% di possibilità che il bersaglio subisca 2 danni da veleno al secondo per 10 secondi
+10% di possibilità che il bersaglio subisca 4 danni da veleno al secondo per 12 secondi
+1% di possibilità che il bersaglio subisca 5 danni da veleno al secondo per 13 secondi
+
+THAC0: +4
+Danno: 1D6 +4
+Tipo di danno: perforante
+Fattore-velocità: 1
+Tipo di competenza: Spada Corta
+Tipo: A una mano
+Richiede: 5 alla Forza
+
+Peso: 2
+
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago
+ Addestratore di Animali~
+
+@6109 = ~Nascondiglio tra le Ombre~
+@6110 = ~Corazza di cuoio borchiata +4: Nascondiglio tra le Ombre
+A bassi livelli un ladro è molto difficile da proteggere. Questa è la ragione per cui <CHARNAME> ha chiesto a Ruad Ro'fhessa di creare qualcosa di valido per qualsiasi ladro. Tre mediocri pezzi di cuoio sono stati utilizzati per cercare di forgiare una Corazza del Ladro. Quello che Ruad ha creato per <CHARNAME> è probabilmente una delle migliori Armature di Pelle da Ladro.
+
+STATISTICHE:
+
+Classe Armatura: di base impostata a 3
+Speciale: +30% al Nascondersi nelle Ombre
+Richiede: 6 alla Forza
+
+Peso: 8
+
+Utilizzabile solo da:
+ Ladro (singolo, duale, e multiclasse)~
+
+@6111 = ~Rovina di Lava~
+@6112 = ~Spada a due Mani +3: Rovina di Lava
+La proprietaria originale della Fiamma del Nord era Carerra, ed era una vera tempesta di fuoco in grado di spazzare via i giganti artici e le tribù degli orchi del nord. Era una nemica detestata da più di uno sciamano, la cui magia spesso si infrangeva contro la sua furia. Dopo un'intera vita di dure battaglie, fu la vecchiaia a reclamare la sua vita. La spada passò a sua nipote, un'avventuriera che forse la portò nell'Amn. In un'altra epoca, prima che Neverwinter non era calda e prima che il grande Anauroch non fosse asciutto......esisteva la "La Terra Bruciante", conosciuta anche come Lingua di Fuoco. Il suo utilizzo sembra abbastanza semplice da capire - brucia la vittima attraverso un fuoco magico, e una misteriosa runa sembra suggerire che l'energia provenga dalla terra stessa, ma chi sia stato a costruirla rimane un mistero. Sembra un'arma perfettamente normale, ma qualcosa nell'impugnatura o nel bilanciamento è sbagliato. Il braccio che la impugna si stanca presto, e la mano non riesce mai a stringerla bene. Non sembra che influenzi l'abilità di un guerriero, comunque... a parte il dubbio rimanente che la spada non sia stata fatta per lui... o per qualsiasi altro umanoide. L'altra lama di fuoco utilizzata per creare la Rovina di Lava, arde di un fuoco magico, ed emette una scarica ustionante ogni volta che va a segno. Su ogni lato della lama è scolpita la frase "Meta Infernum", anche se la scritta appare sbiadita e non sembra originale con la spada.
+
+Questa è la storia della Rovina di Lava. Recentemente commissionata, possiede dei grandi poteri. La lama è fatta di fuoco puro, e sembra utilizzare il potere di alcuni incantesimi, come Palla di fuoco e Lama Fantasma. La Fiamma del Nord, la Lingua di Fuoco, e la Spada Fiammeggiante sembra siano state ben utilizzate.
+
+STATISTICHE:
+
+Abilità di Combattimento:
+Palla di fuoco (10% di possibilità di essere lanciata su un bersaglio dopo un attacco riuscito)
+
+Abilità di Equipaggiamento:
+10% di Resistenza alla Magia
+
+THAC0: +3
+Danno: 1D10 +3, +4 contro i Troll, +5 contro gli Elementali del Fuoco, +10 contro i Non Morti, +5 contro i nemici di allineamento caotico malvagio
+Tipo di danno: tagliente
+Fattore-velocità: 8
+Tipo di competenza: Spada a due Mani
+Tipo: A due mani
+Richiede: 15 alla Forza
+
+Peso: 12
+
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago
+ Stregone
+ Ladro
+ Monaco
+ Addestratore di Animali~
+
+@6113 = ~Paletto di legno~
+@6114 = ~Clava +3: Paletto di legno
+Nolto tempo fa, un famoso cacciatore di Non Morti conosciuto come DeMor creò una serie di gingilli per aiutarlo in battaglia. Ma nessuno dei suoi ninnoli lo ha mai aiutato veramente in battaglia eccetto uno. Era risaputo che DeMor aveva fatto fondere la magia di una Pietra del Ladro su un paio di paletti di legno che servono per uccidere i vampiri per creare un'arma. Quest'arma una notte aiutò DeMor a combattere una banda di Vampiri. Quei mostri Non Morti diedero del filo da torcere a DeMor, ma alla fine il paladino riuscì ad avere la meglio. La clava che aveva creato DeMor è ora una famosa arma ben conosciuta a tutti, e il metodo per la sua creazione non è stato dimenticato.
+
+STATISTICHE:
+
+Abilità Speciali:
+Quando un colpo va a buon fine, c'è la possibilità del 15% che un Vampiro muoia istantaneamente
+Il possessore è immune al Risucchio di livello quando si brandisce quest'arma
+
+THAC0: +3
+Danno: 1D6 +3, +4 contro i Non Morti, +6 contro i Vampiri
+Tipo di danno: schiacciamento
+Fattore-velocità: 1
+Tipo di competenza: Clava
+Tipo: A una mano
+Richiede: 5 alla Forza
+
+Peso: 3
+
+Non utilizzabile da:
+ Mago
+ Stregone~
+
+@6115 = ~Arco di Uden~
+@6116 = ~Arco Lungo +5: Arco di Uden
+Tre archi di Potenza media sono stati fusi insieme grazie alla magia di una Pietra del Ladro, nel tentativo di creare un singolo arco la cui potenza durerà nei secoli. Un Ogrillion dal nome di Uden per primo ebbe l'idea di questo arco, ma non lo riuscì mai a fabbricare. Rimase ucciso prima che l'arco potesse essere creato. Ora, <CHARNAME> lo ha fatto creare. Sembra avere i migliori attributi di tutti e tre gli archi, ed anche qualcuno di più.
+
+STATISTICHE:
+
+Abilità di Combattimento: 3 colpi per round
+Questo potente arco non richiede munizioni. Scocca automaticamente Frecce di morsicatura.
+
+THAC0: +5
+Danno: +5 di bonus
+Tipo di danno: perforante
+Fattore-velocità: 5
+Tipo di competenza: Arco Lungo
+Tipo: A due mani
+Richiede: 18 alla Forza
+
+Peso: 9
+
+Non utilizzabile da:
+ Bardo
+ Chierico
+ Druido
+ Mago
+ Ladro
+ Monaco
+ Kensai
+ Cavaliere~
+
+@6117 = ~Bastone della Resurrezione~
+@6118 = ~Bastone Rinforzato +3: Bastone della Resurrezione
+La verga utilizzata per creare questo bastone permette a chi la possiede di resuscitare un morto come se fosse un sacerdote di livello abbastanza alto da lanciare l'incantesimo di Resurrezione. Non è richiesto riposo, in quanto è la verga a concedere gli effetti della vita. Ma adesso che sono combinati insieme il Bastone della Cura e la Verga della Resurrezione il potere totale è aumentato.
+
+STATISTICHE:
+
+Speciale: Lancia Resurrezione e Cura ferite gravi una volta al giorno
+
+THAC0: +3
+Danno: 1D6 + 3
+Tipo di danno: schiacciamento
+Fattore-velocità: 1
+Tipo di competenza: Bastone Rinforzato
+Tipo: A due mani
+Richiede: 5 alla Forza
+
+Peso: 2
+
+Non utilizzabile da:
+ Bardo
+ Guerriero
+ Mago
+ Stregone
+ Ladro
+ Monaco~
+
+@6119 = ~Anello del Controllo del Tempo~
+@6120 = ~I lanciatori di incantesimi di Faerun solitamente cercano di avere la meglio sulle loro vittime tentando di fermare il tempo, ma di solito ciò comporta degli spiacevoli inconvenienti. Un chierico/mago, conosciuto solo col nome di Shatt, trovò un modo per evitare questi sgradevoli contrattempi ovvero il non dover più soffrire le penalità dell'incantesimo da mago di nono livello Fermare il Tempo. Gli costò molto denaro, ma l'invenzione di Shatt funzionò. Utilizzando semplicemente tre Anelli di rubino ed un Anello di Libertà di Movimento e riuscendo poi ad assorbire il potere delle pergamene di Fermare il Tempo, Shatt riuscì a creare un congegno, un anello, che gli permetteva di non essere più minacciato dalle sfortunate conseguenze date dal Fermare il Tempo. Quando la scoperta del folle mago divenne famosa, tuttavia, un losco ladro dal nome di Kamoth riuscì a rubare l'anello. Kamoth non poteva utilizzare i suoi straordinari poteri, ma vendette l'anello e la sua turpe ricetta a Taerom "Thunderhammer" Fuiruim, di Beregost. Thunderhammer mise al corrente molti altri fabbri del modo con cui si poteva creare l'anello, e grazie a questa saggia mossa di Taerom ora un esemplare dell'anello è in possesso di <CHARNAME>.
+
+STATISTICHE:
+
+Speciale: Il possessore é immune agli effetti dell'incantesimo dam ago del nono livello, "Fermare il Tempo"
+
+Richiede: 16 all'Intelligenza
+Peso: 0
+
+Utilizzabile solamente da:
+ Bardo
+ Chierico
+ Druido
+ Mago
+ Stregone~
+
+
+// Other stuff
+@7001 = ~Stella Dardo Elementale~
+@7002 = ~Questo dardo magico è stato creato utilizzando il Mantello della Stella Elementale. Scomparirà dopo 2 giorni.
+
+STATISTICHE:
+
+Abilità di Combattimento:
+1D3 di Danni aggiuntivi da Fuoco, da Freddo, da Acido, da Elettricità
+
+THACO: +5
+Danno: 1D4 +5
+Tipo di danno: proiettile (perforante)
+Fattore-velocità: 0
+Tipo di competenza: Dardo
+Tipo: A una mano
+
+Peso: 0
+
+Non utilizzabile da:
+ Chierico
+ Kensai
+ Cavaliere~

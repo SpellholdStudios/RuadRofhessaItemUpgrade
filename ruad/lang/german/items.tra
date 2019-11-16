@@ -1,0 +1,1316 @@
+/* ================= *
+ *  Usability flags  *
+ * ================= */
+@9001 =~[Kk]ann[ %tab%]+[Nn]ur[ %tab%]+[Vv]erwendet[ %tab%]+[Ww]erden[ %tab%]+[Vv]on[ %tab%]*:~
+@9002 =~[Kk]ann[ %tab%]+[Nn]icht[ %tab%]+[Vv]erwendet[ %tab%]+[Ww]erden[ %tab%]+[Vv]on[ %tab%]*:~
+
+/* ================= *
+ *  Character names  *
+ * ================= */
+
+@2001 = ~Ruad~
+@2002 = ~Das Tanzende Spiegelschwert~
+@2003 = ~Kraka'Tur~
+@2004 = ~Geist von Yoshimo~
+@2005 = ~Ruheloser Kindergeist~
+
+
+/* ======= *
+ *  Items  *
+ * ======= */
+@6001 = ~Rosenklinge~
+@6002 = ~Langschwert +4: Rosenklinge
+Die Klinge verfügt über eine überirdische Schönheit. Es ist ziemlich wahrscheinlich, dass Sune, die Göttin der Schönheit und der Leidenschaft, bei ihrer Entstehung mitgewirkt hat. Wenn man die Waffe in die Hand nimmt, kann man sofort sehen, wie der Träger eine wunderbare Veränderung erfährt. In der Geschichte war diese Waffe schon oft insgeheim dafür verantwortlich, dass ein unauffälliger Soldat am Hof irgendeines Adeligen plötzlich durch sein beeindruckendes Auftreten in höfischen Kreisen befördert wurde.
+Diese Klinge wurde von Ruad verbessert, um sie zu einer besseren Waffe zu machen, aber ihre herausragendste Fähigkeit ist ihre beeindruckende Schönheit. Lange nachdem sie die Hand ihres derzeitigen Besitzers verlassen haben wird, wird sie ein geschätzter Gegenstand an Königshöfen und für Zeremonien sein. Viele haben gesagt, dass ihre Erscheinung unnatürlich schön und möglicherweise nur durch Magie realisierbar ist. Ja, sie ist wahrlich prächtig, egal, wie sie hergestellt wurde, und man fragt sich, wie so viel an Schönheit auch so viel Tod bringen kann.
+
+EIGENSCHAFTEN:
+
+Person bezaubern (3x täglich)
+
+Der Träger erhält einen Bonus von 10 auf seinen Sagenkundewert.
+
+Schaden: 2W4 +4 (Klinge)
+Schadensbonus: +2 (Elektrizität)
+ETW0-Bonus: +3
+Charisma-Bonus: +3
+Magieresistenz: 10%
+Rüstungsklasse-Bonus: +1
+Rettungswurf-Bonus: +1
+Initiativefaktor: 3
+Mindeststärke: 8
+Fertigkeit: Langschwert
+Typ: 1-händig
+
+Gewicht: 4
+
+Kann nicht verwendet werden von:
+ Kleriker
+ Druide
+ Magier
+ Tiermeister~
+
+@6003 = ~Das Tanzende Schwertpaar~
+@6004 = ~Langschwert +2: Ras, Das Tanzende Schwertpaar
+Beroalf war ein Barbar, der auf der Suche nach Abenteuern aus dem kalten Norden kam. Er suchte Ruhm und Schätze, aber bald gingen ihm seine Gefährten, die er im Norden zurückgelassen hatte, so ab, dass er sich nichts mehr wünschte, als neue Gefährten, mit denen er die Aufregung der Schlacht teilen konnte. Dummerweise schreckten seine rüden Umgangsformen und sein übler Gestank die meisten Reisenden ab. So blieb er allein, bis er seine Sorge einem verständnisvollen Magier klagte. Der fertigte ihm für gutes Geld Ras, die tanzende Klinge. Obwohl das zwar nicht gerade die Art von Gesellschaft war, die sich Beroalf ursprünglich vorgestellt hatte, war er dennoch begeistert und kämpfte zahlreiche Jahre mit dem Schwert. Auf welchem Weg die beiden schließlich getrennt wurden, ist nicht bekannt.
+Das Schwert wurde einige Jahre später von einer anderen Abenteurergruppe gefunden und während es neu war, war es nicht besonders nutzvoll. Weil sie es nicht verkaufen und andere von seinem frischen Duft profitieren lassen wollten, beschloss die Gruppe es zu behalten und einem Schmied zu zeigen. Mit Hilfe der richtigen Zutaten verlässt die Klinge nun nicht mehr die Hand ihres Träger, sondern es wird ein Spiegelbild von ihr erstellt, während die Klinge selbst bleibt, wo sie ist. Durch die Aufspaltung des Schwertes verringert sich jedoch bis zum Ende der Wirkungsdauer sowohl die Genauigkeit des Originals wie auch die der Kopie.
+Während er das Schwert verbesserte, entdeckte der Schmied auch das Geheimnis seines frischen Duftes; es handelt sich dabei um eine Art verzaubertes Backpulver, das nur von einem wandernden Halbelfen namens Armand Ha'mer für den (nicht so) seltenen Fall hergestellt wird, dass er mit übel riechenden Gefährten reisen muss. Das Pulver hatte viele Jahre des Gestanks eines Barbaren und auch anderer gespeichert und der Handwerker fand dies auf die harte Tour heraus. Da er ein Auge auf alles hat, was seinen Kunden beim Abenteurerleben helfen kann, wusste der Handwerker sofort, nachdem er das Bewusstsein wiedererlangt hatte, dass solch ein mächtiger Gestank auch durchaus seinen Sinn haben kann. Das vereinte Schwert hat nun die Fähigkeit, einmal täglich 'Stinkende Wolke' auf einen Gegner zu wirken.
+
+EIGENSCHAFTEN:
+
+Stinkende Wolke (1x täglich)
+
+Ein Spiegelschwert kann 6 Runden lang angreifen, ohne geführt zu werden. Des Schwert selbst bleibt in der Hand des Trägers.
+
+Schaden: 1W8 +3 (Klinge)
+Schadensbonus: +1 (Bluten)
+ETW0-Bonus: +2
+Initiativefaktor: 3
+Mindeststärke: 10
+Fertigkeit: Langschwert
+Typ: 1-händig
+
+Gewicht: 5
+
+Kann nicht verwendet werden von:
+ Kleriker
+ Druide
+ Magier
+ Tiermeister~
+
+@6005 = ~Die Rache des Vampirs~
+@6006 = ~Langschwert +2: Die Rache des Vampirs
+Bei dieser außergewöhnlichen Waffe scheint es so, dass die beständige Vermutung, dass eine derartige Waffe existieren könnte, dazu geführt hat, dass sie aus dem Reich der Einbildung in die Realität transportiert wurde. Doch auch hier gilt, wie für alles, das unserer Fantasie entspringt, dass die Dinge oft nicht so sind, wie sie scheinen. Wie der Name vermuten lässt, ist diese Klinge tatsächlich vampirisch, jedoch nicht so, wie sich dass der unglückselige Abenteurer erhofft. Es gibt Gerüchte, dass diese Waffe nicht die erhoffte Wirkung hat, weil sie in Wahrheit von Vampiren entworfen wurde, die so jenen, die eines Tages gegen sie kämpfen könnten, eine Falle stellen wollten. Diese unglaublich verschlagenen Untiere haben offenbar die verschiedensten Versionen des fürchterlichen Schwertes erschaffen. Allen ist gemeinsam, dass sie leicht zum Untergang für einen Abenteurer werden können: Jeder Schlag verletzt nämlich in Wahrheit den Träger. Das Schwert saugt ihm Lebenspunkte aus und überträgt sie an das scheinbare Opfer. Außerdem ist die Waffe verflucht, so dass man sie nicht mehr ablegen kann. Sie bringt den Verstand des Trägers zum Verkümmern, damit dieser gar nicht auf die Idee kommt, nach Möglichkeiten zu suchen, wie er die Waffe loswerden könnte. Das Schwert stellt vermutlich einen der wenigen magischen Schätze dar, dem man wirklich nicht hinterher jagen sollte. Es ist vermutlich viel besser, seine Zeit bei einem guten Schluck Bier zu verbringen, statt kreuz und quer durch die Wildnis zu hetzen und gemeinsam mit einem Haufen Idioten nach dieser lächerlichen magischen Klinge zu suchen.
+
+Von <CHARNAME> wurde kürzlich eine Verbesserung des Schwertes beim berühmten Schmied Ruad Ro'fhessa in Auftrag gegeben. Obwohl sich das Schwert als im Kampf nicht besonders mächtig herausstellt, scheint es immerhin dafür gut zu sein, den Träger zu heilen (wenngleich nur minimal).
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer besteht ein 20%ige Chance darauf, beim Träger 10 Trefferpunkte zu heilen.
+
+Schaden: 1W8 +2 (Klinge)
+ETW0-Bonus: +2
+Initiativefaktor: 3
+Mindeststärke: 8
+Fertigkeit: Langschwert
+Typ: 1-händig
+
+Gewicht: 4
+
+Kann nicht verwendet werden von:
+ Guten oder neutralen Wesen
+ Kleriker
+ Druide
+ Magier
+ Tiermeister~
+
+@6007 = ~Schwarzes Schwert des Untodes~
+@6008 = ~Langschwert +5: Schwarzes Schwert des Untodes
+Bei dieser außergewöhnlichen Waffe scheint es so, dass die beständige Vermutung, dass eine derartige Waffe existieren könnte, dazu geführt hat, dass sie aus dem Reich der Einbildung in die Realität transportiert wurde. Doch auch hier gilt, wie für alles, das unserer Fantasie entspringt, dass die Dinge oft nicht so sind, wie sie scheinen. Wie der Name vermuten lässt, ist diese Klinge tatsächlich vampirisch, jedoch nicht so, wie sich dass der unglückselige Abenteurer erhofft. Es gibt Gerüchte, dass diese Waffe nicht die erhoffte Wirkung hat, weil sie in Wahrheit von Vampiren entworfen wurde, die so jenen, die eines Tages gegen sie kämpfen könnten, eine Falle stellen wollten. Diese unglaublich verschlagenen Untiere haben offenbar die verschiedensten Versionen des fürchterlichen Schwertes erschaffen. Allen ist gemeinsam, dass sie leicht zum Untergang für einen Abenteurer werden können: Jeder Schlag verletzt nämlich in Wahrheit den Träger. Das Schwert saugt ihm Lebenspunkte aus und überträgt sie an das scheinbare Opfer. Außerdem ist die Waffe verflucht, so dass man sie nicht mehr ablegen kann. Sie bringt den Verstand des Trägers zum Verkümmern, damit dieser gar nicht auf die Idee kommt, nach Möglichkeiten zu suchen, wie er die Waffe loswerden könnte. Das Schwert stellt vermutlich einen der wenigen magischen Schätze dar, dem man wirklich nicht hinterher jagen sollte. Es ist vermutlich viel besser, seine Zeit bei einem guten Schluck Bier zu verbringen, statt kreuz und quer durch die Wildnis zu hetzen und gemeinsam mit einem Haufen Idioten nach dieser lächerlichen magischen Klinge zu suchen.
+
+Nach der zweiten Verbesserung durch das Bhaalkind <CHARNAME> kann dieses Schwert als tödliches Werkzeug fungieren. Weil es mit dem schwarzen Herzen der Vampirkönigin Bodhi gefertigt wurde, bietet das Schwert nun ausgedehnten Schutz. Außerdem kann es dem Ziel auch Lebenskraft entziehen und diese dem Träger zuführen.
+Aber die bei weitem abstoßendste Fähigkeit dieser Waffe ist die Möglichkeit, den Geist von Kraka'Tur, einem uralten Vampirfürsten, anzurufen.
+
+EIGENSCHAFTEN:
+
+Kraka'Tur beschwören (1x täglich)
+
+Der Träger ist immun gegen Bezauberung, Furcht und Festhalten und ist vor negativer Energie geschützt.
+Bei einem Treffer besteht eine 30%ige Chance, dem Ziel 4 Stufen durch Energieverlust zu stehlen, eine 30%ige Chance, beim Träger 20 Trefferpunkte zu heilen und eine 30%ige Chance, Hast auf den Träger zu zaubern.
+
+Schaden: 1W8 +5 (Klinge)
+ETW0-Bonus: +5
+Stärke-Bonus: +2
+Regeneration: 1 TP pro 5 Sekunden
+Gewicht: 10
+Initiativefaktor: 2
+Mindeststärke: 15
+Fertigkeit: Langschwert
+Typ: 1-händig
+
+Gewicht: 10
+
+Kann nicht verwendet werden von:
+ Guten oder neutralen Wesen
+ Kleriker
+ Druide
+ Magier
+ Tiermeister~
+@60081 = ~Kraka'Tur beschwören~
+
+@6009 = ~Yoshimos Giftkatana~
+@6010 = ~Katana +3: Yoshimos Giftklinge
+Die Klinge ist zwar nur leicht verzaubert, aber dennoch hat sie so etwas wie ein Bewusstsein erlangt und erlaubt es daher nur dem Dieb, der unter dem Namen Yoshimo bekannt ist, sie zu führen. Das perfekte Katana kann von keinem anderen Wesen im Kampf geschwungen werden.
+
+Sie wurde kürzlich von einem Bhaalkind namens <CHARNAME> verbessert und nun ist sie in der Lage, ihr Opfer zu vergiften.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +3 (Klinge)
+Schadensbonus: +2 (Giftschaden pro Sekunde für 10 Sekunden)
+ETW0-Bouns: +3
+Gewicht: 5
+Initiativefaktor: 1
+Fertigkeit: Katana
+Typ: 1-händig
+
+Gewicht: 5
+
+Kann nur verwendet werden von:
+ Yoshimo~
+
+@6011 = ~Geist von Yoshimo~
+@6012 = ~Magische Flasche: Geist von Yoshimo
+Wenn Ihr die Falsche rasch zwischen Euren Händen reibt, wechselt Ihr ins Reich der Toten über. Von dort ruft Ihr den Geist Eures ehemaligen Kameraden und Verräters Yoshimo an, der diesem Ruf immer folgen und Euch im Kampf zur Seite stehen muss - ob er will oder nicht - bis er für seine Verbrechen Wiedergutmachung geleistet hat.
+
+EIGENSCHAFTEN:
+
+Beschwört einmal täglich den Geist von Yoshimo (Kopfgeldjäger der Stufe 18) für 2400 Sekunden.
+
+Gewicht: 0
+
+Kann nicht verwendet werden von:
+ Magiertöter~
+
+@6013 = ~Drachenpantoffeln~
+@6014 = ~Siebenmeilenstiefel: Drachenpantoffeln
+Diese Stiefel wurden Simeon Snowlock zum Übertritt uns Erwachsenenleben überreicht und damit wurde der letzte Wunsch seines Ururgroßvaters Prestor John, dem ersten König von Hayholt, erfüllt. Zwei Jahre bevor John zum König geworden war, reiste er tief in die Katakomben unter seinem zukünftigen Königreich, wo er auf einen Bau stieß, der so gewaltig war, dass er nur zu einer Kreatur von gigantischen Ausmaßen gehören konnte. Weil er vom Anblick der vielen Reichtümer, die die Höhle einsäumten, angezogen wurde, schritt John weiter voran und ihm stellt sich eine unvergleichliche Kreatur gegenüber. Sie war Shurukai, die Mutter aller Drachen; und sie erreichte eine atemberaubende Größe von fast 8 Metern vom Kopf bis zum Schwanz und fast 15 Metern in der Breite. Nur mit seinem Willen, seinem Mut und seinem zuverlässigen Schwert, Lichtnagel, bewaffnet, kämpfte John bald eine wilde Schlacht.
+Gerüchte besagen, dass ein unheilvolles Dröhnen durch die gesamte Stadt hallte und dass jeder Mann, jede Frau und jedes Kind auf den Beinen waren, um zu sehen, was ihrem fähigsten Befehlshaber zugestoßen war. Alle waren von Ehrfurcht ergriffen, als sie die auf dem Boden zusammengebrochene rote Masse fanden und sie waren es sogar noch mehr, als John einen Thron in Auftrag gab, der aus den Knochen der Bestie gebaut und auf dessen höchsten Punkt der Schädel platziert werden sollte. Die Schuppen der Bestie wurden entfernt und zu einem Paar Siebenmeilenstiefeln geflochten. Dies führte zu Schuhen, die ihren Träger sowohl vor Feuer und moralischem Versagen schützen als auch seine Bewegungsrate verdoppeln.
+
+Bis zum heutigen Tag steht der Thron im Zentrum von Hayholt, damit jeder diese Elfenbeinschönheit im einfallenden Sonnenlicht bewundern kann. Aber erwähnt man nur den Namen Prestor John, so hört man sofort die Geschichte von Shurakai und dem Drachenknochenthron.
+
+EIGENSCHAFTEN:
+
+Der Träger hat eine erhöhte Bewegungsrate und ist immun gegen alle Arten von Furcht.
+
+Feuerresistenz: 25%
+
+Gewicht: 4~
+
+@6015 = ~Ring der Bannzauber~
+@6016 = ~Vor einer Ewigkeit, als verrückte Magier und Zauberer durch das Land zogen, wurden die Ringe der Schulen und Sphären erschaffen, um Helden einen Kampf zu annähernd gleichen Bedingungen zu ermöglichen. Jetzt, mehr als tausend Jahre später, wurde die Formel zur Erstellung dieser mächtigen und unauffälligen Ringe wiederentdeckt. Allerdings erfordert die Herstellung solch mächtiger Artefakte im Gegenzug die Opferung von ebenso seltenen Gegenständen und so zeigen die Ringe der Schulen und Sphären einmal mehr auf, dass große Macht auch großer Opfer verlangt.
+
+Dieser spezielle Ring beschützt den Träger vor allen Zauber der Schule der Bannzauber und deshalb kann er auch nur von denen benutzt werden, die sich in eben diesem Feld spezialisiert haben - Bannwirker.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt permanent Zauberimmunität: Bannzauber.
+
+Gewicht: 0
+
+Kann nur verwendet werden von:
+ Bannwirker~
+
+@6017 = ~Ring der Veränderung~
+@6018 = ~Vor einer Ewigkeit, als verrückte Magier und Zauberer durch das Land zogen, wurden die Ringe der Schulen und Sphären erschaffen, um Helden einen Kampf zu annähernd gleichen Bedingungen zu ermöglichen. Jetzt, mehr als tausend Jahre später, wurde die Formel zur Erstellung dieser mächtigen und unauffälligen Ringe wiederentdeckt. Allerdings erfordert die Herstellung solch mächtiger Artefakte im Gegenzug die Opferung von ebenso seltenen Gegenständen und so zeigen die Ringe der Schulen und Sphären einmal mehr auf, dass große Macht auch großer Opfer verlangt.
+
+Dieser spezielle Ring beschützt den Träger vor allen Zauber der Schule der Veränderung und deshalb kann er auch nur von denen benutzt werden, die sich in eben diesem Feld spezialisiert haben - Wandlern.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt permanent Zauberimmunität: Veränderung.
+
+Gewicht: 0
+
+Kann nur verwendet werden von:
+ Wandler~
+
+@6019 = ~Ring der Herbeirufung/Beschwörung~
+@6020 = ~Vor einer Ewigkeit, als verrückte Magier und Zauberer durch das Land zogen, wurden die Ringe der Schulen und Sphären erschaffen, um Helden einen Kampf zu annähernd gleichen Bedingungen zu ermöglichen. Jetzt, mehr als tausend Jahre später, wurde die Formel zur Erstellung dieser mächtigen und unauffälligen Ringe wiederentdeckt. Allerdings erfordert die Herstellung solch mächtiger Artefakte im Gegenzug die Opferung von ebenso seltenen Gegenständen und so zeigen die Ringe der Schulen und Sphären einmal mehr auf, dass große Macht auch großer Opfer verlangt.
+
+Dieser spezielle Ring beschützt den Träger vor allen Zauber der Schule der Herbeirufung/Beschwörung und deshalb kann er auch nur von denen benutzt werden, die sich in eben diesem Feld spezialisiert haben - Beschwörern.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt permanent Zauberimmunität: Herbeirufung/Beschwörung.
+
+Gewicht: 0
+
+Kann nur verwendet werden von:
+ Beschwörer~
+
+@6021 = ~Ring der Erkenntniszauber~
+@6022 = ~Vor einer Ewigkeit, als verrückte Magier und Zauberer durch das Land zogen, wurden die Ringe der Schulen und Sphären erschaffen, um Helden einen Kampf zu annähernd gleichen Bedingungen zu ermöglichen. Jetzt, mehr als tausend Jahre später, wurde die Formel zur Erstellung dieser mächtigen und unauffälligen Ringe wiederentdeckt. Allerdings erfordert die Herstellung solch mächtiger Artefakte im Gegenzug die Opferung von ebenso seltenen Gegenständen und so zeigen die Ringe der Schulen und Sphären einmal mehr auf, dass große Macht auch großer Opfer verlangt.
+
+Dieser spezielle Ring beschützt den Träger vor allen Zauber der Schule der Erkenntniszauber und deshalb kann er auch nur von denen benutzt werden, die sich in eben diesem Feld spezialisiert haben - Sehern.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt permanent Zauberimmunität: Erkenntniszauber.
+
+Gewicht: 0
+
+Kann nur verwendet werden von:
+ Seher~
+
+@6023 = ~Ring der Verzauberung/Bezauberung~
+@6024 = ~Vor einer Ewigkeit, als verrückte Magier und Zauberer durch das Land zogen, wurden die Ringe der Schulen und Sphären erschaffen, um Helden einen Kampf zu annähernd gleichen Bedingungen zu ermöglichen. Jetzt, mehr als tausend Jahre später, wurde die Formel zur Erstellung dieser mächtigen und unauffälligen Ringe wiederentdeckt. Allerdings erfordert die Herstellung solch mächtiger Artefakte im Gegenzug die Opferung von ebenso seltenen Gegenständen und so zeigen die Ringe der Schulen und Sphären einmal mehr auf, dass große Macht auch großer Opfer verlangt.
+
+Dieser spezielle Ring beschützt den Träger vor allen Zauber der Schule der Verzauberung/Bezauberung und deshalb kann er auch nur von denen benutzt werden, die sich in eben diesem Feld spezialisiert haben - Zauberern.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt permanent Zauberimmunität: Verzauberung/Bezauberung.
+
+Gewicht: 0
+
+Kann nur verwendet werden von:
+ Zauberer~
+
+@6025 = ~Ring der Anrufung/Hervorrufung~
+@6026 = ~Vor einer Ewigkeit, als verrückte Magier und Zauberer durch das Land zogen, wurden die Ringe der Schulen und Sphären erschaffen, um Helden einen Kampf zu annähernd gleichen Bedingungen zu ermöglichen. Jetzt, mehr als tausend Jahre später, wurde die Formel zur Erstellung dieser mächtigen und unauffälligen Ringe wiederentdeckt. Allerdings erfordert die Herstellung solch mächtiger Artefakte im Gegenzug die Opferung von ebenso seltenen Gegenständen und so zeigen die Ringe der Schulen und Sphären einmal mehr auf, dass große Macht auch großer Opfer verlangt.
+
+Dieser spezielle Ring beschützt den Träger vor allen Zauber der Schule der Anrufung/Hervorrufung und deshalb kann er auch nur von denen benutzt werden, die sich in eben diesem Feld spezialisiert haben - Thaumaturgen.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt permanent Zauberimmunität: Anrufung/Hervorrufung.
+
+Gewicht: 0
+
+Kann nur verwendet werden von:
+ Thaumaturg~
+
+@6027 = ~Ring der Illusion~
+@6028 = ~Vor einer Ewigkeit, als verrückte Magier und Zauberer durch das Land zogen, wurden die Ringe der Schulen und Sphären erschaffen, um Helden einen Kampf zu annähernd gleichen Bedingungen zu ermöglichen. Jetzt, mehr als tausend Jahre später, wurde die Formel zur Erstellung dieser mächtigen und unauffälligen Ringe wiederentdeckt. Allerdings erfordert die Herstellung solch mächtiger Artefakte im Gegenzug die Opferung von ebenso seltenen Gegenständen und so zeigen die Ringe der Schulen und Sphären einmal mehr auf, dass große Macht auch großer Opfer verlangt.
+
+Dieser spezielle Ring beschützt den Träger vor allen Zauber der Schule der Illusion und deshalb kann er auch nur von denen benutzt werden, die sich in eben diesem Feld spezialisiert haben - Illusionisten.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt permanent Zauberimmunität: Illusion.
+
+Gewicht: 0
+
+Kann nur verwendet werden von:
+ Illusionist~
+
+@6029 = ~Ring der Nekromantie~
+@6030 = ~Vor einer Ewigkeit, als verrückte Magier und Zauberer durch das Land zogen, wurden die Ringe der Schulen und Sphären erschaffen, um Helden einen Kampf zu annähernd gleichen Bedingungen zu ermöglichen. Jetzt, mehr als tausend Jahre später, wurde die Formel zur Erstellung dieser mächtigen und unauffälligen Ringe wiederentdeckt. Allerdings erfordert die Herstellung solch mächtiger Artefakte im Gegenzug die Opferung von ebenso seltenen Gegenständen und so zeigen die Ringe der Schulen und Sphären einmal mehr auf, dass große Macht auch großer Opfer verlangt.
+
+Dieser spezielle Ring beschützt den Träger vor allen Zauber der Schule der Nekromantie und deshalb kann er auch nur von denen benutzt werden, die sich in eben diesem Feld spezialisiert haben - Nekromanten.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt permanent Zauberimmunität: Nekromantie.
+
+Gewicht: 0
+
+Kann nur verwendet werden von:
+ Nekromant~
+
+@6031 = ~Adamantit Kettenrüstung~
+@6032 = ~Kettenhemd + 5: Adamantit Kettenrüstung
+Nach vielen Abenteuern im Unterreich schmiedete ein Bhaalkind namens <CHARNAME> dieses Kettenhemd aus den Überresten vieler prächtiger Gegenstände - Adamantitstaub. Aufgrund ihrer geschickten und kunstvollen Fertigung zerfällt diese Rüstung im Sonnenlicht nicht.
+Diese magische Kettenrüstung behindert das Aussprechen von Zaubern nicht und gewährt ihrem Träger zusätzlichen Schutz vor Magie, Feuer und Säure. Darüber hinaus verbessert sie den Initiativefaktor aller Zaubern, die ihr Träger wirkt.
+Aufgrund der Ähnlichkeit dieser Rüstung zu ihren Drow-Gegenstücken wird der Träger natürlich in Verbindung mit den Drow gebracht, was sich äußerst nachteilig auf <HISHER> Beliebtheit auswirkt.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält auf die Initiative beim Zaubern einen Bonus von -1.
+
+Rüstungsklasse: 0
+RK-Bonus: -2 gg. Klingenwaffen
+RK-Malus: +2 gg. Wuchtwaffen
+Charisma-Malus: -2
+Magieresistenz: +10%
+Säureresistenz: +15%
+Feuerresistenz: +15%
+Blockiert nicht das Wirken von Zaubern
+Mindeststärke: 5
+
+Gewicht: 20
+
+Kann nur verwendet werden von:
+ Barde
+ Kleriker/Magier
+ Kämpfer/Magier
+ Magier/Dieb
+ Kämpfer/Magier/Kleriker
+ Kämpfer/Magier/Dieb~
+
+@6033 = ~Gürtel des Kriegsherrn~
+@6034 = ~Ein Abenteurer namens <CHARNAME> lies diesen Gürtel anfertigen, nachdem ihm klar wurde, dass einige von <PRO_HISHER> Gefährten die körperliche Härte des Abenteurerlebens nicht bewältigen konnten.
+Dieser Gürtel vereint einige der besten stärke-, geschicklichkeits- und konstitutions-erhöhenden Gegenstände, um ein wahrlich großartiges Artefakt zu erschaffen.
+
+EIGENSCHAFTEN:
+
+Stärke-Bonus: +2
+Geschicklichkeits-Bonus: +2
+Konstitutions-Bonus: +2
+
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+ Magiertöter~
+
+@6035 = ~Kaliguns Amulett des größeren Widerstandes~
+@6036 = ~Auf der Rückseite dieses speziellen Amuletts befinden sich die Initialen KP. KP oder Kaligun Poonil war der General einer kleinen Streitmacht, die in die Wälder geschickt wurde, um sie von Roten Magiern zu säubern. Weil er besondere Angst vor Magie hatte, trug er in der Schlacht dieses Amulett. Weil er allzu sehr auf seinen Schutz vertraute, starb Kaligun schließlich, als er törichterweise drei hochrangige Rote Magier aus dem Hinterhalt angriff, die seine Magieresistenz senkten bevor sie ihn mit ihren Sprüchen vernichteten.
+
+Diese Halskette ist nicht nur modisch, sondern sie bietet, nachdem sie vom Abenteurer <CHARNAME> verbessert worden ist, nun auch zusätzlichen Schutz.
+
+EIGENSCHAFTEN:
+
+Magieresistenz: +10%
+Rüstungsklasse-Bonus: +2
+Rettungswurf-Bonus: +2
+
+Gewicht: 3
+
+Kann nicht verwendet werden von:
+ Magiertöter~
+
+@6037 = ~Glühender Ionenstein~
+@6038 = ~Diese orange Schönheit wurde für <CHARNAME> aus vier mächtigen Ionensteinen erschaffen und sie steigert die körperliche und geistige Widerstandsfähigkeit ihres Trägers.
+
+EIGENSCHAFTEN:
+
+Konstitutions-Bonus: +1
+Intelligenz-Bonus: +1
+Weisheits-Bonus: +1
+Regeneration: 1 Trefferpunkt alle 3 Sekunden
+ 
+Gewicht: 2~
+
+@6039 = ~Jaheiras Harfnernadel~
+@6040 = ~Eine Harfnernadel ist ein begehrter Gegenstand, der anzeigt, dass ihr Träger ein geehrtes und zuverlässiges Mitglied der Harfner ist. Sie gewährt dem Träger einen herausragenden Schutz gegen viele verschiedene Arten von Angriffen. Sie sind nicht auf eine bestimmt Person eingestellt, aber es wird Euch schwer fallen jemanden zu finden, der einen solchen Gegenstand ausleihen oder sogar aus seiner Sichtweite herauskommen lassen würde. Eine Harfnernadel ist im ziemlich wahren Sinne des Wortes ein Ehrenabzeichen.
+
+Diese spezielle Nadel war ein Geschenk des legendären Zauberers Elminster an Jaheira und sie wurde kürzlich durch ihre wahre Liebe, <CHARNAME>, verbessert. Nun ist sie ein Symbol ihres Vertrauen und ihrer Hingabe.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält auf die Initiative beim Zaubern einen Bonus von -1 und auf ihm liegt Unauffindbarkeit. Darüber hinaus ist er immun gegen Bezauberung, Verwirrung und Furcht sowie gegen Magische Geschosse.
+
+Elektrizitätsresistenz: +100%
+Magieresistenz: +5%
+Rettungswurf-Bonus: +5 gegen Zauber
+
+Gewicht: 1~
+
+@6041 = ~Frostschnitter~
+@6042 = ~Streitaxt +4: Frostschnitter
+Dies war einst die Axt von Illgarth, einem Frostriesen, der die Ansiedlungen des Nordens vor langer Zeit terrorisierte. Es ist nicht bekannt, wie er an die Waffe kam, aber es bereitete ihm perverse Freude, sie gegen kleinwüchsige Wesen, vor allem Halblinge, einzusetzen. Wer nicht gleich starb, wurde durch Eis und Säure verstümmelt. Wenn der Riese die Opfer eines seiner Überfälle später wieder erkannte, bedachte er sie mit grausamen Gelächter. Irgendwann gelang es einer tapferen Abenteurergruppe, ihn zu besiegen. Auf Bitten seiner Opfer hin wurde seine Waffe mit ihm begraben.
+
+Weitaus kürzlicher wurde die Axt auf Anfrage von <CHARNAME> wieder mit dem Schmiedehammer bearbeitet, wodurch ihre Macht dramatisch vergrößert wurde, obwohl die Fähigkeit der Waffe, Giftschaden zu verursachen, während des Fertigungsprozesses verloren ging.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer besteht eine 40%ige Chance, dass das Ziel verlangsamt wird (kein Rettungswurf).
+
+Schaden: 1W8 +4 (Klinge)
+Schadensbonus: 1W4+1 (Kälte)
+ETW0-Bonus: +4
+Kälteresistenz: +40%
+Initiativefaktor: 4
+Fertigkeit: Axt
+Typ: 1-händig
+Mindeststärke: 10
+
+Gewicht: 7
+
+Kann nicht verwendet werden von:
+ Kleriker
+ Druide
+ Magier
+ Dieb
+ Mönch
+ Tiermeister~
+
+@6043 = ~Stab des Harten Klopfens~
+@6044 = ~Durch die Veränderung eines gewöhnlichen Stabs der Magischen Geschosse hat ein versierter Handwerker diesen Gegenstand in einen von großem praktischen Nutzen verwandelt. Er hat nun die Fähigkeit Türen und Kisten zu öffnen.
+
+EIGENSCHAFTEN:
+
+Klopfen (100 Ladungen)
+
+Mindestintelligenz: 9
+
+Gewicht: 1
+
+Kann nicht verwendet werden von:
+ Magiertöter~
+
+@6045 = ~Messerschmitt Steinplünderer Axt~
+@6046 = ~Zweihändige Axt +3: Messerschmitt Steinplünderer
+sDie Messerschmitt Steinplünderer Axt vereint zwei beliebte Arten von Zwergenäxten mit einem unüblichen Schaft, der von einer Abenteurergruppe gefunden worden war. Die Axt ist nach dem Menschen Messerschmitt benannt, einem Konkurrenten des Schmiedes dieser Waffe, der eine ähnliche Konstruktion versucht hatte. Die Axt fiel von seiner Werkbank und trennte den größten Teil seiner Hand ab. In seinem Ärger schmolz er die experimentelle Axt einfach ein, gab seine Anzahlung zurück und überreichte seinem Kunden die Äxte in einem heißen Gießtiegel voll vom verschlacktem Eisen und Mithril. Messerschmitt erklärte, dass ihn die Götter dafür bestrafen würden, dass er zwei herrliche Zwergenäxte genommen und versucht hatte, solch eine Scheußlichkeit für einen Halbling zu erschaffen. Der Halbling trat Messerschmitt umgehend gegen seine Schienbein und stürmte hinaus.
+
+Die Konstruktion ist eine zweiköpfige Axt mit Steinfeuer auf der einen und Frostschnitter auf der anderen Seite. Diese beiden Äxte musste neu bearbeitet werden, um sie für diese Furcht erregende zweihändige Axt groß genug zu machen, aber dabei haben sie nichts von ihren Fähigkeiten verloren. Der Schaden, der dem Ziel zugefügt wird, hängt in großem Maße von auftreffenden Seite der Axt ab. Nach der Fertigstellung der Axt war sich ihr Benutzer ziemlich sicher, dass die Axt verflucht sein könnte und dass sie sich niemals von einem Halbling wird führen lassen. Dasselbe wird wohl auch für Gnome gelten. Der Waffenschmied spielte auf eine besondere Schutzmagie an, um genau das sicher zu stellen. "Ich will nicht, dass die Waffe entweder in die falschen oder kleine Hände fällt", sagte er.
+
+Die Konstruktion hat offensichtliche Vorteile bei der Verwendung gegen Trolle und der ungewöhnliche Stab hat ihr die Fähigkeit verliehen, Feuerelementare mit einem Schlag niederzustrecken. Richtig benutzt kann sie ebenso Schläge abblocken. Die Axt ist an ihren Enden so schwer, dass sie eine ausgezeichnete Waffe gegen gepanzerte Gegner darstellt, weil sie sich einen Weg durch deren Rüstung bahnen kann. Sie verursacht Stich- anstelle von Hiebschaden. Sie kann sich so tief in einen Feind schneiden, dass es manchmal schwer ist, sie wieder herauszuziehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer wird ein Feuerelementar sofort getötet (kein Rettungswurf). Darüber hinaus besteht bei einem Treffer eine 50%ig Chance 2 Schadenspunkte durch Feuer zu verursachen, eine 50%ige Chance je einen Schadenspunkt durch Kälte und Säure zu verursachen und eine 5%ig Chance das Ziel und Träger für eine Runde betäubt werden.
+
+Schaden: 2W6 +3 (Stich)
+ETW0-Bonus: +3
+Rüstungsklasse-Bonus: +1
+Initiativefaktor: 9
+Mindeststärke: 17
+Fertigkeit: Axt
+Typ: 2-händig
+
+Gewicht: 21
+
+Kann nicht verwendet werden von:
+ Gnomen
+ Halblingen
+ Kleriker
+ Druide
+ Magier
+ Dieb
+ Mönch
+ Tiermeister~
+@60451 = ~Zweihändige Axt~
+@60461 = ~Diese starke Waffe besteht aus einem 1,20 bis 1,30 Meter langen Stiel und einer sehr schweren Klinge. Sie kommt entweder als Doppelaxt (zwei Klingen rechts und links) oder mit nur einer Klinge vor. Es ist eine unhandliche Waffe, doch ein geschickter Krieger kann damit durchaus heftige Hiebe austeilen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 (Klinge)
+Initiativefaktor: 9
+Mindeststärke: 10
+Fertigkeit: Axt
+Typ: 2-händig
+
+Gewicht: 10
+
+Kann nicht verwendet werden von:
+ Kleriker
+ Druide
+ Magier
+ Dieb
+ Mönch
+ Tiermeister~
+
+@6047 = ~Familienklinge der Corthalas~
+@6048 = ~Katana +3: Familienklinge der Corthalas
+Dieses hochwertige Katana ist von einer magischen Aura umgeben, wenn es von Valygar geführt wird. Die Klinge wurde so geschaffen, dass sie ihre Fähigkeiten nur in den Händen eines Corthalas entfaltet. Wenn diese +3 Waffe einen Gegner verletzt, erleidet er zusätzlichen Schaden durch Bluten.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +3 (Klinge)
+Schadensbonus: +3 (durch Bluten pro Sekunde für 12 Sekunden)
+ETW0-Bonus: +3
+Rüstungsklasse-Bonus: +3 gegen Hiebwaffen
+Initiativefaktor: 2
+Fertigkeit: Katana
+Typ: 1-händig
+
+Gewicht: 4
+
+Kann nur verwendet werden von:
+ Valygar~
+
+@6049 = ~Familienklinge der Corthalas~
+@6050 = ~Katana +4: Familienklinge der Corthalas
+Dieses hochwertige Katana ist von einer magischen Aura umgeben, wenn es von Valygar geführt wird. Die Klinge wurde so geschaffen, dass sie ihre Fähigkeiten nur in den Händen eines Corthalas entfaltet. Wenn diese +4 Waffe einen Gegner verletzt, erleidet er zusätzlichen Schaden durch Bluten.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +4 (Klinge)
+Schadensbonus: +4 (durch Bluten pro Sekunde für 12 Sekunden)
+ETW0-Bonus: +4
+Rüstungsklasse-Bonus: +4 gegen Hiebwaffen
+Initiativefaktor: 2
+Fertigkeit: Katana
+Typ: 1-händig
+
+Gewicht: 4
+
+Kann nur verwendet werden von:
+ Valygar~
+
+@6051 = ~Der Hässliche Stecken~
+@6052 = ~Stab +4: Der Hässliche Stecken
+"Der Hässliche Stecken" vereint den Stabspeer +2 mit dem Stab von Rynn +4. Auf den ersten Anblick ist dies kein besonders ausgetüfteltes Handwerksstück zu sein. Eigentlich wird es Der Stabspeer von Rynn genannt, aber das kümmert niemanden wirklich. Allen Anscheins nach wurde ein Stabspeer in der Mitte durchgesägt, die Teile wurden dann mit den Spitzen außen an die Enden des Stabes von Rynn gelegt und mit einer Eisenmanschetten verriegelt, die auch als Griff für diese Waffe dient. Offensichtlich war dies das erste Mal, dass jemand so etwas verlangt hat, und wahrscheinlich war es auch das letzte. Der einzige Nutzen, der ihn rettet, ist der, dass er billiger ist als der Rod of Lordly Might.
+
+Was ihm an handwerklicher Ausführung fehlt, macht er durch Effektivität wett. Indem zwei Bastardschwerter +1 aus ihren Heften gelöst und ihre Klingen wieder verwandt wurden, kann die Waffe sowohl dafür benutzt werden, einen Gegner auszuspießen, als auch dafür, ihm einen Hieb zu verpassen. Außerdem kann man seinen Gegner auch einfach normal mit dem Stab verprügeln. Solch ein Gegenstand ist dann nützlich, wenn man verschieden Gegner bekämpfen muss, von denen einige gegen eine bestimmte Schadensart resistent gegen einen anderen jedoch anfällig sind.
+
+Der Erschaffer dieser Waffe hat sie, entweder durch Zufall oder durch Konstruktion, genug ausbalanciert, um sie werfen zu können, und sie so verzaubert, dass sie zu ihrem Träger zurückkehrt; der Stab ist jedoch dafür bekannt, zu taumeln und verschiedensten Schadensarten zuzufügen. Darüber hinaus wurden auch einige kleinere Elementarzauber eingearbeitet, um den Anschein zu wahren, dass es möglicherweise der Stab eines Magiers oder Klerikers sein könnte. Der Stab kann viermal täglich Feuerzauber wirken; dies verwendet man am besten um Trolle zu töten oder in einer feuchten Nacht ein Lagerfeuer zu entzünden. Zusätzlich gibt der Stab auch noch eine ausgezeichnete Angelrute ab. Die mächtigen Verzauberungen scheinen offensichtlich Forellen und andere Speisefische anzulocken, seltsam aber wahr.
+
+Wer auch immer diese Waffe gefertigt hat, hat absichtlich keine Erkennungszeichen hinterlassen und die Wissenshüter werden sich einfach als der 'Hässliche Stecken' aus Amn an ihn erinnern. In Abenteurerkreisen im Süden Faerûns ist es ein Insider-Witz unter Abenteurer geworden, einen hässlich, schmutzigen und schlecht ausgerüsteten Abenteurer damit zu verspotten, dass man ihm nachruft, 'Der Hässliche Stecken' hätte ihn verprügelt. Entgegen alle Kritik ist Der Hässliche Stecken jedoch eine ausgezeichnete Angelrute.
+
+EIGENSCHAFTEN:
+
+Agannazars Flamme (2x täglich)
+Brennende Hände (2x täglich)
+
+Bei jedem Treffer im Nah- oder Fernkampf besteht eine 5%ige Chance, dass das Ziel unmächtig wird, weil es am Kopf getroffen wird.
+
+Schaden: 50% Chance auf 1W6 +4 (Wucht), 30% Chance auf 1W6 +2 (Stich), 20% Chance auf 1W6 +2 (Hieb)
+ETW0-Bonus: +4
+RK-Malus: -1
+Charisma-Malus: -4
+Geschicklichkeits-Malus: -2
+Initiativefaktor: 8
+Mindeststärke: 13
+Fertigkeit: Kampfstab
+Typ: 2-händig
+
+Gewicht: 24
+
+Kann nicht verwendet werden von:
+ Mönch~
+
+@6053 = ~Adamantit Harnisch~
+@6054 = ~Prunkharnisch +4: Adamantit Harnisch
+Nach vielen Abenteuern im Unterreich schmiedete ein Bhaalkind namens <CHARNAME> diesen Harnisch aus den Überresten vieler prächtiger Gegenstände - Adamantitstaub. Aufgrund ihrer geschickten und kunstvollen Fertigung zerfällt diese Rüstung im Sonnenlicht nicht.
+Dieser magische Harnisch gewährt aufgrund des Materials, das zu seiner Herstellung verwandt wurde, sowohl eine göttliche Rüstungsklasse wie auch viele andere Boni.
+Aufgrund der Ähnlichkeit dieser Rüstung zu ihren Drow-Gegenstücken wird der Träger natürlich in Verbindung mit den Drow gebracht, was sich äußerst nachteilig auf <HISHER> Beliebtheit auswirkt.
+
+EIGENSCHAFTEN:
+
+Die Bewegungsrate des Trägers erhält einen Malus von -2.
+
+Rüstungsklasse: -3
+Charisma-Malus: -2
+Säureresistenz: -15%
+Feuerresistenz: +15%
+Mindeststärke: 19
+
+Gewicht: 120
+
+Kann nicht verwendet werden von:
+ Bard
+ Druid
+ Magier
+ Dieb
+ Mönch
+ Barbar
+ Tiermeister
+ Pirscher
+ Kensai~
+
+@6055 = ~Elementarsternenmantel~
+@6056 = ~Thalanta die Schöne stellte zahlreiche Mäntel her, die später alle unter dem Namen "Sternenmantel" bekannt wurden. Dieser einfache Mantel wird von drei Sternen auf jedem Ärmel geschmückt. Einmal täglich kann man die Sterne abnehmen und wie Wurfpfeile verwenden. Die Sterne verschwinden dadurch, tauchen aber am nächsten Tag wieder auf dem Stoff auf.
+
+Nach der Verbesserung durch einen Fremden, der nur als <CHARNAME> bekannt war, besitzt der Mantel nun vier verschiedenfarbige Sterne an jedem Ärmel - rot, grün, blau und weiß - die wie Wurfpfeile eingesetzt werden können.
+
+EIGENSCHAFTEN:
+
+Erschafft acht Elementarstern-Wurfpfeile (1x täglich)
+
+Rüstungsklasse-Bonus: +2
+Rettungswurf-Bonus: +2
+
+Gewicht: 3
+
+Kann nicht verwendet werden von:
+ Magiertöter~
+
+@6057 = ~Blutroter Wurfpfeil~
+@6058 = ~Wurfpfeil +5: Blutroter Wurfpfeil
+Dieser unscheinbaren, kleinen Waffe sieht man gar nicht an, wie mächtig sie in Wahrheit ist. Direkt nachdem dieser Wurfpfeil sein Ziel getroffen hat, taucht er in der Hand des Werfers wieder auf und kann sofort erneut geworfen werden.
+
+Nach der Verbesserung durch ein Bhaalkind namens <CHARNAME> hat dieser Wurfpfeil nun die Fähigkeit, zusätzlichen Feuerschaden zu verursachen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W5 +5 (Geschoss)
+Schadensbonus: 1D4 +1 (Feuer)
+ETW0-Bonus: +5
+Kehrt sofort zum Werfer zurück
+Initiativefaktor: 0
+Mindestgeschicklichkeit: 10
+Fertigkeit: Wurfpfeil
+Typ: 1-händig
+
+Gewicht: 0
+
+Kann nicht verwendet werden von:
+ Kleriker
+ Kensai
+ Ritter~
+
+@6059 = ~Chaosstein~
+@6060 = ~Der lavendelfarbene Schimmer dieses Steins wurde gelb, nachdem er von einem Abenteurer namens <CHARNAME> verbessert wurde, und außerdem flackert und funkelt er, als wäre er am Leben.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt permanent die Auswirkung von Chaosschild.
+
+Rüstungsklasse-Bonus: +1
+Rettungswurf-Bonus: +2 gegen Tod
+
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Hasardeur~
+
+@6061 = ~Verbesserter Chaosstein~
+@6062 = ~Diese Gegenstand wurde erschaffen, als <CHARNAME> eine zweite Verbesserung des Lavendelfarbenen Ionensteins in Auftrag gab. Er beschützt den Träger nun besser vor Feuer und Todesmagie und verringert darüber hinaus die Wahrscheinlichkeit für eine Unbändige Woge.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt permanent die Auswirkung von Verbessertem Chaosschild.
+
+Solange damit ausgerüstet:
+Rüstungsklasse-Bonus: +1
+Rettungswurf-Bonus: +3 gegen Tod
+Feuerresistenz: +25%
+
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Hasardeur~
+
+@6063 = ~Untotenbann~
+@6064 = ~Zweihänder +5: Untotenbann
+Dieses heilige Schwert wird von einer göttlichen Aura umgeben, als ob Tyr oder Torm selbst es gesegnet hätten. Indem es die Macht seiner Vorgänger vereint, wird es zum ultimativen Werkzeug der Gerechtigkeit gegen untote Kreaturen. Wenn es sich im Kampf mit etwas anderem als Untoten befindet, verhält sich dieses Schwert fast so wie jedes andere seiner Art. Sobald es sich aber in Gegenwart von untoten Scheußlichkeiten befindet, beginnt das Schwert zu glühen, um so den Träger vor der Anwesenheit der Untoten zu warnen. Untote, die einmal von dieser Klinge getroffen werden, müssen all ihre Kraft fokussieren oder sie werden in den Abyss gezogen. Das heilige Licht, das aus der Waffe heraus scheint, kann die Gegner des Trägers blenden und wirkt besonders gegen Untote verheerend. Aufgrund der Eigenschaften dieser Klinge kann sie nur von Kriegern mit reinem Herzen geführt werden.
+
+EIGENSCHAFTEN:
+
+Falscher Sonnenaufgang (1x täglich)
+Schutz vor negativer Energie (1x täglich)
+
+Wird ein Untoter getroffen, muss ihm ein Rettungswurf gegen Tod gelingen oder er wird zerstört. Darüber hinaus besteht bei jedem Treffer ein 5%ige Chance, einen Sonnenstrahl auf das Ziel zu zaubern und ein 5%ige Chance das Ziel zu blenden.
+
+Schaden: 1W10 +5 (Klinge)
+(doppelter Schaden gegen Untote)
+ETW0-Bonus: +5
+Initiativefaktor: 5
+Mindeststärke: 14
+Fertigkeit: Zweihänder
+Typ: 2-händig
+
+Gewicht: 7
+
+Kann nur verwendet werden von:
+ Paladin~
+
+@6065 = ~Schattenumhang~
+@6066 = ~Celio Czah war ein großartiger Pirscher und ein sehr guter Schmied. Er schaffte es, im Laufe seines Lebens viele Bestien zu töten, unter anderem auch Drachen. Sein Wissen wurde von Schmied zu Schmied weitergegeben, was auch erklärt, wie dieses Kleidungsstück gefertigt wurde. Celio verband ursprünglich drei Umhänge zusammen mit Stücken von Tierhäuten und Drachenschuppen. Dieser spezielle wurde auf Anfrage von <CHARNAME> gefertigt. Das Wissen des Abenteurer-Schmieds Celio Czah ist also definitiv nicht verloren gegangen.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt Unauffindbarkeit.
+
+Rüstungsklasse-Bonus: +3
+Säureresistenz: +50%
+Im Schatten verstecken: +20%
+
+Gewicht: 3
+
+Kann nur verwendet werden von:
+ Pirscher
+ Dieb (auch mehrklassig und mit Klassenkombination)~
+
+@6067 = ~Pikims Rüstung~
+@6068 = ~Beschlagenes Lederwams +5: Pikims Rüstung
+Der Schattendieb-Rebell Pikim bastelte immer mit vielen Dingen herum. Einmal verschmolz er Schlüssel mit der berühmten Schattenrüstung, nur um zu sehen, was geschehen würde; ebenso nähte er einige Umhänge ein. Weil er in der neu gefertigten Rüstung große Macht spürte, beschloss Pikim, dass diese zu mächtig wäre, um sie mit irgendjemand zu teilen. Diese Entscheidung kostete ihn das Leben. Die Schattendiebe jagten ihn, um die Rüstung selbst in Besitz zu nehmen, und streckten ihn schließlich nieder. Verschiedene Schmiede in ganz Faerûn lernten, wie Pikim diese prunkvolle Rüstung hergestellt hatte. [CHARNAME] schaffte es, einen Schmied davon zu überzeugen, dass er ihm eine derartige Rüstung fertigt... für eine schöne Stange Geld.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+Im Schatten verstecken: +15%
+Taschendiebstahl: +60%
+Mindeststärke: 6
+
+Gewicht: 8
+
+Kann nur verwendet werden von:
+ Dieb (auch mehrklassig und mit Klassenkombination)~
+
+@6069 = ~Nebs widerlicher Schnitter~
+@6070 = ~Dolch +4: Nebs widerlicher Schnitter
+Ein verabscheuungswürdiger Zwerg namens Neb war für seinen üblen Taten ziemlich bekannt. Neb war ein Kindermörder und irgendwoher wusste er, wie er ihre Seelen im Kampf einsetzen konnte. <CHARNAME> ermordete den Mörder, und mit Hilfe eines zuverlässigen Schmieds erlangt Nebs Dolch nun größere Macht als jemals zuvor. Es scheint, dass das reine Illithium, das auf der Klinge verteilt wurde, den Giftvorrat unbeschränkt werden lies. Dessen ungeachtet würden nur die widerwärtigsten aller Kreaturen es wagen, diese Waffe zu führen.
+
+EIGENSCHAFTEN:
+
+Beschwört einen Ruhelosen Kindergeist für 10 Minuten (1x täglich)
+
+Schaden: 1W4 +4 (Stich)
+Schadensbonus: +2 (durch Gift pro Sekunde für 10 Sekunden)
+ (wenn Rettungswurf gegen Gift beim Opfer misslingt)
+ETW0-Bonus: +4
+Initiativefaktor: 0
+Fertigkeit: Dolch
+Typ: 1-händig
+
+Gewicht: 1
+
+Kann nicht verwendet werden von:
+ Nicht-bösen Wesen
+ Kleriker~
+@60701 = ~Ruheloser Kindergeist beschwören~
+
+@6071 = ~Klinge der Schattendiebe~
+@6072 = ~Kurzschwert +5: Kling der Schattendiebe
+Einst wurde das Kurzschwert der Heimtücke als perfektes Werkzeug für Meuchelmörder erschaffen, doch nun wurde es stark verändert. Mit Hilfe einer weiteren berüchtigten Klinge, der Macht eines Phantomklingenzaubers und einiger Edelsteine sowie Tränke wurde die Klinge des Schattens zu einer bedeutend ausgefalleneren Waffe.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält einen Bonus von +1 auf seinen Multiplikator beim hinterhältigen Angriff.
+
+Schaden: 1W6 +5 (Stich)
+ETW0-Bonus: +5
+Initiativefaktor: 0
+Mindeststärke: 5
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+
+Gewicht: 5
+
+Kann nur verwendet werden von:
+ Guten oder neutralen Wesen
+ Dieb~
+
+@6073 = ~Verzauberter Bogen von Avoreen~
+@6074 = ~Der magische Bogen befindet sich nun schon seit mehreren Jahren im Besitz von Mazzy Fentan. Sie hat ihn von ihrem Gott Avoreen erhalten. Kürzlich half Avoreens Segen einem Bhaalkind namens <CHARNAME> bei der Verbesserung des Bogens, und so braucht er nun keine Munition mehr.
+
+EIGENSCHAFTEN:
+
+Der Bogen benötigt keine Munition und darüber hinaus besteht bei jedem Treffer eine 10%ige Chance, das Ziel zu verlangsamen.
+
+Schaden: 1W6 +2 (Geschoss)
+ETW0-Bonus: +4
+Initiativefaktor: 4
+Fertigkeit: Kurzbogen
+Typ: 2-händig
+
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Halblings-Kämpfer~
+
+@6075 = ~Rüstung der vielen Drachen~
+@6076 = ~Vier mächtige Drachen sind durch die Hand von <CHARNAME> gestorben und ihre Schuppen wurden verwendet, um diese mächtige Rüstung zu erschaffen. Anders als andere Drachenrüstungen ist diese jedoch leicht und nicht belastend. Dennoch wird sie ihren Träger vor all dem beschützen, was Drachen gerne im Kampf einsetzen.
+
+EIGENSCHAFTEN:
+
+Kältekegel (3x täglich)
+
+Rüstungsklasse: -2
+Säureresistenz: +50%
+Kälteresistenz: +50%
+Elektrizitätsresistenz: +90%
+Feuerresistenz: +50%
+Mindeststärke: 6
+
+Gewicht: 4
+
+Kann nicht verwendet werden von:
+ Barde
+ Magier
+ Hexenmeister
+ Dieb
+ Mönch
+ Barbar
+ Gestaltwandler
+ Rächer
+ Bogenschütze
+ Tiermeister
+ Pirscher
+ Kensai~
+
+@6077 = ~Helm der vielen Drachen~
+@6078 = ~Der begabte Hexer Wormsor hatte aus mehreren Drachenschuppen diesen mächtigen Helm gefertigt. Rote, weiße und grüne Schuppen überlappen sich gegenseitig und schützen so den Träger nicht nur vor normalen Schlägen, sondern auch vor Feuer, Kälte und Elektrizität. Ein Bhaalkind lies vor Kurzem drei weitere Schuppen anfügen. Dies scheint den Widerstand gegen Feuer und Elektrizität verstärkt und einen gewissen Säureschutz hinzugefügt zu haben.
+
+EIGENSCHAFTEN:
+
+Säureresistenz: auf 50% gesetzt
+Kälteresistenz: auf 25% gesetzt
+Elektrizitätsresistenz: auf 70% gesetzt
+Feuerresistenz: auf 70% gesetzt
+
+Schützt vor kritischen Treffern
+
+Gewicht: 3
+
+Kann nicht verwendet werden von:
+ Barde
+ Magier
+ Hexenmeister
+ Dieb
+ Mönch
+ Kensai~
+
+@6079 = ~Schild der vielen Drachen~
+@6080 = ~Auch dieser mächtige Gegenstand wurde vom Hexer Wormsor hergestellt. Der Schild besteht aus der Haut eines roten Drachen, die über einen Stahlrahmen gespannt wurde. Grüne und weiße Drachenschuppen sind so auf dem Schild angebracht, dass sie ein Muster ergeben, das sich aus dem richtigen Blickwinkel zum Antlitz eines uralten Drachen formt. Ein Bhaalkind lies vor Kurzem drei weitere Schuppen anfügen. Dies scheint den Widerstand gegen Feuer und Elektrizität verstärkt und einen gewissen Säureschutz hinzugefügt zu haben.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse-Bonus: +3
+Säureresistenz: auf 50% gesetzt
+Kälteresistenz: auf 25% gesetzt
+Elektrizitätsresistenz: auf 70% gesetzt
+Feuerresistenz: auf 70% gesetzt
+
+Mindeststärke: 12
+
+Gewicht: 6
+
+Kann nicht verwendet werden von:
+ Barde
+ Druide
+ Magier
+ Hexenmeister
+ Dieb
+ Mönch
+ Kensai~
+
+@6081 = ~Widerstandsrobe~
+@6082 = ~Viele Magier im ganzen Land erkannten, dass fünf minderwertige Roben sie beschützen sollten, aber dies selten taten. Viele Duelle wurden von diesen Magieanwenderen verloren, bis einer von ihnen, mit dem Namen Kerial, sich entschied, sie zusammenzunähen. Als er sie erfolgreich kombiniert hatte, informierte er sofort die anderen über die Herstellungsweise. Es stellte sich heraus, dass die geheime Zutat aus einem Paar Armreifen bestand. Vor Kurzem gab <CHARNAME> eine eben solche Robe in Auftrag.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+Kälteresistenz: +20%
+Rüstungsklasse-Bonus: +1 (gegen Geschosse und stumpfe Waffen)
+Rettungswurf-Bonus: +1 (gegen Versteinerung/Verwandlung und Odemwaffen)
+Elektrizitätsresistenz: +20%
+Feuerresistenz: +20%
+
+Gewicht: 4
+
+Kann nur verwendet werden von:
+ Magier
+ Hexenmeister~
+
+@6083 = ~Drachenzahn~
+@6084 = ~Hellebarde +5: Drachenzahn
+Die Waffen von Thorvin Dukal und dem Magier Ullion wurden Jahrhunderte lang dafür eingesetzt, Feuer speiende Bestien zu bekämpfen, aber beide Träger wurden getötet. <CHARNAME> fand beide Waffen auf Reisen durch Faerûn und lies sie magisch mit Hilfe von Roten Drachenschuppen verbinden. Die Macht der Waffe scheint irgendwie mit der des Vorderzahns eines Roten Drachen vergleichbar. Offenbar ist der Kälte-, Elektrizitäts-, Säure- und Giftschaden aus Ullions Hellebarde im Fertigungsprozess zugunsten von Feuerschaden verschwunden.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +5 (Stich)
+Schadensbonus: +5 (Feuer), +6 gegen Drachen
+ETW0-Bonus: +5
+Feuerresistenz: +90%
+Initiativefaktor: 5
+Mindeststärke: 13
+Fertigkeit: Hellebarde
+Typ: 2-händig
+
+Gewicht: 12
+
+Kann nicht verwendet werden von:
+ Kleriker
+ Druide
+ Magier
+ Dieb
+ Mönch
+ Tiermeister~
+
+@6085 = ~Umhang von Thay~
+@6086 = ~Die Roten Magier von Thay wissen viele Dinge und tragen für gewöhnlich rot. <CHARNAME> lies diesen Umhang aus irgendwelchem Stoff fertigen, den <PRO_HESHE> bei Abenteuern in Athkatla gefunden hatte. Der so entstandenen Umhang ist insbesondere für böse Magieanwender hergestellt worden.
+
+EIGENSCHAFTEN:
+
+Auf dem Träger liegt Schutz vor normalen Waffen.
+
+Rüstungsklasse-Bonus: +2
+Rettungswurf-Bonus: +2
+
+Gewicht: 3
+
+Kann nur verwendet werden:
+ Bösen Wesen
+ Magier
+ Hexenmeister~
+
+@6087 = ~Umhang der Natur~
+@6088 = ~In seinen jungen Tagen verbrachte Cernd einen ganzen Jahreskreislauf damit, über seine Rolle in der Natur zu meditieren. Er meditierte im Freien, um die Natur ungehindert zu spüren und zu erleben. Die Natur wird seine Tat wohl geschätzt haben, denn sie weiß, dass ihre Kinder manchmal aus Eifer, das Richtige zu tun, zu närrischen Taten neigen. Cernd fand diesen Umhang kurz bevor die kalte Jahreszeit begann. Der Umhang ist anscheinend aus Zweigen und anderem Unterholz geflochten und passt ihm perfekt. Die Botschaft der Natur war eindeutig. Cernd sollte den Regen und den Schnee genießen, sich aber trotz allem dagegen schützen. Vor Kurzem lies <CHARNAME> Cernds Umhang so verzaubern, dass er vor den Einflüssen widriger Elemente schützt. Cernd ist aber immer noch der einzige, der den Umhang benutzen kann.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen Gift.
+
+Rüstungsklasse-Bonus: +1
+Rettungswurf-Bonus: +1
+Säureresistenz: +25%
+Kälteresistenz: +25%
+Elektrizitätsresistenz: +25%
+Feuerresistenz: +25%
+
+Gewicht: 3
+
+Kann nur verwendet werden von:
+ Cernd~
+
+@6089 = ~Fäustlinge von Shaiman~
+@6090 = ~Einer der häufigsten Besucher des Freundlichen Arms war vor langer Zeit ein bedeutender Mönch namens Shaiman. Shaiman war unglaublich mächtig für einen Mönch und er hatte ebenso viele Reisen gemacht. Seine Vergangenheit war ein Mysterium, aber er schien zu versuchen, ein netter Kerl zu bleiben. Seine mächtigen Handschuhe jedoch sind einen ganz andere Geschichte. Shaiman fand sie ursprünglich in Raschemen und trug sie seitdem immer. Zwei andere Handschuhe wurden mit Hilfe von je einem Schwarzen Opal für jeden Finger dazu verwendet, Shaimans berühmte "Waffen" zu kopieren. Nun sind die Fäustlinge von Shaiman im Besitz von <CHARNAME>.
+
+EIGENSCHAFTEN:
+
+Schadensbonus: +4 (bei Verwendung der Fäuste)
+ETW0-Bonus: +4 (bei Verwendung der Fäuste)
+Rüstungsklasse-Bonus: +1
+Trefferpunkte: +15 auf Maximum
+
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Mönch~
+
+@6091 = ~Stab der Natur~
+@6092 = ~Stab +4: Stab der Natur
+Cernd hat diesen besonderen Stecken erhalten, als er am Ende eines Jahreskreislaufes über seinen besonderen Platz in der Natur meditierte. Er ließ sich für diese Meditation neben einer jungen Eiche nieder, die sein ganz besonderes Interesse erweckte. Sie erschien ihm irgendwie seltsam, aber dennoch auf wunderbare Weise den Gesetzen der Natur unterworfen. Als der Frühling kam und seine Meditation zu Ende ging, untersuchte er den Trieb der Eiche, der ihn so fasziniert hatte, ein letztes Mal. Plötzlich löste er sich und schmiegte sich förmlich in seine Hände. Es war ein Geschenk der Natur selbst. Der Stecken hat sich so geformt, dass er nur von Cernd geführt werden kann.
+
+Vor Kurzem lies Cernds Gefährte, <CHARNAME>, den Stab verbessern und seine Regenerationsrate verdoppeln.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +4 (Wucht)
+ETW0-Bonus: +4
+Regeneration: 1 TP pro 6 Sekunden
+Initiativefaktor: 1
+Fertigkeit: Kampfstab
+Typ: 2-händig
+
+Gewicht: 3
+
+Kann nur verwendet werden von:
+ Cernd~
+
+@6093 = ~Stab der Großen Zauberei~
+@6094 = ~Stab +4: Stab der Großen Zauberei
+<CHARNAME> lies kürzlich drei niedere Stäbe mit Diamanten verschmelzen. Wer wusste, dass so etwas gemacht werden kann? Niemand wusste es, bis ein Druide mit dem Namen Xynt es mit einem Beherrschungs-, einem Heilstecken und einem bloßen +2 Kampfstab durchgeführt hatte. Nun ist dieser neue Stecken, Stab der Großen Zauberei genannt, im Besitz des Bhaalkindes.
+
+EIGENSCHAFTEN:
+
+Beherrschung (1x täglich)
+ Reichweite: 12 m
+ Dauer: 12 Stunden
+ Bereich: 1 Wesen
+ Rettungswurf: Nein
+
+Heilung (1x täglich)
+ 3W6 +3 Trefferpunkte und Krankheit heilen
+ Gift neutralisieren
+ Reichweite: Berührung
+ Bereich: 1 Wesen
+
+Schaden: 1W6 +3 (Wucht)
+ETW0-Bonus: +3
+Rüstungsklasse-Bonus: +2
+Initiativefaktor: 1
+Mindeststärke: 5
+Fertigkeit: Kampfstab
+Typ: 2-händig
+
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Kleriker
+ Druide
+ Paladin
+ Waldläufer~
+
+@6095 = ~Der Schläfrige Lindwurm~
+@6096 = ~Morgenstern +4: Der Schläfrige Lindwurm
+Der große Dorn, der den Kopf dieses Morgensterns schmückt, ist in Wahrheit der tödliche Schwanzstachel eines Lindwurms. Dem Magierkrieger Sedej ist es auf magischem Wege gelungen, den Lindwurmstachel dazu zu bringen, weiterhin Gift zu produzieren. Durch die Magie, die von Sedej gewirkt wurde, ist der ganze Morgenstern zu einer lebenden Waffe geworden, die in den Händen des Trägers pulsiert und vibriert.
+
+Der andere Morgenstern, der zur Erschaffung dieser neuen Waffe benutzt wurde, gehörte Ssitalc, einem ungewöhnlich bösartigen Elfen, der auch als "Sklavenjäger der Schwertküste" bekannt war. Bis zu seinem plötzlichen Tod vor wenigen Jahren befehligte Ssitalc eine große Zahl von menschlichen, zwergischen und gnomischen Räubern. Der Streitkolben verfügt über die Fähigkeit, jeden Menschen, Zwerg oder Gnom vorübergehend auszuschalten, indem er seine Opfer in einen tiefen Schlaf versetzt. Praktischerweise werden Elfen von dem Streitkolben nicht betroffen.
+
+Kürzlich vereinte jedoch ein Bhaalkind die beiden Morgensterne. Für was auch immer die Waffe nun verwendet wird, sie wird dabei nützlich sein.
+
+EIGENSCHAFTEN
+
+Bei jeden Treffer muss eine humanoide Kreatur (mit Ausnahme von Elfen) einen Rettungswurf gegen Gift mit einen Bonus von +4 bestehen oder sie schläft für 18 Sekunden ein.
+
+Schaden: 2W4 +4 (Wucht)
+Schadensbonus: +5 (Gift)
+ (wenn Rettungswurf gegen Gift beim Opfer misslingt)
+ETW0-Bonus: +4
+Initiativefaktor: 5
+Mindeststärke: 11
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+
+Gewicht: 10
+
+Kann nicht verwendet werden von:
+ Druide
+ Magier
+ Hexenmeister
+ Dieb
+ Mönch
+ Tiermeister~
+
+@6097 = ~Kalte Schulter~
+@6098 = ~Morgenstern +5: Kalte Schulter
+Der Waffenkopf dieses Morgensterns scheint aus einem unzerbrechlichen, eisblauen Kristall gefertigt zu sein. Der Griff ist eiskalt. Der Träger wird von einer angenehm kühlen Aura umgeben, die sogar vor magischem Feuer schützt.
+
+Kürzlich lies ein Bhaalkind den Eisstern mit Hilfe vieler kaltherziger Gegenstände aufwerten. Dies erschuf einen geheimnisvollen Morgenstern, der nun als Kalte Schulter bekannt ist.
+
+EIGENSCHAFTEN:
+
+Frostriesenstärke auf den Träger für 12 Stunden (1x täglich)
+Eissturm (1x täglich)
+
+Bei jedem Treffer besteht 5%ige Chance das Ziel einzufrieren.
+
+Schaden: 2W5 +5 (Wucht)
+Schadensbonus: +1W4 (Kälte)
+ETW0-Bonus: +5
+Feuerresistenz: +50%
+Initiativefaktor: 4
+Mindeststärke: 13
+Fertigkeit: Flegel/Morgenstern
+Typ: 1-händig
+
+Gewicht: 8
+
+Kann nicht verwendet werden von:
+ Druide
+ Magier
+ Dieb
+ Mönch
+ Tiermeister~
+@60981 = ~Frostriesenstärke~
+
+@6099 = ~Umhang des Haivaters~
+@6100 = ~Dieses Kleidungsstück wurde von <CHARNAME> aus einer seltsamen Laune heraus in Auftrag gegeben und hat die heikle Reise in die Unterwasser-Stadt der Höhlen zur Grundlage. <PRO_HESHE> half den dort lebenden Sahuagin als Teil der Prophezeiung von Sekolah. Nach der Unterstützung dieser Wesen und der sicheren Rückkehr zur Oberfläche gab <CHARNAME> diesen Umhang in Auftrag. Aufgrund der Sahuagin-Bolzen stellt dieser Gegenstand etwas dar, das zuvor noch kein Oberflächenbewohner gesehen hat.
+
+EIGENSCHAFTEN:
+
+Anguiliianer beschwören (1x täglich)
+
+Auf dem Träger liegt permanent eine Kleinere Kugel der Unverwundbarkeit.
+
+Rüstungsklasse-Bonus: +1
+Rettungswurf-Bonus: +1
+
+Gewicht: 3
+
+Kann nicht verwendet werden von:
+ Magiertöter~
+@61001 = ~Anguiliianer beschwören~
+
+@6101 = ~Fließende Finger~
+@6102 = ~Diese prunkvollen Handschuhe wurden von einem Bhaalkind gefertigt und mit zahllosen arkanen Runen verziert. Ausgangspunkt dieser Handschuhe waren die Abwehrarmschützer Rüstungsklasse 3 des Grinsenden Glen, und indem sie mit einigen der hochwertigsten magischen Zutaten kombiniert wurden, wurde ein Gegenstand von wahrlich atemberaubender Macht geschaffen. Handschuhe mögen zwar etwas von ihren defensiven Fähigkeiten eingebüsst haben, aber dafür verringern sie die Zeit, die man benötigt, um einen Zauber auszusprechen.
+
+EIGENSCHAFTEN:
+
+Beim Träger wird der Zeitaufwand für alle Zauber um 1 verringert.
+
+Rüstungsklasse: 4
+
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+ Magiertöter
+ Kensai~
+
+@6103 = ~Diebesring~
+@6104 = ~Diebe können nicht einfach so überall ihrem Handwerk frönen, um ihre Fähigkeiten zu erlernen und verbessern. Dies ist die Stelle, an der der Schmied Ruad Ro'fhessa ins Spiel kommt. Er verbindet vier Ringe, die alle für Diebe gemacht waren, und zusammen wird so der Diebesring geformt, der ihr Handwerk um vieles erleichtert. Wer könnte schon damit rechnen, dass er von einem Dieb mit solch gewaltigen Fähigkeiten überfallen wird?
+
+EIGENSCHAFTEN:
+
+Unsichtbarkeit (1x täglich)
+ Dauer: 12 Stunden
+ Bereich: Anwender
+
+Im Schatten verstecken: +20%
+Leise bewegen: +20%
+Fallen stellen: +20%
+Schlösser öffnen: +25%
+Fallen finden: +25%
+
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Dieben (auch mehrklassig und mit Klassenkombination)~
+
+@6105 = ~Handschuhe des Meuchelmordes~
+@6106 = ~Irgendeine Kreatur zu ermorden ist eine sehr schwere Aufgabe für Schurken. Selbst Meuchelmörder haben ihre Probleme, aber für <CHARNAME> gibt es keine Problem mehr, nachdem <PRO_HESHE> Ruad Ro'fhessa getroffen hatte, der diese eleganten Handschuhe fertigte. Sie verbessern nicht nur die Genauigkeit, sondern eigentlich sogar die Fähigkeit zum heimtückischen Angriff selbst, was für alles außer Waffen sehr selten ist. Es scheint sicher, dass sie <CHARNAME> überaus hilfreich sein werden.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält einen Bonus von +1 auf seinen Multiplikator beim hinterhältigen Angriff.
+
+Geschicklichkeits-Bonus: +3
+
+Gewicht: 2
+
+Kann nur verwendet werden von:
+ Dieben (auch mehrklassig und mit Klassenkombination)~
+
+@6107 = ~Kuss des Todes~
+@6108 = ~Kurzschwert +4: Kuss des Todes
+<CHARNAME> gab etwas, das ein sehr dunkles Ritual beinhalten musste, bei dem Schmied Ruad in Auftrag, um zwei tödliche Diebeswerkzeuge zu vereinigen. Das Kurzschwert der Heimtücke und der Gurgelschlitzer wurden verschmolzen und das Wissen, das durch die Untersuchung des Dolches des Kindermörders Neb gefunden werden konnte, liefert eine seltsame Art von Gift, die der Träger niemals kontrollieren können wird.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +4 (Stich)
+Schadensbonus:
+ +2 (durch Gift pro Sekunde für 5 Sekunden): 45%ige Chance
+ +2 (durch Gift pro Sekunde für 10 Sekunden): 25%ige Chance
+ +4 (durch Gift pro Sekunde für 12 Sekunden): 10%ige Chance
+ +5 (durch Gift pro Sekunde für 13 Sekunden): 1%ige Chance
+ETW0-Bonus: +4
+Initiativefaktor: 1
+Mindeststärke: 5
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+ Kleriker
+ Druide
+ Magier
+ Tiermeister~
+
+@6109 = ~Schattenhaut~
+@6110 = ~Beschlagenes Lederwams +4: Schattenhaut
+Auf niedrigen Stufen ist ein Dieb ein sehr schwer zu schützendes Wesen. Das ist der Grund, warum <CHARNAME> Ruad Ro'fhessa bat, etwas zu vollbringen, dass einem jeden Dieb würdig wäre. Drei mittelprächtige Lederrüstungen wurden für die Fertigung einer nahezu perfekten Schurkenrüstung verwandt. Was Ruad da für <CHARNAME> erschaffen hat, ist wahrscheinlich die verschlagenste aller Lederrüstungen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Im Schatten verstecken: +30%
+Mindeststärke: 6
+
+Gewicht: 8
+
+Kann nur verwendet werden von:
+ Dieben (auch mehrklassig und mit Klassenkombination)~
+
+@6111 = ~Lavaschrecken~
+@6112 = ~Zweihänder +3: Lavaschrecken
+Der Name "Flamme des Nordens" bezog sich eigentlich nicht auf das Schwert selbst, sondern auf die Frau, die es zuerst in den eisigen, unzivilisierten Gegenden Faerûns geschwungen hatte. Sie hieß Carerra und tobte wie ein Feuersturm durch die arktischen Trolle und die Orkstämme des Nordens. Sie wurde zur verhassten Feindin zahlreicher Schamanen, deren Magie angesichts ihres unbändigen Zorns oft versagte. Sie verbrachte ihr ganzes Leben damit, wilde Kämpfe auszutragen und starb schließlich an Altersschwäche. Das Schwert bekam ihre Enkelin, eine Abenteurerin, die es vermutlich nach Amn gebrachte hatte.
+
+Es gab eine Zeit, in der es in Niewinter noch nicht warm und in der großen Wüste Anauroch noch nicht trocken war. So behaupten es zumindest die Legenden. Es gibt nur noch wenige Relikte, die Zeugnis dieses Zeitalters ablegen, und nur ein Bruchteil dieser Relikte hat einen Zweck, den man auch heute noch erkennen kann. Das Schwert "Brennende Erde" war jedoch kein besonders komplizierter Gegenstand: Es verbrannte die Feinde schlicht und einfach mit magischem Feuer. Eine kryptische Rune schien anzudeuten, dass das Schwert die Energie dazu direkt aus dem Erdreich bezog. Wer die Waffe konstruiert hatte, bleibt Euch ein Rätsel. Auf den ersten Blick wirkte die Waffe ganz normal, aber irgendwie schien sie nicht richtig ausbalanciert zu sein. Vielleicht passte auch der Griff nicht. Sie belastete den Unterarm, wenn man sie schwang und lag nicht so richtig in der Hand. Das störte im Kampf zwar nicht wirklich, doch man konnte den lästigen Gedanken nie ganz abschütteln, dass die Waffe vielleicht nicht für humanoide Hände gedacht gewesen war.
+
+Die letzte Klinge brannte mit einem magischen Feuer und bei jedem Schlag wurde versengende Hitze freigesetzt. Die Worte "Meta Infernum" waren in den Griff geritzt. Die Inschrift wirkte jedoch leicht verwischt und war vielleicht erst später von einem der Besitzer angebracht worden.
+
+Diese Geschichten waren das Geburtsrecht von Lavaschrecken. Es wurde erst vor Kurzem in Auftrag gegeben und beinhaltet große Macht. Die Klinge besteht aus reinem Feuer und es scheint die Macht bestimmter Zauber, wie etwa Feuerball und Phantomklinge, zu nutzen. Die Flamme des Nordens, Flammenzunge und das Flammenschwert scheinen gut eingesetzt worden zu sein.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer besteht eine 10%ige Chance, dass ein Feuerball auf das Ziel gewirkt wird.
+
+Schaden: 1W10 +3 (Klinge)
+Schadensbonus: +4 gegen Trolle, +5 gegen Feuerelementare, +10 gegen Untote, +5 gegen chaotisch böse Gegner
+ETW0-Bonus: +3
+Magieresistenz: 10%
+Initiativefaktor: 8
+Mindeststärke: 15
+Fertigkeit: Zweihänder
+Typ: 2-händig
+
+Gewicht: 12
+
+Kann nicht verwendet werden von:
+ Kleriker
+ Druide
+ Magier
+ Hexenmeister
+ Dieb
+ Mönch
+ Tiermeister~
+
+@6113 = ~Holzpflock~
+@6114 = ~Keule +3: Holzpflock
+Vor langer Zeit erschuf ein großer Geisterjäger namens DeMor Kleinigkeiten, die ihm in der Schlacht helfen sollten. Jedoch hat ihm keine von ihnen jemals wirklich geholfen, mit Ausnahme von einer. Es ist allseits bekannt, dass DeMor die Magie eines Spitzbubensteins auf ein paar Vampir tötende Pflöcke übertrug, um eine Waffe zu erschaffen. Diese Waffe half DeMor dabei eines Nachts, einen ganze Gruppe von Vampiren zu bekämpfen. Die untoten Monster waren ziemlich grausam gegenüber DeMor, aber dennoch setzte er sich durch. Die Keule, die DeMor erschaffen hatte, ist nun allseits bekannt und es wurde nicht vergessen, wie sie herstellt worden war.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen Stufenabzug und darüber hinaus besteht bei jedem Treffer eine 15%ige Chance, dass ein Vampir sofort getötet wird.
+
+Schaden: 1W6 +3 (Wucht)
+Schadensbonus: +4 gegen Untote, +6 gegen Vampire
+ETW0-Bonus: +3
+Initiativefaktor: 1
+Mindeststärke: 5
+Fertigkeit: Keule
+Typ: 1-händig
+
+Gewicht: 3
+
+Kann nicht verwendet werden von:
+ Magier
+ Hexenmeister~
+
+@6115 = ~Bogen von Uden~
+@6116 = ~Langbogen +5: Bogen von Uden
+Drei halbwegs mächtige Langbögen wurden bei dem Versuch, einen einzelnen Bogen zu erschaffen, mit Hilfe eines magischen Spitzbubensteins verschmolzen. Ein Ogrillion namens Uden hatte als erste die Idee für einen solchen Bogen, jedoch gelang es ihm nie, einen zu bauen. Er wurde getötet, bevor der Bogen hätte hergestellt werden können. Nun lies <CHARNAME> einen für sich fertigen. Es scheint, als hätte er die besten Eigenschaften aller drei Bögen und sogar noch einige darüber hinaus.
+
+EIGENSCHAFTEN:
+
+Der Bogen benötigt keine Munition, sondern verschießt automatisch Beißende Pfeile
+
+Schadensbonus: +5
+ETW0-Bonus: +5
+Angriffe/Runde: 3
+Initiativefaktor: 5
+Mindeststärke: 18
+Fertigkeit: Langbogen
+Typ: 2-händig
+
+Gewicht: 9
+
+Kann nicht verwendet werden von:
+ Barde
+ Kleriker
+ Druide
+ Magier
+ Dieb
+ Mönch
+ Kensai
+ Ritter~
+
+@6117 = ~Stab der Auferstehung ~
+@6118 = ~Kampfstab +3: Stab der Auferstehung
+Das Zepter, das zur Erschaffung dieses Stabs benutzt wurde, ermöglichte es jedem, die Toten wiederzuerwecken, so als ob er ein Kleriker mit genügend hoher Stufe wäre, um den Zauber Auferstehung einsetzen zu können. Da die Magie aus dem Zepter stammte, muss sich der Anwender anschließend nicht ausruhen. Aber nun, in Kombination mit dem Heilstecken, kann das Zepter der Auferstehung viel mehr bewirken.
+
+EIGENSCHAFTEN:
+
+Auferstehung (1x täglich)
+Kritische Wunden heilen (1x täglich)
+
+Schaden: 1W6 + 3 (Wucht)
+ETW0-Bonus: +3
+Initiativefaktor: 1
+Mindeststärke: 5
+Fertigkeit: Kampfstab
+Typ: 2-händig
+
+Gewicht: 2
+
+Kann nicht verwendet werden von:
+ Barde
+ Kämpfer
+ Magier
+ Hexenmeister
+ Dieb
+ Mönch~
+
+@6119 = ~Ring der Zeitkontrolle~
+@6120 = ~Gewöhnlich haben Zauberer in ganz Faerûn damit Erfolg, für ihre Opfer den Lauf der Zeit anzuhalten, aber ein Kleriker/Magier, der nur als Shatt bekannt ist, hat einen Weg gefunden, dem Einhalt zu gebieten. Es hat ihn viel Gold gekostet, sich vor den negativen Auswirkungen des Stufe 9 Magierzaubers Zeitstopp zu schützen, aber Shatts Investition sollte sich auszahlen. Nur durch die Verwendung von drei Rubinringen und einen Ring der Handlungsfreiheit, die zusammen die Macht von Zeitstopp-Schriftrollen absorbierten, schaffte es Shatt, einen Gegenstand zu fertigen, der dafür sorgte, dass er nicht länger durch die unglückseligen Auswirkungen von Zeitstopp bedroht werden konnte. Als der verrückte Magier jedoch bekannt wurde, stahl ihm ein schmieriger Dieb namens Kamoth das Gerät. Kamoth konnte seine außerordentliche Macht aber selbst nicht verwenden, sondern verkaufte das Gerät und seine berüchtigte Herstellungsweise statt dessen an Taerom "Donnerhammer" Fuiruim in Beregost. Donnerhammer wies viele andere Schmiede darauf hin, wie es erstellt werden könnte, und aufgrund dieser weisen Tat Taeroms besitzt <CHARNAME> nun ein eben solches Gerät.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen die Auswirkungen von Zeitstopp.
+
+Mindestintelligenz: 16
+Gewicht: 0
+
+Kann nur verwendet werden von:
+ Barde
+ Kleriker
+ Druide
+ Magier
+ Hexenmeister~
+
+
+// Other stuff
+@7001 = ~Elementarstern-Wurfpfeil~
+@7002 = ~Dieser magische Wurfpfeil wurde durch die Verwendung des Elementarsternenmantels erschaffen und wird sich nach 2 Tagen auflösen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +5 (Geschoss)
+Schadensbonus: 1W3 (Feuer), 1W3 (Kälte), 1W3 (Säure), 1W3 (Elektrizität)
+ETW0-Bonus: +5
+Initiativefaktor: 0
+Fertigkeit: Wurfpfeil
+Typ: 1-händig
+
+Gewicht: 0
+
+Kann nicht verwendet werden von:
+ Kleriker
+ Kensai
+ Ritter~

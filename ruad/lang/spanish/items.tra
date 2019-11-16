@@ -1,0 +1,1399 @@
+/* ================= *
+ *  Usability flags  *
+ * ================= */
+@9001 =~\([Ss][oó]lo[ %tab%]+\)?[Pp]ermitido[ %tab%]+[Aa][ %tab%]*:~
+@9002 =~[Nn]o[ %tab%]+[Pp]ermitido[ %tab%]+[Aa][ %tab%]*:~
+
+/* ================= *
+ *  Character names  *
+ * ================= */
+
+@2001 = ~Ruad~
+@2002 = ~La Espada Danzante del Espejo~
+@2003 = ~Kraka'Tur~
+@2004 = ~Espíritu de Yoshimo~
+@2005 = ~Espíritu del niño inquieto~
+
+/* ======= *
+ *  Items  *
+ * ======= */
+@6001 = ~Espada de la Rosa Roja~
+@6002 = ~Espada Larga +4: Espada de la Rosa Roja
+Esta espada posee un gran esplendor, gracias a Sune, la diosa de la belleza y pasión. El efecto que tiene sobre quien la usa es inmediato. Ha sido encantada por Cromwell para ser mejor, si, aunque la peculiaridad es su belleza. Muchos han dicho que su belleza no es algo natural y que sólo se consigue por medios mágicos. Pero dejando de pesar en esas cosas, es increíble como algo de tanta belleza pueda también ser tan letal.
+
+CARACTERÍSTICAS:
+
+Lanza: Encantar Persona tres veces al día
+
+Aptitudes poseidas:
+ Carisma: +3
+ 10 Conocimiento
+ 10% Resistencia Mágica
+ Clase de armadura: +1
+ Tiradas de Salvación: +1
+
+GAC0: +3
+Daño: 2D4 +4, +2 Eléctrico
+Tipo de daño: Cortante
+Factor de velocidad: 3
+Talento marcial: Espada Larga
+Tipo: A una mano
+Requiere: 8 Fuerza
+
+Peso: 4
+
+No permitido a:
+ Clérigo
+ Druida
+ Mago
+ Señor de las bestias~
+
+@6003 = ~Espada danzante de la pareja~
+@6004 = ~Espada Larga +2: Ras, Espada danzante de la pareja
+Beroalf era un bárbaro que viajó desde el frio norte en busca de aventuras. Tenía tesoros y gloria, pero pronto se encontró que deseaba compañeros que le acompañaran en la batalla, como los que había abandonado en su villa. Desafortunadamente su brutalidad y poca higiene hacía que nadie quisiera acercársele, hasta que se lo confesó a un mago. El mago construyó a Ras, la espada danzante. Aunque no era lo que Beroalf tenía en mente, usó la espada durante muchos años. El cómo se separaron no se sabe.
+Años después fue encontrada por otro aventurero al cual no le era de mucha utilidad. Aunque no queriendo desprenderse de ella se la enseñaron a un herrero. El partir la espada ha hecho que ya no fuera tan precisa.
+En el proceso de hacer la espada, el herrero también descubrió el porqué del aroma; una forma de polvos encantados hechos por Armand Ha'mer que neutralizaba el hedor del bárbaro. Ahora la espada es capaz de lanzar una nube hedionda una vez al día.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+ La espada Danzante puede atacarse a sí misma durante 6 turnos, con una copia de sí misma quedando en la mano de su dueño.
+ Lanza nube hedionda una vez al día.
+
+GAC0: +2
+Daño: 1D8 +3 (+1 sangrante)
+Tipo de daño: Cortante
+Factor de velocidad: 3
+Talento marcial: Espada Larga
+Tipo: A una mano
+Requiere: 10 Fuerza
+
+Peso: 5
+
+No permitido a:
+ Clérigo
+ Druida
+ Mago
+ Señor de las bestias~
+
+@6005 = ~Venganza de Vampiro +2~
+@6006 = ~Espada Larga +2: Venganza de Vampiro
+Parecería que el concepto de esta espada hubiera sido tomado del mundo de las fantasías, pero no es así. La espada es en realidad vampírica; aunque no como quisierais. Se rumorea que en vez de comportarse como una espada vampírica, fue construida por estos para matar a cualquiera que se les opusiera. Tal parece que estos malditos han hecho varias versiones de esta espada a través del tiempo. Esta espada produce daño a su dueño al atacar, cuando le quita vida para curar a su víctima. Como si esto no fuera suficiente, está maldita impidiendo que se la pueda quitar de sus manos. Esta es parte de los objetos que no se merecen vuestro sudor ni esfuerzo para conseguirla.
+
+Fue recientemente comisionada a <CHARNAME> para que el gran herrero Ruad Ro'fhessa la mejorara. Aunque no es muy buena en el combate, es muy útil al poder curar a su dueño.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+ 20% posibilidades de curar 10 puntos de daño de su dueño en cada golpe.
+
+GAC0: +2
+Daño: 1D8 +2
+Tipo de daño: Cortante
+Factor de velocidad: 3
+Talento marcial: Espada Larga
+Tipo: A una mano
+Requiere: 8 Fuerza
+
+Peso: 4
+
+No permitido a:
+ Alineamiento Bueno o Neutral
+ Clérigo
+ Druida
+ Mago
+ Señor de las bestias~
+
+@6007 = ~Espada Negra de Undeath~
+@6008 = ~Espada Larga +5: Espada Negra de Undeath
+Parecería que el concepto de esta espada hubiera sido tomado del mundo de las fantasías, pero no es así. La espada es en realidad vampírica; aunque no como quisierais. Se rumorea que en vez de comportarse como una espada vampírica, fue construida por estos para matar a cualquiera que se les opusiera. Tal parece que estos malditos han hecho varias versiones de esta espada a través del tiempo. Esta espada produce daño a su dueño al atacar, cuando le quita vida para curar a su víctima. Como si esto no fuera suficiente, está maldita impidiendo que se la pueda quitar de sus manos. Esta es parte de los objetos que no se merecen tu sudor ni esfuerzo para conseguirla.
+
+Luego de la segunda mejora por <CHARNAME>, esta espada se ha hecho un arma de temer. Con el corazón de la Matriarca vampira Bodhi, la espada ahora da muchas protecciones. También drena la vida del objetivo hacia su dueño.
+Pero lo mejor de esta arma es el poder de invocar el espíritu de Kraka'Tur, el anciano Lord Vampiro.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Fuerza: +2
+ Regenera un punto de golpe cada 5 segundos
+ Inmunidad a Encantar, Miedo, e Inmovilizar
+ Protección del Plano Negativo
+
+Aptitudes especiales:
+ Invoca al espíritu de Kraka'Tur una vez al día
+ 30% Posibilidades de drenar 4 niveles al objetivo
+ 30% Posibilidades de curar 20 puntos de golpe al dueño
+ 30% Posibilidades de dar celeridad al dueño
+
+GAC0: +5
+Daño: 1D8 +5
+Tipo de daño: Cortante
+Factor de velocidad: 2
+Talento marcial: Espada Larga
+Tipo: A una mano
+Requiere: 15 Fuerza
+
+Peso: 10
+
+No permitido a:
+ Alineamiento Bueno o Neutral
+ Clérigo
+ Druida
+ Mago
+ Señor de las bestias~
+@60081 = ~Convocar Kraka'Tur~
+
+@6009 = ~Katana envenenada de Yoshimo~
+@6010 = ~Katana +3: Katana envenenada de Yoshimo
+Esta espada encantada sólo permite que la use el ladrón conocido como Yoshimo.
+
+Hace poco fue mejorada por <CHARNAME>, y ahora permite envenenar a su víctima.
+
+CARACTERÍSTICAS:
+
+GAC0: +3
+Daño: 1D10 +3, +2 daño de Veneno (por 10 segundos)
+Tipo de daño: Cortante
+Factor de velocidad: 1
+Talento marcial: Katana
+Tipo: A una mano
+
+Peso: 5
+
+Permitido a:
+ Yoshimo~
+
+@6011 = ~Espíritu de Yoshimo~
+@6012 = ~Botella mágica: Espíritu de Yoshimo
+Al frotar esta botella cruzáis al reino de los muertos. Desde ahí invocáis al espíritu de Yoshimo, que peleará a vuestro lado - quiera o no - hasta que haya pagado por sus crímenes.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+ Invoca al espíritu de Yoshimo por 2400 segundos una vez al día.
+
+Peso: 0
+
+No permitido a:
+ Asesino de magos~
+
+@6013 = ~Pantuflas de dragón~
+@6014 = ~Botas de Velocidad: Pantuflas de dragón
+Estas botas le fueron dadas a Simeon Snowlock cuando se hizo hombre, como deseaba su tatarabuelo Prestor John, el primer rey de Hayholt. Dos años antes de hacerse rey, Jhon se había aventurado en unas catacumbas de lo que sería su reino, donde encontró una criatura muy poderosa. Viendo todas las riquezas que había allí, John se adelantó y fue confrontado por el monstruo. Era Shurukai, madre de todos los dragones; y era enorme. Armado con su coraje y su espada, Brightnail, John peleó en la batalla.
+Se rumorea que un estruendo llenó la ciudad y que cada hombre, mujer y niño corrió a ver qué había ocurrido. Todos quedaron sorprendidos cuando vieron a la fiera tendida en el suelo y John pidió que un trono se hiciera con los huesos de la bestia. Las escamas fueron usadas en unas garras de guepardo, resultando en unas botas que hacen a su dueño no perder la moral, le protegen del miedo y lo hacen más rápido.
+
+Hasta estos días se puede ver el trono en Hayholt. Nombra a Prestor John, y volveréis a oír la historia de Shurakai, y del trono.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Inmunidad al Miedo y Pánico.
+ Proveen celeridad.
+ Da 25% de resistencia al fuego
+
+Peso: 4~
+
+@6015 = ~Anillo de Abjuración~
+@6016 = ~Hace muchísimo tiempo, cuando los magos locos vagaban por las tierras, los anillos de las escuelas y las esferas fueron creados, así ayudarían a los aventureros en la lucha. Ahora, más de mil años después, la fórmula para hacerlos ha sido redescubierta. Aunque los componentes necesarios para hacerlos requieren objetos que debéis sacrificar, y así que aunque estos anillos dan grandes poderes, también requieren grandes sacrificios.
+
+Este anillo específico protege a su dueño de hechizos de la escuela de Abjuración aunque sólo puede ser usado por quienes se especializan en ese campo - Abjurador.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Provee Inmunidad a Hechizos permanente: Abjuración
+
+Peso: 0
+
+Permitido a:
+ Abjurador~
+
+@6017 = ~Anillo de Alteración~
+@6018 = ~Hace muchísimo tiempo, cuando los magos locos vagaban por las tierras, los anillos de las escuelas y las esferas fueron creados, así ayudarían a los aventureros en la lucha. Ahora, más de mil años después, la fórmula para hacerlos ha sido redescubierta. Aunque los componentes necesarios para hacerlos requieren objetos que debéis sacrificar, y así que aunque estos anillos dan grandes poderes, también requieren grandes sacrificios.
+
+Este anillo específico protege a su dueño de hechizos de la escuela de Alteración aunque sólo puede ser usado por quienes se especializan en ese campo - Transmutador.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Provee Inmunidad a Hechizos permanente: Alteración
+
+Peso: 0
+
+Permitido a:
+ Transmutador~
+
+@6019 = ~Anillo de Conjuración~
+@6020 = ~Hace muchísimo tiempo, cuando los magos locos vagaban por las tierras, los anillos de las escuelas y las esferas fueron creados, así ayudarían a los aventureros en la lucha. Ahora, más de mil años después, la fórmula para hacerlos ha sido redescubierta. Aunque los componentes necesarios para hacerlos requieren objetos que debéis sacrificar, y así que aunque estos anillos dan grandes poderes, también requieren grandes sacrificios.
+
+Este anillo específico protege a su dueño de hechizos de la escuela de Conjuración aunque sólo puede ser usado por quienes se especializan en ese campo - Conjurador.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Provee Inmunidad a Hechizos permanente: Conjuración
+
+Peso: 0
+
+Permitido a:
+ Conjurador~
+
+@6021 = ~Anillo de Adivinación~
+@6022 = ~Hace muchísimo tiempo, cuando los magos locos vagaban por las tierras, los anillos de las escuelas y las esferas fueron creados, así ayudarían a los aventureros en la lucha. Ahora, más de mil años después, la fórmula para hacerlos ha sido redescubierta. Aunque los componentes necesarios para hacerlos requieren objetos que debéis sacrificar, y así que aunque estos anillos dan grandes poderes, también requieren grandes sacrificios.
+
+Este anillo específico protege a su dueño de hechizos de la escuela de Adivinación aunque sólo puede ser usado por quienes se especializan en ese campo - Adivinador.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Provee Inmunidad a Hechizos permanente: Adivinación
+
+Peso: 0
+
+Permitido a:
+ Adivinador~
+
+@6023 = ~Anillo de Encantamiento~
+@6024 = ~Hace muchísimo tiempo, cuando los magos locos vagaban por las tierras, los anillos de las escuelas y las esferas fueron creados, así ayudarían a los aventureros en la lucha. Ahora, más de mil años después, la fórmula para hacerlos ha sido redescubierta. Aunque los componentes necesarios para hacerlos requieren objetos que debéis sacrificar, y así que aunque estos anillos dan grandes poderes, también requieren grandes sacrificios.
+
+Este anillo específico protege a su dueño de hechizos de la escuela de Encantamiento aunque sólo puede ser usado por quienes se especializan en ese campo - Encantador.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Provee Inmunidad a Hechizos permanente: Encantamiento
+
+Peso: 0
+
+Permitido a:
+ Encantador~
+
+@6025 = ~Anillo de Evocación~
+@6026 = ~Hace muchísimo tiempo, cuando los magos locos vagaban por las tierras, los anillos de las escuelas y las esferas fueron creados, así ayudarían a los aventureros en la lucha. Ahora, más de mil años después, la fórmula para hacerlos ha sido redescubierta. Aunque los componentes necesarios para hacerlos requieren objetos que debéis sacrificar, y así que aunque estos anillos dan grandes poderes, también requieren grandes sacrificios.
+
+Este anillo específico protege a su dueño de hechizos de la escuela de Evocación aunque sólo puede ser usado por quienes se especializan en ese campo - Invocador.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Provee Inmunidad a Hechizos permanente: Evocación
+
+Peso: 0
+
+Permitido a:
+ Invocador~
+
+@6027 = ~Anillo de Ilusión~
+@6028 = ~Hace muchísimo tiempo, cuando los magos locos vagaban por las tierras, los anillos de las escuelas y las esferas fueron creados, así ayudarían a los aventureros en la lucha. Ahora, más de mil años después, la fórmula para hacerlos ha sido redescubierta. Aunque los componentes necesarios para hacerlos requieren objetos que debéis sacrificar, y así que aunque estos anillos dan grandes poderes, también requieren grandes sacrificios.
+
+Este anillo específico protege a su dueño de hechizos de la escuela de Ilusión aunque sólo puede ser usado por quienes se especializan en ese campo - Ilusionista.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Provee Inmunidad a Hechizos permanente: Ilusión
+
+Peso: 0
+
+Permitido a:
+ Ilusionista~
+
+@6029 = ~Anillo de Nigromancia~
+@6030 = ~Hace muchísimo tiempo, cuando los magos locos vagaban por las tierras, los anillos de las escuelas y las esferas fueron creados, así ayudarían a los aventureros en la lucha. Ahora, más de mil años después, la fórmula para hacerlos ha sido redescubierta. Aunque los componentes necesarios para hacerlos requieren objetos que debéis sacrificar, y así que aunque estos anillos dan grandes poderes, también requieren grandes sacrificios.
+
+Este anillo específico protege a su dueño de hechizos de la escuela de Nigromancia aunque sólo puede ser usado por quienes se especializan en ese campo - Nigromante.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Provee Inmunidad a Hechizos permanente: Nigromancia
+
+Peso: 0
+
+Permitido a:
+ Nigromante~
+
+@6031 = ~Cota de Mallas de Adamantio~
+@6032 = ~Chainmail + 5: Cota de Mallas de Adamantio
+Luego de muchas aventuras en la Infraoscuridad, <CHARNAME> creó esta cota de mallas usando reminiscencias de polvo de adamantio. Dada la rara naturaleza de esta cota de mallas, no se deshace en la superficie.
+Esta cota permite que se lancen hechizos, y da protección adicional contra la magia, fuego y ácido. Aunque penaliza el tiempo de lanzar hechizos.
+Dada la similitud con sus contrapartes, asocia a su dueño con los Drow, lo que es malo para su reputación.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Resistencia Mágica: +10%
+ Resistencia al ácido: +15%
+ Resistencia al fuego: +15%
+ -1 Al tiempo de lanzar hechizos
+ Carisma: Penalización -2
+ No impide el lanzamiento de conjuros
+
+Clase de armadura: 0 (-2 contra daño cortante, 2 contra daño contundente)
+Requiere: 5 Fuerza
+
+Peso: 20
+
+Permitido a:
+ Bardo
+ Clérigo/Mago
+ Luchador/Mago
+ Mago/Ladrón
+ Luchador/Mago/Clérigo
+ Luchador/Mago/Ladrón~
+
+@6033 = ~Cinturón del Señor de la Guerra~
+@6034 = ~<CHARNAME> hizo este cinturón luego de darse cuenta de que muchos de sus compañeros no podían resistir un día duro de aventuras.
+Combina Destreza, Fuerza y constitución.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Fuerza: +2
+ Destreza: +2
+ Constitución: +2
+
+Peso: 2
+
+No permitido a:
+ Asesino de magos~
+
+@6035 = ~Amuleto de Resistencia Mayor de Kaligun~
+@6036 = ~Este amuleto tiene las iniciales KP grabadas. KP, o Kaligun Poonil era el general de un pequeño grupo enviado a los bosques para deshacerse de los Magos Rojos. Como le tenía mucho miedo a la magia usó este amuleto en batalla. Sintiéndose con demasiada confianza, Kaligun tontamente murió cuando quiso emboscar a unos Magos Rojos que le bajaron la resistencia antes de matarlo con sus hechizos.
+
+Es un amuleto muy bonito, y ahora mejorado por <CHARNAME> para que provea más protección.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Resistencia Mágica: +10%
+ Clase de armadura: +2
+ Tiradas de Salvación: +2
+
+Peso: 3
+
+No permitido a:
+ Asesino de magos~
+
+@6037 = ~Piedra Ioun Incandescente~
+@6038 = ~Construida para <CHARNAME> de cuatro poderosas piedras Ioun, esta preciosidad mejora la mentalidad y fuerza de su dueño.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Constitución: +1
+ Inteligencia: +1
+ Sabiduría: +1
+ Regenera 1 punto de golpe cada 3 segundos
+
+Peso: 2~
+
+@6039 = ~Insignia de los Arpistas de Jaheira~
+@6040 = ~La Insignia es un símbolo muy importante para los Arpistas. Le da a su dueño protección contra muchas clases de ataques. En realidad no están ligados a ninguna persona, pero quienes los tienen no se deshacen de ellos tan fácilmente. Es una placa de honor.
+
+Este fue un regalo para Jaheira de Elminster, y fue recientemente mejorado por su amor, <CHARNAME>.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Resistencia a la electricidad: +100%
+ Resistencia Mágica: +5%
+ Salvar contra Conjuros: +5
+ Acelera el lanzamiento de hechizos en 1
+ No-Detección
+ Inmunidad a Encantar, Confusión y Miedo
+ Inmunidad a Misil Mágico
+
+Peso: 1~
+
+@6041 = ~Furia Congelada~
+@6042 = ~Hacha de Guerra +4: Furia Congelada
+Esta hacha era de Illgarth, un Gigante que aterrorizaba comunidades hace mucho tiempo. No se sabe de dónde la sacó, pero le encantaba usarla contra los demás, particularmente medianos. Hace poco un grupo logró matarlo, y el hacha fue enterrada con él.
+
+Esta hacha fue mejorada a petición de <CHARNAME>, drásticamente mejorando su poder.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Resistencia al frío: +40%
+
+Aptitudes de combate:
+ 40% de posibilidades de que el objetivo sea enlentecido (sin salvación)
+
+GAC0: +4
+Daño: 1D8 +4, 1D4+1 daño por frio
+Tipo de daño: Cortante
+Factor de velocidad: 4
+Talento marcial: Hacha
+Tipo: A una mano
+Requiere: 10 Fuerza
+
+Peso: 7
+
+No permitido a:
+ Clérigo
+ Druida
+ Mago
+ Ladrón
+ Monje
+ Señor de las bestias~
+
+@6043 = ~Varita de Grandes golpes~
+@6044 = ~Un gran herrero hizo de la varita de Misiles Mágicos un objeto de gran valor. Ahora puede abrir cerraduras.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+ Abrir cerraduras (100 cargas)
+
+Requiere: 9 de Inteligencia.
+
+Peso: 1
+
+No permitido a:
+ Asesino de magos~
+
+@6045 = ~Hacha de piedra de Messerschmitt~
+@6046 = ~Hacha a dos manos +3: Piedra de Messerschmitt
+El Hacha de piedra Messerschmitt combina por tipos de hachas Enanas. Está nombrada a partir del humano Messerschmitt, el rival de quien creó esta hacha, y que estaba creando una similar. El hacha cayó de donde estaba y le cortó la mano. Por la rabia el rompió lo que estaba haciendo y no se dedicó más a ella. Messerschmitt dijo que los dioses lo estaban castigando por modificar hachas de Enanos haciéndolas usables por los medianos.
+
+El diseño son dos hachas combinadas. Las dos han tenido que ser modificadas, pero no han perdido sus propiedades. El daño que se le haga al oponente depende en gran manera de cuál es el lado que se usa para golpearle. Se dice que está maldita y no deja que ningún mediano la use, y probablemente sea igual para los gnomos.
+
+Es muy buena contra trolls y elementales de fuego. Si se usa bien también puede bloquear ataques. Es tan pesada en las puntas que es muy buena perforando armaduras, teniendo daño punzante en vez de cortante, aunque esto hace difícil el quitarla de la armadura cuando se clava.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Clase de armadura: +1
+
+Aptitudes de combate:
+ Mata elementales de fuego (no tirada de salvación)
+ 5% de posibilidades de que el dueño y el oponente queden paralizados durante 1 turno
+ 50% Posibilidades de hacer extra 2 puntos de daño de fuego
+ 50% Posibilidades de hacer extra 1 puntos de daño de frio y ácido
+
+GAC0: +3
+Daño: 2D6+3
+Tipo de daño: Perforente
+Factor de velocidad: 9
+Talento marcial: Hacha
+Tipo: A dos manos
+Requiere: 17 Fuerza
+
+Peso: 21
+
+No permitido a:
+ Gnomos
+ Medianos
+ Clérigo
+ Druida
+ Mago
+ Ladrón
+ Monje
+ Señor de las bestias~
+@60451 = ~Hacha a dos manos~
+@60461 = ~Esta poderosa arma consiste en un mango de metro veinte a metro y medio de largo, con una hoja pesada en un extremo. El hacha puede ser de doble filo, con hojas a ambos lados del mango, o puede tener un filo único. Es un arma difícil de manejar, pero un guerrero diestro puede dar golpes de tremenda fuerza con ella.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10
+Tipo de daño: Cortante
+Factor de velocidad: 9
+Talento marcial: Hacha
+Tipo: A dos manos
+Requiere: 10 Fuerza
+
+Peso: 10
+
+No permitido a:
+ Clérigo
+ Druida
+ Mago
+ Ladrón
+ Monje
+ Señor de las bestias~
+
+@6047 = ~Espada de la Familia Corthala +3~
+@6048 = ~Katana +3: Espada de la Familia Corthala
+Esta katana irradia energía mágica cuando la usa Valygar. Fue diseñada para responder a la sangre de los Corthala. Hace +3 puntos de daño adicional por sangrado cuando le da a un oponente.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Clase de armadura: +3 contra armas cortantes
+
+Aptitudes de combate:
+ 3 puntos adicionales de daño por sangrado durante 12 segundos
+
+GAC0: +3
+Daño: 1D10+3
+Tipo de daño: Cortante
+Factor de velocidad: 2
+Talento marcial: Katana
+Tipo: A una mano
+
+Peso: 4
+
+Permitido a:
+ Valygar~
+
+@6049 = ~Espada de la Familia Corthala +4~
+@6050 = ~Katana +4: Espada de la Familia Corthala
+Esta katana irradia energía mágica cuando la usa Valygar. Fue diseñada para responder a la sangre de los Corthala. Hace +4 puntos de daño adicional por sangrado cuando le da a un oponente.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Clase de armadura: +4 contra armas cortantes
+
+Aptitudes de combate:
+ 4 puntos adicionales de daño por sangrado durante 12 segundos
+
+GAC0: +4
+Daño: 1D10+4
+Tipo de daño: Cortante
+Factor de velocidad: 2
+Talento marcial: Katana
+Tipo: A una mano
+
+Peso: 4
+
+Permitido a:
+ Valygar~
+
+@6051 = ~La Vara Desagradable~
+@6052 = ~Bastón +4: La Vara Desagradable
+"La Vara Desagradable" combina un bastón-lanza +2 con el Bastón de Rynn +4. A primera vista, no es una creación muy refinada. Es propiamente conocido como el Bastón Pica de Rynn, pero nadie se molesta realmente. Por todos los intentos y aspectos, un bastón lanza fue cerrado al medio con dos extremidades afiladas en la base del Bastón de Rynn y atrancado junto con una funda de hierro que dobla los agarres de esta arma. Evidentemente esta es la primera vez que alguien requiere un objeto como este, y probablemente la última.
+
+Lo que le falta en manufactura, lo compensa en efectividad. Tomando dos espadas bastardas +1, picando en trozos su empuñadura y reforzando sus hojas, el arma puede ser usada para empalar o cortar al enemigo. De otra manera el portador puede simplemente golpear al enemigo con la vara normal. Un objeto así es útil para aquellas 'oportunidades' en que se pelea contra varios oponentes, cuando algunos son resistentes a un tipo de daño pero vulnerables a otro.
+
+Ya sea por casualidad o por el diseño, el diseñador de esta arma le hizo lo suficientemente balanceada para lanzarla y volverá mágicamente a la mano del usuario. Algunas magias elementales menores están presentes en prevención de que la vara fuera usada por un mago o clérigo. El bastón puede ser usado para lanzar 'Manos Ardientes' cuatro veces por día; muy usado para matar trolls e iluminar campamentos en la noche. En un aprieto, también es un excelente palo para una caña de pescar. El poderoso encantamiento aparentemente atrae truchas y otros peces audaces, por extraño que parezca.
+
+Quien quiera que haya creado el arma no dejó ninguna marca identificadora y los maestros eruditos simplemente la recuerdan como la 'Vara Desagradable' de Amn. En los mercados de aventureros en el sur de Faerûn, se convertiría en una broma usual que los niños pobres, sucios o pobremente equipados dijeran 'La Vara Desagradable' me derribó. Aparte de todo, la Vara Desagradable es una excelente caña de pescar.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Clase de armadura: -1 penalización
+ Carisma: -4 penalización
+ Destreza: -2 penalización
+
+Aptitudes de combate:
+ Siempre tiene un 5% de probabilidades de dejar inconsciente al oponente cuando es usada en cuerpo a cuerpo o arrojada, porque del oponente se ha golpeado en la cabeza.
+ Lanza Llamarada de Agannazar dos veces por día
+ Lanza Manos Ardientes dos veces por día
+
+GAC0: +4
+Daño: 50% Posibilidades de 1D6+4 aplastante, 30% Posibilidades de 1D6+2 punzante, 20% Posibilidades de 1D6+2 cortante
+Tipo de daño: Cuntundente, Cortante, Perforente
+Factor de velocidad: 8
+Talento marcial: Bastón
+Tipo: 2 puños
+Requiere: 13 Fuerza
+
+Peso: 24
+
+No permitido a:
+ Monje~
+
+@6053 = ~Armadura de Placas de Adamantio~
+@6054 = ~Armadura de Placas +5: Armadura de Placas de Adamantio
+Luego de muchas aventuras en la Infraoscuridad, un Vástago de Bhaal de nombre <CHARNAME> forjó esta armadura de placas usando los restos de muchos objetos magníficos - polvo de adamantio. Debido a la habilidad y a la naturaleza de la forja de esta armadura, no se desintegrará a la luz del sol.
+
+Esta armadura de placas mágica da defensa divina junto con muchos de los bonificadores del material que fue usado en su forja.
+
+Debido a la similitud con sus contrapartes, esta armadura de placas asocia al portador con los Drow, lo cual es perjudicial para su popularidad.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Resistencia al ácido: +15%
+ Resistencia al fuego: +15%
+ Carisma: -2 penalización
+ Factor de Movimiento: -2 puntos de penalización
+
+Clase de armadura: -3
+Requiere: 19 Fuerza
+
+Peso: 120
+
+No permitido a:
+ Bardo
+ Druida
+ Mago
+ Ladrón
+ Monje
+ Bárbaro
+ Arquero
+ Señor de las bestias
+ Acechador
+ Kensái~
+
+@6055 = ~Capa de la Estrella Elemental~
+@6056 = ~Thalanta la Justa creó muchos tipos de capas, todas conocidas como Capas de las Estrellas. Esta versión en particular fue simple, con tres estrellas bajo cada manga. Una vez por día, cada estrella puede ser removida y lanzada como un dardo.
+
+Luego de una mejora por un extraño conocido como <CHARNAME>, la capa ahora tiene cuatro estrellas coloreadas corriendo abajo de cada manga - rojo, verde, azul y blanco - que pueden ser lanzadas como dardos.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Clase de armadura: +2
+ Tiradas de Salvación: +2
+
+Aptitudes especiales:
+ Crea ocho Dardos Estrella Elemental por día.
+
+Peso: 3
+
+No permitido a:
+ Asesino de magos~
+
+@6057 = ~Dardo Llama Carmesí~
+@6058 = ~Dardo +5: Llama Carmesí
+El pequeño tamaño de esta arma desmiente su gran poder. Inmediatamente luego de golpear a un objetivo, este dardo reaparecerá en las manos del portador, listo para ser lanzado de nuevo.
+
+Luego de una mejora hecha por un Vástago de Bhaal por nombre <CHARNAME>, este dardo tiene ahora la habilidad de infligir daño de fuego adicional.
+
+CARACTERÍSTICAS:
+
+El dardo regresa instantáneamente a la mano del usuario luego de ser lanzado.
+
+GAC0: +5
+Daño: 1D5 +5, 1D4 +1 daño de fuego
+Tipo de daño: Proyectil (perforente)
+Factor de velocidad: 0
+Talento marcial: Dardo
+Tipo: A una mano
+Requiere: 10 Destreza
+
+Peso: 0
+
+No permitido a:
+ Clérigo
+ Kensái
+ Caballero~
+
+@6059 = ~Piedra del Caos~
+@6060 = ~El brillante color lavanda que tenía esto se volvió amarillo luego de que fue mejorada por un Vástago de Bhaal por nombre <CHARNAME>, y la piedra baila y destella, como si estuviera viva.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Clase de armadura: +1
+ Salvación contra la muerte: +2
+ El portador está bajo los efectos del conjuro Escudo del Caos
+
+Peso: 2
+
+Permitido a:
+ Mago salvaje~
+
+@6061 = ~Piedra del Caos Mejorada~
+@6062 = ~Este objeto fue formado cuando <CHARNAME> comisionó una segunda mejora para la Piedra Ioun Lavanda. Ahora provee al usuario con una mejor protección contra el fuego y la magia de muerte, así como decrementa la posibilidad de una oleada salvaje.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Clase de armadura: +1
+ Salvación contra la muerte: +3
+ Resistencia al fuego: +25%
+ El portador está bajo los efectos del Escudo del Caos Mejorado
+
+Peso: 2
+
+Permitido a:
+ Mago salvaje~
+
+@6063 = ~Maldición de los Muertos Vivientes~
+@6064 = ~Mandoble +5: Maldición de los Muertos Vivientes
+Esta espada sagrada irradia un aura divina como si el Dios Lisiado y la misma Furia Leal la hubieran bendecido. Uniendo los poderes de sus ancestros, es el significado definitivo de justicia sobre los muertos vivientes. Cuando pelea con algún otro que no sea muerto viviente, la espada actúa como cualquier otra de su clase. Una vez en presencia de las abominaciones no-muertas, la espada comienza a brillas, previniendo al portador de su maldita presencia. Una vez golpeados por la espada, los muertos vivientes deben enfocar todas sus energías o caer al Abismo. La luz sagrada que emerge de esta arma puede cegar a los enemigos del portador y es especialmente devastadora contra muertos vivientes. A causa de la naturaleza de esta espada, puede ser sólo usada por los guerreros más puros de corazón.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales (una vez al día):
+ Falso Amanecer
+ Protección contra el Plano Negativo
+
+Aptitudes de combate:
+ Los muertos vivientes deben superar una tirada de salvación contra la Muerte o serán destruidos
+ 5% de posibilidades de lanzar Rayo Solar sobre el objetivo
+ 5% Posibilidades de cegar al objetivo
+
+GAC0: +5
+Daño: 1D10 +5, hace daño doble contra los muertos vivientes
+Tipo de daño: Cortante
+Factor de velocidad: 5
+Talento marcial: Mandoble
+Tipo: 2 puños
+Requiere: 14 Fuerza
+
+Peso: 7
+
+Permitido a:
+ Paladín~
+
+@6065 = ~Capa de la Sombra~
+@6066 = ~Celio Czah, un gran cazador, era un muy buen herrero. Se las arregló para matar a muchas bestias en su vida, incluyendo dragones. Su conocimiento se pasó de herrero a herrero, lo cual explica por qué fue creado este pedazo de tela. Celio moldeó originalmente tres capas juntas, junto con pedazos de pellejos de animales y escamas de dragón. Esta capa en particular fue manufacturada a pedido de <CHARNAME>. El conocimiento del herrero aventurero, Celio Czah, definitivamente no fue ignorado.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Clase de armadura: +3
+ Resistencia al ácido: +50%
+ Esconderse en las Sombras: +20%
+ No-Detección
+
+Peso: 3
+
+Permitido a:
+ Acechador
+ Ladrón (simple, dual, & multi-clase)~
+
+@6067 = ~Armadura de Pikim~
+@6068 = ~Cuero Tachonado +5: Armadura de Pikim
+El Ladrón de las Sombras rebelde, Pikim, acostumbraba a meterse en muchas cosas. Una vez fundió llaves dentro de la famosa Armadura de la Sombra sólo para ver el resultado. También le cosió muchas capas en el interior. Sintiendo el gran poder dentro de su armadura recién forjada, Pikim decidió que era demasiado grande para compartir con alguien más. Esa decisión le costó la vida. Los Ladrones de las Sombras le dieron caza para tomar la armadura para ellos. Varios herreros a través de Faerûn aprendieron la manera en que Pikim creó esta armadura gloriosa. <CHARNAME> se las arregló para hacer que un herrero la reconstruyera... por una buena suma.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Esconderse en las Sombras: +15%
+ Abrir Cerraduras: +60%
+
+Clase de armadura: 2
+Requiere: 6 Fuerza
+
+Peso: 8
+
+Permitido a:
+ Ladrón (simple, dual, & multi-clase)~
+
+@6069 = ~Cortadora de Neb +4~
+@6070 = ~Daga +4: Cortadora de Neb
+El enano despreciable conocido como Neb fue famoso por sus actos malignos. Neb era un asesino de niños y de alguna forma sabía cómo usar sus almas en batalla. <CHARNAME> y sus compañeros mataron al asesino, y con la ayuda de un confiable herrero, la daga de Neb ha ganado más poder que nunca. Parece que el ilitio puro esparcido sobre su hoja ha causado que el suministro de veneno ya no sea limitado. No obstante, sólo las más viles criaturas se atreverían a usar esta arma.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+ Una vez al día convoca un Espíritu de Niño Inquieto por 10 minutos
+
+Aptitudes de combate:
+ El objetivo debe superar una tirada de salvación contra el Veneno o sufrirá 2 puntos de daño por segundo (10 segundos)
+
+GAC0: +4
+Daño: 1D4 +4
+Tipo de daño: Perforente
+Factor de velocidad: 0
+Talento marcial: Daga
+Tipo: A una mano
+
+Peso: 1
+
+No permitido a:
+ Alineamientos no malignos
+ Clérigo~
+@60701 = ~Convocar Espíritu del niño inquieto~
+
+@6071 = ~Espada de Ladrón de las Sombras~
+@6072 = ~Espada Corta +5: Espada de Ladrón de las Sombras
+Una vez creada para ser la herramienta perfecta para un asesino, la Espada corta del Apuñalamiento por la Espalda fue grandiosamente alterada. Con la hoja de una espada infame adjunta, el poder de un conjuro espada, y unas pocas piedras y pociones, la Espada de la Sombra se ha convertido en una espada mucho más fina.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Multiplicador al Apuñalamiento: +1
+
+GAC0: +5
+Daño: 1D6 +5
+Tipo de daño: Perforente
+Factor de velocidad: 0
+Talento marcial: Espada Corta
+Tipo: A una mano
+Requiere: 5 Fuerza
+
+Peso: 5
+
+Permitido a:
+ Alineamiento bueno o neutral
+ Ladrón~
+
+@6073 = ~Arco Encantado de Avoreen~
+@6074 = ~Este arco encantado ha estado en posesión de Mazzy Fentan por muchos años, dado por su dios, Avoreen. Recientemente, la bendición de Arvorin ayudó a un vástago de Bhaal de nombre <CHARNAME> para mejorarlo y que ya no necesite munición.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+ No requiere munición
+ Cada flecha tiene un 10% de probabilidad de ralentizar al oponente
+
+GAC0: +4
+Daño: 1D6 +2
+Tipo de daño: Proyectil (perforente)
+Factor de velocidad: 4
+Talento marcial: Arco Corto
+Tipo: 2 puños
+
+Peso: 2
+
+Permitido a:
+ Guerreros Medianos~
+
+@6075 = ~Armadura de Muchos Dragones~
+@6076 = ~Cuatro poderosos dragones han muerto ante la mano de <CHARNAME>, y las escamas usadas han formado una poderosa armadura. Sin embargo, al contrario de otras armaduras de dragón, esta armadura es muy liviana. Protegerá contra lo que usan los dragones más veces en batalla.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+ Lanza Cono de Frío 3 veces al día
+
+Aptitudes poseidas:
+ Resistencia al ácido: +50%
+ Resistencia al frío: +50%
+ Resistencia a la electricidad: +90%
+ Resistencia al fuego: +50%
+
+Clase de armadura: -2
+Requiere: 6 Fuerza
+
+Peso: 4
+
+No permitido a:
+ Bardo
+ Mago
+ Hechicero Nato
+ Ladrón
+ Monje
+ Bárbaro
+ Cambiaformas
+ Vengador
+ Arquero
+ Señor de las bestias
+ Acechador
+ Kensái~
+
+@6077 = ~Yelmo de Muchos Dragones~
+@6078 = ~La habilidosa mano del hechicero Wormsor colocó cuidadosamente bastantes escamas de dragón en este casco. Rojo, blanco y azul, protegiendo al portador de fuego, frío y electricidad. Sin embargo, más recientemente, un Hijo de Bhaal adjuntó más escamas de cuatro dragones. Eso parece haber incrementado la protección contra el fuego y electricidad y además añade protección contra el ácido.
+
+Aptitudes poseidas:
+ Protege contra golpes críticos
+ Resistencia al ácido: fijada a 50%
+ Resistencia al frío: fijada a 25%
+ Resistencia a la electricidad: fijada a 70%
+ Resistencia al fuego: fijada a 70%
+
+Bono de Clase de armadura: Ninguno
+Peso: 3
+
+No permitido a:
+ Bardo
+ Mago
+ Hechicero Nato
+ Ladrón
+ Monje
+ Kensái~
+
+@6079 = ~Escudo de Muchos Dragones~
+@6080 = ~Otro poderoso objeto creado por el hechicero, Wormsor, este escudo consiste en piel de dragón rojo extendida sobre un marco de acero. Escamas de dragón verde y blanco adornan el fondo roja de manera que si lo miráis bien forman el rostro de un dragón anciano. Recientemente un Hijo de Bhaal adjuntó más escamas. Eso parece haber incrementado la protección contra el fuego y electricidad y además añade protección contra el ácido.
+
+Aptitudes poseidas:
+ Resistencia al ácido: fijada a 50%
+ Resistencia al frío: fijada a 25%
+ Resistencia a la electricidad: fijada a 70%
+ Resistencia al fuego: fijada a 70%
+
+Bonificador a la Clase de armadura: 3
+Requiere: 12 Fuerza
+
+Peso: 6
+
+No permitido a:
+ Bardo
+ Druida
+ Mago
+ Hechicero Nato
+ Ladrón
+ Monje
+ Kensái~
+
+@6081 = ~Túnica de Resistencia~
+@6082 = ~Muchos magos en la tierra notaron que cinco capas que se suponía que debían protegerlos, raramente funcionaban. Hasta que un mago llamado Kerial decidió verlas juntas. Tan pronto como las combinó, le informó a los otros la receta Recientemente, <CHARNAME> comisionó esta poderosa túnica.
+
+Aptitudes poseidas:
+ AC: +1 contra armas aplastantes y de misil
+ Tiradas de Salvación: +1 contra Petrificación/Polimorfismo y Armas de Aliento
+ Resistencia al frío: +20%
+ Resistencia a la electricidad: +20%
+ Resistencia al fuego: +20%
+
+Clase de armadura: base fijada a 5
+
+Peso: 4
+
+Permitido a:
+ Mago
+ Hechicero Nato~
+
+@6083 = ~Diente de Dragón~
+@6084 = ~Alabarda +5: Diente de Dragón
+Las armas de Thorvin Dukal y Ullion el mago han sido usadas por siglos para combatir a las bestias arroja-fuego, pero ambos fueron asesinados. <CHARNAME> encontró ambas armas en sus viajes, y las unió mágicamente, con la ayuda de escamas de dragón de fuego. El poder parece ser algo así como el de un diente de un dragón de fuego, y parece que el daño por frio, electricidad, ácido y veneno de la albarda de Ullion han desaparecido en el proceso, en favor del fuego.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Resistencia al fuego: +90%
+
+Aptitudes de combate:
+ 5 puntos de daño adicionales a cualquier criatura golpeada
+
+GAC0: +5
+Daño: 1D10 +5, +6 contra dragones
+Tipo de daño: Perforente
+Factor de velocidad: 5
+Talento marcial: Alabarda
+Tipo: 2 puños
+Requiere: 13 Fuerza
+
+Peso: 12
+
+No permitido a:
+ Clérigo
+ Druida
+ Mago
+ Ladrón
+ Monje
+ Señor de las bestias~
+
+@6085 = ~Capa de Thay~
+@6086 = ~Los Magos Rojos de Thay saben muchas cosas, y usualmente visten de rojo. <CHARNAME> tenía una capa creada a partir de algo de tela que encontró en sus aventuras en Athkatla. Esta capa fue creada especialmente para los magos malignos.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Inmunidad a Armas Normales
+ Clase de armadura: +2
+ Tiradas de Salvación: +2
+
+Peso: 3
+
+Permitido a:
+ Alineamiento maligno
+ Mago
+ Hechicero Nato~
+
+@6087 = ~Capa de la Naturaleza~
+@6088 = ~Cuando era más joven, Cernd tuvo un ciclo de sesiones de meditación en su rol dentro de la naturaleza. Cernd encontró esta capa antes de que el frío comenzara, aparentemente tejida solo para él de mucha maleza. El mensaje era claro: él podría apreciar la lluvia mientras siguiera refugiándose de ella. Recientemente, <CHARNAME> encantó la capa de Cernd para que proteja contra muchos elementos. Cernd es todavía el único que puede usar esta capa.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Clase de armadura: +1
+ Tiradas de Salvación: +1
+ Inmunidad a Veneno
+ Bonificador +25% resistencia al ácido, frío, electricidad y fuego
+
+Peso: 3
+
+Permitido a:
+ Cernd~
+
+@6089 = ~Mits de Shaiman~
+@6090 = ~Uno de los visitantes más comunes del Mesón del Brazo Amigo era un gran monje llamado Shaiman. Shaiman era increíblemente poderoso para un monje, y tuvo muchas muchas aventuras también. Su pasado es un misterio, pero parece que intentaba permanecer como un buen chico. Sus poderosos guantes, sin embargo, son otra historia. Shaiman los encontró originalmente en Rashemen, y los llevó desde entonces. Otros dos brazales fueron usados para copiar el "arma" de Shaiman, y con la ayuda de un ópalo negro en cada dedo, los Mits de Shaiman están ahora en posesión de <CHARNAME>.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Clase de armadura: +1
+ Puntos de Vida: +15
+ GAC0: +4 al atacar con puños
+ Daño: +4 al atacar con puños
+
+Peso: 2
+
+Permitido a:
+ Monje~
+
+@6091 = ~Bastón de la Naturaleza~
+@6092 = ~Bastón +4: Bastón de la Naturaleza
+Este bastón es la culminación de un ciclo de sesiones de meditación de Cernd en su rol en la naturaleza. Había un joven roble que tenía interés particular por estudiar, se veía extraño y de algún modo asombrosamente ordenado. Cuando llegaba la primavera Cernd lo examinó por última vez, y se liberó en sus manos, una vara viviente, concedido como presente por la naturaleza misma. Ha crecido para acomodarse a su agarre, de modo que es el único que puede usarlo. Recientemente, <CHARNAME>, lo mejoró para redoblar la velocidad de regeneración y su poder en general.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Regenera 1 punto de daño cada 6 segundos
+
+GAC0: +4
+Daño: 1D6 +4
+Tipo de daño: Cuntundente
+Factor de velocidad: 1
+Tipo: 2 puños
+
+Peso: 3
+
+Permitido a:
+ Cernd~
+
+@6093 = ~Bastón de Muchas Magias~
+@6094 = ~Bastón +4: Bastón de Muchas Magias
+<CHARNAME> recientemente fundió tres varas menores junto con diamantes. ¿Quién sabría que esto se podía hacer? Nadie, hasta que un druida de nombre Xynt lo hizo con las varas del comando, curación y una mera vara +2. Ahora, el nuevo bastón, apodado Muchas Magias, está en posesión del vástago de Bhaal.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales (una vez al día):
+Dominación (sin tirada de salvación)
+ Alcance: 12 metros
+ Duración: 12 horas
+ Área de efecto: 1 criatura
+
+Cura
+ Restaura 3D6 +3 puntos de golpe y cura la enfermedad y el veneno
+ Alcance: Toque
+ Área de efecto: 1 criatura
+
+Aptitudes poseidas:
+ Clase de armadura: +2
+
+GAC0: +3
+Daño: 1D6 +3
+Tipo de daño: Cuntundente
+Factor de velocidad: 1
+Talento marcial: Bastón
+Tipo: 2 puños
+Requiere: 5 Fuerza
+
+Peso: 2
+
+Permitido a:
+ Clérigo
+ Druida
+ Paladín
+ Explorador~
+
+@6095 = ~El Draco Somnoliento~
+@6096 = ~Mayal +4: El Draco Somnoliento
+La gran pua al tope de este lucero del alba es en realidad el letal aguijón de un Draco. El luchador de magos Sedej creo la Cola de Draco, usando sus habilidades mágicas para que el aguijón mantuviera su capacidad de producir veneno. La magia que usó hizo de la Cola de Draco un arma viviente, que vibra con vida en las manos de su portador. El otro Lucero del Alba usado para crear esta nueva arma perteneció una vez a Ssitalc, un elfo poco corriente conocido como esclavista en la Costa de la Espada. Hasta su repentina muerte hace años, Ssitalc comandó una gran fuerza de brigadas humanas, enanas y gnomas, usando al Durmiente para mantenerlos en la línea. Tenía la posibilidad de incapacitar a cualquier humano, enano, gnomo o mediano hundiéndolos en un sueño profundo, aunque los elfos son inmunes. Sin embargo, recientemente un vástago de Bhaal combinó los dos Luceros del Alba. Para lo que esté siendo usado ahora, es seguro que será útil.
+
+CARACTERÍSTICAS
+
+Aptitudes de combate:
+ Cualquier criatura humanoide, excluyendo elfos, deben superar una tirada de salvación contra veneno (+4) o caerán dormidos por 18 segundos
+ Las víctimas deben superar una tirada de salvación contra veneno o recibirán 5 puntos de daño venenoso adicionales
+
+GAC0: +4
+Daño: 2D4 +4
+Tipo de daño: Cuntundente
+Factor de velocidad: 5
+Talento marcial: Mayal/Estrella del Alba
+Tipo: A una mano
+Requiere: 11 Fuerza
+
+Peso: 10
+
+No permitido a:
+ Druida
+ Mago
+ Hechicero Nato
+ Ladrón
+ Monje
+ Señor de las bestias~
+
+@6097 = ~Hombro Frío~
+@6098 = ~Estrella del Alba +5: Hombro Frío
+La cabeza de esta estrella del alba parece estar forjada de cristal azul irrompible. La empuñadura está fría al tacto, y el portador es rodeado por un halo de aire fresco que protege incluso contra el fuego mágico. Más recientemente, un vástago de Bhaal reforjó la Estrella de Hielo con muchos otros objetos de frío. Eso creó una misteriosa estrella del alba conocida como Hombre Frío.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Resistencia al fuego: +50%
+
+Aptitudes de combate:
+ 5% de probabilidades de que un golpe exitoso congele al objetivo
+
+Aptitudes especiales:
+ Puede dar al portador fuerza de gigante de hielo una vez al día, por 12 horas
+ Lanza Tormenta de Hielo una vez al día
+
+GAC0: +5
+Daño: 2D5 +5, +1D4 daño de hielo
+Tipo de daño: Cuntundente
+Factor de velocidad: 4
+Talento marcial: Mayal/Estrella del Alba
+Tipo: A una mano
+Requiere: 13 Fuerza
+
+Peso: 8
+
+No permitido a:
+ Druida
+ Mago
+ Ladrón
+ Monje
+ Señor de las bestias~
+@60981 = ~Fuerza de gigante de la escarcha~
+
+@6099 = ~Capa del Padre Tiburón~
+@6100 = ~Encomendado por capricho de <CHARNAME>, este trozo de tela fue formado de las bases de una de sus aventuras más complicadas, en la Ciudad de las Cavernas, bajo el agua. Ayudó a los sajuaguín que allí habitaban como parte de una profecía de Sekolah. Luego de ayudar a los monstruos y regresar a la superficie, <CHARNAME> encargó esta capa. Con la munición sajuaguín, este objeto muestra lo que ninguna criatura de la superficie ha visto antes.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+ El portador está protegido permanentemente por Globo Menor de Invulnerabilidad
+ Una vez por día, el portador puede convocar a un Anguilano para ayudarlo en combate
+
+Aptitudes poseidas:
+ Clase de armadura: +1
+ Tiradas de Salvación: +1
+
+Peso: 3
+
+No permitido a:
+ Asesino de magos~
+@61001 = ~Convocar a un Anguilano~
+
+@6101 = ~Dedos Fluidos~
+@6102 = ~Estos magníficos guantes, adornados con incontables runas arcanas, fueron hechos por un vástago de Bhaal. Los orígenes de estos guantes fueron los brazales de Sonrisa Estrecha, combinados con algunos de los mejores reactivos mágicos. Los guantes pueden haber perdido algunas de sus capacidades defensivas pero reduce el tiempo necesario para lanzar un conjuro.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Clase de armadura: base 4
+ Reduce la velocidad de lanzar hechizos en 1
+
+Peso: 2
+
+No permitido a:
+ Asesino de magos
+ Kensái~
+
+@6103 = ~Anillo del Ladrón~
+@6104 = ~Los ladrones de todas partes no pueden molestarse simplemente con trabajar para aprender sus habilidades. Aquí es donde un herrero, Ruad Ro'fhessa, entra. Él combinó cuatro anillos, cada uno hecho para un ladrón. Juntos, el Anillo del Ladrón fue formado, para hacer al robo mucho más fácil. ¿Quién puede esperar ser asaltado por un ladrón de tamaña habilidad?
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+Invisibilidad una vez por día
+ Duración: 12 horas
+ Área de efecto: El lanzador
+
+Aptitudes poseidas:
+ Esconderse en las Sombras: +20%
+ Moverse Silenciosamente: +20%
+ Poner Trampas: +20%
+ Abrir Cerraduras: +25%
+ Encontrar Trampas: +25%
+
+Peso: 0
+
+Solo permitido a:
+ Ladrón (simple, dual, & multi-clase)~
+
+@6105 = ~Guanteletes del Asesinato~
+@6106 = ~Asesinar a cualquier criatura es muy trabajoso para los ladrones. Aún los asesinos encuentran algunos problemas, pero eso no es problema para <CHARNAME> luego de que conoció a Ruad Ro'fhessa, quien forjó estos novedosos guantes. No sólo ayudan a la precisión, sino que también aumentan la habilidad de apuñalar por la espalda, lo cual es muy raro para cualquier cosa que no sean armas. Seguramente que le serán de ayuda a <CHARNAME> y sus compañeros.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseidas:
+ Destreza: +3
+ Apuñalamiento: +1
+
+Peso: 2
+
+Solo permitido a:
+ Ladrón (simple, dual, & multi-clase)~
+
+@6107 = ~Beso de Muerte~
+@6108 = ~Espada Corta +4: Beso de Muerte
+A través de lo que debe haber sido un ritual muy oscuro, <CHARNAME> comisionó al herrero Ruad que forjara dos mortíferas herramientas para ladrón. La Espada de Apuñalamiento y el Degollador fueron unidos y, usando el conocimiento de venenos adquirido estudiando la daga de Neb, la combinación ganó una extraña forma de veneno que el portador nunca podrá aspirar a controlar.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+ 45% posibilidad de recibir 2 puntos de daño por envenenamiento por 5 segundos
+ 25% posibilidad de recibir 2 puntos de daño por envenenamiento por 10 segundos
+ 10% posibilidad de recibir 4 puntos de daño por envenenamiento por 12 segundos
+ 1% posibilidad de recibir 5 puntos de daño por envenenamiento por 13 segundos
+
+GAC0: +4
+Daño: 1D6 +4
+Tipo de daño: Perforente
+Factor de velocidad: 1
+Talento marcial: Espada Corta
+Tipo: A una mano
+Requiere: 5 Fuerza
+
+Peso: 2
+
+No permitido a:
+ Clérigo
+ Druida
+ Mago
+ Señor de las bestias~
+
+@6109 = ~Cuero de Sombra~
+@6110 = ~Cuero Tachonado +4: Cuero de Sombra
+A bajos niveles, un ladrón es una criatura muy difícil de proteger. Esta es la razón por la que <CHARNAME> pidió a Ruad Ro'fhessa que creara algo de valor para cualquier ladrón. Tres piezas de cuero mediocres fueron usadas para forjar uno de los más poderosos aspirantes a la armadura perfecta para un ladrón.
+
+CARACTERÍSTICAS:
+
+Clase de armadura: Fija la base a 3
+Aptitudes poseidas: +30% Esconderse en las Sombras
+Requiere: 6 Fuerza
+
+Peso: 8
+
+Solo permitido a:
+ Ladrón (simple, dual, & multi-clase)~
+
+@6111 = ~La Maldición de Lava~
+@6112 = ~Espada a dos manos +3: La Maldición de Lava
+La portadora original de la Llama del Norte era conocida como Carerra, y fue una auténtica tormenta de fuego que azotó a los trolls de hielo y a las tribus norteñas de orcos. Fue una odiada enemiga de muchos chamanes, cuya magia a menudo vacilaba contra su furia. Después de una vida de batallas estridentes, fue la vejez la que a la larga la reclamó. La espada pasó a su nieta, una aventurera, quién presumiblemente la trajo a Amn. Hubo una época antes de que Noyvern fuera cálido y el gran Anaurokh se secara... o eso se dice. Quedan pocas reliquias que demuestren que tal era existió, y todavía menos cuya finalidad pueda ser identificada. "Tierra ardiente" parece sencilla: quema a la víctima con fuego mágico y una runa críptica parece sugerir que su poder proviene de la mismísima tierra; sin embargo, continúa siendo un misterio quién la fabricó. Parece un arma perfecta, pero hay algo en su equilibrio o en la empuñadura que... está mal. Hace que el antebrazo se canse rápidamente y no encaja bien en la mano. Aparte de la extraña sensación de que el arma no está hecha para él... ni ningún otro humanoide, el guerrero no siente ninguna otra molestia al utilizarla. La otra hoja de fuego usada para crear La Maldición de Lava arde con un fuego mágico, liberando un chorro del mismo cada vez que golpea. En su puño está grabado "Meta Infernum", aunque parece algo borroso y podría no ser original de la espada.
+
+Estas historias eran el patrimonio de La Maldición de Lava. Recientemente encargada, posee de nuevo su poder. La hoja está hecha de fuego puro, y parece usar el poder de ciertos hechizos, como Bola de Fuego y Filo Fantasmal. La Llama del Norte, Lengua de Llamas y Espada de Llamas parecen haber sido bien empleadas.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate
+ Bola de fuego (10% de probabilidad de ser lanzada sobre un oponente con un ataque exitoso)
+
+Aptitudes poseidas:
+ 10% Resistencia Mágica
+
+GAC0: +3 bonus
+Daño: 1D10 +3, +4 contra Trolls, +5 contra Elementales de Fuego, +10 contra No muertos, +5 contra oponentes Caóticos Malvados
+Tipo de daño: Cortante
+Factor de velocidad: 8
+Talento marcial: Espada a dos manos
+Tipo: a dos manos
+Requiere: 15 Fuerza
+
+Peso: 12
+
+No permitido a:
+ Clérigo
+ Druida
+ Mago
+ Hechicero
+ Ladrón
+ Monje
+ Señor de las bestias~
+
+@6113 = ~Estaca de Madera~
+@6114 = ~Garrote +3: Estaca de Macera
+Hace mucho tiempo atrás, un gran cazar de no muertos conocido como DeMor creó unas estacas para ayudarle en la batalla. Ninguna estaca le fue de ayuda en la batalla excepto una. Es bien sabido que DeMor untó la magia de una Piedra de Bribón sobre un par de estacas mata vampiros para crear un arma. Esta arma ayudó una noche a DeMor a luchar contra una banda de vampiros. Los monstruos no muertos fueron más bien crueles con DeMor, pero a pesar de eso el paladín prevaleció. El garrote que DeMor creó es ahora un arma bien conocida por todos, y su creación no se olvidó.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+ Cuando golpe, hay un 15% de probabilidad de que un vampiro sea instantáneamente destruido
+ El portador es inmune al drenaje de nivel cuando está equipada
+
+GAC0: +3 bonus
+Daño: 1D6 +3, +4 contra no muertos, +6 contra vampiros
+Tipo de daño: Cuntundente
+Factor de velocidad: 1
+Talento marcial: Garrote
+Tipo: A una mano
+Requiere: 5 Fuerza
+
+Peso: 3
+
+No permitido a:
+ Mago
+ Hechicero Nato~
+
+@6115 = ~Arco de Uden~
+@6116 = ~Arco Largo +5: Arco de Uden
+Tres semi poderosos arcos largos han sido fundidos por una mágica Piedra de Bribón, en un intento de conseguir un solo arco para la eternidad. Un Ogrillon con el nombre de Uden fue el primero en diseñar el arco, pero nunca lo manejó. Fue asesinado antes que el arco pudiera ser fabricado. Ahora, <CHARNAME> lo ha hecho para <PRO_HESHE>. Ahora, parece tener los mejores atributos de los tres arcos, y algunos más.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+ 3 disparos por asalto
+ Este poderoso arco no requiere de munición. Automáticamente dispara Flechas de herir.
+
+GAC0: +5
+Daño: +5 bonus
+Tipo de daño: Perforente
+Factor de velocidad: 5
+Talento marcial: Arco largo
+Tipo: a dos manos
+Requiere: 18 Fuerza
+
+Peso: 9
+
+No permitido a:
+ Bardo
+ Clérigo
+ Druida
+ Mago
+ Ladrón
+ Monje
+ Kensái
+ Caballero~
+
+@6117 = ~Bastón de Resurrección~
+@6118 = ~Bastón +3: Bastón de Resurrección
+La vara que fue empleada para crear este bastón permite a cualquiera el resucitar a los muertos como si fueran del nivel necesario para lanzar el hechizo de resurrección y como si fueran un sacerdote. No se requiere descanso, ya que es la vara la que otorgas la vida. Pero ahora, combinada con un Bastón de Curar, la Vara de Resurrección es mucho más.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+ Lanza Resurrección y Curar Heridas Críticas una vez al día
+
+GAC0: +3
+Daño: 1D6 +3
+Tipo de daño: Cuntundente
+Factor de velocidad: 1
+Talento marcial: Bastón
+Tipo: a dos manos
+Requiere: 5 Fuerza
+
+Peso: 2
+
+No permitido a:
+ Bardo
+ Guerrero
+ Mago
+ Hechicero Nato
+ Ladrón
+ Monje~
+
+@6119 = ~Anillo de Control de Tiempo~
+@6120 = ~Los lanzadores de hechizos a lo largo de todo Faerûn normalmente encuentran a sus víctimas deteniendo el tejido del tiempo para lograr el éxito, pero un clérigo/mago, conocido sólo como Shatt, había encontrado una forma de detener esto. Le costó muchas monedas el guardarse del calvario de las penalizaciones del hechizo de mago de nivel 9, Detener el Tiempo, pero la invención de Shatt hacía su trabajo. Simplemente usando tres anillos de rubí, un anillo de Acción Libre y absorbiendo el poder de los pergaminos de Detener el Tiempo, Shatt logró crear un dispositivo con el cuál podía conocer de ante mano si era amenazado por los infortunios causados por un Detener el Tiempo. Sin embargo, cuando el mago loco alcanzó el descubrimiento, un sórdido ladrón conocido como Kamoth logró robarlo. Kamoth no podía usar su extraordinario poder, pero en cambio lo vendió junto con la infame receta a Taerom "Martillo Atronador" Fuiruim, en Beregost. Martillo Atronador avisó a muchos otros herreros cómo crearlos, y gracias al sabio movimiento de Taerom, esto es ahora en posesión de <CHARNAME>.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+ El portador es inmune a los efectos del hechizo de mago de nivel nueve, "Parar el Tiempo"
+
+Requiere: 16 Inteligencia
+Peso: 0
+
+Solo permitido a:
+ Bardo
+ Clérigo
+ Druida
+ Mago
+ Hechicero Nato~
+
+
+// Other stuff
+@7001 = ~Dardo Estrella Elemental~
+@7002 = ~Este dardo mágico fue creado usando la Capa de la Estrella Elemental. Desaparecerá luego de 2 días.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+ 1D3 puntos de daño adicionales por fuego, frío, ácido, y electricidad
+
+GAC0: +5
+Daño: 1D4 +5
+Tipo de daño: Proyectil (perforente)
+Factor de velocidad: 0
+Talento marcial: Dardo
+Tipo: A una mano
+
+Peso: 0
+
+No permitido a:
+ Clérigo
+ Kensái
+ Caballero~

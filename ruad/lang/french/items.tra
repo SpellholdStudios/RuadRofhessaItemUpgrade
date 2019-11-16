@@ -1,0 +1,1402 @@
+@9001 = ~[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+@9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+
+/* ================= *
+ *  Character names  *
+ * ================= */
+@2001 = ~Ruad~
+@2002 = ~Le Miroir de l'Épée dansante~
+@2003 = ~Kraka'Tur~
+@2004 = ~Esprit de Yoshimo~
+@2005 = ~Esprit d'un enfant sans repos~
+
+
+/* ======= *
+ *  Items  *
+ * ======= */
+@6001 = ~Lame de la Rose rouge~
+@6002 = ~Epée Longue +4 : Lame de la Rose rouge
+Cette arme est d'une splendeur surnaturelle, et il est possible que Sunie, la déesse de la beauté et de la passion, ait contribué à sa création. Les effets sur son porteur sont immédiats, et cette épée a été plusieurs fois dans l'histoire le secret de l'élévation soudaine au rang de courtisan d'un soldat sans éclat.
+Cette lame a été enchantée par Ruad pour devenir une arme encore plus dangereuse, mais sa caractéristique primordiale reste son éblouissante beauté. Elle restera un objet chéri pour la Cour et les Cérémonies bien après avoir quitté les mains de son porteur actuel. Beaucoup ont dit que sa beauté est si peu naturelle qu'elle n'a pu être obtenue que par des moyens magiques. Véritablement magnifique, quelle que soit la manière dont elle a été forgée, on se demande presque comment une telle beauté peut amener tant de mort.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Charisme : +3
+- Connaissances : +10
+- Résistance à la magie : +10 %
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
+
+Capacité de charge:
+- Charme-Personne 3 fois par jour
+
+TAC0 : +3
+Dégâts : 2d4 +4, +2 d'électricité
+Type de dégât : tranchant
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 8
+
+Poids : 4
+
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Belluaire~
+
+@6003 = ~Épée double dansante~
+@6004 = ~Epée longue +2 : Ras, l'épée double dansante
+Beroalf était un barbare venu du grand nord en quête d'aventures, qui rêvait de trésors et de gloire. Mais très vite, il se mit à désirer, plus que tout, des compagnons qui partageraient le plaisir des batailles, comme ceux qu'il avait laissés dans son lointain village. Malheureusement, ses déficiences en matière d'hygiène et de bonnes manières repoussaient tous les voyageurs qu'il rencontrait. Il en parla à un mage compatissant qui, en échange d'une coquette somme, créa à son intention Ras, la Lame Dansante. Ce n'était pas précisément ce que Beroalf avait en tête, mais il en fut tout de même content, et utilisa l'épée pendant de nombreuses années. On ne sait pas comment il finit par en être séparé.
+Cette lame fut trouvée quelques années plus tard par un autre groupe d'aventuriers et, quoique inhabituelle, elle ne leur fut pas particulièrement utile. Ne désirant pas vendre cet objet et laisser d'autres profiter de son parfum, le groupe décida de la garder et de la montrer à un forgeron. Avec de bons agents réactifs, la lame ne quitte plus la main du porteur, mais une image-miroir en est créée. Diviser l'épée diminue cependant la précision de l'original et de la copie.
+Au cours de l'enchantement de l'épée, le forgeron a aussi découvert le secret de son parfum : une poudre enchantée uniquement produite par un demi-elfe vagabond connu sous le nom de Armand Ha'mer pour les (pas si) rares occasions où il voyageait avec des compagnons odorants. La poudre a masqué pendant des années la puanteur du barbare et celle des autres, et l'artisan s'en est rendu compte à ses dépens. En prévision de l'utilisation que pouvait en faire son client aventurier, il a trouvé un intérêt certain pour la puanteur qu'elle dégage. L'épée a désormais la possibilité de lancer le sort Nuage puant sur un adversaire une fois par jour.
+
+PARAMÈTRES :
+
+Capacités de charge :
+- Une fois par jour, l'épée dansante peut attaquer seule pendant 6 rounds, tandis qu'une copie de l'épée reste dans la main du porteur.
+- Nuage puant 1 fois par jour
+
+TAC0 : +2
+Dégâts : 1d8 +3 (+1 d'hémorragie)
+Type de dégât : tranchant
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 10
+
+Poids : 5
+
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Belluaire~
+
+@6005 = ~Revanche du Vampire +2~
+@6006 = ~Epée longue +2 : Revanche du Vampire
+Il semble que l'idée même de l'existence de cette arme ait provoqué sa venue dans notre monde, depuis celui du rêve. Mais, comme toutes les choses qui en sont issues, elle n'est pas vraiment ce qu'elle semble être. Cette lame est effectivement vampirique, comme son nom l'indique, mais pas de la manière dont on pourrait l'espérer. On dit que cette lame, au lieu d'agir comme une lame vampirique normale, a été forgée par des vampires pour piéger ceux qui s'opposeraient à eux. Ces créatures terriblement intelligentes ont apparemment créé au fil des temps de nombreuses versions de ces malheureuses lames, qui sont de vrais fléaux pour les aventuriers bienfaisants. Chaque coup inflige des dommages au porteur, et draine de son énergie vitale pour la donner à son adversaire. Si cela ne suffisait pas, cette arme est maudite de manière à ce que l'on ne puisse pas s'en débarrasser, et son porteur est frappé d'un charme qui fait qu'il n'y pensera jamais. C'est l'un des rares trésors qui ne vaille réellement pas le coup d'être recherché, et il vaut mieux aller boire un verre que s'amuser à battre la campagne à la poursuite de fantômes avec une telle arme.
+
+<CHARNAME> a récemment demandé au fameux forgeron Ruad Ro'fhessa de l'améliorer. Bien que l'épée ne soit pas très puissante en combat elle est utile pour guérir le porteur.
+
+PARAMÈTRES :
+
+Capacité de combat :
+- Chaque coup effectif a 20 % de chances de soigner le porteur de 10 points de vie.
+
+TAC0 : +2
+Dégâts : 1d8 +2
+Type de dégâts : tranchant
+Facteur de vitesse : 3
+Type de compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 8
+
+Poids : 4
+
+Non utilisable par :
+ Alignement bon ou neutre
+ Druide
+ Clerc
+ Mage
+ Belluaire~
+
+@6007 = ~Épée noire de non-vie~
+@6008 = ~Epée Longue +5 : Épée noire de non-vie
+Il semble que l'idée même de l'existence de cette arme ait fait qu'elle vienne du royaume du fantastique dans notre vie. Mais, comme toutes les choses issues des rêves, elle n'est pas vraiment ce qu'elle semble être. Cette lame est effectivement vampirique, comme son nom l'indique, mais pas de la manière dont on pourrait l'espérer. On dit que cette lame, au lieu d'agir comme une lame vampirique normale, a été forgée par des vampires pour piéger ceux qui s'opposeraient à eux. Ces créatures terriblement intelligentes ont apparemment créé au fil des temps de nombreuses versions de ces malheureuses lames, qui sont de vrais fléaux pour les aventuriers bien pensants. Chaque coup inflige des dommages au porteur, et draine de son énergie vitale pour la donner à son adversaire. Si cela ne suffisait pas, cette arme est maudite de manière à ce que l'on ne puisse pas s'en débarrasser, et son porteur est frappé d'un charme qui fait qu'il n'y pensera jamais. C'est l'un des rares trésors qui ne vaille réellement pas le coup d'être recherché, et il vaut mieux aller boire un verre que s'amuser à battre la campagne à la poursuite de fantômes avec une telle arme.
+
+Après sa seconde amélioration par le rejeton de Bhaal <CHARNAME>, cette épée est devenue une arme mortelle. Imprégnée du cœur noir de la matrone Bodhi, cette épée offre maintenant un grand nombre de protection. Elle peut aussi drainer la vie de sa cible, et la transmettre à son porteur.
+Mais la caractéristique principale de cette arme reste sa capacité à invoquer l'esprit de Kraka'Tur, un ancien Seigneur vampire.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Force : +2
+- Régénère 1 point de vie toutes les 5 secondes
+- Immunité au charme, à la peur et à l'absorption de niveau
+
+Capacité de charge :
+- Peut convoquer Kraka'Tur une fois par jour
+
+Capacités de combat :
+- À chaque coup, elle a 30 % de chances de drainer 4 niveaux à la cible, de régénérer 20 points de vie à son porteur et de l'accélérer pendant 12 secondes.
+
+TAC0 : +5
+Dégâts : 1d8 +5
+Type de dégâts : tranchant
+Poids : 10
+Facteur de vitesse : 2
+Type de compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 15
+
+Non utilisable par :
+ Alignement bon ou neutre
+ Druide
+ Clerc
+ Mage
+ Belluaire~
+@60081 = ~Invoquer Kraka'Tur~
+
+@6009 = ~Katana empoisonné de Yoshimo~
+@6010 = ~Katana +3 : Lame empoisonnée de Yoshimo
+Bien que son enchantement soit peu puissant, cette lame s'est éveillée à une sorte de conscience, assez pour ne se laisser porter que par Yoshimo le voleur. Tout autre que lui ne peut se servir de ce katana parfait.
+
+Elle a été récemment améliorée par un rejeton de Bhaal nommé <CHARNAME> et a maintenant la capacité d'empoisonner ses victimes.
+
+PARAMÈTRES :
+
+TAC0 : +3
+Dégâts : 1d10 +3, +2 dégâts de poison par seconde (pendant 10 secondes)
+Type de dégâts : tranchant
+Facteur de vitesse : 1
+Type de compétence : katana
+Type : arme à 1 main
+
+Poids : 5
+
+Utilisable par :
+ Yoshimo~
+
+@6011 = ~Esprit de Yoshimo~
+@6012 = ~Bouteille magique : Esprit de Yoshimo
+Lorsque vous frottez suffisamment cette bouteille entre ses mains, vous pouvez atteindre le royaume des morts. De là, vous pouvez invoquer l'esprit de votre ancien compagnon et traître Yoshimo, qui doit venir combattre éternellement à vos côtés (volontairement ou non) jusqu'à ce qu'il ait payé pour ses crimes.
+
+PARAMÈTRES :
+
+Capacité de charge :
+- Invoque l'esprit de Yoshimo (chasseur de primes niveau 18) pendant 8 heures, une fois par jour.
+
+Poids : 0
+
+Non utilisable par :
+ Tueur de magicien~
+
+@6013 = ~Chaussures de Dragon~
+@6014 = ~Bottes de rapidité : Chaussures de Dragon
+Ces bottes furent données à Simon Boucleneige pour son passage à l'âge adulte, satisfaisant ainsi le souhait de son arrière-arrière-grand-père, Prestor Jean, le premier roi de Hayholt. Deux ans avant que Jean ne devienne roi, il s'aventura profondément dans les catacombes souterraines des tréfonds de son futur royaume, où il découvrit une antre si gigantesque qu'elle ne pouvait appartenir qu'à une créature titanesque. Attiré par la vue de mille richesses tapissant la grotte, Jean s'avança et fut confronté à un monstre défiant toute comparaison. Il s'agissait de Shurukai, mère de tous les dragons, et elle mesurait huit mètres de la tête à la queue, et près de seize d'envergure. Armé de son seul courage et de sa fidèle épée Vifongle, Jean la combattit bravement au cours d'une bataille sauvage.
+On raconte qu'une explosion cataclysmique fut entendue à travers toute la cité, et que chaque homme, chaque femme, chaque enfant courut pour voir ce qu'il était advenu de leur commandant le plus compétent. Tous furent stupéfaits lorsqu'ils virent la masse rouge étendue sur le sol, et encore plus lorsque Jean exigea qu'un trône fut construit avec les os de la bête, plaçant son crâne au point le plus haut. Les écailles de la bêtes furent prélevées et entrelacées dans une paire de bottes « Les Pattes du Guépard », ce qui a produit des chaussures protégeant contre le feu et la peur tout en doublant la vitesse de déplacement.
+
+Aujourd'hui encore, le trône siège au centre du Hayholt afin que chacun puisse admirer sa beauté d'ivoire à la lumière du soleil. Mais évoquez le nom de Prestor Jean, et vous entendrez immédiatement l'histoire de Shurakai et du Trône aux Os de dragon.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Vitesse de déplacement doublée
+- Immunité à toute forme de peur et de panique
+- Résistance au feu : +25 %
+
+Poids : 4~
+
+@6015 = ~Anneau d'Abjuration~
+@6016 = ~Il y a des éons de cela, lorsque les sorciers et magiciens fous dévastaient le pays, les anneaux des écoles et des sphères furent créés pour permettre à des héros de les affronter à armes égales. Maintenant, plus d'un millier d'années plus tard, la formule pour créer ces anneaux subtils et puissants a été retrouvée. Pourtant, les composants nécessaires pour créer des objets si puissants nécessitent le sacrifice d'artéfacts.
+
+Celui-ci protège quiconque le porte contre tous les sorts de l'école de l'Abjuration, et ne peut être utilisé que par ceux qui se spécialisent dans ce domaine : les abjurateurs.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Immunité aux sorts de l'école de l'Abjuration
+
+Poids : 0
+
+Utilisable par :
+ Abjurateur~
+
+@6017 = ~Anneau d'Altération~
+@6018 = ~Il y a des éons de cela, lorsque les sorciers et magiciens fous dévastaient le pays, les anneaux des écoles et des sphères furent créés pour permettre à des héros de les affronter à armes égales. Maintenant, plus d'un millier d'années plus tard, la formule pour créer ces anneaux subtils et puissants a été retrouvée. Pourtant, les composants nécessaires pour créer des objets si puissants nécessitent le sacrifice d'artéfacts.
+
+Celui-ci protège l'utilisateur contre tous les sorts de l'école de l'Altération, et ne peut être utilisé que par ceux qui se spécialisent dans ce domaine : les transmutateurs.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Immunité aux sorts de l'école de l'Altération
+
+Poids : 0
+
+Utilisable par :
+ Transmutateur~
+
+@6019 = ~Anneau de conjuration~
+@6020 = ~Il y a des éons de cela, lorsque les sorciers et magiciens fous dévastaient le pays, les anneaux des écoles et des sphères furent créés pour permettre à des héros de les affronter à armes égales. Maintenant, plus d'un millier d'années plus tard, la formule pour créer ces anneaux subtils et puissants a été retrouvée. Pourtant, les composants nécessaires pour créer des objets si puissants nécessitent le sacrifice d'artéfacts.
+
+Cet anneau en particulier protège l'utilisateur contre tous les sorts de l'école de la Conjuration, et ne peut être utilisé que par ceux qui se spécialisent dans ce domaine : les conjurateurs.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Immunité aux sorts de l'école de la Conjuration
+
+Poids : 0
+
+Utilisable par :
+ Conjurateur~
+
+@6021 = ~Anneau de divination~
+@6022 = ~Il y a des éons de cela, lorsque les sorciers et magiciens fous dévastaient le pays, les anneaux des écoles et des sphères furent créés pour permettre à des héros de les affronter à armes égales. Maintenant, plus d'un millier d'années plus tard, la formule pour créer ces anneaux subtils et puissants a été retrouvée. Pourtant, les composants nécessaires pour créer des objets si puissants nécessitent le sacrifice d'artéfacts.
+
+Celui-ci protège l'utilisateur contre tous les sorts de l'école de la Divination, et ne peut être utilisé que par ceux qui se spécialisent dans ce domaine : les devins.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Immunité aux sorts de l'école de la Divination
+
+Poids : 0
+
+Utilisable par :
+ Devin~
+
+@6023 = ~Anneau d'enchantement~
+@6024 = ~Il y a des éons de cela, lorsque les sorciers et magiciens fous dévastaient le pays, les anneaux des écoles et des sphères furent créés pour permettre à des héros de les affronter à armes égales. Maintenant, plus d'un millier d'années plus tard, la formule pour créer ces anneaux subtils et puissants a été retrouvée. Pourtant, les composants nécessaires pour créer des objets si puissants nécessitent le sacrifice d'artéfacts.
+
+Celui-ci protège l'utilisateur contre tous les sorts de l'école de l'Enchantement, et ne peut être utilisé que par ceux qui se spécialisent dans ce domaine : les enchanteurs.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Immunité aux sorts de l'école de l'Enchantement
+
+Poids : 0
+
+Utilisable par :
+ Enchanteur~
+
+@6025 = ~Anneau d'invocation~
+@6026 = ~Il y a des éons de cela, lorsque les sorciers et magiciens fous dévastaient le pays, les anneaux des écoles et des sphères furent créés pour permettre à des héros de les affronter à armes égales. Maintenant, plus d'un millier d'années plus tard, la formule pour créer ces anneaux subtils et puissants a été retrouvée. Pourtant, les composants nécessaires pour créer des objets si puissants nécessitent le sacrifice d'artéfacts.
+
+Celui-ci protège l'utilisateur contre tous les sorts de l'école de l'Invocation, et ne peut être utilisé que par ceux qui se spécialisent dans ce domaine : les Iinvocateurs.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Immunité aux sorts de l'école de l'Invocation
+
+Poids : 0
+
+Utilisable par :
+ Invocateur~
+
+@6027 = ~Anneau d'illusion~
+@6028 = ~Il y a des éons de cela, lorsque les sorciers et magiciens fous dévastaient le pays, les anneaux des écoles et des sphères furent créés pour permettre à des héros de les affronter à armes égales. Maintenant, plus d'un millier d'années plus tard, la formule pour créer ces anneaux subtils et puissants a été retrouvée. Pourtant, les composants nécessaires pour créer des objets si puissants nécessitent le sacrifice d'artéfacts.
+
+Celui-ci protège l'utilisateur contre tous les sorts de l'école de l'Illusion, et ne peut être utilisé que par ceux qui se spécialisent dans ce domaine : les illusionnistes.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Immunité aux sorts de l'école de l'Illusion
+
+Poids : 0
+
+Utilisable par :
+ Illusionniste~
+
+@6029 = ~Anneau de nécromancie~
+@6030 = ~Il y a des éons de cela, lorsque les sorciers et magiciens fous dévastaient le pays, les anneaux des écoles et des sphères furent créés pour permettre à des héros de les affronter à armes égales. Maintenant, plus d'un millier d'années plus tard, la formule pour créer ces anneaux subtils et puissants a été retrouvée. Pourtant, les composants nécessaires pour créer des objets si puissants nécessitent le sacrifice d'artéfacts.
+
+Celui-ci protège l'utilisateur contre tous les sorts de l'école de la Nécromancie, et ne peut être utilisé que par ceux qui se spécialisent dans ce domaine : les nécromanciens.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Immunité aux sorts de l'école de la Nécromancie
+
+Poids : 0
+
+Utilisable par :
+ Nécromancien~
+
+@6031 = ~Cotte de mailles d'adamantine~
+@6032 = ~Cotte de mailles +5 : Cotte d'adamantine
+Après bien des aventures en Ombreterre, un rejeton de Bhaal nommé <CHARNAME> forgea cette cotte de mailles en utilisant les restes de fabuleux objets : de la poussière d'adamantine. En raison de l'adresse du forgeron et de la nature de sa conception, cette armure ne se désintègrera pas à la lumière du jour.
+Cette cotte de mailles magique n'empêche pas le lancement de sorts et octroie à son porteur une protection supplémentaire contre la magie, le feu et l'acide. Elle améliore aussi sa vitesse de lancement de sorts.
+En raison de sa similarité avec ses équivalentes drows, elle associe son porteur à ces derniers, au détriment de sa popularité.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Résistance à la magie : +10 %
+- Résistance à l'acide : +15 %
+- Résistance au feu : +15 %
+- Temps d'incantation réduit de 1
+- Charisme : -2
+- N'empêche pas de lancer des sorts
+
+Classe d'armure : 0 (-2 contre tranchant, 2 contre contondant)
+Force nécessaire : 5
+
+Poids : 20
+
+Utilisable par :
+ Barde
+ Clerc/Mage
+ Guerrier/Mage
+ Voleur/Mage
+ Guerrier/Mage/Voleur
+ Guerrier/Clerc/Mage~
+
+@6033 = ~Ceinturon de Seigneur de guerre~
+@6034 = ~L'aventurier <CHARNAME> fit faire cette ceinture après s'être rendu compte que certains de ses compagnons n'avaient pas les dispositions nécessaires pour les difficultés physiques de la vie d'aventurier.
+Cette ceinture combine certains des meilleurs objets permettant d'augmenter la force, la dextérité et la constitution de leur porteur pour créer un objet vraiment impressionnant.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Force : +2
+- Dextérité : +2
+- Constitution : +2
+
+Poids : 2
+
+Non utilisable par :
+ Tueur de magicien~
+
+@6035 = ~Amulette de Résistance majeure de Kaligun~
+@6036 = ~On peut lire les initiales KP au dos de cette amulette. KP, ou Kaligun Poonil, était le général d'une petite troupe envoyée dans les forêts pour les nettoyer de la présence des Sorciers Rouges. Particulièrement prudent avec la magie, il ne partait jamais sans cette amulette. Mais trop confiant dans la protection qu'elle lui assurait, il finit par mourir alors qu'il tendait une embuscade à trois Sorciers Rouges de haut niveau qui abaissèrent sa résistance à la magie avant de le détruire avec leurs sortilèges.
+Ce collier n'est pas seulement élégant, mais après quelques améliorations faites par l'aventurier <CHARNAME>, il fournit de nouvelles protections.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Résistance à la magie : +10 %
+- Classe d'armure : +2
+- Jets de sauvegarde : +2
+
+Poids : 3
+
+Non utilisable par :
+ Tueur de magicien~
+
+@6037 = ~Pierre ionique incandescente~
+@6038 = ~Fabriquée pour <CHARNAME> à partir de quatre puissantes pierres ioniques, cette beauté orange améliore la résistance mentale et physique de son porteur.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Constitution : +1
+- Intelligence : +1
+- Sagesse : +1
+- Régénère 1 point de vie toutes les 3 secondes
+
+Poids : 2~
+
+@6039 = ~Broche de ménestrel de Jaheira~
+@6040 = ~La Broche des ménestrels est un objet de valeur, signifiant que son porteur est un membre estimé des Ménestrels. Il lui octroie une résistance exceptionnelle contre un grand nombre de types d'attaques. Il n'est pas spécifiquement prévu pour une personne précise, mais il serait difficile de trouver quelqu'un qui serait prêt à le prêter ou ne serait-ce même de le perdre de vue un instant. C'est vraiment l'équivalent d'une médaille.
+
+Celle-ci a été offerte à Jaheira par le célèbre magicien Elminster et a été récemment améliorée par son véritable amour, <CHARNAME>. C'est désormais un symbole de leur confiance et de leur engagement.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Résistance à l'électricité : +100 %
+- Résistance à la magie : +5 %
+- Jet de sauvegarde contre les sorts : +5
+- Temps d'incantation réduit de 1
+- Non-détection
+- Immunité au charme, à la confusion et à la peur
+- Immunité aux Projectiles magiques
+
+Poids : 1~
+
+@6041 = ~Fureur du gel~
+@6042 = ~Hache de bataille +4 : Fureur du gel
+Il s'agit de la hache d'Illgarth, un géant du froid qui terrorisait les villages du nord il y a longtemps. On ne sait pas comment il s'était procuré cette arme, mais il prenait un malin plaisir à l'utiliser sur des innocents, particulièrement les petites-personnes. La glace et l'acide mutilaient ceux qui ne mourraient pas, et le géant ricanait en voyant les séquelles de ses précédentes visites. Un groupe finit par parvenir à l'occire, et à la demande de ses victimes, Froide-Faucheuse fut enterrée avec lui.
+
+Cette hache a été récemment reforgée à la demande de <CHARNAME>, améliorant ses pouvoirs de façon impressionnante, bien que la capacité de l'arme à infliger des dégâts d'acide ait été perdue pendant le processus.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Résistance au froid : +40 %
+
+Capacité de combat :
+- 40 % de chances par coup réussi de ralentir la cible pendant 18 secondes (sans jet de sauvegarde)
+
+TAC0 : +4
+Dégâts : 1d8 +4, + 1d4+1 de froid
+Type de dégâts : tranchant
+Facteur de vitesse: 4
+Type de compétence : hache
+Type : arme à 1 main
+Force nécessaire : 10
+
+Poids : 7
+
+Non utilisable par :
+ Druide
+ Clerc
+ Mage
+ Voleur
+ Moine
+ Belluaire~
+
+@6043 = ~Baguette de déblocage~
+@6044 = ~En imprégnant cette Baguette de Projectiles magiques ordinaire d'une certaine magie, un artisan doué a transformé cet objet en un autre terriblement pratique. Il a maintenant la capacité de déverrouiller les portes et les coffres.
+
+PARAMÈTRES :
+
+Capacité de charge :
+- Déblocage (100 charges)
+
+Intelligence nécessaire : 9
+
+Poids : 1
+
+Non utilisable par :
+ Tueur de magicien~
+
+@6045 = ~Hache de Pierre Éventreuse de Messerschmitt~
+@6046 = ~Hache à Deux Mains +3 : Hache de Pierre Éventreuse de Messerschmitt
+La Hache de Pierre Éventreuse de Messerschmitt combine deux types assez populaires de haches naines avec un manche inhabituel trouvé par une équipe d'aventuriers. Elle tire son nom de Messerschmitt, un forgeron humain rival de celui qui a créé cette arme assez similaire. La hache tomba de son établi et lui coupa une grande partie de la main. Sous l'emprise de la colère, il fondit la hache expérimentale, rendit sa commission et renvoya à son client les haches dans un chaudron rempli de scories de fer et de mithril fondus. Messerschmitt expliqua que les dieux le punissaient pour avoir pris deux belles haches naines et d'avoir conçu une telle abomination pour un petit-homme. Le petit-homme donna un coup de pied dans le tibia de Messerschmitt et s'enfuit en courant.
+
+Il s'agit d'une hache à double tête, Pierrefeu d'un côté et Froide-Faucheuse de l'autre. Ces deux haches ont dû être reforgées pour les rendre suffisamment grandes pour créer cette redoutable hache à deux mains, mais elles n'ont rien perdu de leurs pouvoirs. Les dégâts infligés à la cible dépendent en grande partie du côté de l'arme utilisé avec lequel elle est touchée. Lorsque la hache fut terminée, il devint clair pour quiconque la maniait qu'elle pouvait être maudite et qu'elle ne laisserait jamais un petit-homme l'utiliser. Il en va probablement de même pour les gnomes. Le créateur de l'arme a fait allusion à une magie protectrice spéciale pour s'en assurer. « Voudrais pas que cette arme tombe dans de mauvaises ou de petites mains », a-t-il dit.
+
+Un tel concept d'arme a des avantages évidents quand on l'utilise contre les trolls, et son manche inhabituel lui a donné la capacité de tuer les élémentaires de feu d'un seul coup. Bien utilisée, elle peut également bloquer les coups portés par d'autres armes. Ses extrémités son si lourdes que la hache s'avère une excellente arme contre les adversaires en armure puisqu'elle peut traverser celles-ci, en les perforant plutôt qu'en les tranchant, et si profondément qu'il est parfois difficile de la retirer du corps de l'adversaire.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Classe d'armure : +1
+
+Capacités de combat :
+- Tue automatiquement les élémentaires de feu (sans jet de sauvegarde)
+- 5 % de chances pour que la cible et le porteur soient étourdis pendant 1 round à chaque coup
+- 50 % de chances d'infliger 2 points de dégâts de feu supplémentaires
+- 50 % de chances d'infliger 1 point de dégâts de froid et d'acide supplémentaires
+
+TAC0 : +3
+Dégâts : 2d6 +3
+Type de dégâts : perforant
+Facteur de vitesse : 9
+Type de compétence : hache
+Type : arme à 2 mains
+Force nécessaire : 17
+
+Poids : 21
+
+Non utilisable par :
+ Gnome
+ Petite-Personne
+ Clerc
+ Druide
+ Mage
+ Voleur
+ Moine
+ Belluaire~
+@60451 = ~Hache à deux mains~
+@60461 = ~Cette arme puissante consiste en un manche de 1,20 mètre à 1,50 mètre de long, au bout duquel a été fixée une lourde lame, laquelle peut être simple ou double (une lame de chaque côté du manche). C'est une arme difficile à manier, mais un combattant aguerri peut délivrer des coups terribles avec.
+
+PARAMÈTRES :
+
+Dégâts : 1d10
+Type de dégâts : tranchant
+Facteur de vitesse : 9
+Type de compétence : hache
+Type : arme à 2 mains
+Force nécessaire : 10
+
+Poids : 10
+
+Non utilisable par :
+ Clerc
+ Druide
+ Mage
+ Voleur
+ Moine
+ Belluaire~
+
+@6047 = ~Lame de la famille Corthala +3~
+@6048 = ~Ce katana d'exquise facture irradie une énergie magique quand il est porté par Valygar. Cette lame ne répond qu'à ceux qui ont du sang Corthala dans les veines. Cette lame +3 inflige des dégâts supplémentaires d'hémorragie lorsqu'elle frappe un adversaire.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Classe d'armure : +3 contre les armes tranchantes
+
+Capacité de combat :
+- 3 points de dégâts d'hémorragie par seconde pendant deux rounds
+
+TAC0 : +3
+Dégâts : 1d10 +3
+Type de dégâts : tranchant
+Facteur de vitesse : 2
+Type de compétence : katana
+Type : arme à 1 main
+
+Poids : 4
+
+Utilisable par :
+ Valygar~
+
+@6049 = ~Lame de la famille Corthala +4~
+@6050 = ~Ce katana d'exquise facture irradie une énergie magique quand il est porté par Valygar. Cette lame ne répond qu'à ceux qui ont du sang Corthala dans les veines. Cette lame +4 inflige des dégâts supplémentaires d'hémorragie lorsqu'elle frappe un adversaire.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Classe d'armure : +4 contre les armes tranchantes
+
+Capacité de combat :
+- 4 points de dégâts d'hémorragie par seconde pendant deux rounds
+
+TAC0 : +4
+Dégâts : 1d10 +4
+Type de dégâts : tranchant
+Facteur de vitesse : 2
+Type de compétence : katana
+Type : arme à 1 main
+
+Poids : 4
+
+Utilisable par :
+ Valygar~
+
+@6051 = ~Horrible bâton~
+@6052 = ~Bâton +4 : L'Horrible bâton
+« L'Horrible bâton » combine un bâton-javelot avec le Bâton de Rynn. À première vue, il ne s'agit pas d'une réalisation particulièrement subtile. Son nom réel est la Pique de Rynn, mais personne n'y fait vraiment attention. Quoi qu'il en soit, un bâton-javelot a été scié en deux et ses deux extrémités tranchantes ont été placées au bout du Bâton de Rynn et liées par une gaine de fer qui permet d'assurer également une meilleure prise sur l'arme. Il semble évident que c'est la première fois que quelqu'un demandait un tel objet, et sans doute la dernière.
+
+Ce qui lui manque en finesse est compensé par son efficacité. Incluant aussi les lames reforgées ensemble de deux épées bâtardes +1, il permet d'attaquer l'ennemi en le transperçant ou en le tranchant. Le porteur peut également frapper l'ennemi comme avec un bâton normal. Un tel objet s'avère utile lorsqu'il faut affronter différents types d'adversaires, dont certains sont résistants à un type de dégâts, mais vulnérables à un autre.
+
+Que ce soit par chance ou prévu dans sa conception, le créateur de l'arme l'a rendue suffisamment équilibrée pour qu'elle puisse être lancée et qu'elle revienne automatiquement vers son propriétaire. Elle est également connue pour faire chuter sa cible et causer différents types de dégâts. Certains sorts élémentaires mineurs ont également été utilisés pour que cette arme puisse également devenir le bâton d'un mage ou d'un clerc. Le bâton peut en effet être utilisé pour lancer Mains Brûlantes quatre fois par jour, ce qui est très utile contre les trolls et pour allumer des feux de camps lors des nuits humides. En un clin d'œil, il se transforme aussi en excellente canne à pêche. Aussi étrange que cela puisse paraître, de puissants enchantements attirent apparemment les truites et autres poissons d'eau douce.
+
+Celui qui a forgé cette arme n'a laissé à dessein aucune marque permettant de l'identifier, et les érudits l'appellent simplement « l'Horrible Bâton » d'Amn. Dans les marchés d'aventuriers du sud de Féérûne, le fait de dire à un aventurier laid, sale ou pauvrement équipé, qu'il a été frappé par « l'Horrible Bâton » est devenu une blague courante. En tous cas, quoi qu'en disent ses détracteurs, « l'Horrible » Bâton est une excellente canne à pêche.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : pénalité de 1
+- Charisme : -4
+- Dextérité : -2
+
+Capacités de charge :
+- Mains brûlantes deux fois par jour
+- Incinérateur d'Agannazar deux fois par jour
+
+Capacités de combat :
+- 5% de chances de rendre l'adversaire inconscient à chaque coup (reçu à la tête).
+
+TAC0 : +4
+Dégâts :
+ 50% de chances d'infliger 1d6 +4 points de dégâts contondants
+ 30% de chances d'infliger 1d6 +2 points de dégâts perforants
+ 20% de chances d'infliger 1d6 +2 points de dégâts tranchants
+Facteur de vitesse : 8
+Type de compétence : bâton
+Type : arme à 2 mains
+Force nécessaire : 13
+
+Poids : 24
+
+Non utilisable par :
+ Moine~
+
+@6053 = ~Armure de plates d'adamantine~
+@6054 = ~Armure de plates complète +4 : Armure de plates d'adamantine
+Après bien des aventures en Ombreterre, un rejeton de Bhaal nommé <CHARNAME> fit forger cette armure de plates en utilisant les restes de puissants objets : de la poussière d'adamantine. En raison de l'habileté du forgeron et de la nature du processus, cette armure de plates ne se désintègre pas à la lumière du soleil.
+Cette armure de plates magique offre une protection exceptionnelle, ainsi que de nombreux bonus liés aux objets utilisés lors de sa confection. Cependant, en raison de sa similarité avec son modèle, elle associe quiconque la porte aux Drows, ce qui est préjudiciable à sa popularité.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Résistance à l'acide : +15 %
+- Résistance au feu : +15 %
+- Vitesse de déplacement : -2
+- Charisme : -2
+
+Classe d'armure : -3 (-7 contre tranchant, -6 contre perforant et projectile)
+Force nécessaire : 19
+
+Poids : 120
+
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Voleur
+ Moine
+ Barbare
+ Archer
+ Belluaire
+ Traqueur
+ Kensai~
+
+@6055 = ~Cape des étoiles élémentaires~
+@6056 = ~Thalanta le juste créa de nombreux manteaux de diverses sortes, tous connus sous le nom de Manteaux d'étoiles. Celui-ci est un modèle simple, avec trois étoiles sur chaque manche. Chaque étoile peut être retirée du manteau et lancée comme une fléchette. L'étoile disparaît, pour réapparaître sur le manteau le jour suivant.
+
+Après avoir été améliorée par un étranger qu'on ne connaît que sous le nom de <CHARNAME>, la cape a maintenant quatre étoiles de couleurs différentes (rouge, vert, bleu et blanc) sur chaque manche, qui peuvent être utilisées comme fléchettes.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +2
+- Jets de sauvegarde : +2
+
+Capacité de charge :
+- Créer huit fléchettes élémentaires chaque jour.
+
+Poids : 3
+
+Non utilisable par :
+ Tueur de magicien~
+
+@6057 = ~Fléchette Flamme écarlate~
+@6058 = ~Fléchette +5 : Flamme écarlate
+La petite taille de cette arme cache une puissance considérable : dès qu'elle a touché sa cible, elle réapparaît dans la main de son lanceur.
+
+Après avoir été améliorée par un rejeton de Bhaal connu sous le nom de <CHARNAME>, cette fléchette a maintenant la possibilité d'infliger des dégâts de feu supplémentaires.
+
+PARAMÈTRES :
+
+Capacité de combat :
+- Revient instantanément dans les mains du lanceur après chaque attaque.
+
+TAC0 : +5
+Dégâts : 1d5 +5, +1d4 +1 de feu
+Type de dégâts : missile (perforant)
+Facteur de vitesse : 0
+Type de compétence : fléchette
+Type : arme à 1 main
+Dextérité nécessaire : 10
+
+Poids : 0
+
+Non utilisable par :
+ Clerc
+ Kensai
+ Chevalier~
+
+@6059 = ~Pierre du chaos~
+@6060 = ~La teinte lavande de cette pierre s'est transformée en une couleur jaune après son amélioration par un aventurier du nom de <CHARNAME>, et la pierre danse et étincelle, comme si elle était vivante.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +1
+- Jet de sauvegarde contre la mort : +3
+- Bouclier du chaos permanent
+
+Poids : 2
+
+Utilisable par :
+ Entropiste~
+
+@6061 = ~Pierre du chaos améliorée~
+@6062 = ~Cette objet fut créé lorsque <CHARNAME> demanda de nouvelles améliorations pour la Pierre ionique lavande. Elle offre maintenant une meilleure protection contre le feu et la magie de mort, et diminue les chances de hiatus entropiques.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +1
+- Jet de sauvegarde contre la mort : +3
+- Résistance au feu : +25 % 
+- Bouclier majeur du chaos permanent
+
+Poids : 2
+
+Utilisable par :
+ Entropiste~
+
+@6063 = ~Fléau des morts-vivants~
+@6064 = ~Epée à deux mains +5 : Fléau des morts-vivants
+Cette épée sainte irradie d'une aura divine. Unissant les pouvoirs de ses ancêtres, c'est l'arme ultime de justice contre les créatures mortes-vivantes. Lors d'un combat contre des adversaires autres que des morts-vivants, cette arme se comporte comme n'importe quelle autre. Une fois qu'elle est en présence de telles abominations, l'épée commence à briller, prévenant son porteur d'une présence maudite. Les morts-vivants, une fois touchés par cette arme, doivent concentrer toute leur énergie ou être aspirés par les Abysses. La lumière bénie émergeant de l'arme aveugle les ennemis du porteur et est particulièrement dévastatrice contre les morts-vivants. En raison de sa nature, cette lame ne peut-être utilisée que par les cœurs les plus purs.
+
+PARAMÈTRES :
+
+Capacités de charge :
+- Aube illusoire une fois par jour
+- Protection contre le Plan négatif une fois par jour
+
+Capacités de combat :
+- Les morts-vivants doivent réussir un jet de sauvegarde contre la mort (à -4) ou être détruits
+- 5 % de chances de lancer Rayon de soleil sur la cible
+- 5 % de chances d'aveugler la cible pendant 1 tour
+
+TAC0 : +5
+Dégâts : 1d10 +5, dégâts doublés contre les morts-vivants
+Type de dégâts : tranchant
+Facteur de vitesse : 5
+Type de compétence : épée à 2 mains
+Type : arme à 2 mains
+Force nécessaire : 14
+
+Poids : 7
+
+Utilisable par :
+ Paladin~
+
+@6065 = ~Cape de l'ombre~
+@6066 = ~Celio Czah, traqueur renommé, était un très bon forgeron. Il réussit à tuer nombre de bêtes dans sa vie, y compris des dragons. Ses connaissances se sont transmises de forgeron en forgeron, ce qui explique comment ce vêtement a été confectionné. Celio a entrelacé trois capes, ainsi que des fourrures animales et des écailles de dragon. Cette cape fut créée à la demande de <CHARNAME>. Assurément, le savoir-faire du forgeron aventurier Celio Czah n'avait pas été perdu.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +3
+- Résistance à l'acide : +50 %
+- Se cacher dans l'ombre : +20 %
+- Non-détection
+
+Utilisable par :
+ Traqueur
+ Voleur~
+
+@6067 = ~Armure de Pikim~
+@6068 = ~Besantine +5 : Armure de Pikim
+Pikim, le Voleur de l'Ombre rebelle, avait l'habitude de bricoler beaucoup de choses. Un jour, il fondit des clés dans la fameuse Armure de l'ombre juste pour voir ce qu'il en résulterait. Il y cousit également quelques capes. Sentant un grand pouvoir dans cette armure nouvellement créée, Pikim décida qu'elle était trop puissante pour qu'il la partage avec quiconque. Cette décision lui coûta la vie. Les Voleurs de l'Ombre le pourchassèrent pour récupérer l'armure. De nombreux forgerons de Féérûne apprirent comment Pikim avait fabriqué cette glorieuse armure. <CHARNAME> réussit à trouver un forgeron pour la recréer... contre une jolie somme.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Se cacher dans l'ombre : +15 %
+- Crochetage : +60 %
+
+Classe d'armure : 2 (0 contre tranchant, 1 contre perforant et projectile)
+Force nécessaire : 6
+
+Poids : 8
+
+Utilisable par :
+ Voleur~
+
+@6069 = ~Atroce tranchoir de Neb +4~
+@6070 = ~Dague +4 : Atroce tranchoir de Neb
+Le méprisable nain connu sous le nom de Neb était assez célèbre pour ses actes maléfiques. C'était un tueur d'enfants qui avait appris d'une manière ou d'une autre à utiliser leurs âmes au combat. <CHARNAME> et ses compagnons ont tué le meurtrier, et avec l'aide d'un forgeron de confiance, la dague de Neb est devenue encore plus puissante. Il semble que l'illithium pur plaqué sur sa lame rend illimité l'usage du poison qui l'imbibe. Cependant, seules les plus viles créatures oseraient utiliser cette arme.
+
+PARAMÈTRES :
+
+Capacité de charge :
+- Invoque une fois par jour l'esprit d'un enfant sans repos pendant 10 minutes
+
+Capacité de combat :
+- La cible doit réussir un jet de sauvegarde contre le poison ou subir 2 points de dégâts par seconde pendant 10 secondes
+
+TAC0 : +4
+Dégâts : 1d4 +4
+Type de dégâts : perforant
+Facteur de vitesse : 0
+Type de compétence : dague
+Type : arme à 1 main
+
+Poids : 1
+
+Non utilisable par :
+ Clerc
+ Personnage d'alignement non mauvais~
+@60701 = ~Invoquer l'esprit d'un enfant sans repos~
+
+@6071 = ~Lame des Voleurs de l'Ombre~
+@6072 = ~Epée Courte +5 : Lame des Voleurs de l'Ombre
+Créée à l'origine pour devenir l'outil du parfait assassin, l'Épée courte d'attaque sournoise a été énormément modifiée. Fusionnée à la lame d'une célèbre épée, et avec le pouvoir d'un sort de Lame fantôme et de plusieurs pierres et potions, la Lame de l'Ombre est devenue une arme beaucoup plus sophistiquée et recherchée.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Multiplicateur de dégâts d'attaque sournoise : +1
+
+TAC0 : +5
+Dégâts : 1d6 +5
+Type de dégâts : perforant
+Poids : 5
+Facteur de vitesse : 0
+Type de compétence : épée courte
+Type : arme à 1 main
+
+Utilisable par :
+ Voleur
+ Alignement non mauvais~
+
+@6073 = ~Arc enchanté d'Arvoreen~
+@6074 = ~Cet arc enchanté est en possession de Mazzy Fentan depuis de nombreuses années ; c'est un don de son dieu, Arvoreen. Récemment, la bénédiction d'Arvoreen a aidé un enfant de Bhaal nommé <CHARNAME> à l'améliorer afin qu'il n'ait plus besoin de munitions.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- N'a pas besoin de munitions
+- Chaque flèche a 10 % de chances de ralentir la cible touchée pendant 12 secondes (sans jet de sauvegarde)
+
+TAC0 : +4
+Dégâts : 1d6 +4
+Type de dégâts : projectile (perforant)
+Poids : 2
+Facteur de vitesse : 4
+Type de compétence : arc court
+Type : arme à 2 mains
+
+Utilisable par :
+ Guerrier Petites-Gens~
+
+@6075 = ~Armure de nombreux dragons~
+@6076 = ~Quatre puissants dragons sont morts de la main de <CHARNAME>, et leurs écailles ont servi à créer une puissante armure. Contrairement aux autres armures de dragon, celle-ci est légère et peu encombrante. Elle protège de ce dont les dragons se servent le plus souvent en combat.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Résistance au feu : +50 %
+- Résistance au froid : +50 %
+- Résistance à l'acide : +50 %
+- Résistance à l'électricité : +90 %
+
+Capacité de charge :
+- Cône de froid trois fois par jour
+
+Classe d'armure : -2 (-5 contre tranchant, -3 contre perforant et projectile)
+Force nécessaire : 6
+
+Poids : 4
+
+Non utilisable par :
+ Barde
+ Mage
+ Ensorceleur
+ Voleur
+ Moine
+ Barbare
+ Métamorphe
+ Justicier
+ Archer
+ Belluaire
+ Traqueur
+ Kensai~
+
+@6077 = ~Heaume de nombreux dragons~
+@6078 = ~Les mains habiles de Wormsor le sorcier ont assemblé avec soin plusieurs écailles de dragon pour en faire ce puissant casque. Les écailles rouges, blanches et vertes se chevauchent, protégeant le porteur des coups aussi bien que du feu, du froid, et de l'électricité. Plus récemment cependant, un enfant de Bhaal y a fait sertir quatre autres types d'écailles. Ceci semble accroître la protection contre le feu et l'électricité, et conférer une protection contre l'acide.
+
+Capacités d'équipement :
+- Protège des coups critiques
+- Résistance au feu : mise à 70 %
+- Résistance au froid : mise à 25 %
+- Résistance à l'acide : mise à 50 %
+- Résistance à l'électricité : mise à 70 %
+
+Bonus de Classe d'armure : aucun
+
+Poids : 3
+
+Non utilisable par :
+ Barde
+ Mage
+ Ensorceleur
+ Voleur
+ Moine
+ Kensai~
+
+@6079 = ~Bouclier de nombreux dragons~
+@6080 = ~Un autre objet puissant créé par Wormsor le sorcier, ce bouclier est fait d'une peau de dragon rouge tendue sur une armature d'acier. Des écailles vertes et blanches de dragon décorent le fond rouge suivant un motif qui, lorsqu'on l'observe selon l'angle adéquat, révèle le visage d'un très vieux dragon. Plus récemment cependant, un enfant de Bhaal y a fait sertir quatre autres types d'écailles. Ceci semble accroître la protection contre le feu et l'électricité, et conférer une protection contre l'acide.
+
+Capacités d'équipement :
+- Résistance au feu : mise à 70 %
+- Résistance au froid : mise à 25 %
+- Résistance à l'acide : mise à 50 %
+- Résistance à l'électricité : mise à 70 %
+
+Classe d'armure : +3
+Force nécessaire : 12
+
+Poids : 6
+
+Non utilisable par :
+ Barde
+ Druide
+ Mage
+ Ensorceleur
+ Voleur
+ Moine
+ Kensai~
+
+@6081 = ~Robe de résistance~
+@6082 = ~Beaucoup de magiciens ont pu remarquer que cinq robes aux pouvoirs dérisoires étaient censées les protéger, mais ne fonctionnaient que rarement. De nombreux duels furent perdus par ces mages, jusqu'à ce que l'un d'eux, du nom de Kerial, décidât de les assembler. Dès qu'il parvint à les combiner avec succès, il informa les autres de la formule. Il s'avéra que l'ingrédient secret était une paire de bracelets. Récemment, <CHARNAME> fit créer un exemplaire de cette puissante robe.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +1 contre les armes à projectiles et les armes contondantes
+- Jets de sauvegarde contre la pétrification/la métamorphose et le souffle : +1
+- Résistance au feu, au froid et à l'électricité : +20 %
+
+Classe d'armure : 5
+
+Poids : 4
+
+Utilisable par :
+ Mage
+ Ensorceleur~
+
+@6083 = ~Dent de dragon~
+@6084 = ~Hallebarde +5 : Dent de dragon
+Les armes de Thorvin Dukal et d'Ullion le Mage ont été utilisées pendant des siècles pour combattre les monstres cracheurs de feu, mais ils furent tous deux tués. <CHARNAME> trouva les deux armes au cours de ses voyages, et les a unies magiquement à l'aide d'écailles de dragon rouge. Le pouvoir de cette arme semble égal à celui d'une dent de dragon. Les dégâts de froid, d'électricité, d'acide et de poison de la hallebarde d'Ullion ont disparu pendant le processus, au profit du feu.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Résistance au feu : +90 %
+
+Capacité de combat :
+- +5 points de dégâts de feu
+
+TAC0 : +5
+Dégâts : 1d10 +5, +6 contre les dragons
+Type de dégâts : perforant
+Facteur de vitesse : 5
+Type de compétence : hallebarde
+Type : arme à 2 mains
+Force nécessaire : 13
+
+Poids : 12
+
+Non utilisable par :
+ Clerc
+ Druide
+ Mage
+ Voleur
+ Moine
+ Belluaire~
+
+@6085 = ~Cape de Thay~
+@6086 = ~Les Sorciers Rouges de Thay savent bien des choses, et sont en général tout vêtus de rouge. <CHARNAME> possède une cape tissée grâce à des vêtements trouvés lors de ses aventures à Athkatla. Cette cape ne peut être utilisée que par des jeteurs de sorts mauvais.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +2
+- Jets de sauvegarde : +2
+- Immunité aux armes non-magiques
+
+Poids : 3
+
+Utilisable par :
+ Alignement mauvais
+ Mage
+ Ensorceleur~
+
+@6087 = ~Cape de la Nature~
+@6088 = ~Encore jeune, Cernd a passé un cycle de saisons à méditer sur son rôle au sein de la nature. Il ne s'était fait aucun abri, voulant sentir la terre brute. Si Dame Nature appréciait l'intention, elle savait aussi que, malgré leur dévotion, ses enfants ont parfois des idées bizarres. Cernd a trouvé cette cape avant que la saison froide ne commence, visiblement tissée pour lui à partir des fourrés. Le message était clair : il pouvait apprécier la pluie tout en s'en protégeant. Récemment, <CHARNAME> a fait enchanter cette cape pour protéger contre les éléments. Seul Cernd peut utiliser cette cape.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
+- Immunité au poison
+- Résistance au feu, au froid, à l'acide et à l'électricité : +25 %
+
+Poids : 3
+
+Utilisable par :
+ Cernd~
+
+@6089 = ~Gants de Shamain~
+@6090 = ~L'un des visiteurs les plus assidus de l'Auberge du Brasamical était un grand moine nommé Shaiman. Shaiman était incroyablement puissant pour un moine, et était aussi un grand voyageur. Son passé est un mystère, mais il semble essayer de rester un homme de bien. Ses puissants gants, cependant, ont une autre histoire. Shaiman les a trouvés en Rashéménie, et les porte depuis. Deux autres bracelets étaient nécessaires pour utiliser cette arme, et avec l'aide d'une opale noire sur chaque doigt, les Gants de Shaiman sont arrivés en possession de <CHARNAME>.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : +1
+- Points de vie : +15
+- TAC0 : +4 pour l'attaque avec les poings
+- Dégâts : +4 pour l'attaque avec les poings
+
+Poids : 2
+
+Utilisable par :
+ Moine~
+
+@6091 = ~Bâton de la Nature~
+@6092 = ~Bâton +4 : Bâton de la Nature
+Ce bâton est issu d'un cycle de saisons au cours duquel Cernd a médité sur son rôle dans la nature. Il avait accompli ce voyage intérieur près d'un jeune arbre, un chêne particulièrement intéressant à étudier, étrange tout en étant merveilleusement ordonné. Au début du printemps, Cernd l'a examiné une dernière fois et il lui est venu dans la main un bâton vivant, comme un cadeau de dame nature. Il a grandi pour épouser sa main et peu d'autres que lui sauraient le porter. Récemment, un compagnon de Cernd, <CHARNAME>, l'a fait améliorer, ce qui double son pouvoir et sa vitesse de régénération.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Régénère 1 point de vie toutes les 6 secondes
+
+TAC0 : +4
+Dégâts : 1d6 +4
+Type de dégâts : contondant
+Poids : 3
+Facteur de vitesse : 1
+Type : arme à 2 mains
+
+Utilisable par :
+ Cernd~
+
+@6093 = ~Bâton de Nombreuses magies~
+@6094 = ~Bâton +4 : Bâton de Nombreuses magies
+<CHARNAME> a fait fusionner trois bâtons mineurs avec des diamants. Qui savait que cela était possible ? Personne, jusqu'à ce qu'un druide du nom de Xynt l'ait fait avec les bâtons de commandement, de soin et un simple bâton +2. Le nouveau bâton, surnommé Nombreuses magies, est maintenant en possession d'un rejeton de Bhaal.
+
+PARAMÈTRES :
+
+Capacités de charge :
+- Domination une fois par jour
+  Portée : 12 mètres
+  Durée  12 heures
+  Zone d'effet : 1 créature
+
+- Soins une fois par jour
+  Restaure 3d6 +3 points de vie et soigne maladie et poison
+  Portée : toucher
+  Zone d'effet : 1 créature
+
+Capacité d'équipement :
+- Classe d'armure : +2
+
+TAC0 : +3
+Dégâts : 1d6 +3
+Type de dégâts : contondant
+Facteur de vitesse : 1
+Type de compétence : bâton
+Type : arme à 2 mains
+Force nécessaire : 5
+
+Poids : 2
+
+Utilisable par :
+ Clerc
+ Druide
+ Paladin
+ Rôdeur~
+
+@6095 = ~Wyverne engourdie~
+@6096 = ~Fléau +4 : La Wyverne engourdie
+La grosse pointe au sommet de cette étoile du matin est en fait l'aiguillon mortel d'une wiverne. Le mage-guerrier Sedej a créé cette arme en utilisant ses pouvoirs magiques pour conserver à l'aiguillon la faculté de produire du poison. La magie qu'il a employée a fait de la Queue de wiverne une arme vivante, que son porteur peut sentir frémir dans sa main. L'autre étoile du matin utilisée pour créer cette arme appartenait à Ssitalc, un elfe mauvais connu comme l'Esclavagiste de la Côte des Épées. Jusqu'à sa mort subite il y a quelques années, Ssitalc dirigeait une importante troupe de brigands humains, nains, et gnomes, dans laquelle il maintenait la discipline grâce à la Dormeuse. Celle-ci procure en effet une chance de mettre hors de combat n'importe quel humain, nain, gnome, ou petit-homme en le faisant tomber dans un profond sommeil. Les elfes sont par contre immunisés contre ce type d'effets. Récemment, cependant, un enfant de Bhaal a combiné les deux étoiles du matin. Quel que soit l'usage de cette nouvelle arme, elle se révèlera sûrement utile.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- Tout humain ou demi-humain, sauf les elfes, touché doit réussir un jet de sauvegarde contre le poison, avec un bonus de 4, pour ne pas s'endormir pendant 18 secondes
+- Les victimes doivent réussir un jet de sauvegarde contre le poison pour ne pas subir 5 points de dégâts empoisonnés supplémentaires
+
+TAC0 : +4
+Dégâts : 2d4 +4
+Type de dégât : contondant
+Facteur de vitesse : 5
+Type de compétence : fléau/étoile du matin
+Type : arme à 1 main
+Force nécessaire : 11
+
+Poids : 10
+
+Non utilisable par :
+ Druide
+ Mage
+ Ensorceleur
+ Voleur
+ Moine
+ Belluaire~
+
+@6097 = ~Contrefort glacé~
+@6098 = ~Etoile du Matin +5 : Contrefort glacé
+La tête de cette étoile du matin est faite de glace incassable. Son manche est glacial et son porteur est aussitôt enveloppé d'un air froid qui le protège contre le feu. Plus récemment, un Enfant de Bhaal reforgea cette arme avec de nombreux objets au cœur froid. Ceci créa une mystérieuse étoile du matin connue sous le nom de Contrefort Glacé.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Résistance au feu : +50 %
+
+Capacités de charge :
+- Confère au porteur la Force d'un géant du froid une fois par jour pendant douze heures
+- Tempête glaciale une fois par jour
+
+Capacité de combat :
+- 5 % de chances qu'un coup réussi glace la cible à mort (sans jet de sauvegarde)
+
+TAC0 : +5
+Dégâts : 2d5 +5, +1d4 de froid
+Type de dégâts : tranchant
+Poids : 8
+Facteur de vitesse : 4
+Type de compétence : fléau/étoile du matin
+Type : arme à 1 main
+Force nécessaire : 13
+
+Non utilisable par :
+ Druide
+ Mage
+ Voleur
+ Moine
+ Belluaire~
+@60981 = ~Force de géant du froid~
+
+@6099 = ~Cape du Père Requin~
+@6100 = ~Créé sur une demande fantaisiste de <CHARNAME>, ce vêtement est formé grâce à des objets recueillis lors d'un de ses voyages les plus périlleux, dans la Cité des Cavernes sous-marine. <PRO_HESHE> aida les Sahuagins qui vivaient ici, en suivant la Prophétie de Sekolah. Après avoir aidé les monstres et être retourné à la surface, <CHARNAME> commanda cette cape. Avec les munitions Sahuagins, ce vêtement montre ce qu'aucune créature de la surface n'avait vu auparavant.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
+- Le porteur est protégé en permanence par un Globe mineur d'invulnérabilité
+
+Capacité de charge :
+- Une fois par jour, le porteur peut convoquer un Anguiliian pour l'aider au combat
+
+Poids : 3
+
+Non utilisable par :
+ Tueur de magicien~
+@61001 = ~Invoquer un Anguiliian~
+
+@6101 = ~Doigts de discours facile~
+@6102 = ~Ces gantelets magnifiques, ornés d'innombrables runes d'arcane, furent commandés par un enfant de Bhaal. Ils ont été créées à partir des bracelets de Glen le souriant, combinés avec certains des meilleurs réactifs magiques, ce qui donna cet objet au pouvoir impressionnant. Les gantelets d'origine semblent avoir perdu une partie de leurs capacités défensives, mais ils diminuent le temps nécessaire pour lancer un sort.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Classe d'armure : 4
+- Temps d'incantation diminué de 1
+
+Poids : 2
+
+Non utilisable par :
+ Tueur de magicien
+ Kensai~
+
+@6103 = ~Anneau du voleur~
+@6104 = ~Il y a partout des voleurs qui ne peuvent se contenter de travailler pour améliorer leurs compétences. Et un forgeron, Ruad Ro'fhessa, vint. Il combina quatre anneaux, chacun conçu pour un voleur. Ainsi, l'Anneau des Voleurs fut formé, afin de rendre le vol plus facile. Qui peut imaginer être dépouillé par un voleur aussi habile ?
+
+PARAMÈTRES :
+
+Capacité de charge :
+- Invisibilité une fois par jour
+  Durée : 12 heures.
+  Zone d'effet : le porteur.
+
+Capacités d'équipement :
+- Se cacher dans l'ombre : +20 %
+- Déplacement silencieux : +20 %
+- Pose de pièges : +20 %
+- Crochetage de serrures : +25 %
+- Détection des pièges : +25 %
+
+Poids : 0
+
+Utilisable par :
+ Voleur~
+
+@6105 = ~Gantelets d'assassinat~
+@6106 = ~Assassiner n'importe quelle créature est difficile pour un roublard. Même les assassins ont des difficultés, mais ce n'est plus un problème pour <CHARNAME> depuis sa rencontre avec Ruad Ro'fhessa qui forgea ses gantelets stylés. Ils rendent l'enfant de Bhaal non seulement plus habile, mais ils accroissent ses capacités d'attaque sournoise, ce qui est très rare pour un objet qui ne soit pas une arme. Il est certain que cela aidera grandement <CHARNAME> et ses compagnons.
+
+PARAMÈTRES :
+
+- Dextérité : +3
+- Multiplicateur d'attaque sournoise : +1
+
+Poids : 2
+
+Utilisable par :
+ Voleur~
+
+@6107 = ~Baiser de mort~
+@6108 = ~Epée Courte +4 : Baiser de mort
+Bien qu'il se fût agit d'un rituel particulièrement sombre, <CHARNAME> a demandé au forgeron Ruad de fondre deux outils mortels de voleur. Les épées courte d'attaque sournoise et coupe-gorge furent fusionnées et, utilisant la connaissance des poisons qui pouvait être acquise en étudiant la dague de Neb le tueur d'enfant, cette combinaison donna lieu à une forme étrange de poison que l'utilisateur de l'arme ne peut jamais espérer contrôler.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 45 % de chances que la cible subisse 2 points de dégâts de poison pendant 5 secondes
+- 25 % de chances que la cible subisse 2 points de dégâts de poison pendant 10 secondes
+- 10 % de chances que la cible subisse 4 points de dégâts de poison pendant 12 secondes
+- 1 % de chances que la cible subisse 5 points de dégâts de poison pendant 13 secondes
+
+TAC0 : +4
+Dégâts : 1d6 +4
+Type de dégâts : perforant
+Facteur de vitesse : 1
+Type de compétence : épée courte
+Type : arme à 1 main
+Force nécessaire : 5
+
+Poids : 2
+
+Non utilisable par :
+ Clerc
+ Druide
+ Mage
+ Belluaire~
+
+@6109 = ~Cuir des ombres~
+@6110 = ~Besantine +4 : Cuir des ombres
+A faible niveau, le voleur est un personnage très difficile à protéger. C'est la raison pour laquelle <CHARNAME> demanda à Ruad Ro'fhessa de créer quelque chose qui soit digne d'un roublard. Trois médiocres morceaux de cuir furent utilisés pour créer une des meilleures tentatives de parfaite Armure de Cuir de Roublard. Ce que Ruad créa pour <CHARNAME> est sans doute la meilleure des Armures d'Ombre.
+
+PARAMÈTRES :
+
+Capacité d'équipement:
+- Se cacher dans l'ombre: +30 %
+
+Classe d'armure : 3 (1 contre tranchant, 2 contre perforant et projectile)
+Force nécessaire : 6
+
+Poids : 8
+
+Utilisable par :
+ Voleur~
+
+@6111 = ~Fléau de lave~
+@6112 = ~Epée à 2 mains +3 : Fléau de lave
+La première personne qui a utilisé de la Flamme du nord se nommait Carerra. Les trolls arctiques et les tribus orques du nord apprirent à respecter son nom comme celui d'un ouragan. Elle était une ennemie détestée de nombreux chamans dont la magie était régulièrement sans effet sur sa fureur. Après une vie remplie d'âpres batailles, elle finit par mourir de vieillesse. Sa petite-fille hérita de l'épée, une aventurière qui l'a probablement apportée en Amn.
+À une autre époque, longtemps avant que Padhiver ne se réchauffe, ou que l'Anauroch ne s'assèche, il existait une lame, la Langue de feu, aussi connue sous le nom de « Terre Brûlante ». Son utilisation semble assez facile à comprendre : elle brûle ses victimes d'un feu magique, et une rune mystique semble suggérer que son pouvoir lui vient de la terre, mais on ignore qui l'a forgée. Cette arme paraît normale, mais quelque chose fait qu'elle est déséquilibrée, ou difficile à tenir. Elle tire trop sur le bras et tient mal dans la main. Cela ne semble pas affecter les compétences d'un bon guerrier, sinon qu'il ne peut que penser que cette arme n'a pas été faite pour lui... ou pour un humanoïde.
+La dernière lame utilisée pour fabriquer le Fléau de lave brûle d'un feu magique, et fait jaillir une flamme à chaque fois qu'elle touche. On a gravé « Meta Infernum » sur son pommeau, bien que l'inscription soit un peu effacée et que la gravure soit plus récente que l'épée.
+Ces trois histoires sont celle de Fléau de lave. Cette épée d'une puissance inégalée a été fabriquée sur commande il y a peu de temps. On dirait que sa lame a été confectionnée à partir d'une flamme pure, et l'arme semble user du pouvoir de certains sortilèges, comme Boule de feu ou Lame fantôme. La Flamme du nord, la Langue de feu et l'Épée de flamme ont été utilisées à bon escient.
+
+PARAMÈTRES :
+
+Capacité de combat :
+-  Il y a 10 % de chances par coup qu'une boule de feu de 10d6 de dégâts explose, centrée sur la cible
+
+Capacité d'équipement :
+- Résistance à la magie : +10 %
+
+TAC0 : +3
+Dégâts : 1d10 +3, +4 contre les trolls, +5 contre les élémentaires de feu, +10 contre les morts-vivants, +5 contre les adversaires chaotiques-mauvais
+Type de dégâts : tranchant
+Facteur de vitesse : 8
+Type de compétence : épée à 2 mains
+Type : arme à 2 mains
+Force nécessaire : 15
+
+Poids : 12
+
+Non utilisable par :
+ Clerc
+ Druide
+ Mage
+ Ensorceleur
+ Moine
+ Voleur
+ Belluaire~
+
+@6113 = ~Pieu en bois~
+@6114 = ~Gourdin +3 : Pieu en bois
+Il y a très longtemps, un célèbre chasseur de morts-vivants connu sous le nom de DeMor a fabriqué une série de babioles pour l'aider au combat. Aucune ne lui a jamais servi, sauf une. Il était de nature publique que DeMor avait fusionné la puissance d'une esseulite avec deux pieux en bois dont on se sert pour tuer les vampires dans le but de créer une arme. C'est avec cette arme qu'une nuit, DeMor a combattu tout un clan de vampires. Ces monstruosités mortes-vivantes lui ont donné du fil à retordre, mais le paladin les a finalement vaincues. La création de DeMor est de nos jours une arme connue de tous, son héritage que nul n'a oublié.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Immunité au drainage de niveaux
+
+Capacités spéciales :
+- 15 % de chances de tuer automatiquement un vampire sur un coup au but
+
+Capacité de combat :
+
+TAC0 : +3
+Dégâts : 1ds6 +3, +4 contre les morts-vivants, +6 contre les vampires
+Type de dégâts : contondant
+Poids : 3
+Facteur de vitesse : 1
+Type de compétence : gourdin
+Type : arme à 1 main
+Force nécessaire : 5
+
+Non utilisable par :
+ Mage
+ Ensorceleur~
+
+@6115 = ~Arc d'Uden~
+@6116 = ~Arc long +5 : Arc d'Uden
+Trois arcs de puissance intermédiaire ont fusionné grâce au pouvoir d'une esseulite, le processus ayant pour but de créer un arc unique dont la puissance durerait des siècles. C'est un ogrillon du nom d'Uden qui a eu cette idée pour la première fois, mais, ayant été tué avant de pouvoir le fabriquer, il n'a jamais pu mettre son plan à exécution. Cet arc, qui a hérité des meilleurs atouts des trois autres, a été crée pour <CHARNAME> pour son propre usage.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- 3 flèches par round
+- Ce puissant arc ne requiert pas de munition. Il tire automatiquement des flèches mordantes (1d6) : la victime doit réussir un jet de sauvegarde contre la mort sous peine de perdre 30 % de ses points de vie actuels moins de 20 secondes après impact.
+
+Note : évitez d'équiper votre personnage avec des flèches normales, sinon l'arc les tirera à la place des flèches mordantes
+
+TAC0 : +5
+Dégâts: +5
+Type de dégâts : projectile
+Facteur de vitesse : 5
+Type de compétence : arc long
+Type : arme à 2 mains
+Force nécessaire : 18
+
+Poids : 9
+
+Non utilisable par :
+ Barde
+ Druide
+ Clerc
+ Mage
+ Voleur
+ Moine
+ Chevalier
+ Kensai~
+
+@6117 = ~Bâton de résurrection~
+@6118 = ~Bâton +3 : Bâton de résurrection
+Le sceptre utilisé pour créer ce bâton confère à son propriétaire le pouvoir de ramener quelqu'un d'entre les morts, comme un prêtre pouvant lancer le sort de résurrection. Le pouvoir du sceptre de Résurrection permet de rendre la vie à n'importe qui, mais combiné avec le bâton de Guérison, ce pouvoir s'en trouve décuplé.
+
+PARAMÈTRES :
+
+Capacités de charge :
+- Soins des blessures critiques une fois par jour
+  Restaure 27 points de vie et soigne maladie et poison
+  Portée : toucher
+  Zone d'effet : 1 créature
+
+- Résurrection une fois par jour
+
+TAC0 : +3
+Dégâts : 1d6 +3
+Type de dégâts : contondant
+Facteur de vitesse : 1
+Type de compétence : bâton
+Type : arme à 2 mains
+Force nécessaire : 5
+
+Poids : 2
+
+Non utilisable par :
+ Barde
+ Guerrier
+ Mage
+ Ensorceleur
+ Voleur
+ Moine~
+
+@6119 = ~Anneau de contrôle du temps~
+@6120 = ~Les lanceurs de sorts de Féérûne ont souvent affaire à des adversaires capables d'arrêter la course du temps. Mais un clerc/mage connu sous le nom de Shatt a trouvé un jour le moyen d'éviter ce désagrément. Ne plus avoir à souffrir des effets du sort de magicien de niveau 9, Arrêt du temps, lui a coûté une véritable fortune en pièces d'or ; mais au final, son invention a fonctionné. Shatt n'a eu qu'à utiliser trois anneaux de rubis, un anneau d'action libre et à absorber le pouvoir d'un parchemin d'Arrêt du temps pour fabriquer un objet qui ne lui ferait plus craindre les effets indésirables d'un tel sortilège.
+Toutefois, lorsque ce fait fut porté aux oreilles d'un voleur rusé du nom de Kamoth, ce dernier réussit à voler l'anneau. Kamoth ne pouvait pas utiliser son pouvoir extraordinaire. Par contre, il vendit l'objet ainsi que sa recette à Taërom « Grondemarteau » Fuiruim de Bérégost. Grondemarteau mit alors plusieurs autres forgerons au courant de son procédé de fabrication, et grâce à cette sage décision, un exemplaire de cet anneau est maintenant en la possession de <CHARNAME>.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Immunité aux effets du sort de mage de neuvième niveau Arrêt du Temps
+
+Intelligence nécessaire : 16
+Poids : 0
+
+Utilisable par :
+ Barde
+ Clerc
+ Druide
+ Mage
+ Ensorceleur~
+
+
+// Other stuff
+@7001 = ~Fléchette d'étoile élémentaire~
+@7002 = ~Cette fléchette magique a été créée par la Cape d'étoile élémentaire. Elle disparaîtra dans deux jours.
+
+PARAMÈTRES :
+
+Capacité de combat :
+- 1d3 points de dégâts supplémentaires de feu, de froid, d'acide et d'électricité
+
+TAC0 : +5
+Dégâts : 1d4 +5
+Type de dégâts : projectile (perforant)
+Facteur de vitesse : 0
+Type de compétence : fléchette
+Type : arme à 1 main
+
+Poids : 0
+
+Non utilisable par :
+ Clerc
+ Kensai
+ Chevalier~
