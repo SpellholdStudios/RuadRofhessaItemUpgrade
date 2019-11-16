@@ -1,5 +1,4 @@
 
-![Latest Release](https://img.shields.io/static/v1?label=release&message=v29.0.0&color=darkred)<a name="top" id="top">
 ![Latest Release](https://img.shields.io/github/v/release/GwendolyneFreddy/RuadRofhessaItemUpgrade?include_prereleases&color=darkred)<a name="top" id="top">
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
@@ -90,7 +89,7 @@ The installer includes the following components. The number of each is the compo
 
 Ruad is a brand new blacksmith who forges item upgrades, as well as a few brand new ones. I won't spoil his location for you, but I will tell that he is near the Adventurer Mart.
 
-Please see <a href="https://raw.githubusercontent.com/GwendolyneFreddy/RuadRofhessaItemUpgrade/master/ruad/readme/ruad-spoilers.txt">ruad-spoilers.txt</a> for details (his exact location, and a complete list of items and descriptions.
+Please see <a href="https://raw.githubusercontent.com/GwendolyneFreddy/RuadRofhessaItemUpgrade/master/ruad/readme/ruad-spoilers.txt">ruad-spoilers.txt</a> for details (his exact location, and a complete list of items and descriptions).
 
 ## 
 
