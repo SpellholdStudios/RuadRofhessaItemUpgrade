@@ -148,7 +148,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 - Major updates:
 	- Renamed *Setup-Ruad.tp2* -> *ruad.tp2* to support AL|EN's "Project Infinity".
 	- Added ruad.ini metadata file to support AL|EN's "Project Infinity".
-	- Provided compatibility with 1PP and TobEx.
+	- Provided compatibility with 1PP and ToBEx.
 	- Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the *bam* folder that meet these requirements are patched and saved back to the *override* folder.
 	- Inventory items icons: fixed wrong transparency index (pure green [0.255.0] replaces old turquoise - a pretty annoying BAMWorkshop leftover :astonished:).
 	- dialog and script files: added Chapters compatibility with EET (variable %bg2_chapter_n% used and evaluated to set continuity chapter numbers).
@@ -157,7 +157,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 	- Provided a Ruad portrait for EE game.
 	- Added missing *ruad.tra* file in reload array HANDLE_CHARSETS function (v28 regression).
 	- Second component (#10): removed `AT_INTERACTIVE_EXIT` command and added a require main component process, otherwise mod will crash the game if first component is not installed.
-	- Reorganized components (*DESIGNATED* number) and added LABELS "*ruad_soa*" and "*ruad_tob*".
+	- Reorganized components (*DESIGNATED* number) and added *LABELS* "*ruad_soa*" and "*ruad_tob*".
 	- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games (replaced old `ACTION_IF NOT FILE_EXISTS "Data/25Dialog.bif"` process).
 	- Added always.tpa library.
 	- Replaced AUTHOR keyword with SUPPORT.

@@ -117,7 +117,7 @@ Special thanks to:
 Version beta 29.0.0 by Gwendolyne (, 2019)
 - Renamed Setup-Ruad.tp2 -> ruad.tp2 to support AL|EN's "Project Infinity".
 - Added ruad.ini metadata file to support AL|EN's "Project Infinity".
-- Provided compatibility with 1PP and TobEx.
+- Provided compatibility with 1PP and ToBEx.
 - Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the override folder.
 - Inventory items icons: fixed wrong transparency index (pure green [0.255.0] replaces old turquoise - a pretty annoying BAMWorkshop leftover :astonished:).
 - dialog and script files: added Chapters compatibility with EET (variable %bg2_chapter_n% used and evaluated to set continuity chapter numbers).
