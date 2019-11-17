@@ -599,6 +599,10 @@ COPY ~ruad/itm/u#ring10.itm~ ~override~
 	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6120" END
 BUT_ONLY
 
+COPY_EXISTING ~tooltip.2da~ ~override~
+	PRETTY_PRINT_2DA
+BUT_ONLY
+
 
 /* ---------- *
  *  Creature  *
@@ -745,6 +749,10 @@ COPY ~ruad/itm/u#blun02.itm~ ~override~
 	END
 BUT_ONLY
 LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#blun02~ GW_tooltips = ~@6097 @60981 12062~ END	// Cold Shoulder - Frost Giant Strength once per day - Ice Storm once per day
+
+COPY_EXISTING ~tooltip.2da~ ~override~
+	PRETTY_PRINT_2DA
+BUT_ONLY
 
 
 /* -------- *
