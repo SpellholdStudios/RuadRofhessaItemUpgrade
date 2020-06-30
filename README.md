@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
-<div align="center"><h1></a>Ruad Ro'fhessa Item Upgrade Mod (WIP)</h1>
+<div align="center"><h1></a>Ruad Ro'fhessa Item Upgrade Mod</h1>
 
 <h3>A mod hosted by Spellhold Studios for Baldur's Gate II and ToB (classical and EE games),<br>
 Baldur's Gate Trilogy and EET<h3>
@@ -33,12 +33,17 @@ Baldur's Gate Trilogy and EET<h3>
 
 ## <a name="intro" id="intro"></a>Overview
 
-
-I never thought I would actually succeed in making my own items, let alone my own item upgrade mod to implement them. But I've managed to do it, although it did take some time, a lot of hard work, and help from a very experienced person (Weimer) to get me there.
-
 This mod adds Ruad, a new smith in Waukeen's Promenade, who improves items as well as forges some quite new ones.
 
-Hope you guys (and girls) enjoy it.
+<details><summary>Original note from the author</summary>
+<p>
+
+###### I never thought I would actually succeed in making my own items, let alone my own item upgrade mod to implement them. But I've managed to do it, although it did take some time, a lot of hard work, and help from a very experienced person (Weimer) to get me there.
+
+###### Hope you guys (and girls) enjoy it.
+</p>
+</details><br>
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -118,7 +123,7 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="components" id="components"></a>Components
 
-The installer includes the following components. The number of each is the component *DESIGNATED* number which gives it a fixed install position and allows automated installers to specify component choices.<br /><br />
+The installer includes the following components. The number of each is the component *DESIGNATED* number which gives it a fixed install position and allows automated installers to specify component choices.<br />
 
 ## 
 
