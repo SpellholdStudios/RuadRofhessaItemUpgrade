@@ -204,6 +204,7 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games (replaced old `ACTION_IF NOT FILE_EXISTS "Data/25Dialog.bif"` process).
 - Added components `DESIGNATED` numbers and "*ruad_soa*" and "*ruad_tob*" `LABELS`.
 - Added "*always.tpa*" library.
+- Externalized tp2 code into *ruad_soa.tpa* and *ruad_tob.tpa* libraries for more comfortable readability and maintenance.
 - Added native EET, 1PP and ToBEx compatibility.
 - Commented code as much as possible.
 - Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the *override* folder.

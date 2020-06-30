@@ -18,7 +18,6 @@ ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
 	/* -------------------------------------------------------------------------------- *
 	 *    Determines which game is installed and if the game is an Enhanced Edition.    *
 	 * -------------------------------------------------------------------------------- */
-
 	OUTER_SET is_ee = (GAME_IS ~bg2ee eet~) ? 1 : 0					// EE game
 	OUTER_SET is_tob = (GAME_IS ~bgt tob tutu tutu_totsc~) ? 1 : 0	// based on vanilla ToB engine
 //	OUTER_SET is_tutu = (GAME_IS ~tutu tutu_totsc~) ? 1 : 0			// tutu
@@ -29,7 +28,6 @@ ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
 	/* ----------------------- *
 	 *    Detect other mods    *
 	 * ----------------------- */
-
 //	OUTER_SET is_1pp_helmet =  (MOD_IS_INSTALLED ~1pp.tp2~ ~208~) ? 1 : 0											// 1ppv4: Additional Helmet Animations (core)
 	OUTER_SET is_1pp_staff  = ((MOD_IS_INSTALLED ~1pp.tp2~ ~207~) AND (MOD_IS_INSTALLED ~1pp.tp2~ ~400~)) ? 1 : 0	// 1ppv4: Wizards' Staves (core)
 	OUTER_SET is_1pp_staff0 = ((MOD_IS_INSTALLED ~1pp.tp2~ ~204~) AND (is_1pp_staff = 0)) ? 1 : 0					// 1ppv4: Colourable Quarterstaves without 1ppv4: Wizards' Staves (core)
@@ -43,7 +41,6 @@ ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
 	/* --------------------------------------------- *
 	 *    General variables, macros and functions    *
 	 * --------------------------------------------- */
-
 	ACTION_IF (is_ee) BEGIN
 		OUTER_SPRINT ee_file "_ee"
 	END ELSE BEGIN
@@ -72,21 +69,20 @@ ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
 	/* -------------------------- *
 	 *    Creates a blank file    *
 	 * -------------------------- */
-SILENT
 <<<<<<<< .../ruad-inline/blank
 
 >>>>>>>>
 
 
-	/* ----------------------------------------------- *
-	 *    Handling of correctly formatted tra-files    *
-	 *           Converts tra files to UTF-8           *
-	 * ----------------------------------------------- */
-
+	/* --------------------------------------------------------------------------------------------- *
+	 *    Convert strings to UTF-8 for BGEE/BG2EE                                                    *
+	 *    No exception, everything needs to be converted                                             *
+	 * --------------------------------------------------------------------------------------------- */
 	ACTION_IF (!FILE_EXISTS "%MOD_FOLDER%/ruad_languages_installed.mrk") BEGIN
 		COPY ~.../ruad-inline/blank~ ~%MOD_FOLDER%/ruad_languages_installed.mrk~	// Converts .tra files once
-		ACTION_DEFINE_ARRAY mf_reload BEGIN setup items END
 		ACTION_DEFINE_ARRAY mf_noconvert BEGIN END
+		// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
+		ACTION_DEFINE_ARRAY mf_reload BEGIN setup items END
 		LAF HANDLE_CHARSETS
 			INT_VAR
 				infer_charsets = 1
@@ -94,8 +90,6 @@ SILENT
 				tra_path = EVAL ~%MOD_FOLDER%/lang~
 				noconvert_array = mf_noconvert
 				reload_array = mf_reload
-//				default_language = english
-//				iconv_path = EVAL ~%MOD_FOLDER%/lang/iconv~
 		END
 	END
 

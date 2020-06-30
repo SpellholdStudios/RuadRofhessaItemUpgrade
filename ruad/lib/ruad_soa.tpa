@@ -1,0 +1,626 @@
+/* ==================================== *
+ *         Ruad Ro'fhessa (SoA)         *
+ * ==================================== */
+
+SILENT
+
+/* --------------------------------- *
+ *  Copy BAMs or convert them to EE  *
+ * --------------------------------- */
+ACTION_IF GAME_IS ~bg2ee eet~ BEGIN
+	INCLUDE ~%MOD_FOLDER%/lib/gw_convert_inventory_bam_to_ee.tpa~			// Loads function converting inventory BAMs to EE.
+	OUTER_SPRINT file-exc ~m#potn01 m#robe01 u#dag01a u#mis01b u#sw1h4a ~	// Special cases: unused inventory or description icons, and ability .bam don't need to be converted.
+	ACTION_BASH_FOR ~ruad/bam/~ ~^.+\.bam$~ BEGIN
+		ACTION_TO_LOWER %BASH_FOR_FILE%
+		ACTION_TO_LOWER %BASH_FOR_RES%
+		ACTION_IF (~%file-exc%~ STRING_CONTAINS_REGEXP ~%BASH_FOR_RES%~ = 1) BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override/%BASH_FOR_FILE%~
+				LPF ~gw_convert_inventory_bam_to_ee~ END
+			BUT_ONLY
+		END ELSE BEGIN
+			COPY ~%BASH_FOR_FILESPEC%~ ~override/%BASH_FOR_FILE%~
+		END
+	END
+END ELSE BEGIN
+	COPY ~ruad/bam~	~override~
+END
+
+
+/* ------------------------------------------- *
+ *  Installing portrait according to the game  *
+ * ------------------------------------------- */
+COPY ~ruad/ruad/m#ruads%ee_file%.bmp~ ~override/m#ruads.bmp~
+
+
+/* --------------------- *
+ *  Installing creature  *
+ * --------------------- */
+COPY ~ruad/ruad/m#ruad.cre~ ~override~
+	SAY NAME1 @2001 SAY NAME2 @2001
+BUT_ONLY
+
+
+/* ------------------------------ *
+ *  Compiling scripts and dialog  *
+ * ------------------------------ */
+EXTEND_TOP ~ar0700.bcs~ ~ruad/ruad/soaruad.baf~ EVALUATE_BUFFER
+
+COMPILE EVALUATE_BUFFER ~ruad/ruad/ruad.d~	USING ~ruad/lang/%s/ruad.tra~
+COMPILE ~ruad/ruad/m#ruad.baf~
+
+
+/* ------------------ *
+ *  Installing Items  *
+ * ------------------ */
+LAM ~GW_ADJUST_COL_TOOLTIP~			// The Ugly Stick (u#staf01.itm) needs at least 4 tooltips strref columns
+LAM ~GW_READ_COL_TOOLTIP~			// Reads how many columns are in tooltip.2da file.
+
+// Blade of the Red Rose +4
+// ------------------------
+COPY ~ruad/itm/u#sw1h01.itm~ ~override~
+	SAY NAME2 @6001
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6002" END
+	PATCH_IF (is_ee OR is_1pp_swblbw) BEGIN
+		LPF ~1pp_sw1h40~ END
+	END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ALTER_ITEM_ALTER_HEADER_FLAGS~ INT_VAR type = 3 header = 2 flag_breaksanctuary = 1 END
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 1 multi_match = 1 match_opcode = 177 opcode = 324 duration = 1 match_parameter1 = 3 parameter1 = 0 parameter2 = 19 STR_VAR match_resource = CDELFCM7 resource = "u#sw1h01" END
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 1 multi_match = 1 match_opcode = 177 opcode = 324 duration = 1 match_parameter1 = 2 parameter1 = 0 parameter2 = 15 STR_VAR match_resource = CDELFCM7 resource = "u#sw1h01" END
+		LPF DELETE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 1 match_opcode = 177 END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#sw1h01~ GW_tooltips = ~@6001 12045~ END	// Blade of the Red Rose - Charm Person 3 times per day
+
+// Dancing Couple's Sword & The Mirror Dancing Sword's weapon
+// ----------------------------------------------------------
+COPY ~ruad/itm/u#sw1h02.itm~ ~override~
+     ~ruad/res/u#s1h02a.itm~ ~override~
+	SAY NAME2 @6003
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6004" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 55 STR_VAR insert = first resource = EVAL "%SOURCE_RES%" END	// undead or golem
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 77 STR_VAR resource = EVAL "%SOURCE_RES%" END	// STAT RESISTPOISON >= 100
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#sw1h02~ GW_tooltips = ~@6003 @2002 12056~ END	// Dancing Couple's Sword - The Mirror Dancing Sword once per day - Stinking Cloud once per day
+// The Mirror Dancing Sword
+COPY ~ruad/res/u#sw1h02.cre~ ~override~
+	SAY NAME1 @2002 SAY NAME2 @2002
+BUT_ONLY
+
+// Vampire's Revenge +2
+// --------------------
+COPY ~ruad/itm/u#sw1h03.itm~ ~override~
+	SAY NAME2 @6005
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6006" END
+BUT_ONLY
+
+// Black Sword of Undeath
+// ----------------------
+COPY ~ruad/itm/u#sw1h04.itm~ ~override~
+	SAY NAME2 @6007
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6008" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 match_parameter2 = 37 opcode = 328 parameter1 = 0 parameter2 = 67 special = 1 STR_VAR insert = below END	// BUFF_PRO_EFFECTS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 match_parameter2 = 37 opcode = 328 parameter1 = 0 parameter2 = 106 special = 1 STR_VAR insert = below END	// RESIST_FEAR
+		PATCH_FOR_EACH effects IN ~a7!in13b~ ~spwi205~ ~spin105~ BEGIN
+			LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 106 opcode = 321 timing = 0 parameter2 = 0 STR_VAR insert = first resource = EVAL "%effects%" END
+		END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#sw1h04~ GW_tooltips = ~@6007 @60081~ END	// Black Sword of Undeath - Summon Kraka'Tur once per day
+// Kraka'Tur (No Whirlwind)
+COPY ~ruad/res/u#sw1h04.eff~ ~override~
+COPY ~ruad/res/u#s1h04a.cre~ ~override/u#sw1h04.cre~
+	SAY NAME1 @2003 SAY NAME2 @2003
+BUT_ONLY
+
+// Yoshimo's Poisoned Katana +3
+// ----------------------------
+COPY ~ruad/itm/u#sw1h05.itm~ ~override~
+	SAY NAME2 @6009
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6010" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 55 STR_VAR insert = first resource = "u#sw1h05" END	// undead or golem
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 77 STR_VAR resource = "u#sw1h05" END	// STAT RESISTPOISON >= 100
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ STR_VAR GW_restrict = YOSHIMO GW_kind = "script_name" GW_power = 1 GW_mess319 = 9107 END
+	END
+BUT_ONLY
+
+// Spirit of Yoshimo
+// -----------------
+COPY ~ruad/itm/u#misc01.itm~ ~override~
+	SAY NAME2 @6011
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6012" END
+BUT_ONLY
+// Yoshimo's Spirit
+COPY ~ruad/res/u#misc01.cre~ ~override~
+	SAY NAME1 @2004 SAY NAME2 @2004
+BUT_ONLY
+// Yoshimo's Spirit weapon
+COPY ~ruad/res/u#s1h05a.itm~ ~override~
+	SAY NAME2 @6009
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6010" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 55 STR_VAR insert = first resource = "u#sw1h05" END	// undead or golem
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 77 STR_VAR resource = "u#sw1h05" END	// STAT RESISTPOISON >= 100
+	END
+BUT_ONLY
+
+// Dragon Slippers
+// ---------------
+COPY ~ruad/itm/u#boot01.itm~ ~override~
+	SAY NAME2 @6013
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6014" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 opcode = 328 parameter1 = 0 parameter2 = 67 special = 1 STR_VAR insert = below END		// BUFF_PRO_EFFECTS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 opcode = 328 parameter1 = 0 parameter2 = 106 special = 1 STR_VAR insert = below END	// RESIST_FEAR
+		PATCH_FOR_EACH effects IN ~a7!in13b~ ~spwi205~ ~spin105~ BEGIN
+			LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 106 opcode = 321 timing = 0 parameter2 = 0 STR_VAR insert = first resource = EVAL "%effects%" END
+		END
+	END
+BUT_ONLY
+
+// Ring of Abjuration
+// ------------------
+COPY ~ruad/itm/u#ring01.itm~ ~override~
+	SAY NAME2 @6015
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6016" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 66 special = 1 END	// BUFF_PRO_SPELLS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 56 special = 1 END	// SI_ABJURATION
+		LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 142 opcode = 142 parameter2 = 196 END	// Immunity: Abjuration (196)
+	END
+BUT_ONLY
+
+// Ring of Alteration
+// ------------------
+COPY ~ruad/itm/u#ring02.itm~ ~override~
+	SAY NAME2 @6017
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6018" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 66 special = 1 END	// BUFF_PRO_SPELLS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 63 special = 1 END 	// SI_TRANSMUTATION
+		LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 142 opcode = 142 parameter2 = 203  END	// Immunity: Alteration (203)
+	END
+BUT_ONLY
+
+// Ring of Conjuration
+// -------------------
+COPY ~ruad/itm/u#ring03.itm~ ~override~
+	SAY NAME2 @6019
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6020" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 66 special = 1 END	// BUFF_PRO_SPELLS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 67 special = 1 END	// SI_CONJURATION
+		LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 142 opcode = 142 parameter2 = 197 END	// Immunity: Conjuration (197)
+	END
+BUT_ONLY
+
+// Ring of Divination
+// ------------------
+COPY ~ruad/itm/u#ring04.itm~ ~override~
+	SAY NAME2 @6021
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6022" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 66 special = 1 END	// BUFF_PRO_SPELLS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 58 special = 1 END	// SI_DIVINATION (58)
+		LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 142 opcode = 142 parameter2 = 198 END	// Immunity: Divination (198)
+	END
+BUT_ONLY
+
+// Ring of Enchantment
+// -------------------
+COPY ~ruad/itm/u#ring05.itm~ ~override~
+	SAY NAME2 @6023
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6024" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 66 special = 1 END	// BUFF_PRO_SPELLS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 59 special = 1 END	// SI_ENCHANTMENT (59)
+		LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 142 opcode = 142 parameter2 = 199 END	// Immunity: Enchantment (199)
+	END
+BUT_ONLY
+
+// Ring of Evocation
+// -----------------
+COPY ~ruad/itm/u#ring06.itm~ ~override~
+	SAY NAME2 @6025
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6026" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 66 special = 1 END	// BUFF_PRO_SPELLS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 61 special = 1 END	// SI_EVOCATION (61)
+		LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 142 opcode = 142 parameter2 = 201 END	// Immunity: Evocation (201)
+	END
+BUT_ONLY
+
+// Ring of Illusion
+// ----------------
+COPY ~ruad/itm/u#ring07.itm~ ~override~
+	SAY NAME2 @6027
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6028" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 66 special = 1 END	// BUFF_PRO_SPELLS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 60 special = 1 END	// SI_ILLUSION (60)
+		LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 142 opcode = 142 parameter2 = 200 END	// Immunity: Illusion (200)
+	END
+BUT_ONLY
+
+// Ring of Necromancy
+// ------------------
+COPY ~ruad/itm/u#ring08.itm~ ~override~
+	SAY NAME2 @6029
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6030" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 66 special = 1 END	// BUFF_PRO_SPELLS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 282 opcode = 328 parameter1 = 0 parameter2 = 62 special = 1 END	// SI_NECROMANCY (62)
+		LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 142 opcode = 142 parameter2 = 202 END	// Immunity: Necromancy (202)
+	END
+BUT_ONLY
+
+// Adamantine Chain
+// ----------------
+COPY ~ruad/itm/u#chan01.itm~ ~override~
+	SAY NAME2 @6031
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6032" END
+BUT_ONLY
+
+// Warlord's Girdle
+// ----------------
+COPY ~ruad/itm/u#belt01.itm~ ~override~
+	SAY NAME2 @6033
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6034" END
+BUT_ONLY
+
+// Kaligun's Amulet of Greater Resistance
+// --------------------------------------
+COPY ~ruad/itm/u#amul01.itm~ ~override~
+	SAY NAME2 @6035
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6036" END
+BUT_ONLY
+
+// Upgraded Harper Pin
+// -------------------
+COPY ~ruad/itm/u#amul02.itm~ ~override~
+	SAY NAME2 @6039
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6040" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 match_parameter2 = 37 opcode = 328 parameter1 = 0 parameter2 = 67 special = 1 STR_VAR insert = below END	// BUFF_PRO_EFFECTS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 match_parameter2 = 37 opcode = 328 parameter1 = 0 parameter2 = 106 special = 1 STR_VAR insert = below END	// RESIST_FEAR
+		PATCH_FOR_EACH effects IN ~a7!in13b~ ~spwi205~ ~spin105~ BEGIN
+			LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 106 opcode = 321 timing = 0 parameter2 = 0 STR_VAR insert = first resource = EVAL "%effects%" END
+		END
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ STR_VAR GW_restrict = JAHEIRA GW_kind = "script_name" GW_power = 1 GW_mess319 = 9456 END
+	END
+BUT_ONLY
+
+// Frostfury +4
+// ------------
+COPY ~ruad/itm/u#ax1h01.itm~ ~override~
+	SAY NAME2 @6041
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6042" END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ INT_VAR GW_shaman = 1 END	
+	END
+BUT_ONLY
+
+// Wand of Hard Knocks
+// -------------------
+COPY ~ruad/itm/u#wand01.itm~ ~override~
+	SAY NAME2 @6043
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6044" END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#wand01~ GW_tooltips = ~14118~ END	// Knock (100 charges)
+
+// Messerschmitt Stone Reaver Axe
+// ------------------------------
+COPY ~ruad/itm/u#ax2h01.itm~ ~override~
+	SAY NAME1 @60451	SAY NAME2 @6045
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6046" GW_undesc_to_update = "@60461" END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ INT_VAR GW_shaman = 1 END	
+	END
+BUT_ONLY
+
+// The Ugly Stick
+// --------------
+COPY ~ruad/itm/u#staf01.itm~ ~override~
+	SAY NAME2 @6051
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6052" END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ALTER_ITEM_ALTER_HEADER_FLAGS~ INT_VAR type = 3 header = 3 flag_breaksanctuary = 1 END
+		LPF ~GW_ALTER_ITEM_ALTER_HEADER_FLAGS~ INT_VAR type = 3 header = 4 flag_breaksanctuary = 1 END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#staf01~ GW_tooltips = ~15529 15527 12074 13047~ END	// Melee - Thrown - Burning Hands twice per day - Agannazar's Scorcher twice per day
+
+// Adamantine Plate
+// ----------------
+COPY ~ruad/itm/u#plat01.itm~ ~override~
+	SAY NAME2 @6053
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6054" END
+BUT_ONLY
+
+// Cloak of the Elemental Star
+// ---------------------------
+COPY ~ruad/itm/u#clck01.itm~ ~override~
+	SAY NAME2 @6055
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6056" END
+BUT_ONLY
+// Elemental Star Dart
+COPY ~ruad/res/u#clk01a.itm~ ~override~
+	SAY NAME2 @7001
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@7002" END
+BUT_ONLY
+
+// Cloak of the Shadow
+// -------------------
+COPY ~ruad/itm/u#clck02.itm~ ~override~
+	SAY NAME2 @6065
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6066" END
+BUT_ONLY
+
+// Pikim's Armor
+// -------------
+COPY ~ruad/itm/u#leat01.itm~ ~override~
+	SAY NAME2 @6067
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6068" END
+	PATCH_IF (is_ee OR is_1pp_400) BEGIN
+		LPF ~1pp_leat08~ END
+	END
+BUT_ONLY
+
+// Neb's Nasty Cutter
+// ------------------
+COPY ~ruad/itm/u#dagg01.itm~ ~override~
+	SAY NAME2 @6069
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6070" END
+	WRITE_ASCII 0x1e6 "u#dagg01"
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 55 STR_VAR insert = first resource = "u#dagg01" END	// undead or golem
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 77 STR_VAR resource = "u#dagg01" END	// STAT RESISTPOISON >= 100
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#dagg01~ GW_tooltips = ~@6069 @60701~ END	// Neb's Nasty Cutter - Summon a Restless Child Spirit once per day
+// Restless Child Spirit
+COPY ~ruad/res/u#dagg01.eff~ ~override~
+COPY ~ruad/res/u#dagg01.cre~ ~override~
+	SAY NAME1 @2005 SAY NAME2 @2005
+BUT_ONLY
+COMPILE ~ruad/res/u#dagg01.baf~
+
+// Shadow Thief's Blade
+// --------------------
+COPY ~ruad/itm/u#sw1h08.itm~ ~override~
+	SAY NAME2 @6071
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6072" END
+BUT_ONLY
+
+// Enchanted Bow of Arvoreen
+// -------------------------
+COPY ~ruad/itm/u#bow01.itm~ ~override~
+	SAY NAME2 @6073
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6074" END
+	PATCH_IF (is_ee OR is_1pp_401) BEGIN
+		LPF ALTER_ITEM_HEADER INT_VAR header_type = 2 projectile = (IDS_OF_SYMBOL (projectl 1arow11) + 1) END
+	END
+BUT_ONLY
+
+// Robe of Resistance
+// ------------------
+COPY ~ruad/itm/u#robe01.itm~ ~override~
+	SAY NAME2 @6081
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6082" END
+BUT_ONLY
+
+// Dragon's Tooth
+// --------------
+COPY ~ruad/itm/u#halb01.itm~ ~override~
+	SAY NAME2 @6083
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6084" END
+	PATCH_IF (is_ee OR is_1pp_400) BEGIN
+		LPF ~u_halb01~ END
+	END
+BUT_ONLY
+
+// Cloak of Thay
+// -------------
+COPY ~ruad/itm/u#clck03.itm~ ~override~
+	SAY NAME2 @6085
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6086" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 opcode = 328 parameter1 = 0 parameter2 = 111 special = 1 STR_VAR insert = below END	// PROTECTION_FROM_NORMAL_WEAPONS
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 opcode = 328 parameter1 = 0 parameter2 = 64 special = 1 STR_VAR insert = below END		// BUFF_PRO_WEAPONS
+	END ELSE BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 opcode = 282 parameter1 = 1 parameter2 = 25 STR_VAR insert = below END					// 181 PROTECTION_FROM_NORMAL_WEAPONS
+	END
+BUT_ONLY
+
+// Nature's Cloak
+// ---------------
+COPY ~ruad/itm/u#clck04.itm~ ~override~
+	SAY NAME2 @6087
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6088" END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ STR_VAR GW_restrict = CERND GW_kind = "script_name" GW_power = 1 GW_mess319 = 9153 END
+	END
+BUT_ONLY
+
+// Nature's Staff
+// --------------
+COPY ~ruad/itm/u#staf02.itm~ ~override~
+	SAY NAME2 @6091
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6092" END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ STR_VAR GW_restrict = CERND GW_kind = "script_name" GW_power = 1 GW_mess319 = 9153 END
+	END
+BUT_ONLY
+
+// Staff of Many Magics
+// --------------------
+COPY ~ruad/itm/u#staf03.itm~ ~override~
+	SAY NAME2 @6093
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6094" END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ALTER_ITEM_ALTER_HEADER_FLAGS~ INT_VAR type = 3 header = 2 flag_breaksanctuary = 1 END
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 1 multi_match = 1 match_opcode = 177 opcode = 324 duration = 1 match_parameter1 = 3 parameter1 = 0 parameter2 = 19 STR_VAR match_resource = CDELFCM7 resource = "u#staf03" END
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 1 multi_match = 1 match_opcode = 177 opcode = 324 duration = 1 match_parameter1 = 2 parameter1 = 0 parameter2 = 15 STR_VAR match_resource = CDELFCM7 resource = "u#staf03" END
+		LPF DELETE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 1 match_opcode = 177 END
+		PATCH_FOR_EACH effects IN ~SPWI409~ ~SPIN784~ ~OHRGROG~ ~OHDMASK~ ~OHBCDIS~ ~ZOMSEA~ ~SPIDWR1~ ~SHARSWD~ ~SAHZOM01~ ~PUDDEN01~ ~PARAGHAS~ ~P1-2P~ ~OTYUGH~ ~OHRSLNG1~ ~OHHGMUM1~ ~MUMMYW~ ~MUMGREW~ ~MISC8J~ ~MAGISPWR~ ~LACEDO2~ ~LACEDO~ ~IOTYUGH~ ~GHOULLOR~ ~GHAST1~ ~DEMOGORG~ ~DARTMEL~ ~ACIDOOZ3~ BEGIN
+			LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 2 multi_match = 1 match_opcode = 11 opcode = 321 duration = 0 parameter1 = 0 parameter2 = 0 STR_VAR insert = below resource = EVAL "%effects%" END
+		END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#staf03~ GW_tooltips = ~@6093 22614 8786~ END	// Staff of Many Magics - Domination once per day - Heal once per day
+
+// The Drowsy Wyvern
+// -----------------
+COPY ~ruad/itm/u#blun01.itm~ ~override~
+	SAY NAME2 @6095
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6096" END
+	PATCH_IF is_ee BEGIN
+		LPF ADD_ITEM_EFFECT INT_VAR silent = 1 type = 1 header = 1 insert_point = 0 opcode = 324 target = 2 parameter2 = 77 STR_VAR resource = "u#blun01" END	// STAT RESISTPOISON >= 100
+		LPF ADD_ITEM_EFFECT INT_VAR silent = 1 type = 1 header = 1 insert_point = 0 opcode = 324 target = 2 parameter2 = 55 STR_VAR resource = "u#blun01" END	// undead or golem
+	END
+	PATCH_IF (is_ee OR is_1pp_swblbw) BEGIN
+		LPF ~1pp_blun17~ END
+	END
+BUT_ONLY
+// DEPRECATED as of v 29 The Drowsy Wyvern sleep effect
+//COPY ~ruad/res/u#blun01.eff~ ~override~
+
+// Cloak of the Shark Father
+// -------------------------
+COPY ~ruad/itm/u#clck05.itm~ ~override~
+	SAY NAME2 @6099
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6100" END
+	WRITE_ASCII 0x76 "u#clck05"
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 opcode = 328 parameter2 = 66 special = 1 END	// BUFF_PRO_SPELLS
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#clck05~ GW_tooltips = ~@61001~ END	// Summon Anguiliian once per day
+// Anguiliian
+COPY ~ruad/res/u#clck05.cre~ ~override~
+     ~ruad/res/u#clck05.eff~ ~override~
+
+// Fluent Fingers
+// --------------
+COPY ~ruad/itm/u#brac02.itm~ ~override/u#brac02.itm~
+	SAY NAME2 @6101
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6102" END
+BUT_ONLY
+
+// Ring of the Thief
+// -----------------
+COPY ~ruad/itm/u#ring09.itm~ ~override~
+	SAY NAME2 @6103
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6104" END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#ring09~ GW_tooltips = ~12017~ END	// Invisibility once per day
+
+// Gauntlets of Assassination
+// --------------------------
+COPY ~ruad/itm/u#brac03.itm~ ~override~
+	SAY NAME2 @6105
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6106" END
+BUT_ONLY
+
+// Kiss of Death
+// -------------
+COPY ~ruad/itm/u#sw1h09.itm~ ~override~
+	SAY NAME2 @6107
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6108" END
+	PATCH_IF is_ee BEGIN
+		LPF ADD_ITEM_EFFECT INT_VAR silent = 1 type = 1 header = 1 insert_point = 0 opcode = 324 target = 2 parameter2 = 77 STR_VAR resource = "u#sw1h09" END	// STAT RESISTPOISON >= 100
+		LPF ADD_ITEM_EFFECT INT_VAR silent = 1 type = 1 header = 1 insert_point = 0 opcode = 324 target = 2 parameter2 = 55 STR_VAR resource = "u#sw1h09" END	// undead or golem
+	END
+	PATCH_IF (is_ee OR is_1pp_swblbw) BEGIN
+		LPF ~1pp_sw1h28~ END
+	END
+BUT_ONLY
+
+// Hide of Shades
+// --------------
+COPY ~ruad/itm/u#leat02.itm~ ~override~
+	SAY NAME2 @6109
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6110" END
+	PATCH_IF (is_ee OR is_1pp_400) BEGIN
+		LPF ~1pp_leat08~ END
+	END
+BUT_ONLY
+
+// Lava's Bane
+// -----------
+COPY ~ruad/itm/u#sw2h02.itm~ ~override~
+	SAY NAME2 @6111
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6112" END
+	PATCH_IF (is_ee OR is_1pp_swblbw) BEGIN
+		LPF ~1pp_sw2h12~ END
+	END
+BUT_ONLY
+// Lava's Bane effects
+COPY ~ruad/res/u#sw2h21.eff~ ~override~
+	 ~ruad/res/u#sw2h22.eff~ ~override~
+//DEPRECATED as of v 29.0.0	 ~ruad/res/u#sw2h23.eff~ ~override~
+//	 ~ruad/res/u#sw2h24.eff~ ~override~
+
+// Wooden Stake
+// ------------
+COPY ~ruad/itm/u#blun03.itm~ ~override~
+	SAY NAME2 @6113
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6114" END
+BUT_ONLY
+// Wooden Stake effects
+COPY ~ruad/res/u#blun32.eff~ ~override~
+//DEPRECATED as of v 29.0.0	 ~ruad/res/u#blun31.eff~ ~override~
+
+// Bow of Uden
+// -----------
+COPY ~ruad/itm/u#bow02.itm~ ~override~
+	SAY NAME2 @6115
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6116" END
+	PATCH_IF is_ee BEGIN
+		LPF ADD_ITEM_EFFECT INT_VAR silent = 1 type = 2 header = 1 insert_point = 0 opcode = 324 target = 2 parameter2 = 77 STR_VAR resource = "u#bow02" END	// STAT RESISTPOISON >= 100
+		LPF ADD_ITEM_EFFECT INT_VAR silent = 1 type = 2 header = 1 insert_point = 0 opcode = 324 target = 2 parameter2 = 55 STR_VAR resource = "u#bow02" END	// undead or golem
+	END
+	PATCH_IF (is_ee OR is_1pp_401) BEGIN
+		LPF ALTER_ITEM_HEADER INT_VAR projectile = (IDS_OF_SYMBOL (projectl 1arow05) + 1) END
+	END
+	PATCH_IF (is_ee OR is_1pp_swblbw) BEGIN
+		LPF ~1pp_bow12~ END
+	END
+BUT_ONLY
+
+// Staff of Resurrection
+// ---------------------
+COPY ~ruad/itm/u#staf04.itm~ ~override~
+	SAY NAME2 @6117
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6118" END
+	PATCH_IF is_ee BEGIN
+		PATCH_FOR_EACH effects IN ~SPWI409~ ~SPIN784~ ~OHRGROG~ ~OHDMASK~ ~OHBCDIS~ ~ZOMSEA~ ~SPIDWR1~ ~SHARSWD~ ~SAHZOM01~ ~PUDDEN01~ ~PARAGHAS~ ~P1-2P~ ~OTYUGH~ ~OHRSLNG1~ ~OHHGMUM1~ ~MUMMYW~ ~MUMGREW~ ~MISC8J~ ~MAGISPWR~ ~LACEDO2~ ~LACEDO~ ~IOTYUGH~ ~GHOULLOR~ ~GHAST1~ ~DEMOGORG~ ~DARTMEL~ ~ACIDOOZ3~ BEGIN
+			LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 1 multi_match = 1 match_opcode = 11 opcode = 321 duration = 0 parameter1 = 0 parameter2 = 0 STR_VAR insert = below resource = EVAL "%effects%" END
+		END
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 2 multi_match = 1 match_opcode = 32 opcode = 309 timing = 0 duration = 60 parameter1 = 1 resist_dispel = 0 STR_VAR insert = last resource = ohdress END	// Modify Local Variable
+	END
+	PATCH_IF (is_ee OR is_1pp_staff) BEGIN
+		LPF ~1pp_staf10~ END
+	END
+	PATCH_IF (is_1pp_staff0) BEGIN
+		LPF ~1pp_staf10_0~ END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#staf04~ GW_tooltips = ~@6117 12116 25765~ END	// Staff of Resurrection - Cure Critical Wounds once per day - Resurrection once per day
+
+// Ring of Time Control
+// --------------------
+COPY ~ruad/itm/u#ring10.itm~ ~override~
+	SAY NAME2 @6119
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6120" END
+BUT_ONLY
+
+// Pure cosmetic, but so cool!
+// ---------------------------
+COPY_EXISTING ~tooltip.2da~ ~override~
+	PRETTY_PRINT_2DA
+BUT_ONLY

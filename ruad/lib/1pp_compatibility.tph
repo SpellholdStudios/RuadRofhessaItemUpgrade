@@ -7,6 +7,7 @@
  * ======================================================================================================================= */
 
 // Blade of the Red Rose +4 (from Blade of Roses +3)
+// ------------------------
 DEFINE_PATCH_FUNCTION ~1pp_sw1h40~ BEGIN
 	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
 		LPM ~clear~
@@ -22,7 +23,8 @@ DEFINE_PATCH_FUNCTION ~1pp_sw1h40~ BEGIN
 		END
 END
 
-// Pikim's Armor - Hide of Shades
+// Pikim's Armor - Hide of Shades (from Shadow Armor)
+// ------------------------------
 DEFINE_PATCH_FUNCTION ~1pp_leat08~ BEGIN
 	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
 		LPM ~clear~
@@ -39,13 +41,15 @@ DEFINE_PATCH_FUNCTION ~1pp_leat08~ BEGIN
 END
 
 // Dragon's Tooth
+// --------------
 DEFINE_PATCH_FUNCTION ~u_halb01~ BEGIN
 	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
 	LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 7 parameter1 = 195 END	// 195 CHROME RED replaces colour index 33 CHROME_MAGENTA
 	END
 END
 
-// The Drowsy Wyvern
+// The Drowsy Wyvern (from Wyvern's Tail +2)
+// -----------------
 DEFINE_PATCH_FUNCTION ~1pp_blun17~ BEGIN
 	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
 		LPM ~clear~
@@ -61,7 +65,8 @@ DEFINE_PATCH_FUNCTION ~1pp_blun17~ BEGIN
 		END
 END
 
-// Kiss of Death
+// Kiss of Death (from Cutthroat +4)
+// -------------
 DEFINE_PATCH_FUNCTION ~1pp_sw1h28~ BEGIN
 	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
 		LPM ~clear~
@@ -77,7 +82,8 @@ DEFINE_PATCH_FUNCTION ~1pp_sw1h28~ BEGIN
 		END
 END
 
-// Lava's Bane
+// Lava's Bane (from Flame of the North +2)
+// -----------
 DEFINE_PATCH_FUNCTION ~1pp_sw2h12~ BEGIN
 	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
 		LPM ~clear~
@@ -99,7 +105,8 @@ DEFINE_PATCH_FUNCTION ~1pp_sw2h12~ BEGIN
 		END
 END
 
-// Bow of Uden
+// Bow of Uden (from Elven Court Bow +3)
+// -----------
 DEFINE_PATCH_FUNCTION ~1pp_bow12~ BEGIN
 	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
 		LPM ~clear~
@@ -115,7 +122,28 @@ DEFINE_PATCH_FUNCTION ~1pp_bow12~ BEGIN
 		END
 END
 
-// Staff of Resurrection
+// Staff of Resurrection (from Enhanced Staff of Curing)
+// ---------------------
+DEFINE_PATCH_FUNCTION ~1pp_staf10_0~ BEGIN
+	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN
+		LPM ~clear~
+		SET gradient = 96		// sets colour index 96 CHROME_BLUE
+		SET location = wgrey	// location (Head/Blade/Staff major)
+		LPM ~colour~
+		SET gradient = 100		// sets colour index 100 DARK_ASH_GRAY
+		SET location = wteal	// location (Staff minor)
+		LPM ~colour~
+		SET gradient = 96		// sets colour index 96 CHROME_BLUE
+		SET location = wpink	// location (Bolt-Mace-Staff)
+		LPM ~colour~
+		SET gradient = 102		// sets colour index 102 SEA_BLUE
+		SET location = wblue	// location (Head/Blade minor)
+		LPM ~colour~
+		SET gradient = 96		// sets colour index 96 CHROME_BLUE
+		SET location = wred		// location * compatibility
+		LPM ~colour~
+	END
+END
 DEFINE_PATCH_FUNCTION ~1pp_staf10~ BEGIN
 	PATCH_IF (SOURCE_SIZE > 0x71) BEGIN	// protects against invalid files
 			WRITE_ASCII 0x22 ~Q4~			// Quarterstaff (alternate 3)

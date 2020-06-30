@@ -1,0 +1,148 @@
+/* ==================================== *
+ *         Ruad Ro'fhessa (ToB)         *
+ * ==================================== */
+
+SILENT
+
+/* ------------------ *
+ *  Compiling script  *
+ * ------------------ */
+EXTEND_TOP ~ar4500.bcs~ ~ruad/ruad/tobruad.baf~ EVALUATE_BUFFER
+
+/* ------- *
+ *  Items  *
+ * ------- */
+LAM ~GW_READ_COL_TOOLTIP~			// Reads how many columns are in tooltip.2da file.
+
+// Kraka'Tur (Whirlwind)
+// ---------------------
+COPY ~ruad/res/u#s1h04b.cre~ ~override/u#sw1h04.cre~
+	SAY NAME1 @2003 SAY NAME2 @2003
+BUT_ONLY
+
+// Incandescent Ioun Stone
+// -----------------------
+COPY ~ruad/itm/u#helm01.itm~ ~override~
+	SAY NAME2 @6037
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6038" END
+	PATCH_IF (is_ee OR is_tobex) BEGIN
+		WRITE_LONG 0x18 THIS | BIT25	// add EE/Ex: Toggle critical hits flag
+	END
+BUT_ONLY
+
+// Corthala Family Blade +3
+// ------------------------
+COPY ~ruad/itm/u#sw1h06.itm~ ~override~
+	SAY NAME2 @6047
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6048" END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ STR_VAR GW_restrict = VALYGAR GW_kind = "script_name" GW_power = 1 GW_mess319 = 9158 END
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 55 STR_VAR insert = first resource = "u#sw1h06" END	// undead or golem
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 77 STR_VAR resource = "u#sw1h06" END	// STAT RESISTPOISON >= 100
+	END
+BUT_ONLY
+
+// Corthala Family Blade +4
+// ------------------------
+COPY ~ruad/itm/u#sw1h07.itm~ ~override~
+	SAY NAME2 @6049
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6050" END
+	PATCH_IF is_ee BEGIN
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ STR_VAR GW_restrict = VALYGAR GW_kind = "script_name" GW_power = 1 GW_mess319 = 9158 END
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 55 STR_VAR insert = first resource = "u#sw1h07" END	// undead or golem
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 0 multi_match = 1 match_opcode = 25 opcode = 324 duration = 0 parameter1 = 0 parameter2 = 77 STR_VAR resource = "u#sw1h07" END	// STAT RESISTPOISON >= 100
+	END
+BUT_ONLY
+
+// Crimson Flame Dart
+// ------------------
+COPY ~ruad/itm/u#dart01.itm~ ~override~
+	SAY NAME2 @6057
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6058" END
+	PATCH_IF (is_ee OR is_1pp_401) BEGIN
+		LPF ALTER_ITEM_HEADER INT_VAR projectile = (IDS_OF_SYMBOL (projectl 1dart08) + 1) END
+	END
+BUT_ONLY
+
+// Chaos Stone
+// -----------
+COPY ~ruad/itm/u#helm02.itm~ ~override~
+	SAY NAME2 @6059
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6060" END
+	PATCH_IF (is_ee) BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 opcode = 328 parameter2 = 83 special = 1 END	// CHAOS_SHIELD
+	END
+	PATCH_IF (is_ee OR is_tobex) BEGIN
+		WRITE_LONG 0x18 THIS | BIT25	// add EE/Ex: Toggle critical hits flag
+	END
+BUT_ONLY
+
+// Improved Chaos Stone
+// ---------------------
+COPY ~ruad/itm/u#helm03.itm~ ~override~
+	SAY NAME2 @6061
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6062" END
+	PATCH_IF (is_ee) BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_headers = 0 multi_match = 1 match_opcode = 142 opcode = 328 parameter2 = 84 special = 1 END	// IMPROVED_CHAOS_SHIELD
+	END
+	PATCH_IF (is_ee OR is_tobex) BEGIN
+		WRITE_LONG 0x18 THIS | BIT25	// add EE/Ex: Toggle critical hits flag
+	END
+BUT_ONLY
+
+// Undead Bane
+// -----------
+COPY ~ruad/itm/u#sw2h01.itm~ ~override~
+	SAY NAME2 @6063
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6064" END
+	PATCH_IF (is_ee) BEGIN
+		LPF ~GW_ALTER_ITEM_ALTER_HEADER_FLAGS~ INT_VAR type = 3 header = 2 flag_breaksanctuary = 1 END
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#sw2h01~ GW_tooltips = ~@6063 38569 55842~ END	// Undead Bane - False Dawn once per day - Negative Plane Protection once per day
+
+// Plate of Many Dragons
+// ---------------------
+COPY ~ruad/itm/u#plat02.itm~ ~override~
+	SAY NAME2 @6075
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6076" END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#plat02~ GW_tooltips = ~12066~ END	// Cone of Cold 3 times per day
+
+// Helm of Many Dragons
+// --------------------
+COPY ~ruad/itm/u#helm04.itm~ ~override~
+	SAY NAME2 @6077
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6078" END
+BUT_ONLY
+
+// Shield of Many Dragons
+// ----------------------
+COPY ~ruad/itm/u#shld01.itm~ ~override~
+	SAY NAME2 @6079
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6080" END
+BUT_ONLY
+
+// Mits of Shaiman
+// ---------------
+COPY ~ruad/itm/u#brac01.itm~ ~override~
+	SAY NAME2 @6089
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6090" END
+BUT_ONLY
+
+// Cold Shoulder
+// -------------
+COPY ~ruad/itm/u#blun02.itm~ ~override~
+	SAY NAME2 @6097
+	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6098" END
+	PATCH_IF is_ee BEGIN
+		LPF CLONE_EFFECT INT_VAR silent = 1 check_globals = 0 header = 1 multi_match = 1 match_opcode = 142 opcode = 328 parameter1 = 0 parameter2 = 68 special = 1 END	// BUFF_ENHANCEMENT
+	END
+BUT_ONLY
+LAF ~GW_ADD_ITEM_TOOLTIPS~ STR_VAR GW_objet = ~u#blun02~ GW_tooltips = ~@6097 @60981 12062~ END	// Cold Shoulder - Frost Giant Strength once per day - Ice Storm once per day
+
+// Pure cosmetic, but so cool!
+// ---------------------------
+COPY_EXISTING ~tooltip.2da~ ~override~
+	PRETTY_PRINT_2DA
+BUT_ONLY

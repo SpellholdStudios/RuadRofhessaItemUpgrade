@@ -40,7 +40,7 @@ OUTER_SPRINT GW_desc_updated
 			INCLUDE ~.../inlined/GW_%GW_desc_to_update%.tpp~
 			OUTER_SPRINT usab @9001		// ~[Uu]niquement[ %tab%]+[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~ = ~[Oo]nly[ %tab%]+[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 			OUTER_SPRINT unus @9002		// ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~ = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
-			OUTER_PATCH_SAVE GW_desc_updated ~%GW_desc_updated%~ BEGIN	// Suppression de toutes les références aux classes et aux kits pouvant ou pas utiliser l'objet.
+			OUTER_PATCH_SAVE GW_desc_updated ~%GW_desc_updated%~ BEGIN	// Suppression de toutes les références aux classes et aux kits pouvant ou pas utiliser l'objet. - Removes all classes and kits (un-)usability flags.
 				REPLACE_TEXTUALLY ~\(\([%LNL%%MNL%%WNL%][ %TAB%]*\(%usab%\|%unus%\)[ %TAB%]*\)\(\([%LNL%%MNL%%WNL%].*\)*\)?\)~  ~~
 			END
 		END ELSE BEGIN
@@ -147,11 +147,11 @@ DEFINE_ACTION_MACRO ~GW_READ_COL_TOOLTIP~ BEGIN
 END
 
 
-/* ======================================================================= *
- *  FUNCTION GW_ADD_ITEM_TOOLTIPS: ADDS new line in tooltip.2da. file.     *
- * ----------------------------------------------------------------------- *
- *  PARSES %GW_tooltips% string chain and adds a new line in tooltip.2da.  *
- * ======================================================================= */
+/* ========================================================================= *
+ *  FUNCTION GW_ADD_ITEM_TOOLTIPS: ADDS a new line in tooltip.2da. file.     *
+ * ------------------------------------------------------------------------- *
+ *  PARSES %GW_tooltips% string chain and adds a new line in tooltip.2da.    *
+ * ========================================================================= */
 
 DEFINE_ACTION_FUNCTION ~GW_ADD_ITEM_TOOLTIPS~
 	STR_VAR	GW_objet	= ~N~	// item code: ~sw1h01~
@@ -190,7 +190,7 @@ BEGIN
 
 	END
 
-END
+END	// of DEFINE_ACTION_FUNCTION
 
 
 /* ====================================================================================================================================== *
@@ -328,18 +328,18 @@ END
  * ================================================================================================================= */
 
 DEFINE_PATCH_FUNCTION ~GW_ITEM_RESTRICT_USABILITY_EE~ 
-	INT_VAR GW_shaman	= 0		// Automatic Druid restriction removal, now handled with op#319
+	INT_VAR GW_shaman   = 0		// Automatic Druid restriction removal, now handled with op#319
 	STR_VAR GW_restrict = ""	// HUMAN, MALE, CAVALIER... Or string defining Actor's name, or scripting name (8 maximum length).
-			GW_kind		= ""	// IDS file : EA, General, Race, class, Specific, Gender, Align, Kit. OR Name (Actor's name), script_name (Actor's scripting name).
-			GW_mess319	= 0		// Description note (special field)
+            GW_power    = 0		// When GW_power is set to 1, this effect restricts the item to creature(s) matching the object identifiers. When GW_power is set to 0, creature(s) matching the object identifiers cannot use the item. The string to display when an invalid creature attempts to use the item is held in GW_mess319 (0x2c).
+            GW_kind     = ""	// IDS file : EA, General, Race, class, Specific, Gender, Align, Kit. OR Name (Actor's name), script_name (Actor's scripting name).
+            GW_mess319  = 0		// Description note (special field)
 BEGIN
 
-//	PATCH_IF (ENGINE_IS ~bgee bg2ee eet iwdee~) OR GAME_INCLUDES ~sod~ BEGIN
 	PATCH_IF (GW_shaman) BEGIN
-	
+
 		WRITE_LONG 0x1e (THIS BAND BNOT BIT30)	// removes Druid exclusion flag
-		LPF ADD_ITEM_EQEFFECT INT_VAR insert_point = "-1" opcode = 319 target = 1 timing = 2 parameter1 = 11 parameter2 = 5 power = 1 special = 1080 END	// Restrict Item (Usability: Item Usability) : 11 Druid - 5 Class.ids
-	
+		LPF ADD_ITEM_EQEFFECT INT_VAR insert_point = "-1" opcode = 319 target = 1 timing = 2 parameter1 = 11 parameter2 = 5 power = 0 special = 1080 END	// Restrict Item (Usability: Item Usability) : 11 Druid - 5 Class.ids
+
 	END ELSE BEGIN
 
 		SET GW_param2 = 0
@@ -368,7 +368,7 @@ BEGIN
 				END			// of PATCH_IF FILE_EXISTS_IN_GAME ~%GW_kind%.ids~
 			END				// of PATCH_IF ("%GW_kind%" STRING_COMPARE_CASE ~NAME~) AND ("%GW_kind%" STRING_COMPARE_CASE ~SCRIPT_NAME~)
 
-		// Actor's name case : If 'IDS File' is set to 10, the item is restricted to characters with the name specified by the set held in parameter1.
+		// Actor's name case : If 'IDS File' is set to 10, the item is restricted to characters with the name specified by the strref held in parameter1. TODO If the strref is set to -1 (None), then you are targeting player-created characters (e.g., CHARNAME).
 		// -----------------
 			PATCH_IF ("%GW_kind%" STRING_COMPARE_CASE ~NAME~ = 0) BEGIN
 				SET GW_param2 = 10
@@ -386,7 +386,7 @@ BEGIN
 				END
 			END		// of PATCH_IF ("%GW_kind%" STRING_COMPARE_CASE ~NAME~ = 0)
 
-		// Actor's scripting name case : If 'IDS File' is set to 11, the item is restricted to characters with the death variable specified by the resource field. 
+		// Actor's scripting name case : If 'IDS File' is set to 11, the item is restricted to characters with the death variable specified by the resource field. TODO If ˜no death variable is specified in the resource field, then you are targeting player-created characters (e.g., CHARNAME).
 		// ---------------------------
 			PATCH_IF ("%GW_kind%" STRING_COMPARE_CASE ~SCRIPT_NAME~ = 0) BEGIN
 				SET GW_param1 = 0
@@ -403,7 +403,7 @@ BEGIN
 					REPLACE_TEXTUALLY ~^[@#]~  ~~
 				END
 				PATCH_IF ("GW_mess319%" STRING_COMPARE_REGEXP ~^[@]-?[0-9]+$~ = 0) BEGIN
-					SET GW_special319 = RESOLVE_STR_REF ((AT % GWspecial%))
+					SET GW_special319 = RESOLVE_STR_REF ((AT %GWspecial%))
 				END ELSE BEGIN
 					SET GW_special319 = EVAL "%GWspecial%"
 				END
@@ -414,7 +414,7 @@ BEGIN
 			// Adds Effect #319 Usability: Item Usability if needed.
 			// -----------------------------------------------------
 			PATCH_IF (GW_param2 > 0) BEGIN
-				LPF ~ADD_ITEM_EQEFFECT~ INT_VAR opcode = 319 target = 1 timing = 2 parameter1 = EVAL "%GW_param1%" parameter2 = EVAL "%GW_param2%" special = EVAL "%GW_special319%" STR_VAR resource = EVAL "%GW_resource319%" END
+				LPF ~ADD_ITEM_EQEFFECT~ INT_VAR opcode = 319 target = 1 timing = 2 parameter1 = EVAL "%GW_param1%" parameter2 = EVAL "%GW_param2%" power = EVAL "%GW_power%" special = EVAL "%GW_special319%" STR_VAR resource = EVAL "%GW_resource319%" END
 			END	// of PATCH_IF (GW_param2 > 0)
 
 		END		// of PATCH_IF ("%GW_restrict%" STR_CMP ~~) AND ("%GW_kind%" STR_CMP ~~)
