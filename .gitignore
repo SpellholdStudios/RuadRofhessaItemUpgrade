@@ -11,7 +11,6 @@ Desktop.ini
 # ===============================
 $RECYCLE.BIN/
 
-
 # Windows Installer files
 # =======================
 
@@ -34,19 +33,20 @@ $RECYCLE.BIN/
 # ==========
 ._*
 
+
 # =================
 # ignore all files
 # =================
 *.bak
 *.bat
 *.csv
-*.7z
+# *.7z
 *.rar
 *.zip
-*.exe
+# *.exe
 dev_notes.txt
 z*.*
-todo*.*
+# todo*.*
 
 
 # ========================================
