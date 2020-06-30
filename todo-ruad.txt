@@ -1,0 +1,30 @@
+- ruad.d : check remaining DestroyAllEquipment().
+
+- 1PP compatibility:
+	- Yoshimo's Poisoned Katana +3 (u#sw1h05.itm)
+	- Helm of Many Dragons (u#helm04.itm)
+	- Shield of Many Dragons (u#shld01.itm)
+	- Robe of Resistance (u#robe01.itm)
+
+- Check item colors:
+	- Neb's Nasty Cutter (u#dagg01.itm): grip color (DEEP FUSCHIA) does not match its icon (green).
+	- Plate of Many Dragons (u#plat02.itm): the author kept PLAT18 colors, but use another icon.
+	- Staff of Many Magics (u#staf03.itm): same problem with Q4 setting.
+
+- Adamantine Plate (u#plat01.itm): weight 120!
+
+- Cloak of the Shark Father (u#clck05.itm): create an icon for Summon Anguiliian ability.
+
+- Yoshimo's Spirit (u#misc01.cre): the spirit of Yoshimo should be a 18th level Bounty Hunter.
+
+- The Ugly Stick (u#staf01.itm): ST compatibility (SPWI103 Burning Hands and SPWI217 Agannazar's Scorcher)
+
+- Cold Shoulder (u#blun02.itm): EE compatibility (immunity to freezing death).
+
+- Cloak of the Elemental Star (u#clck01.itm):
+	- Make sure op#255 last 2 days.
+	- Choose a 1PP DART projectile.
+
+- Regenerating items (Black Sword of Undeath, Incandescent Ioun Stone, Nature's Staff): add DS values.
+
+- Undead Bane (u#sw2h01.itm): should be available only in ToB.
