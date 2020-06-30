@@ -4,7 +4,7 @@
 
 Q: I can't find Ruad. Where is he?
 
-A: SoA version: ± x=1850, y=670.
+A: SoA version: x=1850, y=670.
    ToB version: PLEASE tell me you're joking???
 
 

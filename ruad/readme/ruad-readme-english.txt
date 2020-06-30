@@ -8,7 +8,7 @@
                  \\==========================================//
 
                               //==================\\
-                              || Release:  30.0.0 ||
+                              || Release:  29.0.0 ||
                               \\==================//
 
 
@@ -92,21 +92,25 @@ None (yet).
 Special thanks to:
 
 - Westley Weimer, for all his help to me throughout BGII.
+- Gwendolyne: fixed translations and released version 29.0.0.
+- Deratiseur: native EE compatible version (v28).
 - Thot: French translation. And La Voix 2 la Sagesse (of the d'Oghmatiques) for updating it.
-- Bhasbuto, Immortality and Mhoram of <a href="http://www.clandlan.cjb.net">Clan DLAN</a>: Spanish translation. And Lisandro for updating it.
+- Bhasbuto, Immortality and Mhoram of Clan DLAN ( http://www.clandlan.cjb.net ): Spanish translation. And Lisandro for updating it.
 - Beyshaliban: German translation.
-- Ilot: Italian translation. And Salk for providing WeiDU prompts.
+- Ilot: Italian translation. And Salk for providing Italian WeiDU prompts.
 - aerie.ru Team: Russian translation.
-- Deratiseur: Provided the EE compatible version (28).
-- Gwendolyne: Fixed translations and released version 29.0.0.
-- <a href="http://www.fwstudios.net">Forgotten Wars Studios</a> for kindly agreeing to host a forum for Ruad.
+- Forgotten Wars Studios ( http://www.fwstudios.net ) for kindly agreeing to host a forum for Ruad.
 - Everyone at the Forgotten Wars Studios forums, for giving me some useful items and ideas.
-- Everyone else from the <a href="http://www.shsforums.net/">Spellhold Studios</a> forums, and the other Infinity Engine gaming and modding communities who offered their help and support.
+- Everyone else from the Spellhold Studios forums ( http://www.shsforums.net/ ), and the other Infinity Engine gaming and modding communities who offered their help and support.
 
-- <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU</a> ("Weimer Dialogue Utility") by Wes Weimer, the bigg and Wisp.
-- <a href="https://github.com/Argent77/NearInfinity/releases">Near Infinity</a> by Jon Olav Hauglid, FredSRichardson and Argent77.
-- <a href="https://sorcerers.net/Games/dl.php?s=BG2&f=BG2/ShadowKeeper.zip">ShadowKeeper</a> by Aaron O'Neil.
-- <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a>, by Dmitry Jemerov / bigmoshi.
+- WeiDU, by Wes Weimer, the bigg and Wisp. ( https://github.com/WeiDUorg/weidu/releases )
+- Near Infinity, by Jon Olav Hauglid, FredSRichardson, and Argent77. ( https://github.com/Argent77/NearInfinity/releases )
+- Infinity Explorer, by Dmitry Jemerov / bigmoshi. ( http://www.shsforums.net/topic/31285-infinity-explorer-v085/ )
+- IESDP, maintained by igi and lynx. ( https://gibberlings3.github.io/iesdp/ )
+- ShadowKeeper by Aaron O'Neil. ( https://sorcerers.net/Games/dl.php?s=BG2&f=BG2/ShadowKeeper.zip )
+- Notepad++, by the Notepad++ team, Don Ho, and the spellcheck plug-in. ( http://notepad-plus-plus.org/ )
+- WeiDU Notepad++ Highlighters, by Argent77. ( http://www.shsforums.net/files/file/1048-weidu-highlighter-for-notepad/ )
+- Infinity Auto Packager, by AL|EN. ( https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it )
 
 
 
@@ -114,31 +118,34 @@ Special thanks to:
                             || 6 - Recent Changes ||
                             \\====================//
 
-Version beta 29.0.0 by Gwendolyne (, 2019)
-- Renamed Setup-Ruad.tp2 -> ruad.tp2 to support AL|EN's "Project Infinity".
+Version beta 29.0.0 (Hune 30, 2020)
 - Added ruad.ini metadata file to support AL|EN's "Project Infinity".
-- Provided compatibility with 1PP and ToBEx.
+- Renamed Setup-Ruad.tp2 -> ruad.tp2 to support AL|EN's "Project Infinity".
+- Replaced `AUTHOR` keyword with `SUPPORT`.
+- Fixed a typo in `HANDLE_CHARSETS` function (replaced "infer_charset" with "infer_charsets").
+- Added `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games (replaced old `ACTION_IF NOT FILE_EXISTS "Data/25Dialog.bif"` process).
+- Added components `DESIGNATED` numbers and "ruad_soa" and "ruad_tob" `LABELS`.
+- Added always.tpa library.
+- Externalized tp2 code into ruad_soa.tpa and ruad_tob.tpa libraries for more comfortable readability and maintenance.
+- Added native EET, 1PP and ToBEx compatibility.
+- Commented code as much as possible.
+- Fixed many items (see https://github.com/SpellholdStudios/RuadRofhessaItemUpgrade for details).
 - Converted inventory BAMs to EE: This feature attempts to modify traditional inventory BAMs so that both the large and small icons are utilized by the EE games. The inventory BAM must have two sequences, the first containing the "large" inventory icon frame and the second containing the "small" inventory icon frame to be processed. Inventory icon BAMs in the bam folder that meet these requirements are patched and saved back to the override folder.
-- Inventory items icons: fixed wrong transparency index (pure green [0.255.0] replaces old turquoise - a pretty annoying BAMWorkshop leftover :astonished:).
-- dialog and script files: added Chapters compatibility with EET (variable %bg2_chapter_n% used and evaluated to set continuity chapter numbers).
+- Inventory item icons: fixed wrong transparency index (pure green [0.255.0] replaces old turquoise - a pretty annoying BAMWorkshop leftover :astonished:).
+- dialog and script files: added Chapters compatibility with EET (variable "%bg2_chapter_n%" are evaluated to set continuity chapter numbers).
 - ruad.d: remove DestroyAllEquipment() action whenever possible.
 - Included BWP Fixpack Luca Piol's typo fix for ruad.d: replaced wrong misc6s item (Chunk of Illithium Alloy) with misc6w (Wooden Stake) to create Wooden Stake (u#blun03.itm).
 - Provided a Ruad portrait for EE game.
-- Added missing ruad.tra file in reload array HANDLE_CHARSETS function (v28 regression).
-- Second component (#10): removed AT_INTERACTIVE_EXIT command and added a require main component process, otherwise mod will crash the game if first component is not installed.
-- Reorganized components (DESIGNATED number) and added LABELS "ruad_soa" and "ruad_to*".
-- Added REQUIRE_PREDICATE process to avoid installing the mod in inaccurate games (replaced old ACTION_IF NOT FILE_EXISTS "Data/25Dialog.bif"`process).
-- Added always.tpa library.
-- Replaced AUTHOR keyword with SUPPORT.
-- Commented code as much as possible.
-- Updated and renamed readme file to ruad-readme-english.txt.
-- Updated items.tra files for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
-- Added German, Italian (thanks Salk!) and Spanish WeiDU prompts.
-- Updated French and English translations.
-- Renamed titles and setup .tra files to more accurate setup and items .tra files.
-- Renamed american language folder to english.
+- Second component (#10): removed `AT_INTERACTIVE_EXIT` command and added a require main component process, otherwise mod will crash the game if first component is not installed.
+- Added foreign languages WeiDU prompts whenever possible.
+- Renamed "titles" and "setup" .tra files to more accurate "setup" and "items" .tra files.
+- Updated "items.tra" files for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
+- Updated and renamed readme file to "bolsa-readme-english.txt", then moved it into new "readme" folder.
+- Renamed "american" language folder to "english".
 - Removed unused files.
-- Fixed many items (see https://github.com/GwendolyneFreddy/RuadRofhessaItemUpgrade for details).
+- Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
+- Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
+- Uploaded mod to official Spellhold Studios GitHub mirror account.
 
 Version 28 (22 November 2018 by Deratiseur)
 - Added BG2EE compatibility.
