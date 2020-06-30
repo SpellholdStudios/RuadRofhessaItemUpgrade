@@ -141,7 +141,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 
 ## <a name="credits" id="credits"></a>Credits and Acknowledgements
 
-**Authors:** <a href="moonfruit@ananzi.co.za">Moonfruit</a>  
+**Author:** <a href="http://www.shsforums.net/user/40637-moonfruit/">Moonfruit</a>  
 
 ## 
 
