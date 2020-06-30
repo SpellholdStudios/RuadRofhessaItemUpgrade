@@ -1,10 +1,6 @@
-@1001 = ~Руад Ро'фесса (Тени Амна)~
-@1002 = ~Руад Ро'фесса (Трон Баала)~
+@1001 = ~Ruad Ro'fhessa (SoA)~
+@1002 = ~Ruad Ro'fhessa (ToB)~
 
-@1100 = ~Этот компонент недоступен для вашей игры.~
-@1101 = ~Для установки этого компонента необходим Трон Баала~
-@1102 = ~Необходима установка главного компонента.~
-// OR Данный компонент требует установки основного компонента. ????
-
-
-// TODO WeiDU prompts
+@1100 = ~This mod is not available for your game.~
+@1101 = ~This component requires Throne of Bhaal. Please install ToB first.~
+@1102 = ~This component requires the main component to be installed.~

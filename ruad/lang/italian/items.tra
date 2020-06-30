@@ -1163,6 +1163,8 @@ Abilità di Equipaggiamento:
 - Scassinare: +25% di bonus
 - Individuare trappole: +25% di bonus
 
+Peso: 0
+
 Utilizzabile solo da:
  Ladro (singolo, duale, e multiclasse)~
 
@@ -1344,7 +1346,7 @@ Speciale: Il possessore é immune agli effetti dell'incantesimo dam ago del nono 
 Richiede: 16 all'Intelligenza
 Peso: 0
 
-Utilizzabile solamente da:
+Utilizzabile solo da:
  Bardo
  Chierico
  Druido

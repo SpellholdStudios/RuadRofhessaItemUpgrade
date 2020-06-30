@@ -126,11 +126,12 @@ Capacités de combat :
 TAC0 : +5
 Dégâts : 1d8 +5
 Type de dégâts : tranchant
-Poids : 10
 Facteur de vitesse : 2
 Type de compétence : épée longue
 Type : arme à 1 main
 Force nécessaire : 15
+
+Poids : 10
 
 Non utilisable par :
  Alignement bon ou neutre
@@ -739,6 +740,8 @@ Capacités d'équipement :
 - Se cacher dans l'ombre : +20 %
 - Non-détection
 
+Poids : 3
+
 Utilisable par :
  Traqueur
  Voleur~
@@ -799,10 +802,11 @@ Capacité d'équipement :
 TAC0 : +5
 Dégâts : 1d6 +5
 Type de dégâts : perforant
-Poids : 5
 Facteur de vitesse : 0
 Type de compétence : épée courte
 Type : arme à 1 main
+
+Poids : 5
 
 Utilisable par :
  Voleur
@@ -820,10 +824,11 @@ Capacités de combat :
 TAC0 : +4
 Dégâts : 1d6 +4
 Type de dégâts : projectile (perforant)
-Poids : 2
 Facteur de vitesse : 4
 Type de compétence : arc court
 Type : arme à 2 mains
+
+Poids : 2
 
 Utilisable par :
  Guerrier Petites-Gens~
@@ -1015,9 +1020,10 @@ Capacité d'équipement :
 TAC0 : +4
 Dégâts : 1d6 +4
 Type de dégâts : contondant
-Poids : 3
 Facteur de vitesse : 1
 Type : arme à 2 mains
+
+Poids : 3
 
 Utilisable par :
  Cernd~
@@ -1105,11 +1111,12 @@ Capacité de combat :
 TAC0 : +5
 Dégâts : 2d5 +5, +1d4 de froid
 Type de dégâts : tranchant
-Poids : 8
 Facteur de vitesse : 4
 Type de compétence : fléau/étoile du matin
 Type : arme à 1 main
 Force nécessaire : 13
+
+Poids : 8
 
 Non utilisable par :
  Druide
@@ -1284,11 +1291,12 @@ Capacité de combat :
 TAC0 : +3
 Dégâts : 1ds6 +3, +4 contre les morts-vivants, +6 contre les vampires
 Type de dégâts : contondant
-Poids : 3
 Facteur de vitesse : 1
 Type de compétence : gourdin
 Type : arme à 1 main
 Force nécessaire : 5
+
+Poids : 3
 
 Non utilisable par :
  Mage

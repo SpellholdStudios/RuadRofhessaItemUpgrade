@@ -121,7 +121,6 @@ Schaden: 1W8 +5 (Klinge)
 ETW0-Bonus: +5
 Stärke-Bonus: +2
 Regeneration: 1 TP pro 5 Sekunden
-Gewicht: 10
 Initiativefaktor: 2
 Mindeststärke: 15
 Fertigkeit: Langschwert
@@ -148,7 +147,6 @@ EIGENSCHAFTEN:
 Schaden: 1W10 +3 (Klinge)
 Schadensbonus: +2 (Giftschaden pro Sekunde für 10 Sekunden)
 ETW0-Bouns: +3
-Gewicht: 5
 Initiativefaktor: 1
 Fertigkeit: Katana
 Typ: 1-händig
@@ -903,7 +901,7 @@ Rettungswurf-Bonus: +2
 
 Gewicht: 3
 
-Kann nur verwendet werden:
+Kann nur verwendet werden von:
  Bösen Wesen
  Magier
  Hexenmeister~
