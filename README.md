@@ -126,7 +126,7 @@ The installer includes the following components. The number of each is the compo
 
 Ruad is a brand new blacksmith who forges item upgrades, as well as a few brand new ones. I won't spoil his location for you, but I will tell that he is near the Adventurer Mart.
 
-Please see <a href="https://raw.githubusercontent.com/GwendolyneFreddy/RuadRofhessaItemUpgrade/master/ruad/readme/ruad-spoilers.txt">ruad-spoilers.txt</a> for details (his exact location, and a complete list of items and descriptions).
+Please see <a href="https://spellholdstudios.github.io/readmes/ruad-spoilers.txt">ruad-spoilers.txt</a> for details (his exact location, and a complete list of items and descriptions).
 
 ## 
 
@@ -148,7 +148,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 #### Special Acknowledgements to:
 
 - Westley Weimer, for all his help to me throughout BGII.
-- Deratiseur: Native EE compatible version (v28).
+- Deratiseur: native EE compatible version (v28).
 - Thot: French translation. And La Voix 2 la Sagesse (of the d'Oghmatiques) for updating it.
 - Bhasbuto, Immortality and Mhoram of <a href="http://www.clandlan.cjb.net">Clan DLAN</a>: Spanish translation. And Lisandro for updating it.
 - Beyshaliban: German translation.
