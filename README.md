@@ -120,6 +120,7 @@ In addition to the methods above for removing individual components, you can com
 
 The installer includes the following components. The number of each is the component *DESIGNATED* number which gives it a fixed install position and allows automated installers to specify component choices.<br /><br />
 
+## 
 
 **0. Ruad Ro'fhessa (SoA)**<br />
 
