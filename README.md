@@ -106,9 +106,9 @@ Ruad for Linux is distributed in the same compressed archive and does not includ
 
 Extract the contents of the mod to the folder of the game you wish to modify.
 
-Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu and weinstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu and weinstall to /usr/bin. Following that, open a terminal, **`cd`** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
 
-To install, run **`weinstall setup-ruad`** in your game folder. Then run **`wine BGMain.exe`** (or **`wine Baldur.exe`** for EE games) and start playing.
+To install, run **`weinstall setup-ruad`** in your game folder. Then run **`wine bgmain.exe`** (or **`wine baldur.exe`** for EE games) and start playing.
 
 ## 
 
@@ -200,6 +200,12 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ## <a name="versions" id="versions"></a>Version History
 
+##### Version 29.1.0 (July 19, 2020)
+
+- Fixed an issue in "*always.tpa*" library: a missing variable might prevent installation in some cases (thanks burner1024 for reporting it).
+
+## 
+
 ##### Version 29.0.0 (June 30, 2020)
 
 - Added *ruad.ini* metadata file to support AL|EN's "Project Infinity".
@@ -221,8 +227,8 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 - Second component (#10): removed `AT_INTERACTIVE_EXIT` command and added a require main component process, otherwise mod will crash the game if first component is not installed.
 - Added foreign languages WeiDU prompts whenever possible.
 - Renamed "*titles*" and "*setup*" .tra files to more accurate "*setup*" and "*items*" .tra files.
-- Updated *items.tra* files for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
-- Updated and renamed readme file to *bolsa-readme-english.txt*, then moved it into new "*readme*" folder.
+- Updated *items.tra* files for compatibility with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
+- Updated and renamed readme file to *ruad-readme-english.txt*, then moved it into new "*readme*" folder.
 - Renamed "*american*" language folder to "*english*".
 - Removed unused files.
 - Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
@@ -648,5 +654,5 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 ##### Version 1
 
-- Initial release
+- Initial release.
 <div align="right"><a href="#top">Back to top</a></div>

@@ -4,7 +4,7 @@
  *                                              *
  * ============================================ */
 
-// Concept borrowed from DavidW's Immutability and encapsulation in mod design (https://github.com/Gibberlings3/immutable)
+// Concept borrowed from DavidW's Immutability and encapsulation in mod design ( https://github.com/Gibberlings3/immutable )
 
 /* =================================================================== *
  *  This code only runs once, even if you install lots of components.  *
@@ -35,7 +35,7 @@ ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
 	OUTER_SET is_1pp_400    =  (MOD_IS_INSTALLED ~1pp.tp2~ ~400~) ? 1 : 0											// 1ppv4: Core updates and item patches
 	OUTER_SET is_1pp_401    =  (MOD_IS_INSTALLED ~1pp.tp2~ ~401~) ? 1 : 0											// 1ppv4: Improved projectile effects
 
-	OUTER_SET is_tobex = (FILE_EXISTS ~tobex_ini/tobexcore.ini~) ? 1 : 0											// ToBEx
+	OUTER_SET is_tobex      = (FILE_EXISTS ~tobex_ini/tobexcore.ini~) ? 1 : 0										// ToBEx
 
 
 	/* --------------------------------------------- *
@@ -59,7 +59,7 @@ ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
 	END
 
 	INCLUDE ~%MOD_FOLDER%/lib/gw_functions.tpa~						// Loads macros and functions library dealing with tooltip appending and specific EE items descriptions.
-	ACTION_IF (is_ee OR is_1pp_staff OR is_1pp_staff0 OR is_1pp_helmet OR is_1pp_400 OR is_1pp_401 OR is_1pp_swblbw) BEGIN
+	ACTION_IF (is_ee OR is_1pp_staff OR is_1pp_staff0 OR is_1pp_400 OR is_1pp_401 OR is_1pp_swblbw) BEGIN
 		INCLUDE ~%MOD_FOLDER%/lib/1pp_macros.tpa~					// Loads 1PP macros dealing with items coloring.
 		LAM ~Locations~												// DEFINES location field values needed to alter items' colors.
 		INCLUDE ~%MOD_FOLDER%/lib/1pp_compatibility.tph~			// Loads functions restoring items coloration for EE games or if 1PP relevant components are installed.
