@@ -8,7 +8,7 @@
                  \\==========================================//
 
                               //==================\\
-                              || Release:  29.1.0 ||
+                              || Release:  29.2.0 ||
                               \\==================//
 
 
@@ -118,6 +118,10 @@ Special thanks to:
                             || 6 - Recent Changes ||
                             \\====================//
 
+Version 29.2.0 (August 30, 2020)
+- Updated Italian translation (by ilot).
+- Updated French translation (by Gwendolyne).
+
 Version 29.1.0 (July 19, 2020)
 - Fixed an issue in "always.tpa" library: a missing variable might prevent installation in some cases (thanks burner1024 for reporting it).
 
@@ -142,7 +146,7 @@ Version beta 29.0.0 (Hune 30, 2020)
 - Second component (#10): removed `AT_INTERACTIVE_EXIT` command and added a require main component process, otherwise mod will crash the game if first component is not installed.
 - Added foreign languages WeiDU prompts whenever possible.
 - Renamed "titles" and "setup" .tra files to more accurate "setup" and "items" .tra files.
-- Updated "items.tra" files for compatibility with GW_UPDATE_ITM_DESCRIPTION_TO_EE WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
+- Updated "items.tra" files for compatibility with `GW_UPDATE_ITM_DESCRIPTION_TO_EE` WeiDU function requirements which automatically removes usability restrictions for EE games. And fixed restriction flags whenever relevant.
 - Updated and renamed readme file to "ruad-readme-english.txt", then moved it into new "readme" folder.
 - Renamed "american" language folder to "english".
 - Removed unused files.
