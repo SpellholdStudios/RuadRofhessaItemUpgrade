@@ -15,14 +15,17 @@ Baldur's Gate Trilogy and EET<h3>
 **Mod Website:** <a href="http://www.shsforums.net/forum/234-miscellaneous-released-mods/">Spellhold Studios</a>  
 **Mod Forum:** <a href="http://www.shsforums.net/topic/60855-ruad-rofhessa-item-upgrade-updated-to-v29-with-ee-compatibility/">Ruad Ro'fhessa Item Upgrade</a><br>
 
+## 
 
 **Note:** This mod was first released at <a href="http://corellon.clandlan.net">Clan DLAN</a> and has been officially mirrored at <a href="http://www.shsforums.net/files/category/91-clan-dlan-mirror/">Spellhold Studios Clan DLAN mirror</a> by <a href="http://www.shsforums.net/user/359-immortality/">Immortality</a>.<br>
+
+## 
 
 [Read the mod's readme](https://spellholdstudios.github.io/readmes/ruad-readme-english.txt)
 
 [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/790-ruad-rofhessa-item-upgrade)<br>
 
-&nbsp;
+## 
 
 <div align="center">
 <a href="#intro">Overview</a> &#x2B25; <a href="#compat">Compatibility</a> &#x2B25; <a href="#installation">Installation</a> &#x2B25; <a href="#components">Components</a> &#x2B25; <a href="#credits">Credits</a> &#x2B25; <a href="#versions">Versions History</a></br>
@@ -123,7 +126,7 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="components" id="components"></a>Components
 
-The installer includes the following components. The number of each is the component *DESIGNATED* number which gives it a fixed install position and allows automated installers to specify component choices.<br />
+The installer includes the following components. The number of each is the component `DESIGNATED` number which gives it a fixed install position and allows automated installers to specify component choices.<br />
 
 ## 
 
@@ -164,7 +167,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 - Everyone else from the <a href="http://www.shsforums.net/">Spellhold Studios</a> forums, and the other Infinity Engine gaming and modding communities who offered their help and support.
 - AL|EN: Wrote <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">Infinity Auto Packager</a> tool which automatically provides Windows, Linux and Mac versions in the same archive file.
 
-If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/60855-ruad-rofhessa-item-upgrade-updated-to-v29-with-ee-compatibility/">mod forum</a>.</br>
+&#9755; If you wish to translate the mod, have a suggestion, or should encounter any bugs, please report them to the maintainers at the <a href="http://www.shsforums.net/topic/60855-ruad-rofhessa-item-upgrade-updated-to-v29-with-ee-compatibility/">mod forum</a>.</br>
 
 ## 
 
@@ -199,6 +202,13 @@ If you wish to translate the mod, have a suggestion, or should encounter any bug
 
 
 ## <a name="versions" id="versions"></a>Version History
+
+##### Version 29.2.0 (August 30, 2020)
+
+- Updated Italian translation (by ilot).
+- Updated French translation (by Gwendolyne).
+
+## 
 
 ##### Version 29.1.0 (July 19, 2020)
 
