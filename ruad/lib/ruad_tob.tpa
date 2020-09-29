@@ -7,7 +7,7 @@ SILENT
 /* ------------------ *
  *  Compiling script  *
  * ------------------ */
-EXTEND_TOP ~ar4500.bcs~ ~ruad/ruad/tobruad.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~ar4500.bcs~ ~ruad/ruadrofhessa/tobruad.baf~ EVALUATE_BUFFER
 
 /* ------- *
  *  Items  *

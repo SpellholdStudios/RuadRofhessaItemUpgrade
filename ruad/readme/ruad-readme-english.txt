@@ -16,7 +16,7 @@
                                  //==========\\
                                  || Contents ||
                                  \\==========//
-	
+
 1 - Introduction
 2 - Installation
 3 - Component 1: Ruad Ro'fhessa (SoA)
@@ -163,9 +163,9 @@ Version 27 (20 January 2011 by Ancalagon el negro)
 - Fixed a minor mistake in ruad.d.
 - Added Italian translation by Ilot.
 - Updated WeiDU installer to v226.
-	
+
 Version 26 (06 April 2010 by Leomar)
-- Lollorian's typo fixes in ruad/ruad.d
+- Lollorian's typo fixes in ruadrofhessa/ruad.d
 - Updated Spanish translation by Lisandro
 - Updated WeiDU installer to  v215.
 
@@ -188,7 +188,7 @@ Version 21 (26 May 2009 by Leomar)
 - Updated Spanish translation.
 - Added VERSION flag
 - Updated WeiDU installer to v210.
- 
+
 Version 20
 - Added German translation. Thanks Beyshaliban.
 - Added Bow of Uden, Lava's Bane Staff of Resurrection, Ring of Time Control & Wooden Stake. (evildevil)
@@ -219,7 +219,7 @@ Version 16
 - Added Cloak of Thay, Mits of Shaiman, Nature's Cloak and Nature's Staff. (evildevil)
 - Fixed a bug where Ruad's name would appear as "Pikim's Armor".
 - Changed Ruad's animation. Thanks Tyrus.
-- Removed Lamf·da due to lack of support.
+- Removed Lamf√°da due to lack of support.
 - Revamped the Readme file.
 - Updated WeiDU installer to v113.
 
@@ -278,7 +278,7 @@ Version 3
 - Fixed Blade of Roses damage.
 
 Version 2
-- Added Lamf·da as the merchant, and made Ruad a blacksmith.
+- Added Lamf√°da as the merchant, and made Ruad a blacksmith.
 - Added Blade of the Red Rose. (mstaley007)
 
 Version 1

@@ -29,13 +29,13 @@ END
 /* ------------------------------------------- *
  *  Installing portrait according to the game  *
  * ------------------------------------------- */
-COPY ~ruad/ruad/m#ruads%ee_file%.bmp~ ~override/m#ruads.bmp~
+COPY ~ruad/ruadrofhessa/m#ruads%ee_file%.bmp~ ~override/m#ruads.bmp~
 
 
 /* --------------------- *
  *  Installing creature  *
  * --------------------- */
-COPY ~ruad/ruad/m#ruad.cre~ ~override~
+COPY ~ruad/ruadrofhessa/m#ruad.cre~ ~override~
 	SAY NAME1 @2001 SAY NAME2 @2001
 BUT_ONLY
 
@@ -43,10 +43,10 @@ BUT_ONLY
 /* ------------------------------ *
  *  Compiling scripts and dialog  *
  * ------------------------------ */
-EXTEND_TOP ~ar0700.bcs~ ~ruad/ruad/soaruad.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~ar0700.bcs~ ~ruad/ruadrofhessa/soaruad.baf~ EVALUATE_BUFFER
 
-COMPILE EVALUATE_BUFFER ~ruad/ruad/ruad.d~	USING ~ruad/lang/%s/ruad.tra~
-COMPILE ~ruad/ruad/m#ruad.baf~
+COMPILE EVALUATE_BUFFER ~ruad/ruadrofhessa/ruad.d~	USING ~ruad/lang/%s/ruad.tra~
+COMPILE ~ruad/ruadrofhessa/m#ruad.baf~
 
 
 /* ------------------ *
@@ -300,7 +300,7 @@ COPY ~ruad/itm/u#ax1h01.itm~ ~override~
 	SAY NAME2 @6041
 	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6042" END
 	PATCH_IF is_ee BEGIN
-		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ INT_VAR GW_shaman = 1 END	
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ INT_VAR GW_shaman = 1 END
 	END
 BUT_ONLY
 
@@ -318,7 +318,7 @@ COPY ~ruad/itm/u#ax2h01.itm~ ~override~
 	SAY NAME1 @60451	SAY NAME2 @6045
 	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@6046" GW_undesc_to_update = "@60461" END
 	PATCH_IF is_ee BEGIN
-		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ INT_VAR GW_shaman = 1 END	
+		LPF ~GW_ITEM_RESTRICT_USABILITY_EE~ INT_VAR GW_shaman = 1 END
 	END
 BUT_ONLY
 
