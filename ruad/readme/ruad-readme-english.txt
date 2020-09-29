@@ -8,7 +8,7 @@
                  \\==========================================//
 
                               //==================\\
-                              || Release:  29.2.0 ||
+                              || Release:  29.3.0 ||
                               \\==================//
 
 
@@ -117,6 +117,9 @@ Special thanks to:
                             //====================\\
                             || 6 - Recent Changes ||
                             \\====================//
+
+Version 29.3.0 (29 September, 2020)
+- fixed WeiDU 'relative command execution' problem
 
 Version 29.2.0 (August 30, 2020)
 - Updated Italian translation (by ilot).
