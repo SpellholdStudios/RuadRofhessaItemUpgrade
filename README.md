@@ -203,6 +203,15 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 
 ## <a name="versions" id="versions"></a>Version History
 
+##### Version 29.3.0 (January 8, 2021)
+
+- Added `After` and `Before` keywords in *ruad.ini* metadata file to support AL|EN's "Project Infinity".
+- Fixed WeiDU 'relative command execution' problem (renamed "*ruad*" sub-folder to "*rofhessa*").
+- Updated French and German WeiDU prompts, and French translation (by Gwendolyne).
+- Updated WeiDU installer to v247.
+
+## 
+
 ##### Version 29.2.0 (August 30, 2020)
 
 - Updated Italian translation (by ilot).
@@ -634,11 +643,13 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 ## 
 
 ##### Version 6
+
 - Added ToB version of the mod.
 
 ## 
 
 ##### Version 5
+
 - Added Vampire's Revenge +2 and Black Sword of Undeath. (Daniel)
 
 ## 
