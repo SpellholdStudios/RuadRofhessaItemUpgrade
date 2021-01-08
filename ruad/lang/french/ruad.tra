@@ -30,7 +30,7 @@
 @3112 = ~Forgez-moi un Anneau d'enchantement.~
 @3113 = ~Forgez-moi un Anneau d'évocation.~
 @3114 = ~Forgez-moi un Anneau d'illusion.~
-@3115 = ~Forgez-moi un Anneau de ,écromancie.~
+@3115 = ~Forgez-moi un Anneau de nécromancie.~
 @3116 = ~Oui, et utilisez la corde de l'Arc de Gesen.~
 @3117 = ~Oui, et utilisez la corde de l'Arc de Gond.~
 
@@ -95,7 +95,7 @@
 
 // Blade of the Red Rose +4
 @3301 = ~Ah oui, l'épée de Sunie. Une arme très précieuse en effet. Bien que la valeur monétaire soit substantiellement basse, le processus nécessite un grand nombre d'autres artéfacts.~
-@3302 = ~J'aurai besoin de l'Épée de Baldurien, d'un Manteau de Nymphe, de l'Anneau d'Influence Humaine et de deux Anneaux de Protection +1.~
+@3302 = ~J'aurai besoin de l'Épée de Baldurien, d'un Manteau de Nymphe, de l'Anneau d'Influence humaine et de deux Anneaux de Protection +1.~
 @3303 = ~J'aurai également besoin de parchemins magiques : deux de Domination, un de Charme-Personne et quatre d'Amitié.~
 @3304 = ~Les réactifs magiques sont : un diamant, un collier d'Agni Mani, un collier de Perle, un Saphir étoilé, une Larme de Roi, et deux potions de Blocage de Magie.~
 @3305 = ~Je peux combiner tous ces objets pour un prix ridicule de 9 999 pièces d'or.~
@@ -134,7 +134,7 @@
 @3331 = ~Si vous me donnez les Anneaux de contrôle de l'air, de la terre et du feu, et deux parchemins de Boule de feu à retardement, je peux créer un anneau qui protège son porteur de tous les sorts d'évocation.~
 @3332 = ~Si vous me donnez un Anneau d'invisibilité et deux parchemins d'Image renforcée, je peux créer un anneau qui protège le porteur de tous les sorts d'illusion.~
 @3333 = ~Si vous me donnez l'Anneau de Gaxx et deux parchemins de Doigt de mort, je peux créer un anneau qui protège son porteur de tous les sorts de nécromancie.~
-@3334 = ~J'aurai besoin de deux parchemins d'Immunité contre les Sorts, et d'un dépôt de 5000 pièces d'or par anneau.~
+@3334 = ~J'aurai besoin de deux parchemins d'Immunité contre les sorts, et d'un dépôt de 5000 pièces d'or par anneau.~
 @3335 = ~Rappelez-vous cependant ceci : un anneau ne peut être utilisé que par un adepte de l'école dont il protège.~
 // Adamantine Chain
 @3336 = ~L'armure d'un vrai barde. Je suis assez surpris de voir ceci, car c'est un objet très rare.~
@@ -144,7 +144,7 @@
 // Warlord's Girdle
 @3340 = ~Ah, ah, la ceinture des géants. Je connais une amélioration qui vous conviendrait parfaitement.~
 @3341 = ~Je peux combiner le Ceinturon de corce avec les Gantelets de dextérité pour créer une ceinture parfaitement ronde.~
-@3342 = ~Les réactifs nécessaires sont deux potions de force morale, de force de géant et d'agileté, et deux diamants, émeraudes et esseulites.~
+@3342 = ~Les réactifs nécessaires sont deux potions de force morale, de force de géant et d'agilité, et deux diamants, émeraudes et esseulites.~
 @3343 = ~Je prendrai aussi 15 000 pièces d'or pour la peine.~
 // Kaligun's Amulet of Greater Resistance
 @3344 = ~Mm, l'amulette du général fou de Poonil. J'espère que vous ne tomberez pas aussi stupidement que lui, <SIRMAAM>.~
@@ -182,7 +182,7 @@
 @3368 = ~Un dépôt de 15 000 pièces d'or sera aussi nécessaire.~
 // The Ugly Stick
 @3369 = ~Un puissant bâton en effet, bien qu'assez basique. Oui, je connais une amélioration digne des plus puissants guerriers.~
-@3370 = ~Les objets nécessaires sont un Bâton javelot, deux épées bâtardes +1, deux parchemins d'Incinérateur d'agannazar, deux parchemins de Mains brûlantes, deux potions d'haleine ardente, quatre gemmes d'agate de feu, et une gemme zircon.~
+@3370 = ~Les objets nécessaires sont un Bâton javelot, deux épées bâtardes +1, deux parchemins d'Incinérateur d'Agannazar, deux parchemins de Mains brûlantes, deux potions d'haleine ardente, quatre gemmes d'agate de feu, et une gemme zircon.~
 @3371 = ~J'aurai aussi besoin de 10 000 pièces d'or.~
 // Adamantine Plate
 @3372 = ~Ah oui, l'armure d'Arngor la Légende. Comment vous-êtes vous retrouvé en possession d'une artéfact aussi extraordinaire ? je suppose que cela importe peu.~ ~Ah oui, l'armure d'Arngor la Légende. Comment vous-êtes vous retrouvée en possession d'une artéfact aussi extraordinaire ? je suppose que cela importe peu.~
