@@ -118,8 +118,8 @@ Special thanks to:
                             || 6 - Recent Changes ||
                             \\====================//
 
-Version 29.3.0 (January 8, 2021)
-- Added "After" and "Before" keywords in ruad.ini metadata file to support AL|EN's "Project Infinity".
+Version 29.3.0 (January 21, 2021)
+- Added Dynamic Install Syntax in ruad.ini metadata file to support AL|EN's "Project Infinity".
 - Fixed WeiDU 'relative command execution' problem (renamed "ruad" sub-folder to "rofhessa").
 - Updated French and German WeiDU prompts, and French translation by (Gwendolyne).
 - Updated WeiDU installer to v247.

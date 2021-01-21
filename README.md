@@ -1,5 +1,6 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/RuadRofhessaItemUpgrade?include_prereleases&color=darkred)<a name="top" id="top">
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/SpellholdStudios/RuadRofhessaItemUpgrade?color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
@@ -14,6 +15,10 @@ Baldur's Gate Trilogy and EET<h3>
 **Original Author:** Moonfruit  
 **Mod Website:** <a href="http://www.shsforums.net/forum/234-miscellaneous-released-mods/">Spellhold Studios</a>  
 **Mod Forum:** <a href="http://www.shsforums.net/topic/60855-ruad-rofhessa-item-upgrade-updated-to-v29-with-ee-compatibility/">Ruad Ro'fhessa Item Upgrade</a><br>
+
+[![Created Badge](https://badges.pufler.dev/created/SpellholdStudios/RuadRofhessaItemUpgrade?style=plastic)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/SpellholdStudios/RuadRofhessaItemUpgrade?style=plastic) [![Visits Badge](https://badges.pufler.dev/visits/SpellholdStudios/RuadRofhessaItemUpgrade?color=cyan&style=plastic)](https://badges.pufler.dev) 
+![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=yes&color=greenlight&style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/SpellholdStudios/RuadRofhessaItemUpgrade?color=blueviolet&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/SpellholdStudios/RuadRofhessaItemUpgrade?size=30&padding=5&bots=true)](https://badges.pufler.dev)
 
 ## 
 
@@ -58,7 +63,7 @@ This mod is designed to work on the following Infinity Engine games: the origina
 
 This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If you encounter any bugs, please <a href="http://www.shsforums.net/topic/60855-ruad-rofhessa-item-upgrade-updated-to-v29-with-ee-compatibility/">report them on the forum!</a><br>
 
->Although it is not required for Ruad to function properly, classical game players are strongly recommended to download and install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
+>Although it is not required for Ruad to function properly, classical game players are strongly recommended to download and install the latest version of the <a href="https://www.gibberlings3.net/mods/fixes/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -69,9 +74,9 @@ This is a WeiDU mod, and therefore should be compatible with all WeiDU mods. If 
 
 #### Notes
 
-*If you've previously installed the mod, remove it before extracting the new version. To do this, run **`setup-ruad.exe`**, un-install all previously installed main component and delete the :file_folder: **ruad** folder.*
+*If you've previously installed the mod, remove it before extracting the new version. To do this, run __`setup-ruad.exe`__, un-install all previously installed main component and delete the :file_folder: __ruad__ folder.*
 
-*When installing or un-installing, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.*
+*When installing or un-installing, __do not close the DOS window__ by clicking on the **X** button! Instead, press the __Enter__ key whenever instructed to do so.*
 
 *__Disable any antivirus__ or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.*
 
@@ -87,7 +92,7 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 Ruad for Windows is distributed as an extractable compressed archive and includes a WeiDU installer.
 
-Extract the contents of the mod archive into the folder of the game you wish to modify (*the folder which contains the "CHITIN.KEY" file*), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: ruad folder and a setup-ruad.exe file in your game folder. To install, simply double-click **`setup-ruad.exe`** and follow the instructions on screen.
+Extract the contents of the mod archive into the folder of the game you wish to modify (*the folder which contains the "CHITIN.KEY" file*), using <a href="https://www.7-zip.org/download.html">7zip</a>, <a href="https://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: ruad folder and a setup-ruad.exe file in your game folder. To install, simply double-click **`setup-ruad.exe`** and follow the instructions on screen.
 
 Run **`setup-ruad.exe`** in your game folder to reinstall, un-install or otherwise change the components settings.
 
@@ -126,7 +131,7 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="components" id="components"></a>Components
 
-The installer includes the following components. The number of each is the component `DESIGNATED` number which gives it a fixed install position and allows automated installers to specify component choices.<br />
+The installer includes the following components. The number of each is the component *`DESIGNATED`* number which gives it a fixed install position and allows automated installers to specify component choices.
 
 ## 
 
@@ -158,7 +163,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 - Westley Weimer, for all his help to me throughout BGII.
 - Deratiseur: native EE compatible version (v28).
 - Thot: French translation. And La Voix 2 la Sagesse (of the d'Oghmatiques) for updating it.
-- Bhasbuto, Immortality and Mhoram of <a href="http://www.clandlan.cjb.net">Clan DLAN</a>: Spanish translation. And Lisandro for updating it.
+- Bhasbuto, Immortality and Mhoram of <a href="http://www.clandlan.net">Clan DLAN</a>: Spanish translation. And Lisandro for updating it.
 - Beyshaliban: German translation.
 - ilot: Italian translation. And Salk for providing Italian WeiDU prompts.
 - aerie.ru Team: Russian translation.
@@ -203,9 +208,9 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 
 ## <a name="versions" id="versions"></a>Version History
 
-##### Version 29.3.0 (January 8, 2021)
+##### Version 29.3.0 (January 21, 2021)
 
-- Added `After` and `Before` keywords in *ruad.ini* metadata file to support AL|EN's "Project Infinity".
+- Added Dynamic Install Syntax (`After` and `Before` keywords) in *ruad.ini* metadata file to support AL|EN's "Project Infinity".
 - Fixed WeiDU 'relative command execution' problem (renamed "*ruad*" sub-folder to "*rofhessa*").
 - Updated French and German WeiDU prompts, and French translation (by Gwendolyne).
 - Updated WeiDU installer to v247.
