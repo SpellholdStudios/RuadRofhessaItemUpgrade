@@ -328,11 +328,11 @@ END
  * ================================================================================================================= */
 
 DEFINE_PATCH_FUNCTION ~GW_ITEM_RESTRICT_USABILITY_EE~ 
-	INT_VAR GW_shaman   = 0		// Automatic Druid restriction removal, now handled with op#319
-	STR_VAR GW_restrict = ""	// HUMAN, MALE, CAVALIER... Or string defining Actor's name, or scripting name (8 maximum length).
-            GW_power    = 0		// When GW_power is set to 1, this effect restricts the item to creature(s) matching the object identifiers. When GW_power is set to 0, creature(s) matching the object identifiers cannot use the item. The string to display when an invalid creature attempts to use the item is held in GW_mess319 (0x2c).
-            GW_kind     = ""	// IDS file : EA, General, Race, class, Specific, Gender, Align, Kit. OR Name (Actor's name), script_name (Actor's scripting name).
-            GW_mess319  = 0		// Description note (special field)
+	INT_VAR GW_shaman   = 0     // Automatic Druid restriction removal, now handled with op#319
+	STR_VAR GW_restrict = ""    // HUMAN, MALE, CAVALIER... Or string defining Actor's name, or scripting name (8 maximum length).
+            GW_power    = 0     // When GW_power is set to 1, this effect restricts the item to creature(s) matching the object identifiers. When GW_power is set to 0, creature(s) matching the object identifiers cannot use the item. The string to display when an invalid creature attempts to use the item is held in GW_mess319 (0x2c).
+            GW_kind     = ""    // IDS file : EA, General, Race, class, Specific, Gender, Align, Kit. OR Name (Actor's name), script_name (Actor's scripting name).
+            GW_mess319  = 0     // Description note (special field)
 BEGIN
 
 	PATCH_IF (GW_shaman) BEGIN

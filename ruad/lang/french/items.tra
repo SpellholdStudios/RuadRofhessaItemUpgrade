@@ -175,8 +175,8 @@ Poids : 0
 Non utilisable par :
  Tueur de magicien~
 
-@6013 = ~Chaussures de Dragon~
-@6014 = ~Bottes de rapidité : Chaussures de Dragon
+@6013 = ~Chaussures de dragon~
+@6014 = ~Bottes de rapidité : Chaussures de dragon
 Ces bottes furent données à Simon Boucleneige pour son passage à l'âge adulte, satisfaisant ainsi le souhait de son arrière-arrière-grand-père, Prestor Jean, le premier roi de Hayholt. Deux ans avant que Jean ne devienne roi, il s'aventura profondément dans les catacombes souterraines des tréfonds de son futur royaume, où il découvrit une antre si gigantesque qu'elle ne pouvait appartenir qu'à une créature titanesque. Attiré par la vue de mille richesses tapissant la grotte, Jean s'avança et fut confronté à un monstre défiant toute comparaison. Il s'agissait de Shurukai, mère de tous les dragons, et elle mesurait huit mètres de la tête à la queue, et près de seize d'envergure. Armé de son seul courage et de sa fidèle épée Vifongle, Jean la combattit bravement au cours d'une bataille sauvage.
 On raconte qu'une explosion cataclysmique fut entendue à travers toute la cité, et que chaque homme, chaque femme, chaque enfant courut pour voir ce qu'il était advenu de leur commandant le plus compétent. Tous furent stupéfaits lorsqu'ils virent la masse rouge étendue sur le sol, et encore plus lorsque Jean exigea qu'un trône fut construit avec les os de la bête, plaçant son crâne au point le plus haut. Les écailles de la bêtes furent prélevées et entrelacées dans une paire de bottes « Les Pattes du Guépard », ce qui a produit des chaussures protégeant contre le feu et la peur tout en doublant la vitesse de déplacement.
 
@@ -191,7 +191,7 @@ Capacités d'équipement :
 
 Poids : 4~
 
-@6015 = ~Anneau d'Abjuration~
+@6015 = ~Anneau d'abjuration~
 @6016 = ~Il y a des éons de cela, lorsque les sorciers et magiciens fous dévastaient le pays, les anneaux des écoles et des sphères furent créés pour permettre à des héros de les affronter à armes égales. Maintenant, plus d'un millier d'années plus tard, la formule pour créer ces anneaux subtils et puissants a été retrouvée. Pourtant, les composants nécessaires pour créer des objets si puissants nécessitent le sacrifice d'artéfacts.
 
 Celui-ci protège quiconque le porte contre tous les sorts de l'école de l'Abjuration, et ne peut être utilisé que par ceux qui se spécialisent dans ce domaine : les abjurateurs.
@@ -206,7 +206,7 @@ Poids : 0
 Utilisable par :
  Abjurateur~
 
-@6017 = ~Anneau d'Altération~
+@6017 = ~Anneau d'altération~
 @6018 = ~Il y a des éons de cela, lorsque les sorciers et magiciens fous dévastaient le pays, les anneaux des écoles et des sphères furent créés pour permettre à des héros de les affronter à armes égales. Maintenant, plus d'un millier d'années plus tard, la formule pour créer ces anneaux subtils et puissants a été retrouvée. Pourtant, les composants nécessaires pour créer des objets si puissants nécessitent le sacrifice d'artéfacts.
 
 Celui-ci protège l'utilisateur contre tous les sorts de l'école de l'Altération, et ne peut être utilisé que par ceux qui se spécialisent dans ce domaine : les transmutateurs.
@@ -748,7 +748,7 @@ Utilisable par :
 
 @6067 = ~Armure de Pikim~
 @6068 = ~Besantine +5 : Armure de Pikim
-Pikim, le Voleur de l'Ombre rebelle, avait l'habitude de bricoler beaucoup de choses. Un jour, il fondit des clés dans la fameuse Armure de l'ombre juste pour voir ce qu'il en résulterait. Il y cousit également quelques capes. Sentant un grand pouvoir dans cette armure nouvellement créée, Pikim décida qu'elle était trop puissante pour qu'il la partage avec quiconque. Cette décision lui coûta la vie. Les Voleurs de l'Ombre le pourchassèrent pour récupérer l'armure. De nombreux forgerons de Féérûne apprirent comment Pikim avait fabriqué cette glorieuse armure. <CHARNAME> réussit à trouver un forgeron pour la recréer... contre une jolie somme.
+Pikim, le Voleur de l'Ombre rebelle, avait l'habitude de bricoler beaucoup de choses. Un jour, il fondit des clés dans la fameuse Armure de l'ombre juste pour voir ce qu'il en résulterait. Il y cousit également quelques capes. Sentant un grand pouvoir dans cette armure nouvellement créée, Pikim décida qu'elle était trop puissante pour qu'il la partage avec quiconque. Cette décision lui coûta la vie. Les Voleurs de l'Ombre le pourchassèrent pour récupérer l'armure. De nombreux forgerons de Féerûne apprirent comment Pikim avait fabriqué cette glorieuse armure. <CHARNAME> réussit à trouver un forgeron pour la recréer... contre une jolie somme.
 
 PARAMÈTRES :
 

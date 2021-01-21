@@ -3,12 +3,12 @@
                  ||||           Baldur's Gate II           ||||
                  ||||           Item Upgrade Mod           ||||
                  |||| Moonfruit ( moonfruit@ananzi.co.za ) ||||
-                 ||||             WeiDU:  v246             ||||
+                 ||||             WeiDU:  v247             ||||
                  ||\\======================================//||
                  \\==========================================//
 
                               //==================\\
-                              || Release:  29.2.0 ||
+                              || Release:  29.3.0 ||
                               \\==================//
 
 
@@ -16,7 +16,7 @@
                                  //==========\\
                                  || Contents ||
                                  \\==========//
-	
+
 1 - Introduction
 2 - Installation
 3 - Component 1: Ruad Ro'fhessa (SoA)
@@ -118,6 +118,12 @@ Special thanks to:
                             || 6 - Recent Changes ||
                             \\====================//
 
+Version 29.3.0 (January 21, 2021)
+- Added Dynamic Install Syntax in ruad.ini metadata file to support AL|EN's "Project Infinity".
+- Fixed WeiDU 'relative command execution' problem (renamed "ruad" sub-folder to "rofhessa").
+- Updated French and German WeiDU prompts, and French translation by (Gwendolyne).
+- Updated WeiDU installer to v247.
+
 Version 29.2.0 (August 30, 2020)
 - Updated Italian translation (by ilot).
 - Updated French translation (by Gwendolyne).
@@ -163,7 +169,7 @@ Version 27 (20 January 2011 by Ancalagon el negro)
 - Fixed a minor mistake in ruad.d.
 - Added Italian translation by Ilot.
 - Updated WeiDU installer to v226.
-	
+
 Version 26 (06 April 2010 by Leomar)
 - Lollorian's typo fixes in ruad/ruad.d
 - Updated Spanish translation by Lisandro
@@ -188,7 +194,7 @@ Version 21 (26 May 2009 by Leomar)
 - Updated Spanish translation.
 - Added VERSION flag
 - Updated WeiDU installer to v210.
- 
+
 Version 20
 - Added German translation. Thanks Beyshaliban.
 - Added Bow of Uden, Lava's Bane Staff of Resurrection, Ring of Time Control & Wooden Stake. (evildevil)
@@ -283,4 +289,3 @@ Version 2
 
 Version 1
 - Initial release.
-
