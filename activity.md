@@ -1,4 +1,4 @@
-<div align="center"><h1>Mymod</h1>
+<div align="center"><h1>Ruad Ro'fhessa Item Upgrade Mod</h1>
 </div>
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/RuadRofhessaItemUpgrade?include_prereleases&color=gold) ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/SpellholdStudios/RuadRofhessaItemUpgrade?color=gold)
