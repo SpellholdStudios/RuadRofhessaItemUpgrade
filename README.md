@@ -1,7 +1,7 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/RuadRofhessaItemUpgrade?include_prereleases&color=darkred)<a name="top" id="top">
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/SpellholdStudios/RuadRofhessaItemUpgrade?color=gold)
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macos%20%7C%20linux&color=informational)
+![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 
 <div align="center"><h1></a>Ruad Ro'fhessa Item Upgrade Mod</h1>
@@ -9,14 +9,16 @@
 <h3>A mod hosted by Spellhold Studios for Baldur's Gate II and ToB (classical and EE games),<br>
 Baldur's Gate Trilogy and EET<h3>
 
-</div><br />
+</div><br>
 
 
 **Original Author:** Moonfruit  
 **Mod Website:** <a href="http://www.shsforums.net/forum/234-miscellaneous-released-mods/">Spellhold Studios</a>  
 **Mod Forum:** <a href="http://www.shsforums.net/topic/60855-ruad-rofhessa-item-upgrade-updated-to-v29-with-ee-compatibility/">Ruad Ro'fhessa Item Upgrade</a><br>
 
-[![Created Badge](https://badges.pufler.dev/created/SpellholdStudios/RuadRofhessaItemUpgrade?style=plastic)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/SpellholdStudios/RuadRofhessaItemUpgrade?style=plastic) [![Visits Badge](https://badges.pufler.dev/visits/SpellholdStudios/RuadRofhessaItemUpgrade?color=cyan&style=plastic)](https://badges.pufler.dev) 
+[![Created Badge](https://badges.pufler.dev/created/SpellholdStudios/RuadRofhessaItemUpgrade?style=plastic)](https://badges.pufler.dev)
+![GitHub repo size](https://img.shields.io/github/repo-size/SpellholdStudios/RuadRofhessaItemUpgrade?style=plastic)
+[![Visits Badge](https://badges.pufler.dev/visits/SpellholdStudios/RuadRofhessaItemUpgrade?color=cyan&style=plastic)](https://badges.pufler.dev) 
 ![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=yes&color=greenlight&style=plastic)
 ![GitHub contributors](https://img.shields.io/github/contributors/SpellholdStudios/RuadRofhessaItemUpgrade?color=blueviolet&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/SpellholdStudios/RuadRofhessaItemUpgrade?size=30&padding=5&bots=true)](https://badges.pufler.dev)
 
@@ -207,6 +209,12 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 
 
 ## <a name="versions" id="versions"></a>Version History
+
+##### Version 29.4.0 (January 28, 2021)
+
+- Fixed a typo preventing *ruad.d* to be installed properly (thanks TotoR for reporting it).
+
+## 
 
 ##### Version 29.3.0 (January 21, 2021)
 

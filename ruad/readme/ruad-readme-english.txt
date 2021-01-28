@@ -8,7 +8,7 @@
                  \\==========================================//
 
                               //==================\\
-                              || Release:  29.3.0 ||
+                              || Release:  29.4.0 ||
                               \\==================//
 
 
@@ -117,6 +117,9 @@ Special thanks to:
                             //====================\\
                             || 6 - Recent Changes ||
                             \\====================//
+
+Version 29.4.0 (January 28, 2021)
+- Fixed a typo preventing "ruad.d" to be installed properly (thanks TotoR for reporting it).
 
 Version 29.3.0 (January 21, 2021)
 - Added Dynamic Install Syntax in ruad.ini metadata file to support AL|EN's "Project Infinity".
