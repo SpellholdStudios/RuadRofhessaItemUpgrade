@@ -45,7 +45,7 @@ BUT_ONLY
  * ------------------------------ */
 EXTEND_TOP ~ar0700.bcs~ ~ruad/rofhessa/soaruad.baf~ EVALUATE_BUFFER
 
-COMPILE EVALUATE_BUFFER ~ruad/rrofhessa/ruad.d~	USING ~ruad/lang/%s/ruad.tra~
+COMPILE EVALUATE_BUFFER ~ruad/rofhessa/ruad.d~	USING ~ruad/lang/%s/ruad.tra~
 COMPILE ~ruad/rofhessa/m#ruad.baf~
 
 

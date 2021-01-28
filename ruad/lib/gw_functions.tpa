@@ -55,6 +55,7 @@ DEFINE_PATCH_FUNCTION ~GW_WRITE_EE_ITM_DESCRIPTIONS~
 	STR_VAR GW_desc_to_update	= ~~	// reference in format @123 or #123
 			GW_undesc_to_update = ~~	// reference in format @123 or #123
 BEGIN
+
 	PATCH_IF (ENGINE_IS ~bgee bg2ee eet~) OR GAME_INCLUDES ~sod~ BEGIN
 		SPRINT GWdesc "none"
 		SPRINT GWundesc "none"
@@ -316,7 +317,7 @@ BEGIN
 
 	END
 
-END
+END	// of DEFINE_PATCH_FUNCTION
 
 
 /* ================================================================================================================= *
