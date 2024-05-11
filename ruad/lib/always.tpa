@@ -80,7 +80,7 @@ ACTION_IF !VARIABLE_IS_SET always_once_section BEGIN
 	 * --------------------------------------------------------------------------------------------- */
 	ACTION_IF (!FILE_EXISTS "%MOD_FOLDER%/ruad_languages_installed.mrk") BEGIN
 		COPY ~.../ruad-inline/blank~ ~%MOD_FOLDER%/ruad_languages_installed.mrk~	// Converts .tra files once
-		ACTION_DEFINE_ARRAY mf_noconvert BEGIN END
+		ACTION_DEFINE_ARRAY mf_noconvert BEGIN setup-win32 setup-unix setup-osx END
 		// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
 		ACTION_DEFINE_ARRAY mf_reload BEGIN setup items END
 		LAF HANDLE_CHARSETS
