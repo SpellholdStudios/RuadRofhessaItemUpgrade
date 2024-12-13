@@ -44,6 +44,11 @@ LANGUAGE ~Italiano (traduzione di ilot)~
          ~ruad/lang/italian/setup.tra~
          ~ruad/lang/italian/items.tra~
 
+LANGUAGE ~Simplified Chinese~
+         ~schinese~
+         ~ruad/lang/schinese/setup.tra~
+         ~ruad/lang/schinese/items.tra~
+
 
 /* ==================================== *
  *         Ruad Ro'fhessa (SoA)         *
