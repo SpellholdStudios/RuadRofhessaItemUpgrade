@@ -1,3 +1,8 @@
+<hr>
+
+:warning: **The maintenance and support of this project has been moved to a [new repository](https://github.com/Spellhold-Studios/Ruad-Rofhessa-Item-Upgrade).**
+
+<hr><br>
 
 ![Latest Release](https://img.shields.io/github/v/release/SpellholdStudios/RuadRofhessaItemUpgrade?include_prereleases&color=darkred)<a name="top" id="top">
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/SpellholdStudios/RuadRofhessaItemUpgrade?color=gold)
@@ -580,7 +585,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 - Added Cloak of Thay, Mits of Shaiman, Nature's Cloak and Nature's Staff. (evildevil)
 - Fixed a bug where Ruad's name would appear as "Pikim's Armor".
 - Changed Ruad's animation. Thanks Tyrus.
-- Removed Lamf·da due to lack of support.
+- Removed Lamf√°da due to lack of support.
 - Revamped the Readme file.
 - Updated WeiDU installer to v113.
 
@@ -681,7 +686,7 @@ This component makes Ruad ToB compatible, and puts him in your Pocket Plane.
 
 ##### Version 2
 
-- Added Lamf·da as the merchant, and made Ruad a blacksmith.
+- Added Lamf√°da as the merchant, and made Ruad a blacksmith.
 - Added Blade of the Red Rose. (mstaley007)
 
 ## 
